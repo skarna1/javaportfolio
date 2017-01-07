@@ -1,0 +1,1174 @@
+# toimiala ; tyyppi ; tunnus ; nimi ; jakaja ; CCY
+terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
+terveydenhuolto ; S ; BTH1V ; Biotie Therapies ; 1 ; EUR
+terveydenhuolto ; S ; OKDAV ; Oriola-KD A ; 1 ; EUR
+terveydenhuolto ; S ; OKDBV ; Oriola-KD B ; 1
+terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
+terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
+terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
+rahoitus ; S ; AKTAV ; Aktia A ; 1 ; EUR
+rahoitus ; S ; AKTRV ; Aktia R ; 1 ; EUR
+rahoitus ; S ; ATG1V ; Asiakastieto ; 1 ; EUR
+rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
+rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
+rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
+rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
+rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
+rahoitus ; S ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
+rahoitus ; S ; NORVE ; Norvestia ; 1 ; EUR
+rahoitus ; S ; OREIT ; Orava Asuntorahasto ; 1 ; EUR
+rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
+rahoitus ; S ; SAMAS ; Sampo ; 1 ; EUR
+rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
+rahoitus ; S ; SDA1V ; Sponda ; 1 ; EUR
+rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
+rahoitus ; S ; TPS1V ; Technopolis ; 1 ; EUR
+rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
+rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
+perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
+perusteollisuus ; S ; AHL1V ; Ahlstrom ; 1 ; EUR
+perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
+perusteollisuus ; S ; KRA1V ; Kemira ; 1 ; EUR
+perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
+perusteollisuus ; S ; METSB ; Metsä Board B ; 1 ; EUR
+perusteollisuus ; S ; MUNK1 ; Munksjö ; 1 ; EUR
+perusteollisuus ; S ; OUT1V ; Outokumpu ; 1 ; EUR
+perusteollisuus ; S ; SOSI1 ; Sotkamo Silver ; 1 ; EUR
+perusteollisuus ; S ; SSABAH ; SSAB A ; 1 ; EUR
+perusteollisuus ; S ; SSABBH ; SSAB B ; 1 ; EUR
+perusteollisuus ; S ; STEAV ; Stora Enso A ; 1 ; EUR
+perusteollisuus ; S ; STERV ; Stora Enso R ; 1 ; EUR
+perusteollisuus ; S ; TLV1V ; Talvivaaran kaivosyhtiö ; 1 ; EUR
+perusteollisuus ; S ; UPM1V ; UPM-Kymmene ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ASU1V ; Aspo ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; CONSTI ; Consti Yhtiöt ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; CRA1V ; Cramo ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; DOV1V ; Dovre ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; EFO1V ; Efore ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; FLG1S ; Finnlines ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; HUH1V ; Huhtamäki ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; KELAS ; Kesla A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; LEM1S ; Lemminkäinen ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; MEO1V ; Metso ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; OTE1V ; Outotec ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; PKC1V ; PKC Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; RMR1V ; Ramirent ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; RUTAV ; Raute A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; REG1V ; Revenio Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; TUT1V ; Turvatiimi ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; UNR1V ; Uponor ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; UUTEC ; Uutechnic Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; YTY1V ; YIT-Yhtymä ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; VAIAS ; Vaisala A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; VALOE ; Valoe ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; VALMT ; Valmet ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; YLEPS ; Yleiselektroniikka E ; 1 ; EUR
+yhdyskuntapalvelut ; S ; FUM1V ; Fortum ; 1 ; EUR
+energia ; S ; NESTE ; Neste; 1 ; EUR
+tietoliikennepalvelut ; S ; DNA ; DNA ; 1 ; EUR
+tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
+tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
+teknologia ; S ; AFE1V ; Affecto ; 1 ; EUR
+teknologia ; S ; BAS1V ; BasWare ; 1 ; EUR
+teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
+teknologia ; S ; CTL1V ; Comptel ; 1 ; EUR
+teknologia ; S ; DIG1V ; Digia ; 1 ; EUR
+teknologia ; S ; FSC1V ; F-Secure ; 1 ; EUR
+teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
+teknologia ; S ; XNS1V ; Ixonos ; 1 ; EUR
+teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
+teknologia ; S ; OKM1V ; Okmetic ; 1 ; EUR
+teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
+teknologia ; S ; QTCOM ; Qt Group ; 1 ; EUR
+teknologia ; S ; SIILI ; Siili Solutions ; 1 ; EUR
+teknologia ; S ; SOL1V ; Solteq ; 1 ; EUR
+teknologia ; S ; SSH1V ; SSH Communications Security ; 1 ; EUR
+teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
+teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
+teknologia ; S ; TIE1V ; Tieto ; 1 ; EUR
+teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
+Kulutuspalvelut ; S ; ALN1V ; Alma Media ; 1 ; EUR
+Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
+Kulutuspalvelut ; S ; ILK2S ; Ilkka-yhtymä 2 ; 1 ; EUR
+Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
+Kulutuspalvelut ; S ; KESAV ; Kesko A ; 1 ; EUR
+Kulutuspalvelut ; S ; KESBV ; Kesko B ; 1 ; EUR
+Kulutuspalvelut ; S ; PIZZA ; Kotipizza Group ; 1 ; EUR
+Kulutuspalvelut ; S ; PKKAS ; Pohj-K.Kirjap A ; 1 ; EUR
+Kulutuspalvelut ; S ; RESTA ; Restamax ; 1 ; EUR
+Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
+Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
+Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
+Kulutuspalvelut ; S ; TTM1V ; Talentum ; 1 ; EUR
+Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
+Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
+Kulutustavarat ; S ; AMEAS ; Amer Sports A ; 1 ; EUR
+Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
+Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
+Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
+Kulutustavarat ; S ; HKSAV ; HKScan ; 1 ; EUR
+Kulutustavarat ; S ; HONBS ; Honkarakenne B ; 1 ; EUR
+Kulutustavarat ; S ; MMO1V ; Marimekko ; 1 ; EUR
+Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
+Kulutustavarat ; S ; NRE1V ; Nokian Renkaat ; 1 ; EUR
+Kulutustavarat ; S ; OLVAS ; Olvi A ; 1 ; EUR
+Kulutustavarat ; S ; RAIVV ; Raisio-yhtymä V ; 1 ; EUR
+Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
+Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
+Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
+Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
+Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
+Pre-lista ; S ; SNO1V ; Soprano ; 1 ; EUR
+First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
+First North ; S ; CLEAN ; Cleantech Invest ; 1 ; EUR
+First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
+First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
+First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
+First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
+First North ; S ; NIXU ; Nixu ; 1 ; EUR
+First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
+First North ; S ; ROBIT ; Robit ; 1 ; EUR
+First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
+First North ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
+First North ; S ; TNOM ; Talenom ; 1 ; EUR
+First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
+First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
+First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
+First North ; S ; ZEE1V ; Zeeland ; 1 ; EUR
+Indeksiosuudet ; S ; SLGOMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
+optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
+optiot ; O ; POH1SU0109 ; Pohjola 2009 MO ; 1 ; EUR
+optiot ; O ; ALM2VEW199 ; Alma Media -99 A-opt ; 1
+optiot ; O ; AMEASEW198 ; Amer-yhtymä-98 A-opt ; 1
+optiot ; O ; ACG1VEW199 ; Aspocomp  opt 1/99 ; 1
+optiot ; O ; CHIBVEW398 ; Chips -98 III opt ; 1
+optiot ; O ; CTL1VEW199 ; Comptel -99 A-optio ; 1
+optiot ; O ; CVM1VEW199 ; Conventum -99 optio ; 1
+optiot ; O ; EXL1VEW198 ; Exel A opt 1/98 ; 1
+optiot ; O ; FSC1VEW198 ; F-Secure 98 A-opt ; 1
+optiot ; O ; FSC1VEW298 ; F-Secure 98 B-opt ; 1
+optiot ; O ; FIA1SEW100 ; Finnair opt 00 ; 1
+optiot ; O ; INS1VEW198 ; Instrum.-98 A-optio ; 1
+optiot ; O ; JPG1VEW198 ; Jaakko Pöyry A ; 1
+optiot ; O ; JIP1VEW100 ; Jippii Group -00 opt ; 1
+optiot ; O ; JIP1VEW199 ; Jippii Group -99 opt ; 1
+optiot ; O ; MRLBVEW197 ; M-real -97 optio ; 1
+optiot ; O ; MEO1VEW100 ; Metso 2000 A-opt ; 1
+optiot ; O ; NOK1VEW197 ; Nokia 97 A- ja B- opt ; 1
+optiot ; O ; NOK1VEW199 ; Nokia 99 A-optio ; 1
+optiot ; O ; NOK1VEW299 ; Nokia 99 B-optio ; 1
+optiot ; O ; NOK1VEW101 ; Nokia2001AB ; 1
+optiot ; O ; NOK1VEW601 ; Nokia2001C ; 1
+optiot ; O ; NOK1VEW102 ; Nokia2002AB ; 1
+optiot ; O ; NOK1VEW103 ; Nokia2003 ; 1
+optiot ; O ; NOA1VEW198 ; Nordic Aluminium -98 opt; 1
+optiot ; O ; OKM1VEW100 ; Okmetic A 1/00 ; 1
+optiot ; O ; OLVASEW199 ; Olvi A-opt.1/99 ; 1
+optiot ; O ; ORIBSEW198 ; Orion-yhtymä A-optio ; 1
+optiot ; O ; OUT1VEW198 ; Outokumpu -98 optio ; 1
+optiot ; O ; POS1VEW197 ; Perlos -97 A-opt. ; 1
+optiot ; O ; POS1VEW198 ; Perlos -98 A-opt. ; 1
+optiot ; O ; POS1VEW199 ; Perlos -99 A-optio ; 1
+optiot ; O ; POLKSEW194 ; Polar Opt. 1/94 ; 1
+optiot ; O ; RAKBSEW198 ; Rak. Konev.-98 A-opt ; 1
+optiot ; O ; RUTAVEW198 ; Raute A opt 1/98 ; 1
+optiot ; O ; SAMASEW198 ; Sampo A-optio 98 ; 1
+optiot ; O ; SAT1VEW199 ; Satama Interactive -99 A-optio ; 1
+optiot ; O ; SRA1VEW199 ; Sonera -99 A-optio ; 1
+optiot ; O ; STOBVEW197 ; Stockmann A/B opt -97 ; 1
+optiot ; O ; TJT1VEW199 ; TJ Group A-optio ; 1
+optiot ; O ; TEC1VU0102 ; Technopolis MO 1/2002 ; 1
+optiot ; O ; TEL1VEW197 ; Teleste A 97 ; 1
+optiot ; O ; TIE1VEW198 ; TietoEnator A-opt.1/98 ; 1
+optiot ; O ; TIE1VEW298 ; Tietoenator -98 opt ; 1
+optiot ; O ; UPM1VEW198 ; UPM-Kymmene -98 A-optio ; 1
+optiot ; O ; WRTBVEW196 ; Wärtsilä  1/96 ; 1
+optiot ; O ; YTY1VEW198 ; YIT-Yhtymä Oyj A Optiotod. 1/98 ; 1
+osakerahasto ; F ; ABNEAEUEQ ; ABN AMRO Eastern Europe Equity Fund ; 1
+osakerahasto ; F ; ABNGLEMEQ ; ABN AMRO Global Emerging Markets Equity Fund ; 1
+osakerahasto ; F ; ABNGLISEQ ; ABN AMRO Global Information Society Equity Fu ; 1
+osakerahasto ; F ; ABNGLLSEQ ; ABN AMRO Global Life Society Equity Fund ; 1
+osakerahasto ; F ; ABNGLRSEQ ; ABN AMRO Global Resources Society Equity Fund ; 1
+osakerahasto ; F ; ABNLAAMEQ ; ABN AMRO latin America Equity Fund ; 1
+osakerahasto ; F ; AKTIACAPA ; Aktia Capital A ; 1
+osakerahasto ; F ; AKTIACAPB ; Aktia Capital B ; 1
+osakerahasto ; F ; AKTIAEUROA ; Aktia Euro A ; 1
+osakerahasto ; F ; AKTIAEUROB ; Aktia Euro B ; 1
+osakerahasto ; F ; AKTIAGLOBA ; Aktia Global A ; 1
+osakerahasto ; F ; AKTIAGLOBB ; Aktia Global B ; 1
+osakerahasto ; F ; AKTIAMEDICAA ; Aktia Medica A ; 1
+osakerahasto ; F ; AKTIAMEDICAB ; Aktia Medica B ; 1
+osakerahasto ; F ; AKTIATMTA ; Aktia TMT A ; 1
+osakerahasto ; F ; AKTIATMTB ; Aktia TMT B ; 1
+osakerahasto ; F ; ALFEUROPEA ; Alfred Berg Europe A ; 1
+osakerahasto ; F ; ALFEUROPEB ; Alfred Berg Europe B ; 1
+osakerahasto ; F ; ABERGFINA ; Alfred Berg Finland A ; 1
+osakerahasto ; F ; ABERGFINB ; Alfred Berg Finland B ; 1
+osakerahasto ; F ; ALFSICNOR ; Alfred Berg Norden (Sicav) ; 1
+osakerahasto ; F ; ALFPFOLIOA ; Alfred Berg Portfolio A ; 1
+osakerahasto ; F ; ALFPFOLIOB ; Alfred Berg Portfolio B ; 1
+osakerahasto ; F ; ALFRUSSIA ; Alfred Berg Russia ; 1
+osakerahasto ; F ; ALFSICFEA ; Alfred Berg Sicav Far East ; 1
+osakerahasto ; F ; ALFSICGER ; Alfred Berg Sicav Germany ; 1
+osakerahasto ; F ; ALFSICGLO ; Alfred Berg Sicav Global ; 1
+osakerahasto ; F ; ALFSICJAP ; Alfred Berg Sicav Japan ; 1
+osakerahasto ; F ; ALFSICNAM ; Alfred Berg Sicav North America ; 1
+osakerahasto ; F ; ALFSICSWI ; Alfred Berg Sicav Switzerland ; 1
+osakerahasto ; F ; ALFSMALLCA ; Alfred Berg Small Cap A ; 1
+osakerahasto ; F ; ALFSMALLCB ; Alfred Berg Small Cap B ; 1
+osakerahasto ; F ; ALFSVERIG ; Alfred Berg Sverige ; 1
+osakerahasto ; F ; AURABIOMED ; Aurator BioMed ; 1
+osakerahasto ; F ; AURANEXUS ; Aurator Nexus ; 1
+osakerahasto ; F ; CARAKSJE ; Carnegie Aksje Norge ; 1
+osakerahasto ; F ; CARASIA ; Carnegie Asia ; 1
+osakerahasto ; F ; CAREASTEU ; Carnegie East-European ; 1
+osakerahasto ; F ; CARNEMEDI ; Carnegie Medical ; 1
+osakerahasto ; F ; CARMONIRAH ; Carnegie Monirahasto ; 1
+osakerahasto ; F ; CARNORDMA ; Carnegie N. Markets ; 1
+osakerahasto ; F ; CARSMABOL ; Carnegie Småbolag ; 1
+osakerahasto ; F ; CARNEGIOSA ; Carnegie Suomi Osake ; 1
+osakerahasto ; F ; CARSVERIGE ; Carnegie Sverige ; 1
+osakerahasto ; F ; CARWORLDW ; Carnegie WorldWide ; 1
+osakerahasto ; F ; CONEUROVA ; Conventum Euro Value A ; 1
+osakerahasto ; F ; CONEUROVB ; Conventum Euro Value B ; 1
+osakerahasto ; F ; CONFINLANA ; Conventum Finland Value A ; 1
+osakerahasto ; F ; CONFINLANB ; Conventum Finland Value B ; 1
+osakerahasto ; F ; CONOSAKEA ; Conventum Osake A ; 1
+osakerahasto ; F ; CONOSAKEB ; Conventum Osake B ; 1
+osakerahasto ; F ; CONPHARMAA ; Conventum Pharma A ; 1
+osakerahasto ; F ; CONPHARMAB ; Conventum Pharma B ; 1
+osakerahasto ; F ; CONSMALLCA ; Conventum small_cap.com A ; 1
+osakerahasto ; F ; CONSMALLCB ; Conventum small_cap.com B ; 1
+osakerahasto ; F ; ELITE ; Elite ; 1
+osakerahasto ; F ; EVLEETA ; Evli Emerging Technologies A ; 1
+osakerahasto ; F ; EVLEETB ; Evli Emerging Technologies B ; 1
+osakerahasto ; F ; EVLIEU50A ; Evli Euro 50 A ; 1
+osakerahasto ; F ; EVLIEU50B ; Evli Euro 50 B ; 1
+osakerahasto ; F ; EVLIEEGA ; Evli European Growth A ; 1
+osakerahasto ; F ; EVLIEEGB ; Evli European Growth B ; 1
+osakerahasto ; F ; EVLIESCA ; Evli European Smaller Companies A ; 1
+osakerahasto ; F ; EVLIESCB ; Evli European Smaller Companies B ; 1
+osakerahasto ; F ; EVLIFSTA ; Evli Finland Small Tech A ; 1
+osakerahasto ; F ; EVLIFSTB ; Evli Finland Small Tech B ; 1
+osakerahasto ; F ; EVLIGLOBAA ; Evli Global A ; 1
+osakerahasto ; F ; EVLIGLOBAB ; Evli Global B ; 1
+osakerahasto ; F ; EVLIITINFA ; Evli IT-Informaatioteknologia A ; 1
+osakerahasto ; F ; EVLIITINFB ; Evli IT-Informaatioteknologia B ; 1
+osakerahasto ; F ; EVLINSCA ; Evli Nordic Smaller Companies A ; 1
+osakerahasto ; F ; EVLINSCB ; Evli Nordic Smaller Companies B ; 1
+osakerahasto ; F ; EVLISELECA ; Evli Select A ; 1
+osakerahasto ; F ; EVLISELECB ; Evli Select B ; 1
+osakerahasto ; F ; EVLIUSETA ; Evli U.S. Emerging Technologies A ; 1
+osakerahasto ; F ; EVLIUSETB ; Evli U.S. Emerging Technologies B ; 1
+osakerahasto ; F ; FIMCHINA ; FIM China ; 1
+osakerahasto ; F ; FIMFENNO ; FIM Fenno ; 1
+osakerahasto ; F ; FIMIND ; FIM India ; 1
+osakerahasto ; F ; FIMMONDOK ; FIM Mondo K ; 1
+osakerahasto ; F ; FIMMONDOT ; FIM Mondo T ; 1
+osakerahasto ; F ; FIMRENTO ; FIM Rento ; 1
+osakerahasto ; F ; FIMROHTO ; FIM Rohto ; 1
+osakerahasto ; F ; FIMRUSSIA ; FIM Russia ; 1
+osakerahasto ; F ; FIMTEKNO ; FIM Tekno ; 1
+osakerahasto ; F ; FIMUNIONI ; FIM Unioni ; 1
+osakerahasto ; F ; FIDAMERICA ; Fidelity America ; 1
+osakerahasto ; F ; FIDAMEGROW ; Fidelity America Growth ; 1
+osakerahasto ; F ; FIDASEAN ; Fidelity Asean ; 1
+osakerahasto ; F ; FIDASIASSI ; Fidelity Asian Special Situations ; 1
+osakerahasto ; F ; FIDAUSTRAL ; Fidelity Australia ; 1
+osakerahasto ; F ; FIDEMRMARK ; Fidelity Emerging Markets ; 1
+osakerahasto ; F ; FIDEUROBCH ; Fidelity Euro Blue Chip ; 1
+osakerahasto ; F ; FIDE50STOX ; Fidelity Euro STOXX 50 ; 1
+osakerahasto ; F ; FIDEURGROW ; Fidelity European Growth ; 1
+osakerahasto ; F ; FIDEURSMCP ; Fidelity European Smaller Companies ; 1
+osakerahasto ; F ; FIDFRANCE ; Fidelity France ; 1
+osakerahasto ; F ; FIDGERMANY ; Fidelity Germany ; 1
+osakerahasto ; F ; FIDHKCHINA ; Fidelity Hong Kong & China ; 1
+osakerahasto ; F ; FIDIBERIA ; Fidelity Iberia ; 1
+osakerahasto ; F ; FIDINDONES ; Fidelity Indonesia ; 1
+osakerahasto ; F ; FIDINTERNA ; Fidelity International ; 1
+osakerahasto ; F ; FIDITALY ; Fidelity Italy ; 1
+osakerahasto ; F ; FIDJAPAN ; Fidelity Japan ; 1
+osakerahasto ; F ; FIDJPSMACO ; Fidelity Japan Smaller Companies ; 1
+osakerahasto ; F ; FIDKOREA ; Fidelity Korea ; 1
+osakerahasto ; F ; FIDLATEMER ; Fidelity Latin America ; 1
+osakerahasto ; F ; FIDMALESIA ; Fidelity Malaysia ; 1
+osakerahasto ; F ; FIDNORDIC ; Fidelity Nordic ; 1
+osakerahasto ; F ; FIDPACIFIC ; Fidelity Pacific ; 1
+osakerahasto ; F ; FIDPRIVATI ; Fidelity Privatisation + ; 1
+osakerahasto ; F ; FIDSINGAPO ; Fidelity Singapore ; 1
+osakerahasto ; F ; FIDSEASIA ; Fidelity South East Asia ; 1
+osakerahasto ; F ; FIDSWITZER ; Fidelity Switzerland ; 1
+osakerahasto ; F ; FIDTAIWAN ; Fidelity Taiwan ; 1
+osakerahasto ; F ; FIDTHAILAN ; Fidelity Thailand ; 1
+osakerahasto ; F ; FIDUNITEDK ; Fidelity United Kingdom ; 1
+osakerahasto ; F ; FIDWORLD ; Fidelity World ; 1
+osakerahasto ; F ; FIDESMEDIA ; Fides New Media A ; 1
+osakerahasto ; F ; FIDESMEDIB ; Fides New Media B ; 1
+osakerahasto ; F ; FIDESTELEA ; Fides Telecom A ; 1
+osakerahasto ; F ; FIDESTELEB ; Fides Telecom B ; 1
+osakerahasto ; F ; FNOREUROPE ; Firstnordic Europe ; 1
+osakerahasto ; F ; FNORFEAST ; Firstnordic Far East ; 1
+osakerahasto ; F ; FNORGLOBAL ; Firstnordic Global ; 1
+osakerahasto ; F ; FNORBIOTEC ; Firstnordic Global Biotech ; 1
+osakerahasto ; F ; FNORGITINF ; Firstnordic Global IT Infrastructure ; 1
+osakerahasto ; F ; FNORGLOINT ; Firstnordic Global Internet ; 1
+osakerahasto ; F ; FNORGLOTEC ; Firstnordic Global Technology ; 1
+osakerahasto ; F ; FNORNORDIC ; Firstnordic Nordic ; 1
+osakerahasto ; F ; FNORUS ; Firstnordic US ; 1
+osakerahasto ; F ; FFEUROCON ; Fleming European Convergence Fund ; 1
+osakerahasto ; F ; FFDYNAMIC ; Fleming European Dynamic Fund ; 1
+osakerahasto ; F ; FFGLOBAL ; Fleming Global Dynamic Fund ; 1
+osakerahasto ; F ; FFGROWTH ; Fleming US Strategic Growth Fund ; 1
+osakerahasto ; F ; FFVALUE ; Fleming US Strategic Value Fund ; 1
+osakerahasto ; F ; FONDITA20A ; Fondita 2000+ A ; 1
+osakerahasto ; F ; FONDITA20B ; Fondita 2000+ B ; 1
+osakerahasto ; F ; FONDITAEQA ; Fondita Equity Spice A ; 1
+osakerahasto ; F ; FONDITAEQB ; Fondita Equity Spice B ; 1
+osakerahasto ; F ; FONDITANOA ; Fondita Nordic Small Cap A ; 1
+osakerahasto ; F ; FONDITANOB ; Fondita Nordic Small Cap B ; 1
+osakerahasto ; F ; GARCONEUR ; Gartmore SICAV Continental Europ. Fund ; 1
+osakerahasto ; F ; GAREMEMAR ; Gartmore SICAV Emerging Markets Fund ; 1
+osakerahasto ; F ; GAREURSMC ; Gartmore SICAV European Smaller Companies Fun ; 1
+osakerahasto ; F ; GARJAPANE ; Gartmore SICAV Japanese Fund ; 1
+osakerahasto ; F ; GARPANEUR ; Gartmore SICAV Pan European Fund ; 1
+osakerahasto ; F ; GYLLEUEQUA ; Gyllenberg European Equity Value A ; 1
+osakerahasto ; F ; GYLLEUEQUB ; Gyllenberg European Equity Value B ; 1
+osakerahasto ; F ; GYLLFINLA ; Gyllenberg Finlandia A ; 1
+osakerahasto ; F ; GYLLFINLB ; Gyllenberg Finlandia B ; 1
+osakerahasto ; F ; GYLLSFIRMA ; Gyllenberg Small Firm A ; 1
+osakerahasto ; F ; GYLLSFIRMB ; Gyllenberg Small Firm B ; 1
+osakerahasto ; F ; HANAMERICA ; Handelsbanken America ; 1
+osakerahasto ; F ; HANEASTERN ; Handelsbanken Eastern Europe ; 1
+osakerahasto ; F ; HANEACTIVE ; Handelsbanken Euro Active ; 1
+osakerahasto ; F ; HANEUAGGR ; Handelsbanken Eurooppa Agressiivinen ; 1
+osakerahasto ; F ; HANEUROPA ; Handelsbanken Europa ; 1
+osakerahasto ; F ; HANGLOBIT ; Handelsbanken Global IT ; 1
+osakerahasto ; F ; HANINTL ; Handelsbanken International ; 1
+osakerahasto ; F ; HANJAPAN ; Handelsbanken Japan ; 1
+osakerahasto ; F ; HANNORDIC ; Handelsbanken Nordic ; 1
+osakerahasto ; F ; HANSMCAPGR ; Handelsbanken Nordic Small Cap Growth ; 1
+osakerahasto ; F ; HANOSAKE ; Handelsbanken Osake ; 1
+osakerahasto ; F ; HANPACIFIC ; Handelsbanken Pacific ; 1
+osakerahasto ; F ; HANSWEDEN ; Handelsbanken Sweden ; 1
+osakerahasto ; F ; SAMPOBALTK ; Mandatum Baltic Kasvu ; 1
+osakerahasto ; F ; SAMPOBALTT ; Mandatum Baltic Tuotto ; 1
+osakerahasto ; F ; MANDAASIA ; Mandatum Emerging Aasia A ; 1
+osakerahasto ; F ; MANDAASIB ; Mandatum Emerging Aasia B ; 1
+osakerahasto ; F ; LEONIAEUKA ; Mandatum European Growth Kasvu ; 1
+osakerahasto ; F ; LEONIAEUKB ; Mandatum European Growth Tuotto ; 1
+osakerahasto ; F ; MANDEUROOP ; Mandatum Eurooppa A ; 1
+osakerahasto ; F ; MANDEUROOB ; Mandatum Eurooppa B ; 1
+osakerahasto ; F ; MANDGLOBAL ; Mandatum Global ; 1
+osakerahasto ; F ; LEONIATEKA ; Mandatum Global Tech Kasvu ; 1
+osakerahasto ; F ; LEONIATEKB ; Mandatum Global Tech Tuotto ; 1
+osakerahasto ; F ; MANDITSFI ; Mandatum IT Small Firm ; 1
+osakerahasto ; F ; MANDKULTA ; Mandatum Kulta K ; 1
+osakerahasto ; F ; MANDOSAKE ; Mandatum Osake ; 1
+osakerahasto ; F ; MANDRUSSIA ; Mandatum Russia K ; 1
+osakerahasto ; F ; LEONIAKAOA ; Mandatum Suomi Kasvuosake Kasvu ; 1
+osakerahasto ; F ; LEONIAKAOB ; Mandatum Suomi Kasvuosake Tuotto ; 1
+osakerahasto ; F ; NAASIAK ; Nordea Aasia.fi Kasvu ; 1
+osakerahasto ; F ; NAASIAT ; Nordea Aasia.fi Tuotto ; 1
+osakerahasto ; F ; NAMERIKAK ; Nordea Amerikka Kasvu ; 1
+osakerahasto ; F ; NAMERIKAT ; Nordea Amerikka Tuotto ; 1
+osakerahasto ; F ; NAVANTIK ; Nordea Avanti Kasvu ; 1
+osakerahasto ; F ; NAVANTIT ; Nordea Avanti Tuotto ; 1
+osakerahasto ; F ; NBIOTEKK ; Nordea Biotekniikka Kasvu ; 1
+osakerahasto ; F ; NBIOTEKT ; Nordea Biotekniikka Tuotto ; 1
+osakerahasto ; F ; NEURINDBK ; Nordea Eurooppa indeksirahasto B Kasvu ; 100 ; EUR
+osakerahasto ; F ; NEURINDBT ; Nordea Eurooppa indeksirahasto B Tuotto ; 100 ; EUR
+osakerahasto ; F ; NJAPANIK ; Nordea Japani Kasvu ; 100 ; EUR
+osakerahasto ; F ; NJAPANIT ; Nordea Japani Tuotto ; 100 ; EUR
+osakerahasto ; F ; NKIINAK ; Nordea Kiina Kasvu ; 100 ; EUR
+osakerahasto ; F ; NMAAILMAK ; Nordea Maailma Kasvu ; 100
+osakerahasto ; F ; NMAAILMAT ; Nordea Maailma Tuotto ; 100
+osakerahasto ; F ; NSMALLCAPK ; Nordea Nordic Small Cap Kasvu ; 1
+osakerahasto ; F ; NSMALLCAPT ; Nordea Nordic Small Cap Tuotto ; 1
+osakerahasto ; F ; NVENAJAK ; Nordea Venäjä Kasvu ; 100 ; EUR 
+osakerahasto ; F ; NVENAJAT ; Nordea Venäjä Tuotto ; 100 ; EUR
+osakerahasto ; F ; NSUOMIINDK; Nordea Suomi indeksirahasto B Kasvu; 100 ; EUR
+osakerahasto ; F ; ODINFIN ; ODIN Finland ; 1
+osakerahasto ; F ; ODINMARITI ; ODIN Maritim ; 1
+osakerahasto ; F ; ODINNORDEN ; ODIN Norden ; 1
+osakerahasto ; F ; ODINNORGE ; ODIN Norge ; 1
+osakerahasto ; F ; ODINOFFSH ; ODIN Offshore ; 1
+osakerahasto ; F ; ODINSVERIG ; ODIN Sverige ; 1; EUR
+osakerahasto ; F ; OPDELTA ; OP-Delta -sijoitusrahasto ; 1
+osakerahasto ; F ; OPEUROKAS ; OP-Euro Kasvu -sijoitusrahasto ; 1
+osakerahasto ; F ; OPEUROOSA ; OP-Euro Osake -Sijoitusrahasto ; 1
+osakerahasto ; F ; OPMEDICAL ; OP-Medical ; 1
+osakerahasto ; F ; OPMETSA ; OP-Metsä -sijoitusrahasto ; 1
+osakerahasto ; F ; OPTEKNO ; OP-Teknologia ; 1
+osakerahasto ; F ; OPTRENDI ; OP-Trendi ; 1
+osakerahasto ; F ; OPSEUROIND ; OPSTOCK Euro Index ; 1
+osakerahasto ; F ; OPSGLOBEQU ; OPSTOCK Global Equity ; 1
+osakerahasto ; F ; ROBURAMERI ; Roburs Amerikafond ; 1
+osakerahasto ; F ; ROBURCONTU ; Roburs Contura ; 1
+osakerahasto ; F ; ROBURJAPAN ; Roburs Japanfond ; 1
+osakerahasto ; F ; ROBURKOMM ; Roburs Kommunikationsfond ; 1
+osakerahasto ; F ; ROBURPACIF ; Roburs Pacificfonden ; 1
+osakerahasto ; F ; ROBURPRIVA ; Roburs Privatiseringsfond ; 1
+osakerahasto ; F ; ROBURYSSLA ; Roburs Rysslandsfond ; 1
+osakerahasto ; F ; ROBURROVAR ; Roburs Råvarfond ; 1
+osakerahasto ; F ; ROBURSKOG ; Roburs Skogsfond ; 1
+osakerahasto ; F ; ROBURSEURO ; Roburs Småbolagsfond Europa ; 1
+osakerahasto ; F ; ROBUROSTEU ; Roburs Östeuropafond ; 1
+osakerahasto ; F ; SEBEUROEQ ; SEB A European Equity Fund ; 1
+osakerahasto ; F ; SEBINTERNE ; SEB Internetfond ; 1
+osakerahasto ; F ; SEBBALTIC ; SEB Lux CS - Baltic Smaller Companies ; 1
+osakerahasto ; F ; SEBOSTERJS ; SEB Östersjöfond/WWF ; 1
+osakerahasto ; F ; LEONIAKMOA ; Sampo Kompassi Osake Kasvu ; 1
+osakerahasto ; F ; LEONIAASIA ; Sampo-Leonia Aasia Kasvu ; 1
+osakerahasto ; F ; LEONIAASIB ; Sampo-Leonia Aasia Tuotto ; 1
+osakerahasto ; F ; LEONIABILA ; Sampo-Leonia Biolife Kasvu ; 1
+osakerahasto ; F ; LEONIABILB ; Sampo-Leonia Biolife Tuotto ; 1
+osakerahasto ; F ; LEONIAEUOA ; Sampo-Leonia Euro Osake Kasvu ; 1
+osakerahasto ; F ; LEONIAEUOB ; Sampo-Leonia Euro Osake Tuotto ; 1
+osakerahasto ; F ; LEONIAKMOB ; Sampo-Leonia Kompassi Osake Tuotto ; 1
+osakerahasto ; F ; LEONIAOSAA ; Sampo-Leonia Osake Kasvu ; 1
+osakerahasto ; F ; LEONIAOSKA ; Sampo-Leonia Osake Konvergenssi Kasvu ; 1
+osakerahasto ; F ; LEONIAOSKB ; Sampo-Leonia Osake Konvergenssi Tuotto ; 1
+osakerahasto ; F ; LEONIAOSAB ; Sampo-Leonia Osake Tuotto ; 1
+osakerahasto ; F ; LEONIAPAOA ; Sampo-Leonia Pohjois-Amerikka Kasvu ; 1
+osakerahasto ; F ; LEONIAPAOB ; Sampo-Leonia Pohjois-Amerikka Tuotto ; 1
+osakerahasto ; F ; SAMPOEUROA ; Sampo-Leonia Sektorit (Eurooppa) Kasvu ; 1
+osakerahasto ; F ; SAMPOEUROB ; Sampo-Leonia Sektorit (Eurooppa) Tuotto ; 1
+osakerahasto ; F ; SAMPOSEMAA ; Sampo-Leonia Sektorit (Maailma) Kasvu ; 1
+osakerahasto ; F ; SAMPOSEMAB ; Sampo-Leonia Sektorit (Maailma) Tuotto ; 1
+osakerahasto ; F ; SAMPOSUOMA ; Sampo-Leonia Sektorit (Suomi) Kasvu ; 1
+osakerahasto ; F ; SAMPOSUOMB ; Sampo-Leonia Sektorit (Suomi) Tuotto ; 1
+osakerahasto ; F ; SAMPOUEURA ; Sampo-Leonia Uudet Yhtiöt (Eurooppa) Kas ; 1
+osakerahasto ; F ; SAMPOUEURB ; Sampo-Leonia Uudet Yhtiöt (Eurooppa) Tuo ; 1
+osakerahasto ; F ; LEONIAYHOA ; Sampo-Leonia Yhteisöosake Kasvu ; 1
+osakerahasto ; F ; LEONIAYHOB ; Sampo-Leonia Yhteisöosake Tuotto ; 1
+osakerahasto ; F ; PHOEBUSA ; Seligson Phoebus A ; 1 ; EUR ; Suomi
+osakerahasto ; F ; PHOEBUSB ; Seligson Phoebus B ; 1 ; EUR ; Suomi
+osakerahasto ; F ; SELIGJAPA ; Seligson Aasia A; 1 ; EUR ; Aasia
+osakerahasto ; F ; SELIGJAPB ; Seligson Aasia B; 1 ; EUR ; Aasia
+osakerahasto ; F ; SELIGEURA ; Seligson Eurooppa A ; 1 ; EUR ; Eurooppa
+osakerahasto ; F ; SELIGEURB ; Seligson Eurooppa B ; 1 ; EUR ; Eurooppa
+osakerahasto ; F ; SELIGKEHMA ; Seligson Kehittyvät markkinat; 1 ; EUR ; Kehittyvät
+osakerahasto ; F ; SELIGSUOMA ; Seligson Suomi A; 1 ; EUR ; Suomi
+osakerahasto ; F ; SELIGSUOMB ; Seligson Suomi B; 1 ; EUR ; Suomi
+osakerahasto ; F ; SELIGPAMA ; Seligson Pohjois-Amerikka A; 1 ; EUR ; USA
+osakerahasto ; F ; SELIGPAMB ; Seligson Pohjois-Amerikka B; 1 ; EUR ; USA
+osakerahasto ; F ; SELIGPHARA ; Seligson Pharos A; 1
+osakerahasto ; F ; SELIGPHARB ; Seligson Pharos B; 1
+osakerahasto ; F ; TROPLATAMA ; Tropico LatAm A; 1 ; EUR ; Kehittyvät
+osakerahasto ; F ; SKAGGLO; Skagen Global ; 1
+osakerahasto ; F ; AKTIASPOSB ; Sp-Osakerahasto B ; 1
+osakerahasto ; F ; TAPHYVINV ; Tapiola Hyvinvointi ; 1
+osakerahasto ; F ; TAPINSTIT ; Tapiola Instituutio ; 1
+osakerahasto ; F ; TAPTRENDI ; Tapiola Trendi ; 1
+osakerahasto ; F ; TAPTULEVA ; Tapiola Tulevaisuus ; 1
+osakerahasto ; F ; NEUROPAPLK ; Trevise Euroland Kasvu ; 1
+osakerahasto ; F ; NEUROPAPLT ; Trevise Euroland Tuotto ; 1
+osakerahasto ; F ; TREVISEGLK ; Trevise Global Equity Fund Kasvu ; 1
+osakerahasto ; F ; HIIEURO50 ; Veritas Euro 50 ; 1
+osakerahasto ; F ; HIIKASVU ; Veritas Kasvu ; 1
+osakerahasto ; F ; WIPMLGA ; WIP Market Leaders Global A ; 1
+osakerahasto ; F ; WIPMLGB ; WIP Market Leaders Global B ; 1
+osakerahasto ; F ; WIPSMALLT ; WIP Pikkujättiläiset ; 1
+osakerahasto ; F ; WIPVALUEA ; WIP Value Visions A ; 1
+osakerahasto ; F ; WIPVALUEB ; WIP Value Visions B ; 1
+osakerahasto ; F ; ALBGLOBLUA ; Ålandsbanken Global Blue Chip A ; 1
+osakerahasto ; F ; ALBGLOBLUB ; Ålandsbanken Global Blue Chip B ; 1
+yhdistelmärahasto ; F ; AKTIASECA ; Aktia Secura A ; 1
+yhdistelmärahasto ; F ; AKTIASECB ; Aktia Secura B ; 1
+yhdistelmärahasto ; F ; ALFEUROPTA ; Alfred Berg Opt. Eur. A ; 1
+yhdistelmärahasto ; F ; ALFEUROPTB ; Alfred Berg Opt. Eur. B ; 1
+yhdistelmärahasto ; F ; ABERGOPTIA ; Alfred Berg Optimal A ; 1
+yhdistelmärahasto ; F ; ABERGOPTIB ; Alfred Berg Optimal B ; 1
+yhdistelmärahasto ; F ; ALFOPTNOR ; Alfred Berg Optimal Norden ; 1
+yhdistelmärahasto ; F ; AURATELLUS ; Aurator Tellus ; 1
+yhdistelmärahasto ; F ; CAROPTIMI ; Carnegie Optimi+ ; 1
+yhdistelmärahasto ; F ; CARPLUS ; Carnegie Plus ; 1
+yhdistelmärahasto ; F ; CARSIJOIT ; Carnegie Sijoitus+ ; 1
+yhdistelmärahasto ; F ; CONAKTIVEA ; Conventum Aktive A ; 1
+yhdistelmärahasto ; F ; CONAKTIVEB ; Conventum Aktive B ; 1
+yhdistelmärahasto ; F ; CONFORTEA ; Conventum Forte A ; 1
+yhdistelmärahasto ; F ; CONFORTEB ; Conventum Forte B ; 1
+yhdistelmärahasto ; F ; CONKOROSA ; Conventum Korko+Osake A ; 1
+yhdistelmärahasto ; F ; CONKOROSB ; Conventum Korko+Osake B ; 1
+yhdistelmärahasto ; F ; CONSOLIDA ; Conventum Solid A ; 1
+yhdistelmärahasto ; F ; CONSOLIDB ; Conventum Solid B ; 1
+yhdistelmärahasto ; F ; CONVISIONA ; Conventum Vision A ; 1
+yhdistelmärahasto ; F ; CONVISIONB ; Conventum Vision B ; 1
+yhdistelmärahasto ; F ; EVLIEUMIXA ; Evli Euro Mix A ; 1
+yhdistelmärahasto ; F ; EVLIEUMIXB ; Evli Euro Mix B ; 1
+yhdistelmärahasto ; F ; EVLIEUALLA ; Evli European Allocation A ; 1
+yhdistelmärahasto ; F ; EVLIEUALLB ; Evli European Allocation B ; 1
+yhdistelmärahasto ; F ; EVLIGMM25A ; Evli Global Multi Manager 25 A ; 1
+yhdistelmärahasto ; F ; EVLIGMM25B ; Evli Global Multi Manager 25 B ; 1
+yhdistelmärahasto ; F ; EVLIGMM50A ; Evli Global Multi Manager 50 A ; 1
+yhdistelmärahasto ; F ; EVLIGMM50B ; Evli Global Multi Manager 50 B ; 1
+yhdistelmärahasto ; F ; EVLIMIXA ; Evli Mix A ; 1
+yhdistelmärahasto ; F ; EVLIMIXB ; Evli Mix B ; 1
+yhdistelmärahasto ; F ; FIMFORTE ; FIM Forte ; 1
+yhdistelmärahasto ; F ; FIDEUROBAL ; Fidelity Euro Balanced ; 1
+yhdistelmärahasto ; F ; FIDDEFENSI ; Fidelity FPS Defensive ; 1
+yhdistelmärahasto ; F ; FIDGLOBGRO ; Fidelity FPS Global Growth ; 1
+yhdistelmärahasto ; F ; FIDGROWTH ; Fidelity FPS Growth ; 1
+yhdistelmärahasto ; F ; FIDMGROWTH ; Fidelity FPS Moderate Growth ; 1
+yhdistelmärahasto ; F ; FFBLANCE ; Fleming Balanced A ; 1
+yhdistelmärahasto ; F ; GYLL20A ; Gyllenberg 20 A ; 1
+yhdistelmärahasto ; F ; GYLL20B ; Gyllenberg 20 B ; 1
+yhdistelmärahasto ; F ; GYLL50A ; Gyllenberg 50 A ; 1
+yhdistelmärahasto ; F ; GYLL50B ; Gyllenberg 50 B ; 1
+yhdistelmärahasto ; F ; GYLL80A ; Gyllenberg 80 A ; 1
+yhdistelmärahasto ; F ; GYLL 80 B ; Gyllenberg 80 B ; 1
+yhdistelmärahasto ; F ; GYLLEUBALA ; Gyllenberg European Balanced A ; 1
+yhdistelmärahasto ; F ; GYLLEUBALB ; Gyllenberg European Balanced B ; 1
+yhdistelmärahasto ; F ; GYLLFORUMA ; Gyllenberg Forum A ; 1
+yhdistelmärahasto ; F ; GYLLFORUMB ; Gyllenberg Forum B ; 1
+yhdistelmärahasto ; F ; GYLLFOUNDA ; Gyllenberg Foundation A ; 1
+yhdistelmärahasto ; F ; GYLLFOUNDB ; Gyllenberg Foundation B ; 1
+yhdistelmärahasto ; F ; GYLLINTA ; Gyllenberg International A ; 1
+yhdistelmärahasto ; F ; GYLLINTB ; Gyllenberg International B ; 1
+yhdistelmärahasto ; F ; GYLLOPTIMA ; Gyllenberg Optimum A ; 1
+yhdistelmärahasto ; F ; GYLLOPTIMB ; Gyllenberg Optimum B ; 1
+yhdistelmärahasto ; F ; HANMULTI ; Handelsbanken Multimarket ; 1
+yhdistelmärahasto ; F ; LEONIAIEUA ; Mandatum Itä-Eurooppa Kasvu ; 1
+yhdistelmärahasto ; F ; LEONIAIEUB ; Mandatum Itä-Eurooppa Tuotto ; 1
+yhdistelmärahasto ; F ; MANDNEUTRA ; Mandatum Neutral ; 1
+yhdistelmärahasto ; F ; MANDOPTIMI ; Mandatum Optimi ; 1
+yhdistelmärahasto ; F ; NGRANIITK ; Nordea Graniitti Kasvu ; 1
+yhdistelmärahasto ; F ; NGRANIITT ; Nordea Graniitti Tuotto ; 1
+yhdistelmärahasto ; F ; NOPTIMAPLK ; Nordea Optima Plus Kasvu ; 1
+yhdistelmärahasto ; F ; NOPTIMAPLT ; Nordea Optima Plus Tuotto ; 1
+yhdistelmärahasto ; F ; NOPTIMAK ; Nordea Optima.fi Kasvu ; 1
+yhdistelmärahasto ; F ; NOPTIMAT ; Nordea Optima.fi Tuotto ; 1
+yhdistelmärahasto ; F ; NPRBALANCK ; Nordea Pro Balance Kasvu ; 1
+yhdistelmärahasto ; F ; NPRBALANCT ; Nordea Pro Balance Tuotto ; 1
+yhdistelmärahasto ; F ; PIRKKAOP ; OP-Pirkka -Sijoitusrahasto ; 1
+yhdistelmärahasto ; F ; OPTUOTTO ; OP-Tuotto -sijoitusrahasto ; 1
+yhdistelmärahasto ; F ; OPSGLOBBAL ; OPSTOCK Global Balanced ; 1
+yhdistelmärahasto ; F ; LEONIARVOA ; Sampo-Leonia Arvo Kasvu ; 1
+yhdistelmärahasto ; F ; LEONIARVOB ; Sampo-Leonia Arvo Tuotto ; 1
+yhdistelmärahasto ; F ; LEONIAEUYA ; Sampo-Leonia Euro Yhdistelmä Kasvu ; 1
+yhdistelmärahasto ; F ; LEONIAEUYB ; Sampo-Leonia Euro Yhdistelmä Tuotto ; 1
+yhdistelmärahasto ; F ; LEONIAGLOA ; Sampo-Leonia Globaali Yhdistelmä Kasvu ; 1
+yhdistelmärahasto ; F ; LEONIAGLOB ; Sampo-Leonia Globaali Yhdistelmä Tuotto ; 1
+yhdistelmärahasto ; F ; LEONIAKMSA ; Sampo-Leonia Kompassi Säästö Kasvu ; 1
+yhdistelmärahasto ; F ; LEONIAKMSB ; Sampo-Leonia Kompassi Säästö Tuotto ; 1
+yhdistelmärahasto ; F ; LEONIAKUPA ; Sampo-Leonia Kultapossu Kasvu ; 1
+yhdistelmärahasto ; F ; SAMPO2010A ; Sampo-Leonia Tavoite 2010 Kasvu ; 1
+yhdistelmärahasto ; F ; SAMPO2010B ; Sampo-Leonia Tavoite 2010 Tuotto ; 1
+yhdistelmärahasto ; F ; SAMPO2020A ; Sampo-Leonia Tavoite 2020 Kasvu ; 1
+yhdistelmärahasto ; F ; SAMPO2020B ; Sampo-Leonia Tavoite 2020 Tuotto ; 1
+yhdistelmärahasto ; F ; SAMPO2030A ; Sampo-Leonia Tavoite 2030 Kasvu ; 1
+yhdistelmärahasto ; F ; SAMPO2030B ; Sampo-Leonia Tavoite 2030 Tuotto ; 1
+yhdistelmärahasto ; F ; AKTIASPYHB ; Sp-Yhdistelmärahasto B ; 1
+yhdistelmärahasto ; F ; TAP2010 ; Tapiola 2010 ; 1
+yhdistelmärahasto ; F ; TAP2015 ; Tapiola 2015 ; 1
+yhdistelmärahasto ; F ; TAP2020 ; Tapiola 2020 ; 1
+yhdistelmärahasto ; F ; TAP2025 ; Tapiola 2025 ; 1
+yhdistelmärahasto ; F ; TAPMAAILMA ; Tapiola Maailma ; 1
+yhdistelmärahasto ; F ; NAAAK ; Trevise AAA Kasvu ; 1
+yhdistelmärahasto ; F ; NAAAT ; Trevise AAA Tuotto ; 1
+yhdistelmärahasto ; F ; ALBEUACTPA ; Ålandsbanken Europe Active Portfolio A ; 1
+yhdistelmärahasto ; F ; ALBEUACTPB ; Ålandsbanken Europe Active Portfolio B ; 1
+yhdistelmärahasto ; F ; ALBSHINDLA ; Ålandsbanken Share Index Loan A ; 1
+yhdistelmärahasto ; F ; ALBSHINDLB ; Ålandsbanken Share Index Loan B ; 1
+korkorahasto ; F ; FIDESHYBA ; Fides High Yield Bond A ; 1
+korkorahasto ; F ; FIDESHYBB ; Fides High Yield Bond B ; 1
+korkorahasto ; F ; LEONIAKMKA ; Sampo-Leonia Kompassi Korko Kasvu ; 1
+korkorahasto ; F ; LEONIAKMKB ; Sampo-Leonia Kompassi Korko Tuotto ; 1
+korkorahasto ; F ; LEONIAKONA ; Sampo-Leonia Korko Konvergenssi Kasvu ; 1
+korkorahasto ; F ; LEONIAKONB ; Sampo-Leonia Korko Konvergenssi Tuotto ; 1
+lyhyen koron rahasto ; F ; AKTIALIKVI ; Aktia Likvida ; 1
+lyhyen koron rahasto ; F ; ALFBEUROKA ; Alfred Berg Euro Korko A ; 1
+lyhyen koron rahasto ; F ; ALFBEUROKB ; Alfred Berg Euro Korko B ; 1
+lyhyen koron rahasto ; F ; ALFEKPROA ; Alfred Berg Euro Korko Pro A ; 1
+lyhyen koron rahasto ; F ; ALFEKPROB ; Alfred Berg Euro Korko Pro B ; 1
+lyhyen koron rahasto ; F ; AURALIKVID ; Aurator Likvidi ; 1
+lyhyen koron rahasto ; F ; CARNEGILIK ; Carnegie Likvidi ; 1
+lyhyen koron rahasto ; F ; CONEUROLI ; Conventum Euro Likvidi ; 1
+lyhyen koron rahasto ; F ; EQLYHYTK ; EQ lyhytkorko kasvu ; 1
+lyhyen koron rahasto ; F ; EVLIEUKOR ; Evli Euro Korko ; 1
+lyhyen koron rahasto ; F ; EVLIMMPA ; Evli Money Manager+ Kasvu ; 1
+lyhyen koron rahasto ; F ; EVLIMMPB ; Evli Money Manager+ Tuotto ; 1
+lyhyen koron rahasto ; F ; FIMLIKVIDI ; FIM Likvidi ; 1
+lyhyen koron rahasto ; F ; FIDEURCASH ; Fidelity Euro Cash ; 1
+lyhyen koron rahasto ; F ; FIDUSDCASH ; Fidelity US Dollar Cash ; 1
+lyhyen koron rahasto ; F ; GYLLMONEYA ; Gyllenberg Money Manager A ; 1
+lyhyen koron rahasto ; F ; GYLLMONEYB ; Gyllenberg Money Manager B ; 1
+lyhyen koron rahasto ; F ; HANKORKOA ; Handelsbanken Eurokorko A ; 1
+lyhyen koron rahasto ; F ; HANKORKOB ; Handelsbanken Eurokorko B ; 1
+lyhyen koron rahasto ; F ; MANDLIKVID ; Mandatum Likvidi ; 1
+lyhyen koron rahasto ; F ; NEUROKORK ; Nordea Euro Korko Kasvu ; 1
+lyhyen koron rahasto ; F ; NEUROKORT ; Nordea Euro Korko Tuotto ; 1
+lyhyen koron rahasto ; F ; NKORKOK ; Nordea Korko.fi Kasvu ; 1
+lyhyen koron rahasto ; F ; NKORKOT ; Nordea Korko.fi Tuotto ; 1
+lyhyen koron rahasto ; F ; NPROEKORK ; Nordea Pro Euro Korko Kasvu ; 1
+lyhyen koron rahasto ; F ; NPROEKORT ; Nordea Pro Euro Korko Tuotto ; 1
+lyhyen koron rahasto ; F ; OPMARKKA ; OP-Markka-sijoitusrahasto ; 1
+lyhyen koron rahasto ; F ; LEONIAKORA ; Sampo Korko Kasvu ; 1
+lyhyen koron rahasto ; F ; LEONIAKORB ; Sampo Korko Tuotto ; 1
+lyhyen koron rahasto ; F ; LEONIAYHKA ; Sampo Yhteisökorko Kasvu ; 1
+lyhyen koron rahasto ; F ; LEONIAYHKB ; Sampo Yhteisökorko Tuotto ; 1
+lyhyen koron rahasto ; F ; SAMPOLKORA ; Sampo-Leonia Euro Lyhytkorko Kasvu ; 1
+lyhyen koron rahasto ; F ; SAMPOLKORB ; Sampo-Leonia Euro Lyhytkorko Tuotto ; 1
+lyhyen koron rahasto ; F ; SELIGRAHAA ; Seligson Rahamarkkinarahasto A ; 1
+lyhyen koron rahasto ; F ; SELIGRAHAB ; Seligson Rahamarkkinarahasto B ; 1
+lyhyen koron rahasto ; F ; TAPRAHAMA ; Tapiola Rahamarkkina ; 1
+keskipitkän koron rahasto ; F ; ALFAVKAST ; Alfred Berg Avkastningsfond ; 1
+keskipitkän koron rahasto ; F ; ALFEURKORA ; Alfred Berg Euro Yhdistelmäkorko A ; 1
+keskipitkän koron rahasto ; F ; ALFEURKORB ; Alfred Berg Euro Yhdistelmäkorko B ; 1
+keskipitkän koron rahasto ; F ; CONEUROYHT ; Conventum Euro Julkisyhteisö ; 1
+keskipitkän koron rahasto ; F ; EVLIEUYHKA ; Evli Euro Yhdistelmäkorko A ; 1
+keskipitkän koron rahasto ; F ; EVLIEUYHKB ; Evli Euro Yhdistelmäkorko B ; 1
+keskipitkän koron rahasto ; F ; NEMIDIKORK ; Nordea Euro Midi Korko Kasvu ; 1
+keskipitkän koron rahasto ; F ; NEMIDIKORT ; Nordea Euro Midi Korko Tuotto ; 1
+keskipitkän koron rahasto ; F ; ALBEUBOA ; Ålandsbanken Euro Bond A ; 1
+keskipitkän koron rahasto ; F ; ALBEUBOB ; Ålandsbanken Euro Bond B ; 1
+pitkän koron rahasto ; F ; AKTFMINTA ; Aktia Interest A ; 1
+pitkän koron rahasto ; F ; AKTFMINTB ; Aktia Interest B ; 1
+pitkän koron rahasto ; F ; ALFEUOBLA ; Alfred Berg Euro Obligaatio A ; 1
+pitkän koron rahasto ; F ; ALFEUOBLB ; Alfred Berg Euro Obligaatio B ; 1
+pitkän koron rahasto ; F ; ALFEOBPROA ; Alfred Berg Euro Obligaatio Pro A ; 1
+pitkän koron rahasto ; F ; ALFEOBPROB ; Alfred Berg Euro Obligaatio Pro B ; 1
+pitkän koron rahasto ; F ; CARNEGIKOR ; Carnegie Eurokorko ; 1
+pitkän koron rahasto ; F ; CARCORPEUC ; Carnegie Corporate Bond C ; 1
+pitkän koron rahasto ; F ; CONEUROBLA ; Conventum Euro Obligaatio A ; 1
+pitkän koron rahasto ; F ; CONEUROBLB ; Conventum Euro Obligaatio B ; 1
+pitkän koron rahasto ; F ; EVLICORPBA ; Evli Corporate Bond A ; 1
+pitkän koron rahasto ; F ; EVLICORPBB ; Evli Corporate Bond B ; 1
+pitkän koron rahasto ; F ; EVLIEUOBLA ; Evli Euro Valtionobligaatio A ; 1
+pitkän koron rahasto ; F ; EVLIEUOBLB ; Evli Euro Valtionobligaatio B ; 1
+pitkän koron rahasto ; F ; EVLIEHYA ; Evli European High Yield A ; 1
+pitkän koron rahasto ; F ; EVLIEHYB ; Evli European High Yield B ; 1
+pitkän koron rahasto ; F ; FIMEURO ; FIM Euro ; 1
+pitkän koron rahasto ; F ; FIDEURBOND ; Fidelity Euro Bond ; 1
+pitkän koron rahasto ; F ; FIDINTBOND ; Fidelity International Bond ; 1
+pitkän koron rahasto ; F ; FIDGBPBOND ; Fidelity Sterling Bond ; 1
+pitkän koron rahasto ; F ; FIDUSDBOND ; Fidelity US Dollar Bond ; 1
+pitkän koron rahasto ; F ; FIDESEUBA ; Fides Eurobond A ; 1
+pitkän koron rahasto ; F ; FIDESEUBB ; Fides Eurobond B ; 1
+pitkän koron rahasto ; F ; FNOREMUBAC ; Firstnordic EMU Bond Accumulation ; 1
+pitkän koron rahasto ; F ; FNOREMUBDI ; Firstnordic EMU Bond Distribution ; 1
+pitkän koron rahasto ; F ; FNORUSDBAC ; Firstnordic US Dollar Bond Accumulation ; 1
+pitkän koron rahasto ; F ; FFEMMERDE ; Fleming Emerging Markets Debt A ; 1
+pitkän koron rahasto ; F ; FFEUROBON ; Fleming Euro Bond A ; 1
+pitkän koron rahasto ; F ; FFHIGHYLD ; Fleming European High Yield Bond A ; 1
+pitkän koron rahasto ; F ; FFINTBOND ; Fleming Global Bond A ; 1
+pitkän koron rahasto ; F ; FFSTERBON ; Fleming Sterling Bond A ; 1
+pitkän koron rahasto ; F ; FFUSDBOND ; Fleming USD Bond Fund ; 1
+pitkän koron rahasto ; F ; GYLLBONDA ; Gyllenberg Bond A ; 1
+pitkän koron rahasto ; F ; GYLLBONDB ; Gyllenberg Bond B ; 1
+pitkän koron rahasto ; F ; GYLLEUBNDA ; Gyllenberg European Bond A ; 1
+pitkän koron rahasto ; F ; GYLLEUBNDB ; Gyllenberg European Bond B ; 1
+pitkän koron rahasto ; F ; HANOBLIGA ; Handelsbanken Euro-obligaatio A ; 1
+pitkän koron rahasto ; F ; HANOBLIGB ; Handelsbanken Euro-obligaatio B ; 1
+pitkän koron rahasto ; F ; HANINTBOND ; Handelsbanken International Bonds ; 1
+pitkän koron rahasto ; F ; HANSWEBOND ; Handelsbanken Swedish Bonds ; 1
+pitkän koron rahasto ; F ; HIIYRKORKO ; Hiisi Yrityskorko ; 1
+pitkän koron rahasto ; F ; MANDEUROBO ; Mandatum Euro Bond A ; 1
+pitkän koron rahasto ; F ; MANDEUROBB ; Mandatum Euro Bond B ; 1
+pitkän koron rahasto ; F ; MAEUYRIK ; Mandatum Euro Yrityslaina K ; 1
+pitkän koron rahasto ; F ; MANDKORKO ; Mandatum Korko ; 1
+pitkän koron rahasto ; F ; N1USCOBHB ; N1 US Corporate Bond HB Kasvu; 1 ; EUR
+pitkän koron rahasto ; F ; NEUROYLPLK ; Nordea Euro yrityslaina plus Kasvu; 100 ; EUR
+pitkän koron rahasto ; F ; NKEHITKORK ; Nordea Kehittyvät korkomarkkinat Kasvu ; 100 ; EUR
+pitkän koron rahasto ; F ; NEOBLIGAK ; Nordea Euro Obligaatio Kasvu ; 1
+pitkän koron rahasto ; F ; NEOBLIGAT ; Nordea Euro Obligaatio Tuotto ; 1
+pitkän koron rahasto ; F ; NOBLIGAATK ; Nordea Obligaatio.fi Kasvu ; 1
+pitkän koron rahasto ; F ; NOBLIGAATT ; Nordea Obligaatio.fi Tuotto ; 1
+pitkän koron rahasto ; F ; NPRCORBONK ; Nordea Pro Corporate Bond Kasvu ; 1
+pitkän koron rahasto ; F ; NPRCORBONT ; Nordea Pro Corporate Bond Tuotto ; 1
+pitkän koron rahasto ; F ; NPROEOBLK ; Nordea Pro Euro Obligaatio Kasvu ; 1
+pitkän koron rahasto ; F ; NPROEOBLT ; Nordea Pro Euro Obligaatio Tuotto ; 1
+pitkän koron rahasto ; F ; OPKORKO ; OP-Korko -sijoitusrahasto ; 1
+pitkän koron rahasto ; F ; OPSEUBOIND ; OPSTOCK Euro Bond Index ; 1
+pitkän koron rahasto ; F ; OPSFIBOIND ; OPSTOCK Finland Bond Index ; 1
+pitkän koron rahasto ; F ; OPEUYRLA ; Op-Euro Yrityslaina ; 1
+pitkän koron rahasto ; F ; ROBUROBLIG ; Roburs Obligationsfond ; 1
+pitkän koron rahasto ; F ; SAMPOPKORA ; Sampo-Leonia Euro Pitkäkorko Kasvu ; 1
+pitkän koron rahasto ; F ; SAMPOPKORB ; Sampo-Leonia Euro Pitkäkorko Tuotto ; 1
+pitkän koron rahasto ; F ; LEONIAOBLA ; Sampo-Leonia Obligaatio Kasvu ; 1
+pitkän koron rahasto ; F ; LEONIAOBLB ; Sampo-Leonia Obligaatio Tuotto ; 1
+pitkän koron rahasto ; F ; LEONIATKOA ; Sampo-Leonia Tuottokorko Kasvu ; 1
+pitkän koron rahasto ; F ; LEONIATKOB ; Sampo-Leonia Tuottokorko Tuotto ; 1
+pitkän koron rahasto ; F ; LEONIAYOBA ; Sampo-Leonia Yhteisöobligaatio Kasvu ; 1
+pitkän koron rahasto ; F ; LEONIAYOBB ; Sampo-Leonia Yhteisöobligaatio Tuotto ; 1
+pitkän koron rahasto ; F ; SELEUROBLA ; Seligson Euro-Obligaatio A ; 1
+pitkän koron rahasto ; F ; SELEUROBLB ; Seligson Euro-Obligaatio B ; 1
+pitkän koron rahasto ; F ; SELEUCBIA ; Seligson Euro Corporate Bond A ; 1
+pitkän koron rahasto ; F ; SELEUCBIB ; Seligson Euro Corporate Bond B ; 1
+pitkän koron rahasto ; F ; TAPKORKO ; Tapiola Korko ; 1
+osakeindeksirahasto ; F ; OPFININDEX ; OPSTOCK Finland Index ; 1
+osakeindeksirahasto ; F ; NONSUPERSUOMI ; Nordnet superrahasto Suomi; 1 ; EUR ; Suomi
+osakeindeksirahasto ; F ; NONSUPERRUOTSI ; Nordnet superrahasto Ruotsi; 1 ; EUR ; Ruotsi
+osakeindeksirahasto ; F ; NONSUPERTANSKA ; Nordnet superrahasto Tanska; 1 ; EUR ; Tanska
+osakeindeksirahasto ; F ; NONSUPERNORJA ; Nordnet superrahasto Norja; 1 ; EUR ; Norja
+vipurahasto ; F ; 3CALPHA ; 3C Alpha ; 1
+vipurahasto ; F ; CONFOCUSA ; Conventum Focus Tekno A ; 1
+vipurahasto ; F ; CONFOCUSB ; Conventum Focus Tekno B ; 1
+vipurahasto ; F ; CONFUTURAA ; Conventum Futura Euro Growth A ; 1
+vipurahasto ; F ; CONFUTURAB ; Conventum Futura Euro Growth B ; 1
+vipurahasto ; F ; EVLALTIUSA ; Evli Altius A ; 1
+vipurahasto ; F ; EVLALTIUSB ; Evli Altius B ; 1
+vipurahasto ; F ; GYLLMOMENA ; Gyllenberg Momentum A ; 1
+vipurahasto ; F ; GYLLMOMENB ; Gyllenberg Momentum B ; 1
+vipurahasto ; F ; MANDKONTRA ; Mandatum Kontra ; 1
+vipurahasto ; F ; MANDVIPU ; Mandatum Vipu ; 1
+vipurahasto ; F ; SEBPTEUR ; SEB Optionsrätter Europafond ; 1
+kv. osakerahasto ; F ; ALFGLOBALA ; Alfred Berg Global A ; 1
+kv. osakerahasto ; F ; ALFGLOBALB ; Alfred Berg Global B ; 1
+kv. osakerahasto ; F ; ALFSMACEUA ; Alfred Berg Small Cap Europe A ; 1
+kv. osakerahasto ; F ; ALFSMACEUB ; Alfred Berg Small Cap Europe B ; 1
+kv. osakerahasto ; F ; CAREUOSAKE ; Carnegie Eurooppa Osake ; 1
+kv. osakerahasto ; F ; CARINTERNE ; Carnegie Internet ; 1
+kv. osakerahasto ; F ; FFAMERICA ; Fleming American A ; 1
+kv. osakerahasto ; F ; FFAMBLCHP ; Fleming American Blue Chip A ; 1
+kv. osakerahasto ; F ; FFAMFLEDG ; Fleming American Smaller Co's A ; 1
+kv. osakerahasto ; F ; FFEASTEUR ; Fleming Eastern European A ; 1
+kv. osakerahasto ; F ; FFEMEREUR ; Fleming Emerging European A ; 1
+kv. osakerahasto ; F ; FFEMERMAR ; Fleming Emerging Markets A ; 1
+kv. osakerahasto ; F ; FFEUROEQT ; Fleming Euro Equity A ; 1
+kv. osakerahasto ; F ; FFEUROPEA ; Fleming European A ; 1
+kv. osakerahasto ; F ; FFEUSMACO ; Fleming European Smaller Companies A ; 1
+kv. osakerahasto ; F ; FFEUSTRGR ; Fleming European Strategic Growth A ; 1
+kv. osakerahasto ; F ; FFEUSTRVA ; Fleming European Strategic Value A ; 1
+kv. osakerahasto ; F ; FFEURTECH ; Fleming European Technology A ; 1
+kv. osakerahasto ; F ; FFGEROPPS ; Fleming German Opportunities A ; 1
+kv. osakerahasto ; F ; FFBGLOBEQT ; Fleming Global Equity A ; 1
+kv. osakerahasto ; F ; FFGLLISCI ; Fleming Global Life Sciences A ; 1
+kv. osakerahasto ; F ; FFGLOSMCO ; Fleming Global Smaller Companies A ; 1
+kv. osakerahasto ; F ; FFINTEQTY ; Fleming International Equity A ; 1
+kv. osakerahasto ; F ; FFLATINAM ; Fleming Latin American A ; 1
+kv. osakerahasto ; F ; FFMIDEAST ; Fleming Middle Eastern A ; 1
+kv. osakerahasto ; F ; FFUKENTER ; Fleming UK Enterprise A ; 1
+kv. osakerahasto ; F ; FFUSDISCO ; Fleming US Micro Cap A ; 1
+kv. osakerahasto ; F ; FFUSEMTEC ; Fleming US Technology A ; 1
+kv. osakerahasto ; F ; GYLLEUINDA ; Gyllenberg European Index A ; 1
+kv. osakerahasto ; F ; GYLLEUINDB ; Gyllenberg European Index B ; 1
+kv. osakerahasto ; F ; FFASIANOP ; JF Asian Opportunities A ; 1
+kv. osakerahasto ; F ; FFJAPSMCO ; JF Japanese Smaller Co's A ; 1
+kv. osakerahasto ; F ; FFPACITEC ; JF Pacific Technology A ; 1
+kv. osakerahasto ; F ; FFCHINA ; Jardine Fleming China A ; 1
+kv. osakerahasto ; F ; FFINDIA ; Jardine Fleming India A ; 1
+kv. osakerahasto ; F ; FFJAPANES ; Jardine Fleming Japanese A ; 1
+kv. osakerahasto ; F ; FFPACIFIC ; Jardine Fleming Pacific A ; 1
+kv. osakerahasto ; F ; MANDBIOTEC ; Mandatum BioTech+ ; 1
+kv. osakerahasto ; F ; MYRIADI ; Myriadi Kasvu ; 1
+kv. osakerahasto ; F ; NMEDICAK ; Nordea Medica Life Science Kasvu ; 1
+kv. osakerahasto ; F ; NMEDICAT ; Nordea Medica Life Science Tuotto ; 1
+kv. osakerahasto ; F ; OPITAEU ; OP-Itä-Eurooppa ; 1
+kv. osakerahasto ; F ; SEBEUROSBF ; SEB Europa Småbolagsfond ; 1
+kv. osakerahasto ; F ; SEBEUROPA ; SEB Lux (F) Europafond ; 1
+kv. osakerahasto ; F ; SEBLAKEME ; SEB Lux (F) Läkemedels- och Bioteknikfon ; 1
+kv. osakerahasto ; F ; SEBMILJO ; SEB Lux (F) Miljöfond ; 1
+kv. osakerahasto ; F ; SEBSVERIGE ; SEB Lux (F) Sverige Offensivfond ; 1
+kv. osakerahasto ; F ; SEBTEKNOL ; SEB Lux (F) Teknologifond ; 1
+kv. osakerahasto ; F ; SEBSFEAST ; SEB Lux Asia - ex Japan ; 1
+kv. osakerahasto ; F ; SEBCAPSELC ; SEB Lux Capital Selection - Europe Chance/Ris ; 1
+kv. osakerahasto ; F ; SEBSCONEU ; SEB Lux Continental Europe ; 1
+kv. osakerahasto ; F ; SEBSEASEU ; SEB Lux Eastern Europe ; 1
+kv. osakerahasto ; F ; SEBSEMMARK ; SEB Lux Emerging Markets ; 1
+kv. osakerahasto ; F ; SEBEQUITYF ; SEB Lux Equity Fund - Global Chance/Risk ; 1
+kv. osakerahasto ; F ; SEBWIRCOM ; SEB Lux Equity Fund - Wireless Communica ; 1
+kv. osakerahasto ; F ; SEBSEQFEU ; SEB Lux Euro Equity ; 1
+kv. osakerahasto ; F ; SEBSGLOBAL ; SEB Lux Global ; 1
+kv. osakerahasto ; F ; SEBSJAPAN ; SEB Lux Japan ; 1
+kv. osakerahasto ; F ; SEBSNORDIC ; SEB Lux Nordic ; 1
+kv. osakerahasto ; F ; SEBSNORGE ; SEB Lux Norge Aksjefond ; 1
+kv. osakerahasto ; F ; SEBSNORAME ; SEB Lux North America ; 1
+kv. osakerahasto ; F ; SEBNAMESMA ; SEB Nordamerikanska Medelstora Bolagsfon ; 1
+kv. osakerahasto ; F ; SEBNORDSMA ; SEB Norden Småbolagsfond ; 1
+kv. osakerahasto ; F ; SELIG25PHA ; Seligson Global Top 25 Pharmac. A ; 1
+kv. osakerahasto ; F ; SELIG25PHB ; Seligson Global Top 25 Pharmac. B ; 1
+kv. osakerahasto ; F ; SELPHOENIA ; Seligson Phoenix A ; 1
+kv. osakerahasto ; F ; SELPHOENIB ; Seligson Phoenix B ; 1
+kv. yhdistelmärahasto ; F ; AKTIAFOLKA ; Aktia Folkhälsan A ; 1
+kv. yhdistelmärahasto ; F ; AKTIAFOLKB ; Aktia Folkhälsan B ; 1
+kv. yhdistelmärahasto ; F ; EVLIGLMMA ; Evli Global Multi Manager A ; 1
+kv. yhdistelmärahasto ; F ; EVLIGLMMB ; Evli Global Multi Manager B ; 1
+kv. yhdistelmärahasto ; F ; FIDESPFOLA ; Fides Portfolio A ; 1
+kv. yhdistelmärahasto ; F ; FIDESPFOLB ; Fides Portfolio B ; 1
+kv. yhdistelmärahasto ; F ; MANDPRIVAA ; Mandatum Private ; 1
+kv. yhdistelmärahasto ; F ; MANDAGGREA ; Mandatum Private Aggressive ; 1
+kv. yhdistelmärahasto ; F ; MANDCONSEA ; Mandatum Private Conservartive ; 1
+kv. yhdistelmärahasto ; F ; MANDSAFEA ; Mandatum Safeguard ; 1
+kv. yhdistelmärahasto ; F ; OPSPEKTRI ; OP-Spektri ; 1
+kv. yhdistelmärahasto ; F ; SEBSINTERA ; SEB Lux International Fund A ; 1
+kv. yhdistelmärahasto ; F ; SEBSINTERB ; SEB Lux International Fund B ; 1
+kv. yhdistelmärahasto ; F ; FIDESTUYOA ; Turun yliopiston rahasto A ; 1
+kv. yhdistelmärahasto ; F ; FIDESTUYOB ; Turun yliopiston rahasto B ; 1
+kv. lyhyen koron rahasto ; F ; SEBSHBONEU ; SEB Lux Euro Short Bond ; 1
+kv. pitkän koron rahasto ; F ; SEBSKBOFEU ; SEB Lux Euro Bond ; 1
+kv. pitkän koron rahasto ; F ; SEBSBONINT ; SEB Lux International Bond ; 1
+hedge rahasto ; F ; AVENIRA ; Avenir A ; 1
+hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
+hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
+vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
+vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
+vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
+vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
+vanhat osakkeet ; X ; ARM1V ; A-Rakennusmies ; 1
+vanhat osakkeet ; X ; ASKAS ; Asko ; 1
+vanhat osakkeet ; X ; AVP1V ; AvestaPolarit ; 1
+vanhat osakkeet ; X ; BALAS ; A Company Finland ; 1
+vanhat osakkeet ; X ; BEL1V ; Beltton-Yhtiöt ; 1
+vanhat osakkeet ; X ; BTN1V ; Beltton-Yhtiöt ; 1
+vanhat osakkeet ; X ; BENSV ; Benefon S ; 1
+vanhat osakkeet ; X ; BNFSV ; Benefon ; 1
+vanhat osakkeet ; X ; BIRAV ; Birka Line A ; 1
+vanhat osakkeet ; X ; BIRBV ; Birka Line B ; 1
+vanhat osakkeet ; X ; CAS1S ; Castrum ; 1
+vanhat osakkeet ; X ; CAS1SEW195 ; Castrum Opt. 1/95 ; 1
+vanhat osakkeet ; X ; CNC1V ; Cencorp ; 1
+vanhat osakkeet ; X ; CHIAV ; Chips A ; 1
+vanhat osakkeet ; X ; CHIBV ; Chips B ; 1
+vanhat osakkeet ; X ; CTA1V ; Componenta (vanha) ; 1
+vanhat osakkeet ; X ; CVM1V ; Conventum ; 1
+vanhat osakkeet ; X ; DAN1V ; Danisco A/S FDR ; 1
+vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
+vanhat osakkeet ; X ; DSO1V ; Done Solutions ; 1
+vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
+vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
+vanhat osakkeet ; X ; EBC1V ; Elektrobit ; 1 ; EUR
+vanhat osakkeet ; X ; EBG1V ; Elektrobit ; 1 ; EUR
+vanhat osakkeet ; X ; ELI1V ; Elisa ; 1 ; EUR
+vanhat osakkeet ; X ; ENE1V ; Endero ; 1
+vanhat osakkeet ; X ; ENSRS ; Enso R ; 1
+vanhat osakkeet ; X ; EON1V ; E.ON Finland ; 1
+vanhat osakkeet ; X ; EQH1V ; EQ Holding ; 1
+vanhat osakkeet ; X ; EQO1V ; EQ Online ; 1
+vanhat osakkeet ; X ; ESS1V ; Espoon Sähkö ; 1
+vanhat osakkeet ; X ; FIFAS ; Efore A ; 1
+vanhat osakkeet ; X ; ELIAV ; Elisa Communications ; 1
+vanhat osakkeet ; X ; EVI1V ; Evia ; 1 ; EUR
+vanhat osakkeet ; X ; ERG1V ; Evox Rifa Group ; 1
+vanhat osakkeet ; X ; FINAS ; Finvest A (ennen jak) ; 1
+vanhat osakkeet ; X ; FINBS ; Finvest B (ennen jak) ; 1
+vanhat osakkeet ; X ; FNV1V ; Finvest ; 1
+vanhat osakkeet ; X ; FISAS ; Fiskars A ; 1 ; EUR
+vanhat osakkeet ; X ; FISKS ; Fiskars K ; 1 ; EUR
+vanhat osakkeet ; X ; FIS1V ; Fiskars ; 1 ; EUR
+vanhat osakkeet ; X ; FOR1V ; Ford ; 1
+vanhat osakkeet ; X ; FUM1VW200 ; Fortum bonus ; 1
+vanhat osakkeet ; X ; GEO1V ; Geosentric ; 1
+vanhat osakkeet ; X ; HACAS ; Hackman A ; 1
+vanhat osakkeet ; X ; HAC1V ; Hackman ; 1
+vanhat osakkeet ; X ; HARAS ; Hartwall A ; 1
+vanhat osakkeet ; X ; HAN1V ; Hansapank ; 1
+vanhat osakkeet ; X ; HPHAV ; HPY Holding ; 1
+vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
+vanhat osakkeet ; X ; HVL1V ; Huhtamäki van Leer ; 1
+vanhat osakkeet ; X ; INS1V ; Instrumentarium ; 1
+vanhat osakkeet ; X ; INT1S ; Interavanti ; 1 ; EUR
+vanhat osakkeet ; X ; IOC1V ; Iocore ; 1
+vanhat osakkeet ; X ; ISKAS ; Isko A ; 1
+vanhat osakkeet ; X ; JAN1V ; Janton ; 1
+vanhat osakkeet ; X ; JIP1V ; Jippii Group ; 1
+vanhat osakkeet ; X ; JOT1V ; JOT Automation ; 1
+vanhat osakkeet ; X ; JTKBS ; J Tallberg-Kiint. B ; 1
+vanhat osakkeet ; X ; KASAS ; Kasola A ; 1
+vanhat osakkeet ; X ; KKA1V ; Kauppakaari ; 1
+vanhat osakkeet ; X ; KCI1V ; KCI konecranes ; 1
+vanhat osakkeet ; X ; KEKAS ; Kekkilä ; 1
+vanhat osakkeet ; X ; KGH1V ; Kemira GrowHow ; 1
+vanhat osakkeet ; X ; KES1S ; Kesko B ; 1
+vanhat osakkeet ; X ; KNT1V ; Kontram-yhtiöt ; 1
+vanhat osakkeet ; X ; KONBS ; Kone B ; 1
+vanhat osakkeet ; X ; KCR1V ; Konecarnaes ; 1
+vanhat osakkeet ; X ; KPUAV ; KSP Yhtiöt A ; 1
+vanhat osakkeet ; X ; KYPAS ; Kylpyläkasino A ; 1
+vanhat osakkeet ; X ; KYR1V ; Kyro (ennen jak.) ; 1
+vanhat osakkeet ; X ; KRO1V ; Kyro ; 1
+vanhat osakkeet ; X ; LARBS ; Larox B ; 1 ; EUR
+vanhat osakkeet ; X ; LAS1S ; Lassila & Tikanoja (ennen jakaut) ; 1
+vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
+vanhat osakkeet ; X ; LII1V ; Liinos ; 1
+vanhat osakkeet ; X ; LTE1S ; Lännen Tehtaat ; 1 ; EUR
+vanhat osakkeet ; X ; LVO1V ; Länsivoima ; 1
+vanhat osakkeet ; X ; MESAS ; M-Real A ; 1
+vanhat osakkeet ; X ; MESBS ; M-Real B ; 1
+vanhat osakkeet ; X ; MDMBV ; Mandatum B ; 1
+vanhat osakkeet ; X ; MAV1V ; Markk. Viherjuuri ; 1
+vanhat osakkeet ; X ; MRE1V ; Menire ; 1
+vanhat osakkeet ; X ; MRE1VU0100 ; Menire Oyj MO ; 1
+vanhat osakkeet ; X ; MRE1VN0100 ; Menire Oyj uudet ; 1
+vanhat osakkeet ; X ; METAS ; Metra A ; 1
+vanhat osakkeet ; X ; METBS ; Metra B ; 1
+vanhat osakkeet ; X ; MTI1V ; Metsä Tissue ; 1
+vanhat osakkeet ; X ; MGH1V ; Mgine Holding ; 1
+vanhat osakkeet ; X ; NED1V ; Nedecon ; 1
+vanhat osakkeet ; X ; NEOBV ; Neomarkka B ; 1 ; EUR
+vanhat osakkeet ; X ; NEP1V ; Neptun Maritime ; 1
+vanhat osakkeet ; X ; NES1V ; Neste Oil ; 1 ; EUR
+vanhat osakkeet ; X ; NOK1VEW195 ; Nokia Oyj 95 B-opt. ; 1
+vanhat osakkeet ; X ; NOK1V ; Nokia ; 1 ; EUR
+vanhat osakkeet ; X ; NOKES ; Nokia etu ; 1
+vanhat osakkeet ; X ; NOKEUUS ; Nokia etu uusi ; 1
+vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
+vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
+vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
+vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
+vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
+vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1
+vanhat osakkeet ; X ; ORA1V ; Oral Hammaslääkärit ; 1 ; EUR
+vanhat osakkeet ; X ; ORIAS ; Orion A ; 1
+vanhat osakkeet ; X ; ORIBS ; Orion B ; 1
+vanhat osakkeet ; X ; ORNAS ; Orion A (Ennen jakautumista) ; 1
+vanhat osakkeet ; X ; ORNBS ; Orion B (Ennen jakautumista) ; 1
+vanhat osakkeet ; X ; OMH1V ; OMHEX AB; 1
+vanhat osakkeet ; X ; PANAS ; Panostaja A ; 1
+vanhat osakkeet ; X ; PANBS ; Panostaja B ; 1
+vanhat osakkeet ; X ; PAR1S ; Partek ; 1
+vanhat osakkeet ; X ; POS1V ; Perlos ; 1
+vanhat osakkeet ; X ; PICAS ; PI-Consulting A ; 1
+vanhat osakkeet ; X ; PLAAS ; Plandent A ; 1
+vanhat osakkeet ; X ; PMJ1V ; PMJ Automec ; 1
+vanhat osakkeet ; X ; POH1V ; Pohjola-Yhtymä ; 1
+vanhat osakkeet ; X ; POHAS ; Pohjola A ; 1
+vanhat osakkeet ; X ; POHBS ; Pohjola B ; 1
+vanhat osakkeet ; X ; POHDV ; Pohjola-Yhtymä D ; 1
+vanhat osakkeet ; X ; POH1SUO109 ; Pohjola merkintäoikeus ; 1
+vanhat osakkeet ; X ; POH1S ; Pohjola Pankki ; 1 ; EUR
+vanhat osakkeet ; X ; POLKS ; Polar Kiinteistöt ; 1
+vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
+vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
+vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
+vanhat osakkeet ; X ; RAM1V ; Rauma ; 1
+vanhat osakkeet ; X ; RTK1S ; Rautakirja A ; 1
+vanhat osakkeet ; X ; RTKBS ; Rautakirja B ; 1
+vanhat osakkeet ; X ; RTRKS ; Rautaruukki K ; 1 ; EUR
+vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
+vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
+vanhat osakkeet ; X ; SAL1V ; Salcomp ; 1
+vanhat osakkeet ; X ; SAC1V ; Sanitec ; 1
+vanhat osakkeet ; X ; SWS1V ; Sanoma-WSOY ; 1
+vanhat osakkeet ; X ; SLS1V ; Saunalahti ; 1
+vanhat osakkeet ; X ; SAU1V ; Saunatec ; 1
+vanhat osakkeet ; X ; SCAAS ; Yrityspankki Skop A ; 1
+vanhat osakkeet ; X ; SCF1V ; Scanfil ; 1
+vanhat osakkeet ; X ; SNR1V ; Sentera ; 1
+vanhat osakkeet ; X ; SJA1V ; Silja ; 1
+vanhat osakkeet ; X ; SOO1VNELI2 ; Soon Comm. vaih-os 2 ; 1
+vanhat osakkeet ; X ; SOO1V ; Soon Communications ; 1
+vanhat osakkeet ; X ; SOO1VELI ; Soon vaihto-osake ; 1
+vanhat osakkeet ; X ; SRA1V ; Sonera ; 1
+vanhat osakkeet ; X ; SRA1VN0399 ; Sonera bonus ; 1
+vanhat osakkeet ; X ; SSH1V ; SSH Communications ; 1
+vanhat osakkeet ; X ; STABS ; Starckjohann ; 1
+vanhat osakkeet ; X ; STOAS ; Stockmann A ; 1
+vanhat osakkeet ; X ; STOBV ; Stockmann B ; 1
+vanhat osakkeet ; X ; SOI1S ; Suom. Optiopörssi ; 1
+vanhat osakkeet ; X ; SHEAV ; Suomen Helasto A ; 1
+vanhat osakkeet ; X ; SHE1V ; Suomen Helasto ; 1
+vanhat osakkeet ; X ; SPAAV ; Suomen Spar A ; 1
+vanhat osakkeet ; X ; SPAKV ; Suomen Spar K ; 1
+vanhat osakkeet ; X ; SSK1S ; SSK S. Sääst.Kiint. ; 1
+vanhat osakkeet ; X ; SUO1V ; J.W. Suominen Yhtymä ; 1
+vanhat osakkeet ; X ; SFT1V ; Stonesoft ; 1
+vanhat osakkeet ; X ; SUU1V ; Suunto ; 1
+vanhat osakkeet ; X ; SWSAV ; Sanoma-WSOY A ; 1
+vanhat osakkeet ; X ; SWSBV ; Sanoma-WSOY B ; 1
+vanhat osakkeet ; X ; SAT1V ; Satama Interactive ; 1
+vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
+vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
+vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
+vanhat osakkeet ; X ; TAFPS ; Tamfelt Etu ; 1 ; EUR
+vanhat osakkeet ; X ; TAFKS ; Tamfelt Kanta ; 1 ; EUR
+vanhat osakkeet ; X ; TAF1V ; Tamfelt ; 1 ; EUR
+vanhat osakkeet ; X ; TPO1V ; Tampereen Puhelin ; 1
+vanhat osakkeet ; X ; TCN1V ; Tecnomen (ennen sulautum) ; 1
+vanhat osakkeet ; X ; TEC1V ; Technopolis ; 1
+vanhat osakkeet ; X ; TEN1V ; Tecnomen (ennen tunnusmuutosta); 1
+vanhat osakkeet ; X ; TEC1V ; Tectia ; 1 ; EUR
+vanhat osakkeet ; X ; TLA1V ; Tekla ; 1 ; EUR
+vanhat osakkeet ; X ; TLAAV ; Tekla A ; 1
+vanhat osakkeet ; X ; TLSVAIHMO ; TeliaSonera myyntioikeus ; 1
+vanhat osakkeet ; X ; TLS1VSR111 ; TeliaSonera myyntioikeus ; 1 ; EUR ; Ruotsi
+vanhat osakkeet ; X ; TLS1V ; TeliaSonera ; 1 ; EUR ; Ruotsi
+vanhat osakkeet ; X ; TEP1S ; Tervak. Puuhamaa ; 1
+vanhat osakkeet ; X ; SUT1V ; Terveystalo healthcare ; 1
+vanhat osakkeet ; X ; TIX1V ; Tieto-X ; 1
+vanhat osakkeet ; X ; TJT1V ; TJ Group ; 1
+vanhat osakkeet ; X ; TMA1V ; Tilamarkkinat-yhtiöt ; 1
+vanhat osakkeet ; X ; TRO1V ; Tamro ; 1
+vanhat osakkeet ; X ; TII1V ; Tiimari ; 1 ; EUR
+vanhat osakkeet ; X ; TURCS ; Turkistuottajat C ; 1
+vanhat osakkeet ; X ; TARAS ; Turun Arvok. A ; 1
+vanhat osakkeet ; X ; VAC1V ; Vacon ; 1 ; EUR
+vanhat osakkeet ; X ; VALAS ; Valmet A ; 1
+vanhat osakkeet ; X ; VAMPS ; Valtameri E ; 1
+vanhat osakkeet ; X ; VCCAV ; Vestcap A ; 1
+vanhat osakkeet ; X ; VCCBV ; Vestcap B ; 1
+vanhat osakkeet ; X ; UHI1V ; Ühispank ; 1
+vanhat osakkeet ; X ; YOM1V ; Yomi ; 1
+vanhat osakkeet ; X ; WAT1V ; Vaahto Group ; 1 ; EUR
+vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1
+vanhat osakkeet ; X ; WATKV ; Vaahto Group K ; 1
+vanhat osakkeet ; X ; WEN1V ; Wecan Electronics ; 1
+vanhat osakkeet ; X ; WIC1V ; Westend ICT ; 1 ; EUR
+vanhat rahastot ; Y ; CONGLOBALA ; Conventum Global A ; 1
+vanhat rahastot ; Y ; CONGLOBALB ; Conventum Global B ; 1
+vanhat rahastot ; Y ; HANKORKO ; Handelsbanken Eurokorko ; 1
+vanhat rahastot ; Y ; HANSAINV ; Hansa Investment Fund ; 1
+vanhat rahastot ; Y ; MERAASIAK ; Merita Aasia Kasvu ; 1
+vanhat rahastot ; Y ; MERAASIAT ; Merita Aasia Tuotto ; 1
+vanhat rahastot ; Y ; MERAMERIKK ; Merita Amerikka Kasvu ; 1
+vanhat rahastot ; Y ; MERAMERIKT ; Merita Amerikka Tuotto ; 1
+vanhat rahastot ; Y ; MEREUROPAK ; Merita Eurooppa Kasvu ; 1
+vanhat rahastot ; Y ; MEREUROPAT ; Merita Eurooppa Tuotto ; 1
+vanhat rahastot ; Y ; MERFENNIAK ; Merita Fennia Kasvu ; 1
+vanhat rahastot ; Y ; MERFENNIAT ; Merita Fennia Tuotto ; 1
+vanhat rahastot ; Y ; MERGRANITK ; Merita Graniitti Kasvu ; 1
+vanhat rahastot ; Y ; MERGRANITT ; Merita Graniitti Tuotto ; 1
+vanhat rahastot ; Y ; MERKORKOK ; Merita Korko Kasvu ; 1
+vanhat rahastot ; Y ; MERKORKOT ; Merita Korko Tuotto ; 1
+vanhat rahastot ; Y ; MERMAAILMK ; Merita Maailma Kasvu ; 1
+vanhat rahastot ; Y ; MERMAAILMT ; Merita Maailma Tuotto ; 1
+vanhat rahastot ; Y ; MERNORDIAK ; Merita Nordia Kasvu ; 1
+vanhat rahastot ; Y ; MERNORDIAT ; Merita Nordia Tuotto ; 1
+vanhat rahastot ; Y ; MEROBLIGAK ; Merita Obligaatio Kasvu ; 1
+vanhat rahastot ; Y ; MEROBLIGAT ; Merita Obligaatio Tuotto ; 1
+vanhat rahastot ; Y ; MEROPTIMAK ; Merita Optima Kasvu ; 1
+vanhat rahastot ; Y ; MEROPTPLUK ; Merita Optima Plus Kasvu ; 1
+vanhat rahastot ; Y ; MEROPTPLUT ; Merita Optima Plus Tuotto ; 1
+vanhat rahastot ; Y ; MEROPTIMAT ; Merita Optima Tuotto ; 1
+vanhat rahastot ; Y ; MNPREKORKK ; Merita Pro Euro Korko Kasvu ; 1
+vanhat rahastot ; Y ; MNPREKORKT ; Merita Pro Euro Korko Tuotto ; 1
+vanhat rahastot ; Y ; MERPREOBLK ; Merita Pro Euro Obl. Kasvu ; 1
+vanhat rahastot ; Y ; MERPREOBLT ; Merita Pro Euro Obligaatio Tuotto ; 1
+vanhat rahastot ; Y ; MERPROSUOMK ; Merita Pro Suomi Kasvu ; 1
+vanhat rahastot ; Y ; MERPROSUOMT ; Merita Pro Suomi Tuotto ; 1
+vanhat rahastot ; Y ; MNPRCORBOK ; MeritaNB Pro Corporate Bond Kasvu ; 1
+vanhat rahastot ; Y ; MNPRCORBOT ; MeritaNB Pro Corporate Bond Tuotto ; 1
+vanhat rahastot ; Y ; MERAVANTIK ; MeritaNordbanken Avanti Kasvu ; 1
+vanhat rahastot ; Y ; MERAVANTIT ; MeritaNordbanken Avanti Tuotto ; 1
+vanhat rahastot ; Y ; MNEKORKOK ; MeritaNordbanken Euro Korko Kasvu ; 1
+vanhat rahastot ; Y ; MNEMIDIKOK ; MeritaNordbanken Euro Midi Kasvu ; 1
+vanhat rahastot ; Y ; MNEMIDIKOT ; MeritaNordbanken Euro Midi Tuotto ; 1
+vanhat rahastot ; Y ; MNEOBLIGAK ; MeritaNordbanken Euro Obl. Kasvu ; 1
+vanhat rahastot ; Y ; MNEOBLIGAT ; MeritaNordbanken Euro Obl. Tuotto ; 1
+vanhat rahastot ; Y ; MNEKORKOT ; MeritaNordbanken Eurok. Tuotto ; 1
+vanhat rahastot ; Y ; MNEUROLANK ; MeritaNordbanken Eurol. Kasvu ; 1
+vanhat rahastot ; Y ; MNEUROLANT ; MeritaNordbanken Eurol. Tuotto ; 1
+vanhat rahastot ; Y ; MERFORESTAK ; MeritaNordbanken Foresta Kasvu ; 1
+vanhat rahastot ; Y ; MERFORESTAT ; MeritaNordbanken Foresta Tuotto ; 1
+vanhat rahastot ; Y ; MNITK ; MeritaNordbanken IT Kasvu ; 1
+vanhat rahastot ; Y ; MNITT ; MeritaNordbanken IT Tuotto ; 1
+vanhat rahastot ; Y ; MNMEDICAK ; MeritaNordbanken Medica L.S. K. ; 1
+vanhat rahastot ; Y ; MNMEDICAT ; MeritaNordbanken Medica L.S. T. ; 1
+vanhat rahastot ; Y ; MNSMALCAPT ; MeritaNordbanken Nordic Sm. Cap T. ; 1
+vanhat rahastot ; Y ; MNSMALCAPK ; MeritaNordbanken Nordic Sm.Cap K. ; 1
+vanhat rahastot ; Y ; MNPRBALANK ; MeritaNordbanken Pro Bal. K. ; 1
+vanhat rahastot ; Y ; MNPRBALANT ; MeritaNordbanken Pro Bal. Tuotto ; 1
+vanhat rahastot ; Y ; MNPREUROPK ; MeritaNordbanken Pro Eur. K. ; 1
+vanhat rahastot ; Y ; MNPREUROPT ; MeritaNordbanken Pro Eur. Tuotto ; 1
+vanhat rahastot ; Y ; NDAIEUFIK ; Nordea Itä-Eurooppa.fi Kasvu ; 1
+vanhat rahastot ; Y ; NDAIEUFIT ; Nordea Itä-Eurooppa.fi Tuotto ; 1
+vanhat rahastot ; Y ; SELIGJOUSA ; Seligson & Co Joustosalkku A ; 1
+vanhat rahastot ; Y ; SELIGJOUSB ; Seligson & Co Joustosalkku B ; 1
+vanhat rahastot ; Y ; PHALANXA ; Seligson Phalanx A ; 1
+vanhat rahastot ; Y ; PHALANXB ; Seligson Phalanx B ; 1
+vanhat rahastot ; Y ; SELIGVAKAA ; Seligson & Co Vakaasalkku A ; 1
+vanhat rahastot ; Y ; SELIGVAKAB ; Seligson & Co Vakaasalkku B ; 1
+vanhat rahastot ; Y ; SELIGT2010 ; Tapiola 2010 Seligson & Co ; 1
+vanhat rahastot ; Y ; SELIGT2015 ; Tapiola 2015 Seligson & Co ; 1
+vanhat rahastot ; Y ; SELIGT2020 ; Tapiola 2020 Seligson & Co ; 1
+vanhat rahastot ; Y ; SELIGT2025 ; Tapiola 2025 Seligson & Co ; 1
+vanhat rahastot ; Y ; SELIGMAAIL ; Tapiola Maailma Seligson & Co ; 1
+vanhat rahastot ; Y ; TREVISEAAA ; Trevise Active Asset Allocation (AAA) A ; 1
+vanhat rahastot ; Y ; TREVISEAAB ; Trevise Active Asset Allocation (AAA) B ; 1
+vanhat rahastot ; Y ; TREVISEAAK ; Trevise Active Asset Allocation Kasvu ; 1
+vanhat rahastot ; Y ; TREVISEAAT ; Trevise Active Asset Allocation Tuotto ; 1
+vanhat rahastot ; Y ; TREVEUOBLK ; Trevise Euro-obligaatio Kasvu ; 1
+vanhat rahastot ; Y ; TREVEUOBLT ; Trevise Euro-obligaatio Tuotto ; 1
+vanhat rahastot ; Y ; TREVEUKORA ; Trevise Eurokorko A ; 1
+vanhat rahastot ; Y ; TREVEUKORB ; Trevise Eurokorko B ; 1
+vanhat rahastot ; Y ; TREVEUKORK ; Trevise Eurokorko Kasvu ; 1
+vanhat rahastot ; Y ; TREVEUKORT ; Trevise Eurokorko Tuotto ; 1
+vanhat rahastot ; Y ; TREEULANDA ; Trevise Euroland A ; 1
+vanhat rahastot ; Y ; TREEULANDB ; Trevise Euroland B ; 1
+vanhat rahastot ; Y ; TREEULANDK ; Trevise Euroland Kasvu ; 1
+vanhat rahastot ; Y ; TREEULANDT ; Trevise Euroland Tuotto ; 1
+vanhat rahastot ; Y ; TREVISEGLO ; Trevise Global Equity Fund ; 1
+vanhat rahastot ; Y ; TREVSUOMIA ; Trevise Suomi A ; 1
+vanhat rahastot ; Y ; TREVSUOMIB ; Trevise Suomi B ; 1
+vanhat rahastot ; Y ; TREVSUOMIK ; Trevise Suomi Kasvu ; 1
+vanhat rahastot ; Y ; TREVSUOMIT ; Trevise Suomi Tuotto ; 1
+vanhat rahastot ; Y ; ALBEUBO ; Ålandsbanken Euro Bond ; 1
+vanhat rahastot ; Y ; ALBEUACTPF ; Ålandsbanken Europe Active Portfolio ; 1
+vanhat rahastot ; Y ; ALBGLOBLUE ; Ålandsbanken Global Blue Chip ; 1
+vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
+NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
+NYSE ; S ; ASHR ; Deutche CSI300 China A-shares ; 1 ; USD ; Kehittyvät
+NYSE ; S ; CNDA ; IQ Canada Small Cap ETF ; 1 ; USD ; Kanada
+NYSE ; S ; BRKB ; Berkshire Hathaway B ; 1 ; USD ; USA
+NYSE ; S ; BUD ; Anheuser-Busch Inbev ; 1  ; USD ; Belgia
+NYSE ; S ; COP ; ConocoPhillips ; 1; USD ; USA
+NYSE ; S ; CRESY ; Cresud Sacifya ADR ; 1; USD ; Argentiina
+NYSE ; S ; DBC ; DB Commodity index ETF ; 1; USD ; USA
+NYSE ; S ; DEO ; Diageo ADS ; 1; USD ; Britannia
+NYSE ; S ; EWZ ; IShare MSCI Brazil ETF; 1; USD ; USA
+NYSE ; S ; GDX ; Market Vectors Gold Miners ETF ; 1 ; USD ; USA
+NYSE ; S ; GEE ; General Electric ; 1; USD ; USA
+NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
+NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
+NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
+NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
+NYSE ; S ; IBM ;  IBM ; 1 ; USD ; USA     
+NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
+NYSE ; S ; KFT ; Kraft Foods A ; 1; USD ; USA
+NYSE ; S ; KGC ; Kinross Gold Corp ; 1; USD ; Kanada
+NYSE ; S ; KMI ; Kinder Morgan ; 1 ; USD ; USA
+NYSE ; S ; KOO ; Coca-Cola Co ; 1 ; USD ; USA
+NYSE ; S ; MO ;  Altria ; 1 ; USD ; USA
+NYSE ; S ; MSFT ; Microsoft ; 1 ; USD ; USA
+NYSE ; S ; NEM ; Newmont Mining ; 1 ; USD ; USA
+NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA
+NYSE ; S ; OHI ; Omega Healthcare ; 1 ; USD ; USA
+NYSE ; S ; PGG ; Procter & Gamble ; 1; USD ; USA
+NYSE ; S ; PMM ; Philip Morris Intl ; 1; USD ; USA
+NYSE ; S ; POT ;  Potash ; 1 ; USD ; USA
+NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
+NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
+NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
+NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
+NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
+NYSE ; S ; UN ; Unilever ; 1 ; USD ; Eurooppa
+NYSE ; S ; XOM ; Exxon ; 1 ; USD ; USA
+NYSE ; S ; WMT ; Wal-mart Stores ; 1; USD ; USA
+NYSE ; S ; VGK ; Vanguard Europe ; 1 ; USD ; Eurooppa
+NYSE ; S ; VNM ; Vietnam ETF ; 1 ; USD ; Kehittyvät
+NYSE ; S ; VTI ; Vanguard Total Stock Market ; 1 ; USD ; USA
+NYSE ; S ; VTR ; Ventas ; 1 ; USD ; USA
+OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
+OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
+OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
+XTRA ; S ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
+XTRA ; S ; IS3N ; Ishares EM ETF ; 1 ; EUR; Kehittyvät
+XTRA ; S ; EUNL ; Ishares World ETF ; 1 ; EUR; Maailma
+XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
+XTRA ; S ; SXR8 ; Ishares core S&P 500 ETF ; 1 ; EUR; USA
+XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
+XTRA ; S ; DBX6 ; Brasilia ETF ; 1 ; EUR; Kehittyvät

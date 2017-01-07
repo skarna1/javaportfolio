@@ -1,0 +1,5 @@
+*~
+*.class
+etc/salkut/*
+etc/salkku.ini
+etc/kurssidata/*

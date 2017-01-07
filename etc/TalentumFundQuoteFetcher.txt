@@ -1,0 +1,13 @@
+NKIINAK Nordea Kiina K
+NVENAJAK Nordea Venäjä K
+NJAPANIK Nordea Japani K
+N1USCOBHB Nordea 1 - US Corporate Bond HB
+NEURINDBK Nordea Eurooppa Indeksirahasto B
+NKEHITKORK Nordea Euro Yrityslaina Plus K
+NEUROYLPLK Nordea Euro Yrityslaina Plus K
+FI4000046669 Nordea Maailma Indeksirahasto B K
+NMAAILMAK Nordea Maailma K
+NSUOMIINDK Nordea Suomi Indeksirahasto B K
+SAMPOKORKOK Danske Invest Korko K
+ODINSVERIG ODIN Sverige
+SLGOMXH25 Seligson & Co OMX Helsinki 25 pö
