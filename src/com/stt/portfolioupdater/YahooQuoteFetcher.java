@@ -82,10 +82,12 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 			double high = 0.0;
 			double low = 0.0;
 			double last = 0.0;
-
+			if (highstr.equals("N/A"))
+				highstr = laststr;
+			if (lowstr.equals("N/A"))
+				lowstr = laststr;
 			try {
 				volume = Long.parseLong(volumestr);
-
 				high = Double.parseDouble(highstr);
 				low = Double.parseDouble(lowstr);
 				last = Double.parseDouble(laststr);
@@ -93,6 +95,7 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 			catch (NumberFormatException e)
 			{
 				System.out.println("fail: " + ticker);
+				System.out.println(volumestr + " " + highstr + " " + lowstr + " " + laststr);
 			}
 
 
