@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/sami/workspace/portfolio
+cd /home/sami/workspace/javaportfolio
 
 function setupClassPath() {
    CLASSPATH=bin
