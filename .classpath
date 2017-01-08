@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="/usr/share/java/junit.jar"/>
 	<classpathentry kind="lib" path="jar/jcalendar-1.4.jar"/>
 	<classpathentry kind="lib" path="jar/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/hamcrest/core.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
