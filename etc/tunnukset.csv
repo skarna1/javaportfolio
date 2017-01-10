@@ -18,7 +18,7 @@ rahoitus ; S ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 rahoitus ; S ; NORVE ; Norvestia ; 1 ; EUR
 rahoitus ; S ; OREIT ; Orava Asuntorahasto ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
-rahoitus ; S ; SAMAS ; Sampo ; 1 ; EUR
+rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; SDA1V ; Sponda ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
@@ -962,6 +962,7 @@ vanhat osakkeet ; X ; RTRKS ; Rautaruukki K ; 1 ; EUR
 vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
 vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
 vanhat osakkeet ; X ; SAL1V ; Salcomp ; 1
+vanhat osakkeet ; X ; SAMAS ; Sampo ; 1 ; EUR
 vanhat osakkeet ; X ; SAC1V ; Sanitec ; 1
 vanhat osakkeet ; X ; SWS1V ; Sanoma-WSOY ; 1
 vanhat osakkeet ; X ; SLS1V ; Saunalahti ; 1
