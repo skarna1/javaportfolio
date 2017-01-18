@@ -111,7 +111,7 @@ teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
 teknologia ; S ; TIE1V ; Tieto ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
-Kulutuspalvelut ; S ; ALN1V ; Alma Media ; 1 ; EUR
+Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
 Kulutuspalvelut ; S ; ILK2S ; Ilkka-yhtym‰ 2 ; 1 ; EUR
 Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
@@ -827,6 +827,7 @@ hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media p‰‰oman palautus ; 1
 vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
+vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR
 vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; ARM1V ; A-Rakennusmies ; 1
