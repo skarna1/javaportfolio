@@ -40,7 +40,7 @@ FIA1S Finnair
 FLG1S Finnlines
 FSKRS Fiskars
 FITBIO FIT Biotech Oy K
-FUM1V Fortum
+FORTUM Fortum
 FSC1V F-Secure
 GEO1V GeoSentric
 GLA1V Glaston
