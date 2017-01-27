@@ -14,8 +14,8 @@
 01.04.1998 ; TTEBS ; TUNNUSNIMI ; TIE1V ; Tieto B ; TietoEnator
 16.04.1998 ; NOKAV ; SPLIT ; 1 ; 2
 16.04.1998 ; NOKKV ; SPLIT ; 1 ; 2
-27.04.1998 ; ≈AB1S ; TUNNUS ; ALBAV
-27.04.1998 ; ≈ABPV ; TUNNUS ; ALBBV
+27.04.1998 ; √ÖAB1S ; TUNNUS ; ALBAV
+27.04.1998 ; √ÖABPV ; TUNNUS ; ALBBV
 27.04.1998 ; HARAS ; SPLIT ; 1 ; 5
 29.04.1998 ; CHIPS ; TUNNUS ; CHIBV
 12.05.1998 ; STOAS ; SPLIT ; 1 ; 2
@@ -28,7 +28,7 @@
 09.09.1998 ; HKRAV ; SPLIT ; 1 ; 5
 05.11.1998 ; TUHAS ; TUNNUS ; ELEAV
 05.11.1998 ; MAVKS ; TUNNUS ; MAV1V
-05.11.1998 ; MEMBS ; TUNNUSNIMI ; NEOBV ; Mets‰markka B ; Neomarkka B
+05.11.1998 ; MEMBS ; TUNNUSNIMI ; NEOBV ; Mets√§markka B ; Neomarkka B
 23.11.1998 ; TTMBS ; TUNNUS ; TTM1V
 02.12.1998 ; FISAS ; SPLIT ; 1 ; 6
 02.12.1998 ; FISKS ; SPLIT ; 1 ; 6
@@ -44,15 +44,15 @@
 12.05.1999 ; NEPKV ; TUNNUSNIMI ; NEP1V ; Neptun K ; Neptun Maritime
 17.05.1999 ; ILK1S ; SPLIT ; 1 ; 2
 17.05.1999 ; ILK2S ; SPLIT ; 1 ; 2
-28.05.1999 ; SOI1S ; TUNNUSNIMI ; MRE1V ; Suomen Optiopˆrssi ; Menire
+28.05.1999 ; SOI1S ; TUNNUSNIMI ; MRE1V ; Suomen Optiop√∂rssi ; Menire
 01.06.1999 ; KES1S ; TUNNUSNIMI ; KESBV ; Kesko ; Kesko B
 04.06.1999 ; ATR1V ; TUNNUSNIMI ; ATRAV ; Atria ; Atria A
 01.07.1999 ; VALAS ; TUNNUSNIMI ; MEO1V ; Valmet A ; Metso
 01.07.1999 ; RAM1V ; TUNNUSNIMI ; MEO1V ; Rauma ; Metso
 01.10.1999 ; PMJ1V ; SPLIT ; 1 ; 6
 07.10.1999 ; JOT1V ; SPLIT ; 1 ; 10
-08.10.1999 ; HUHIV ; TUNNUSNIMI ; HVL1V ; Huhtam‰ki I ; Huhtam‰ki van Leer
-08.10.1999 ; HUHKV ; TUNNUSNIMI ; HVL1V ; Huhtam‰ki K ; Huhtam‰ki van Leer
+08.10.1999 ; HUHIV ; TUNNUSNIMI ; HVL1V ; Huhtam√§ki I ; Huhtam√§ki van Leer
+08.10.1999 ; HUHKV ; TUNNUSNIMI ; HVL1V ; Huhtam√§ki K ; Huhtam√§ki van Leer
 01.11.1999 ; KONBS ; SPLIT ; 1 ; 3
 05.11.1999 ; TJT1V ; SPLIT ; 1 ; 3
 08.12.1999 ; SAJ1V ; TUNNUSNIMI ; CTA1V ; Santasalo-JOT ; Componenta
@@ -82,17 +82,17 @@
 10.05.2000 ; SWSAV ; SPLIT ; 1 ; 4
 10.05.2000 ; SWSBV ; SPLIT ; 1 ; 4
 31.05.2000 ; NEP1V ; TUNNUSNIMI ; SJA1V ; Neptun Maritime ; Silja
-26.06.2000 ; MRE1VU0100 ; MERKINTƒOIKEUS ; MRE1VN0100
-30.06.2000 ; KPUAV ; NIMI ; Keski-Suomen Puh. A ; KSP Yhtiˆt A
+26.06.2000 ; MRE1VU0100 ; MERKINT√ÑOIKEUS ; MRE1VN0100
+30.06.2000 ; KPUAV ; NIMI ; Keski-Suomen Puh. A ; KSP Yhti√∂t A
 30.06.2000 ; KPUAV ; SPLIT ; 1 ; 5
 03.07.2000 ; HPHAV ; TUNNUSNIMI ; ELIAV ; HPY Holding ; Elisa Communications
 03.07.2000 ; HEPEV ; SPLIT ; 1 ; 2.16204
 03.07.2000 ; HEPEV ; TUNNUSNIMI ; ELIAV ; Helsingin Puhelin E ; Elisa Communications
 06.07.2000 ; MRE1VN0100 ; TUNNUSNIMI ; MRE1V ; Menire uudet ; Menire
-25.09.2000 ; METAS ; TUNNUSNIMI ; WRTAV ; Metra A ; W‰rtsil‰ A
-25.09.2000 ; METBS ; TUNNUSNIMI ; WRTBV ; Metra B ; W‰rtsil‰ B
+25.09.2000 ; METAS ; TUNNUSNIMI ; WRTAV ; Metra A ; W√§rtsil√§ A
+25.09.2000 ; METBS ; TUNNUSNIMI ; WRTBV ; Metra B ; W√§rtsil√§ B
 30.09.2000 ; LVO1V ; SPLIT ; 1 ; 10
-30.09.2000 ; LVO1V ; TUNNUSNIMI ; FUM1V ; L‰nsivoima ; Fortum
+30.09.2000 ; LVO1V ; TUNNUSNIMI ; FUM1V ; L√§nsivoima ; Fortum
 18.10.2000 ; SRA1VN0399 ; SPLIT ; 10 ; 11
 18.10.2000 ; SRA1VN0399 ; TUNNUSNIMI ; SRA1V ; Soneran Bonus-osakkeet ; Sonera
 19.10.2000 ; SLS1V ; TUNNUSNIMI ; JIP1V ; Saunalahti ; Jippii Group
@@ -121,24 +121,24 @@
 05.04.2001 ; NED1V ; TUNNUSNIMI ; ENE1V ; Nedecon ; Endero
 10.04.2001 ; SAMAS ; NIMI ; Sampo A ; Sampo
 17.04.2001 ; MAV1V ; TUNNUSNIMI ; EVI1V ; Markk. Viherjuuri ; Evia
-18.04.2001 ; HVL1V ; TUNNUSNIMI ; HUH1V ; Huhtam‰ki van Leer ; Huhtam‰ki
+18.04.2001 ; HVL1V ; TUNNUSNIMI ; HUH1V ; Huhtam√§ki van Leer ; Huhtam√§ki
 23.04.2001 ; SAMAS ; SPLIT ; 1 ; 5
 26.04.2001 ; RAKBS ; SPLIT ; 1 ; 3
 12.05.2001 ; EQH1V ; SPLIT ; 7.20631 ; 1
 12.05.2001 ; EQH1V ; TUNNUSNIMI ; EQO1V ; EQ Holding ; EQ Online
-01.06.2001 ; MESAS ; TUNNUSNIMI ; MRLAV ; Mets‰-Serla A ; M-real A
-01.06.2001 ; MESBS ; TUNNUSNIMI ; MRLBV ; Mets‰-Serla B ; M-real B
+01.06.2001 ; MESAS ; TUNNUSNIMI ; MRLAV ; Mets√§-Serla A ; M-real A
+01.06.2001 ; MESBS ; TUNNUSNIMI ; MRLBV ; Mets√§-Serla B ; M-real B
 19.09.2001 ; TLAAV ; TUNNUSNIMI ; TLA1V ; Tekla A ; Tekla
 01.10.2001 ; DON1V ; JAKAUTUMINEN ; 2 ; DSO1V ; Done Solutions ; 0.855 ; MGH1V ; Mgine Holding ; 0.145
-01.10.2001 ; LAS1S ; JAKAUTUMINEN ; 2 ; LAT1V ; Lassila & Tikanoja ; 0.716 ; SUO1V ; J.W. Suominen Yhtym‰ ; 0.284
+01.10.2001 ; LAS1S ; JAKAUTUMINEN ; 2 ; LAT1V ; Lassila & Tikanoja ; 0.716 ; SUO1V ; J.W. Suominen Yhtym√§ ; 0.284
 09.10.2001 ; CTH1V ; NIMI ; Componenta Holding ; Componenta
 28.12.2001 ; TCN1V ; SPLIT ; 1 ; 1.080883
 28.12.2001 ; TCN1V ; TUNNUS ; TEN1V
 02.01.2002 ; TEN1V ; NIMI ; Tecnomen Holding ; Tecnomen
-21.01.2002 ; POHAS ; TUNNUSNIMI ; POHDV ; Pohjola A ; Pohjola-Yhtym‰ D
-21.01.2002 ; POHBS ; TUNNUSNIMI ; POHDV ; Pohjola B ; Pohjola-Yhtym‰ D
-27.03.2002 ; SUO1V ; NIMI ; J.W. Suominen Yhtym‰ ; Suominen Yhtym‰
-16.04.2002 ; KPUAV ; TUNNUSNIMI ; YOM1V ; KSP Yhtiˆt A ; Yomi
+21.01.2002 ; POHAS ; TUNNUSNIMI ; POHDV ; Pohjola A ; Pohjola-Yhtym√§ D
+21.01.2002 ; POHBS ; TUNNUSNIMI ; POHDV ; Pohjola B ; Pohjola-Yhtym√§ D
+27.03.2002 ; SUO1V ; NIMI ; J.W. Suominen Yhtym√§ ; Suominen Yhtym√§
+16.04.2002 ; KPUAV ; TUNNUSNIMI ; YOM1V ; KSP Yhti√∂t A ; Yomi
 05.06.2002 ; JOT1V ; TUNNUSNIMI ; EBG1V ; JOT Automation ; Elektrobit Group
 02.10.2002 ; WEN1V ; TUNNUSNIMI ; SCF1V ; Wecan Electronics ; Scanfil
 22.10.2002 ; FNV1V ; TUNNUSNIMI ; AMA1V ; Finvest ; Amanda Capital
@@ -155,8 +155,8 @@
 29.03.2004 ; YTY1V ; SPLIT ; 1 ; 2
 01.04.2004 ; BENSV ; TUNNUSNIMI ; BNFSV ; Benefon S ; Benefon
 01.04.2004 ; AMA1V ; TUNNUS ; AMC1V
-02.04.2004 ; ORIAS ; TUNNUSNIMI ; ORNAS ; Orion-yhtym‰ A ; Orion A  
-02.04.2004 ; ORIBS ; TUNNUSNIMI ; ORNBS ; Orion-yhtym‰ B ; Orion B  
+02.04.2004 ; ORIAS ; TUNNUSNIMI ; ORNAS ; Orion-yhtym√§ A ; Orion A  
+02.04.2004 ; ORIBS ; TUNNUSNIMI ; ORNBS ; Orion-yhtym√§ B ; Orion B  
 20.04.2004 ; ELIAV ; TUNNUS ; ELI1V
 03.05.2004 ; OKOAS ; SPLIT ; 1 ; 2
 13.05.2004 ; ILK2S ; SPLIT ; 1 ; 4
@@ -181,7 +181,7 @@
 06.04.2006 ; OLVAS ; SPLIT ; 1 ; 2
 10.04.2006 ; SWSAV ; TUNNUSNIMI ; SWS1V ; SanomaWSOY A ; SanomaWSOY
 10.04.2006 ; SWSBV ; TUNNUSNIMI ; SWS1V ; Sanoma-WSOY B ; Sanoma-WSOY
-12.04.2006 ; END1V ; TUNNUSNIMI ; ORA1V ; Endero ; Oral Hammasl‰‰k‰rit
+12.04.2006 ; END1V ; TUNNUSNIMI ; ORA1V ; Endero ; Oral Hammasl√§√§k√§rit
 03.07.2006 ; ORNAS ; JAKAUTUMINEN ; 2 ; ORNAV ; Orion A ; 0.8724 ; OKDAV ; Oriola-KD A ; 0.1276
 03.07.2006 ; ORNBS ; JAKAUTUMINEN ; 2 ; ORNBV ; Orion B ; 0.877 ; OKDBV ; Oriola-KD B ; 0.123
 16.10.2006 ; LEOAS ; TUNNUSNIMI ; TII1V ; Leo Longlife ; Tiimari
@@ -189,7 +189,7 @@
 13.02.2007 ; TIX1V ; TUNNUSNIMI ; XNS1V ; Tieto-X ; Ixonos
 28.03.2007 ; PKKAS ; TUNNUS ; PKK1V 
 03.03.2008 ; OKOAS ; TUNNUSNIMI ; POH1S ; OKO Pankki; Pohjola Pankki
-22.04.2008 ; BTN1V ; TUNNUSNIMI ; WUF1V ; Beltton-Yhtiˆt ; Wulff-Yhtiˆt
+22.04.2008 ; BTN1V ; TUNNUSNIMI ; WUF1V ; Beltton-Yhti√∂t ; Wulff-Yhti√∂t
 22.04.2008 ; TJT1V ; TUNNUSNIMI ; WIC1V ; TJ Group ; Westend ICT
 18.08.2008 ; EBG1V ; TUNNUS ; EBC1V 
 01.10.2008 ; SWS1V ; TUNNUSNIMI ; SAA1V ; Sanoma-WSOY ; Sanoma
@@ -210,17 +210,17 @@
 17.05.2011 ; SCF1V ; TUNNUSNIMI ; SCI1V ; Scanfil ; Sievi Capital
 03.10.2011 ; TURCS ; TUNNUSNIMI ; SAGCV ; Turkistuottajat ; Saga Furs
 11.10.2011 ; AMC1V ; TUNNUSNIMI ; EQV1V ; Amanda Capital ; eQ
-13.04.2012 ; MRLBV ; TUNNUSNIMI ; METSB ; M-Real B ; Mets‰ Board B
-13.04.2012 ; MRLAV ; TUNNUSNIMI ; METSA ; M-Real A ; Mets‰ Board A
+13.04.2012 ; MRLBV ; TUNNUSNIMI ; METSB ; M-Real B ; Mets√§ Board B
+13.04.2012 ; MRLAV ; TUNNUSNIMI ; METSA ; M-Real A ; Mets√§ Board A
 12.08.2012 ; KOO ; SPLIT ; 1 ; 2
-08.05.2013 ; LTE1S ; TUNNUSNIMI ; APETI ; L‰nnen Tehtaat ; Apetit
-24.05.2013 ; AHL1V ; JAKAUTUMINEN ; 2 ; AHL1V ; Ahlstrom ; 0.887 ; 1.0 ; MUNK1 ; Munksjˆ ; 0.113; 0.25
+08.05.2013 ; LTE1S ; TUNNUSNIMI ; APETI ; L√§nnen Tehtaat ; Apetit
+24.05.2013 ; AHL1V ; JAKAUTUMINEN ; 2 ; AHL1V ; Ahlstrom ; 0.887 ; 1.0 ; MUNK1 ; Munksj√∂ ; 0.113; 0.25
 01.07.2013 ; YTY1V ; JAKAUTUMINEN ; 2 ; YTY1V ; YIT ; 0.7737 ; CAV1V ; Caverion ; 0.2263
-01.12.2013 ; AHL1V ; JAKAUTUMINEN ; 2 ; AHL1V ; Ahlstrom ; 0.952 ; 1.0 ; MUNK1 ; Munksjˆ ; 0.048; 0.265
+01.12.2013 ; AHL1V ; JAKAUTUMINEN ; 2 ; AHL1V ; Ahlstrom ; 0.952 ; 1.0 ; MUNK1 ; Munksj√∂ ; 0.048; 0.265
 03.12.2013; KNEBV ; SPLIT ; 1 ; 2
 02.01.2014; MEO1V ; JAKAUTUMINEN ; 2 ; MEO1V ; Metso ; 0.788 ; 1.0 ; VALMT ; Valmet ; 0.212 ; 1
 28.03.2014; VAC1V ; SPLIT ; 1 ; 2
-07.05.2015 ; SSK1S ; TUNNUSNIMI ; INVEST ; SSK S. S‰‰st.Kiint. ; Investors House
+07.05.2015 ; SSK1S ; TUNNUSNIMI ; INVEST ; SSK S. S√§√§st.Kiint. ; Investors House
 15.05.2015 ; CNC1V ; TUNNUSNIMI ; VALOE ; Cencorp ; Valoe
 20.06.2014 ; OUT1V ; SPLIT ; 25 ; 1
 02.06.2015 ; NES1V ; TUNNUSNIMI ; NESTE ; Neste Oil ; Neste
@@ -238,3 +238,4 @@
 02.01.2017 ; FIS1V ; TUNNUS ; FSKRS ;
 05.01.2017 ; KCR1V ; TUNNUS ; KCR ;
 17.01.2017 ; ALN1V ; TUNNUS ; ALMA ;
+25.01.2017 ; FUM1V ; TUNNUS ; FORTUM ;
