@@ -11,7 +11,7 @@ public class Quote implements Comparable {
 	private double high = 0.0;
 	private double low = 0.0;
 	private double rate = 1.00;
-	private int amount = 0;
+	private long amount = 0;
 	private Date date = null;
 	
 	
@@ -55,10 +55,10 @@ public class Quote implements Comparable {
 	public void setLow(double low) {
 		this.low = low;
 	}
-	public int getAmount() {
+	public long getAmount() {
 		return amount;
 	}
-	public void setAmount(int amount) {
+	public void setAmount(long amount) {
 		this.amount = amount;
 	}
 	public Date getDate() {

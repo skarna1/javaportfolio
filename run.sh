@@ -18,4 +18,4 @@ function setupClassPath() {
 
 setupClassPath
 
-java  com.stt.portfolio.PortfolioGuiApp
+java -Xmx1024m  com.stt.portfolio.PortfolioGuiApp

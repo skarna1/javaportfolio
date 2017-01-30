@@ -30,7 +30,7 @@ public class QuoteParser {
 
 		try {
 
-			quote.setAmount(Integer.parseInt(amount));
+			quote.setAmount(Long.parseLong(amount));
 			quote.setLast(Double.parseDouble(last));
 			
 			quote.setHighIfAvailable(high);
