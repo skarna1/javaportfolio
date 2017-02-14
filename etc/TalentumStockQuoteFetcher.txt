@@ -4,7 +4,7 @@ AHL1V Ahlstrom
 AHOLA Oyj Ahola Transport Abp
 AKTAV Aktia Bank A
 AKTRV Aktia Bank R
-ALMA Alma Media
+ALMA  Alma Media
 AMEAS Amer Sports
 APETI Apetit Plc
 ATG1V Asiakastieto Group Plc
