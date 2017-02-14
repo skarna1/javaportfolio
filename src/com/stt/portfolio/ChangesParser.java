@@ -27,7 +27,7 @@ public class ChangesParser implements I_Parser {
 	public void parse(Portfolio portfolio) {
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(
-					new FileInputStream(filename), "ISO8859_1"));
+					new FileInputStream(filename), "UTF-8"));
 
 			String str;
 		

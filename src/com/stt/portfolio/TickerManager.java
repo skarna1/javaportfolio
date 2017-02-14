@@ -94,7 +94,7 @@ public class TickerManager implements I_TickerManager {
 		try {
 
 			in = new BufferedReader(new InputStreamReader(new FileInputStream(
-					filename), "ISO8859_1"));
+					filename), "UTF-8"));
 			String str;
 
 			while ((str = in.readLine()) != null) {
