@@ -145,7 +145,7 @@ TOKMAN Tokmanni Group
 TRH1V Trainers' House Plc
 TULAV Tulikivi A
 TUT1V Turvatiimi
-UPM1V UPM-Kymmene
+UPM UPM-Kymmene
 UNIAV United Bankers Plc
 UNR1V Uponor
 WAT1V Vaahto Group
