@@ -21,6 +21,7 @@ rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; SDA1V ; Sponda ; 1 ; EUR
+rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
 rahoitus ; S ; TPS1V ; Technopolis ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
@@ -149,11 +150,11 @@ First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
 First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
+First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NIXU ; Nixu ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; ROBIT ; Robit ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
-First North ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 First North ; S ; TNOM ; Talenom ; 1 ; EUR
 First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
 First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR

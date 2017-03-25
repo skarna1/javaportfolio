@@ -75,6 +75,7 @@ MUNK1 Munksjö Oyj
 NEO1V Neo Industrial Plc
 NESTE Neste
 NXTMH Nexstim Plc
+NXTGMS Next Games Oyj
 NIXU Nixu Corporation
 NOKIA Nokia
 NRE1V Nokian Renkaat
