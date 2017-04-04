@@ -38,6 +38,7 @@ EVLI Evli Bank Plc B
 EXL1V Exel Composites Plc
 FIA1S Finnair
 FLG1S Finnlines
+FONDIA Fondia Plc
 FSKRS Fiskars
 FITBIO FIT Biotech Oy K
 FORTUM Fortum
