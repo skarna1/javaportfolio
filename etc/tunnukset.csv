@@ -79,7 +79,7 @@ teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TUT1V ; Turvatiimi ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; UNR1V ; Uponor ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; UPONOR ; Uponor ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; UUTEC ; Uutechnic Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
@@ -116,8 +116,8 @@ Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
 Kulutuspalvelut ; S ; ILK2S ; Ilkka-yhtymä 2 ; 1 ; EUR
 Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
-Kulutuspalvelut ; S ; KESAV ; Kesko A ; 1 ; EUR
-Kulutuspalvelut ; S ; KESBV ; Kesko B ; 1 ; EUR
+Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
+Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
 Kulutuspalvelut ; S ; PIZZA ; Kotipizza Group ; 1 ; EUR
 Kulutuspalvelut ; S ; PKKAS ; Pohj-K.Kirjap A ; 1 ; EUR
 Kulutuspalvelut ; S ; RESTA ; Restamax ; 1 ; EUR
@@ -893,6 +893,8 @@ vanhat osakkeet ; X ; JIP1V ; Jippii Group ; 1
 vanhat osakkeet ; X ; JOT1V ; JOT Automation ; 1
 vanhat osakkeet ; X ; JTKBS ; J Tallberg-Kiint. B ; 1
 vanhat osakkeet ; X ; KASAS ; Kasola A ; 1
+vanhat osakkeet ; X ; KESAV ; Kesko A ; 1
+vanhat osakkeet ; X ; KESBV ; Kesko B ; 1
 vanhat osakkeet ; X ; KKA1V ; Kauppakaari ; 1
 vanhat osakkeet ; X ; KCI1V ; KCI konecranes ; 1
 vanhat osakkeet ; X ; KEKAS ; Kekkilä ; 1
@@ -1021,6 +1023,7 @@ vanhat osakkeet ; X ; TRO1V ; Tamro ; 1
 vanhat osakkeet ; X ; TII1V ; Tiimari ; 1 ; EUR
 vanhat osakkeet ; X ; TURCS ; Turkistuottajat C ; 1
 vanhat osakkeet ; X ; TARAS ; Turun Arvok. A ; 1
+vanhat osakkeet ; X ; UNR1V ; Uponor ; 1
 vanhat osakkeet ; X ; VAC1V ; Vacon ; 1 ; EUR
 vanhat osakkeet ; X ; VALAS ; Valmet A ; 1
 vanhat osakkeet ; X ; VAMPS ; Valtameri E ; 1

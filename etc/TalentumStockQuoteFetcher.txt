@@ -58,8 +58,8 @@ INVEST Investors House Oyj
 XNS1V Ixonos
 KRA1V Kemira
 KSLAV Keskisuomalainen A
-KESAV Kesko A
-KESBV Kesko B
+KESKOA Kesko A
+KESKOB Kesko B
 KELAS Kesla A
 KNEBV Kone B
 KCR Konecranes
@@ -149,7 +149,7 @@ TULAV Tulikivi A
 TUT1V Turvatiimi
 UPM UPM-Kymmene
 UNIAV United Bankers Plc
-UNR1V Uponor
+UPONOR Uponor
 WAT1V Vaahto Group
 VAC1V Vacon
 VAIAS Vaisala A
