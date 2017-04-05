@@ -27,12 +27,11 @@ rahoitus ; S ; TPS1V ; Technopolis ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
-perusteollisuus ; S ; AHL1V ; Ahlstrom ; 1 ; EUR
+perusteollisuus ; S ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
 perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
 perusteollisuus ; S ; KRA1V ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
 perusteollisuus ; S ; METSB ; Metsä Board B ; 1 ; EUR
-perusteollisuus ; S ; MUNK1 ; Munksjö ; 1 ; EUR
 perusteollisuus ; S ; OUT1V ; Outokumpu ; 1 ; EUR
 perusteollisuus ; S ; SOSI1 ; Sotkamo Silver ; 1 ; EUR
 perusteollisuus ; S ; SSABAH ; SSAB A ; 1 ; EUR
@@ -827,6 +826,7 @@ kv. pitkän koron rahasto ; F ; SEBSBONINT ; SEB Lux International Bond ; 1
 hedge rahasto ; F ; AVENIRA ; Avenir A ; 1
 hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
+vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
 vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
 vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR
@@ -924,6 +924,7 @@ vanhat osakkeet ; X ; METAS ; Metra A ; 1
 vanhat osakkeet ; X ; METBS ; Metra B ; 1
 vanhat osakkeet ; X ; MTI1V ; Metsä Tissue ; 1
 vanhat osakkeet ; X ; MGH1V ; Mgine Holding ; 1
+vanhat osakkeet ; X ; MUNK1 ; Munksjö ; 1 ; EUR
 vanhat osakkeet ; X ; NED1V ; Nedecon ; 1
 vanhat osakkeet ; X ; NEOBV ; Neomarkka B ; 1 ; EUR
 vanhat osakkeet ; X ; NEP1V ; Neptun Maritime ; 1

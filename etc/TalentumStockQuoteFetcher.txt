@@ -1,6 +1,6 @@
 AFAGR Afarak Group Plc
 AFE1V Affecto
-AHL1V Ahlstrom
+AM1 Ahlstrom-Munksjö Oyj
 AHOLA Oyj Ahola Transport Abp
 AKTAV Aktia Bank A
 AKTRV Aktia Bank R
@@ -72,7 +72,6 @@ MARAS Martela A
 MEO1V Metso
 METSA Metsä Board Corporation A
 METSB Metsä Board Corporation B
-MUNK1 Munksjö Oyj
 NEO1V Neo Industrial Plc
 NESTE Neste
 NXTMH Nexstim Plc
