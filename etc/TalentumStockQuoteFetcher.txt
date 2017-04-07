@@ -69,7 +69,7 @@ LEHTO Lehto Group Plc
 LEM1S Lemminkäinen
 MMO1V Marimekko
 MARAS Martela A
-MEO1V Metso
+METSO Metso
 METSA Metsä Board Corporation A
 METSB Metsä Board Corporation B
 NEO1V Neo Industrial Plc

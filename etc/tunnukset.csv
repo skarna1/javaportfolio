@@ -62,7 +62,7 @@ teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEM1S ; Lemminkäinen ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; MEO1V ; Metso ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; OTE1V ; Outotec ; 1 ; EUR
@@ -913,6 +913,7 @@ vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
 vanhat osakkeet ; X ; LII1V ; Liinos ; 1
 vanhat osakkeet ; X ; LTE1S ; Lännen Tehtaat ; 1 ; EUR
 vanhat osakkeet ; X ; LVO1V ; Länsivoima ; 1
+vanhat osakkeet ; X ; MEO1V ; Metso ; 1 ; EUR
 vanhat osakkeet ; X ; MESAS ; M-Real A ; 1
 vanhat osakkeet ; X ; MESBS ; M-Real B ; 1
 vanhat osakkeet ; X ; MDMBV ; Mandatum B ; 1
