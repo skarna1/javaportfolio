@@ -85,8 +85,8 @@ NLG1V Nurminen Logistics Plc
 OKM1V Okmetic 
 OLVAS Olvi A
 OREIT Orava Residential REIT plc
-OKDAV Oriola-KD A
-OKDBV Oriola-KD B
+OKDAV Oriola A
+OKDBV Oriola B
 ORNAV Orion A
 ORNBV Orion B
 OUT1V Outokumpu
