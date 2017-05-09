@@ -17,6 +17,7 @@ import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.SimpleHttpConnectionManager;
 import org.apache.commons.httpclient.cookie.CookiePolicy;
 import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.commons.httpclient.params.HttpClientParams;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
@@ -66,7 +67,8 @@ public abstract class HTTPDocumentFetcher {
 		httpGet.getParams().setCookiePolicy(CookiePolicy.IGNORE_COOKIES);
 
 		try {
-
+			client.getParams().setParameter(HttpClientParams.ALLOW_CIRCULAR_REDIRECTS, true);
+		
 			int statusCode = client.executeMethod(httpGet);
 			//System.out.println("http get: " + url + " status: " + statusCode);
 			// Make sure only success code content is returned, else return

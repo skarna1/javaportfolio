@@ -1,0 +1,164 @@
+AFAGR Afarak Group
+AFE1V Affecto (LP)
+AM1 Ahlstrom-Munksjö
+AHOLA Oyj Ahola Transport Abp
+AKTAV Aktia Pankki A
+AKTRV Aktia Pankki R
+ALMA Alma Media
+AMEAS Amer Sports A
+APETI Apetit (LP)
+ATG1V Asiakastieto Group
+ASU1V Aspo (LP)
+ACG1V Aspocomp Group
+ATRAV Atria A
+BAS1V Basware
+BIOBV Biohit B
+BITTI Bittium
+CAV1V Caverion
+CAPMAN CapMan
+CGCBV Cargotec
+CTY1S Citycon
+CLEAN Cleantech Invest (LP)
+CONSTI Consti Yhtiöt
+CTH1V Componenta (T)
+CTL1V Comptel (T)
+CRA1V Cramo
+DETEC Detection Technology
+DIG1V Digia
+DNA   DNA
+DOV1V Dovre Group
+EFO1V Efore
+ELEAV Elecster A
+ELISA Elisa
+ENDOM Endomines (LP)
+EQV1V eQ
+ETT1V Etteplan (LP)
+EVLI Evli Pankki
+EXL1V Exel Composites
+FIA1S Finnair
+FLG1S Finnlines
+FONDIA Fondia
+FSKRS Fiskars
+FITBIO FIT Biotech
+FORTUM Fortum
+FSC1V F-Secure
+GEO1V GeoSentric
+GLA1V Glaston
+HRTIS Herantis Pharma
+HKSAV HKScan A
+HONBS Honkarakenne B (LP)
+HUH1V Huhtamäki
+ILK1S Ilkka-Yhtymä 1
+ILK2S Ilkka-Yhtymä II
+INC1V Incap
+IFA1V Innofactor (LP)
+INVEST Investors House (LP)
+XNS1V Ixonos
+KRA1V Kemira
+KSLAV Keskisuomalainen A
+KESKOA Kesko A
+KESKOB Kesko B
+KELAS Kesla A
+KNEBV Kone
+KCR Konecranes
+PIZZA Kotipizza Group (LP)
+LAT1V Lassila & Tikanoja
+LEHTO Lehto Group
+LEM1S Lemminkäinen
+MMO1V Marimekko
+MARAS Martela A (LP)
+METSO Metso
+METSA Metsä Board A
+METSB Metsä Board B
+NEO1V Neo Industrial
+NESTE Neste
+NXTMH Nexstim Plc
+NXTGMS Next Games Oyj
+NIXU Nixu
+NOKIA Nokia
+NRE1V Nokian Renkaat
+NDA1V Nordea Bank
+NORVE Norvestia (T)
+NLG1V Nurminen Logistics
+OKM1V Okmetic 
+OLVAS Olvi A
+OREIT Orava Asuntorahasto (LP)
+OKDAV Oriola A
+OKDBV Oriola B
+ORNAV Orion A
+ORNBV Orion B
+OUT1V Outokumpu
+OTE1V Outotec
+PNA1V Panostaja
+PIHLIS Pihlajalinna
+PIIPPO Piippo
+PKC1V PKC Group (T)
+PKKAS Pohjois-Karjalan Kirjapaino (LP)
+PON1V Ponsse
+PRIVA Privanet Group
+JPG1V Pöyry
+QPR1V QPR Software
+QTCOM Qt Group
+RAIKV Raisio K
+RAIVV Raisio V
+RMR1V Ramirent
+RAP1V Rapala VMC
+RUTAV Raute A (LP)
+RESTA Restamax
+REG1V Revenio Group
+ROBIT Robit
+RUG1V Ruukki Group
+SAGCV Saga Furs C
+SAMPO Sampo A
+SAA1V Sanoma
+SAVOH Savo-Solar
+SCL1V Scanfil
+SIILI Siili Solutions (LP)
+SCI1V Sievi Capital
+SOL1V Solteq
+SNO1V Soprano (LP)
+SOSI1 Sotkamo Silver
+SDA1V Sponda
+SRV1V SRV Yhtiöt
+SSABAH SSAB A
+SSABBH SSAB B
+SSH1V SSH Comm. Security
+STCAS Stockmann A
+STCBV Stockmann B
+STEAV Stora Enso A
+STERV Stora Enso R
+HOIVA Suomen Hoivatilat
+SUY1V Suominen
+TAALA Taaleri
+TAM1V Takoma
+TNOM Talenom (LP)
+TTM1V Talentum
+TLV1V Talvivaara (T)
+TPS1V Technopolis
+TEM1V Tecnotree (T)
+TEL1V Teleste
+TELIA1 Telia Company
+TIE1V Tieto
+TII1V Tiimari
+TIK1V Tikkurila
+TOKMAN Tokmanni Group
+TULAV Tulikivi A
+TUT1V Turvatiimi
+UPM UPM-Kymmene
+UNIAV United Bankers
+UPONOR Uponor
+WAT1V Uutechnic Group (LP)
+VAC1V Vacon
+VAIAS Vaisala A
+VALMT Valmet
+VERK Verkkokauppa Oyj
+VIK1V Viking Line
+VINCIT Vincit Group
+WUF1V Wulff-Yhtiöt
+WRT1V Wärtsilä
+YTY1V YIT
+YLEPS Yleiselektroniikka E
+ZEE1V Zeeland Oyj
+ALBAV Ålandsbanken A
+ALBBV Ålandsbanken B
+SLGOMXH25 OMXH25 ETF
