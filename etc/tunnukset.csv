@@ -1,11 +1,11 @@
 # toimiala ; tyyppi ; tunnus ; nimi ; jakaja ; CCY
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
-terveydenhuolto ; S ; BTH1V ; Biotie Therapies ; 1 ; EUR
 terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
 terveydenhuolto ; S ; OKDBV ; Oriola B ; 1
 terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
 terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
+terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
 rahoitus ; S ; AKTAV ; Aktia A ; 1 ; EUR
 rahoitus ; S ; AKTRV ; Aktia R ; 1 ; EUR
 rahoitus ; S ; ATG1V ; Asiakastieto ; 1 ; EUR
@@ -71,7 +71,6 @@ teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RMR1V ; Ramirent ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RUTAV ; Raute A ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; REG1V ; Revenio Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
@@ -106,6 +105,7 @@ teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
 teknologia ; S ; QTCOM ; Qt Group ; 1 ; EUR
 teknologia ; S ; SIILI ; Siili Solutions ; 1 ; EUR
 teknologia ; S ; SOL1V ; Solteq ; 1 ; EUR
+teknologia ; S ; SOPRA ; Soprano ; 1 ; EUR
 teknologia ; S ; SSH1V ; SSH Communications Security ; 1 ; EUR
 teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
@@ -141,8 +141,8 @@ Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
 Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
+Pre-lista ; S ; KAMUX ; Kamux Oyj ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
-Pre-lista ; S ; SNO1V ; Soprano ; 1 ; EUR
 First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
 First North ; S ; CLEAN ; Cleantech Invest ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
