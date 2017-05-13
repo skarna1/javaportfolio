@@ -1,0 +1,4 @@
+NEURINDBK     Nordea Eurooppa Indeksir. B K/100
+FI4000046669  Nordea Maailma Indeksirah. B K
+NSUOMIINDK    Nordea Suomi Indeksir. B K/100
+NNORDSMK      Nordea Nordic Sm C K/100

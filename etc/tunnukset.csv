@@ -412,6 +412,7 @@ osakerahasto ; F ; NSMALLCAPT ; Nordea Nordic Small Cap Tuotto ; 1
 osakerahasto ; F ; NVENAJAK ; Nordea Venäjä Kasvu ; 100 ; EUR 
 osakerahasto ; F ; NVENAJAT ; Nordea Venäjä Tuotto ; 100 ; EUR
 osakerahasto ; F ; NSUOMIINDK; Nordea Suomi indeksirahasto B Kasvu; 100 ; EUR
+osakerahasto ; F ; NNORDSMK ; Nordea Nordic Small Cap Kasvu ; 1 ; EUR
 osakerahasto ; F ; ODINFIN ; ODIN Finland ; 1
 osakerahasto ; F ; ODINMARITI ; ODIN Maritim ; 1
 osakerahasto ; F ; ODINNORDEN ; ODIN Norden ; 1
