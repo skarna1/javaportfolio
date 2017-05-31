@@ -58,7 +58,8 @@ KeyListener {
 	protected ButtonGroup currencyGroup;
 	protected static String localCurrencyString="EUR";
 	protected static String foreignCurrencyString="USD";
-
+	private Component frameComp;
+	
 	public boolean isOk() {
 		return isOk;
 	}
@@ -94,7 +95,7 @@ KeyListener {
 	public BaseDialog(Component frameComp, Component locationComp,
 			String title, I_TickerManager tickerManager) {
 		super(JOptionPane.getFrameForComponent(frameComp), title, true);
-
+		this.frameComp = frameComp;
 		dateChooser = new JDateChooser(Calendar.getInstance().getTime());
 		dateChooser.setLocale(new Locale("fi", "FI"));
 
@@ -128,19 +129,17 @@ KeyListener {
 		localCurrencyButton.setSelected(true);
 		currencyGroup.add(localCurrencyButton);
 		currencyGroup.add(foreignCurrencyButton);
+		updateRateFieldCcy("EUR", false);
 		localCurrencyButton.addActionListener(this);
 		foreignCurrencyButton.addActionListener(this);
 		foreignCurrencyButton.setEnabled(false);
-
-		updateRateFieldCcy("EUR", false);
-
-		setLocationRelativeTo(locationComp);
-
+		
 	}
 
 	protected void init(JLabel[] labels, Component[] components) {
 
 		// Lay out the buttons from left to right.
+		
 		JPanel buttonPane = new JPanel();
 		buttonPane.setLayout(new BoxLayout(buttonPane, BoxLayout.LINE_AXIS));
 		buttonPane.setBorder(BorderFactory.createEmptyBorder(0, 10, 10, 10));
@@ -156,7 +155,8 @@ KeyListener {
 		contentPane.add(buttonPane, BorderLayout.PAGE_END);
 
 		pack();
-
+		
+		setLocationRelativeTo(frameComp);
 		setVisible(true);
 	}
 

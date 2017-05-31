@@ -2,7 +2,6 @@ package com.stt.portfolioupdater;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;

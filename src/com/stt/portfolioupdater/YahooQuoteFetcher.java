@@ -32,8 +32,10 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 			//System.out.println(symbolString);
 
 			try {
-				String lines = YahooUtils.readInput("http://finance.yahoo.com/d/quotes.csv?s="
-						+ symbolString + "&f=hgl1vd1");
+				String uri = "http://finance.yahoo.com/d/quotes.csv?s="
+						+ symbolString + "&f=hgl1vd1";
+				//System.out.println(uri);
+				String lines = YahooUtils.readInput(uri);
 				//System.out.println(lines);
 				StringReader r = new StringReader(lines);
 				BufferedReader br = new BufferedReader(r);

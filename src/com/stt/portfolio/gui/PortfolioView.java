@@ -21,9 +21,7 @@ import com.stt.portfolio.Portfolio;
 import com.stt.portfolio.PortfolioDocument;
 import com.toedter.calendar.JDateChooser;
 
-
-
-public class PortfolioView extends JPanel implements ActionListener , PropertyChangeListener {
+public class PortfolioView extends JPanel implements ActionListener, PropertyChangeListener {
 	private PortfolioDocument portfolioDoc;
 	private PortfolioTable bookEntryPane;
 	private Portfolio portfolio;
@@ -31,7 +29,7 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 	private TransactionPane transactionPane;
 	private ProfitsPane profitsPane;
 	private MonthlyProfitsPane monthlyProfitsPane;
-	
+
 	private JFrame frame;
 	private JTextField portfolioValueField;
 	private JTextField portfolioCashField;
@@ -40,8 +38,9 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 	private BrokerList brokerList = null;
 	private JDateChooser dateChooser;
 	private boolean showItems = false;
-	
-	public PortfolioView(PortfolioDocument portfolioDoc,Portfolio portfolio, JFrame frame) {
+
+
+	public PortfolioView(PortfolioDocument portfolioDoc, Portfolio portfolio, JFrame frame) {
 		super(new BorderLayout());
 		this.frame = frame;
 		this.portfolioDoc = portfolioDoc;
@@ -50,52 +49,52 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 		portfolioCashField = new JTextField();
 		portfolioInvestedField = new JTextField();
 		portfolioXirrField = new JTextField();
-		
+
 		frame.getContentPane().removeAll();
-		
+
 		FlowLayout flowLayout = new FlowLayout();
 
 		Object[][] bookEntries = portfolio.getCombinedBookEntryTable(showItems);
-		
+
 		Object[] brokerNames = portfolio.getBookEntryBrokers();
 		brokerList = new BrokerList(brokerNames, this);
-		
+
 		dateChooser = new JDateChooser(Calendar.getInstance().getTime());
 		dateChooser.setLocale(new Locale("fi", "FI"));
 		dateChooser.addPropertyChangeListener(this);
-	
+
 		JPanel top = new JPanel(flowLayout);
-		
+
 		top.add(dateChooser);
-		
+
 		top.add(new JLabel("AO-tili: "));
 		top.add(brokerList.getBrokerList());
-		
+
 		top.add(new JLabel("Osakkeet: "));
 		top.add(portfolioValueField);
-		
+
 		top.add(new JLabel("Käteinen: "));
 		top.add(portfolioCashField);
-		
+
 		top.add(new JLabel("Sijoitettu: "));
 		top.add(portfolioInvestedField);
-		
+
 		top.add(new JLabel("P/A%: "));
 		top.add(portfolioXirrField);
-		
+
 		portfolioValueField.setEditable(false);
 		portfolioCashField.setEditable(false);
 		portfolioInvestedField.setEditable(false);
 		portfolioXirrField.setEditable(false);
-		
+
 		updateTextFields();
-		
+
 		add(top, BorderLayout.PAGE_START);
-		
-	
+
 		bookEntryPane = new PortfolioTable(bookEntries);
-		//PortfolioModel model = new PortfolioModel(portfolio.getCombinedBookEntryList());
-		//bookEntryPane = new JTreeTable((model));
+		// PortfolioModel model = new
+		// PortfolioModel(portfolio.getCombinedBookEntryList());
+		// bookEntryPane = new JTreeTable((model));
 		// Create the scroll pane and add the table to it.
 		JScrollPane scrollPane = new JScrollPane(bookEntryPane);
 
@@ -106,7 +105,7 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 		transactionPane = new TransactionPane(portfolio);
 		profitsPane = new ProfitsPane(portfolio);
 		monthlyProfitsPane = new MonthlyProfitsPane(portfolio);
-		
+
 		JTabbedPane jtp = new JTabbedPane();
 		frame.getContentPane().add(jtp);
 		jtp.addTab("Yhteenveto", this);
@@ -123,6 +122,7 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 
 		if (brokerList.getBrokerList().getSelectedIndex() == 0) {
 			portfolioValueField.setText(String.format("%1$.2f", portfolio.getStocksValue()));
+
 			portfolioCashField.setText(String.format("%1$.2f", portfolio.getCash()));
 			portfolioInvestedField.setText(String.format("%1$.2f", portfolio.getInvested()));
 			portfolioXirrField.setText(String.format("%1$.2f", portfolio.getXirr()));
@@ -133,16 +133,12 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 			portfolioInvestedField.setText("N/A");
 			portfolioXirrField.setText("N/A");
 		}
-		portfolioValueField.invalidate();
-		portfolioCashField.invalidate();
-		portfolioInvestedField.invalidate();
-		portfolioXirrField.invalidate();
 	}
 
 	public void redraw() {
 		Object[][] bookEntries = getBookEntries(showItems);
 		bookEntryPane.changeContent(bookEntries);
-			
+
 		updateTextFields();
 
 		taxReportPane.init();
@@ -150,7 +146,6 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 
 		transactionPane.update();
 	}
-
 
 	public JFrame getFrame() {
 		return frame;
@@ -161,7 +156,7 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 	}
 
 	public String getSelectedStock() {
-		
+
 		int row = bookEntryPane.getSelectedRow();
 		if (row != -1) {
 			int modelRow = bookEntryPane.getRowSorter().convertRowIndexToModel(row);
@@ -173,24 +168,21 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
-		 if (e.getActionCommand().equals("broker")) {
-			
+		if (e.getActionCommand().equals("broker")) {
 			brokerList.updateSelectedBroker();
-			
 			Object[][] bookEntries = getBookEntries(showItems);
 			bookEntryPane.changeContent(bookEntries);
 			updateTextFields();
+			validate();
 		}
 	}
 
 	private Object[][] getBookEntries(boolean showItems) {
 		Object[][] bookEntries = null;
-		
+
 		if (brokerList.getBrokerList().getSelectedIndex() == 0) {
 			bookEntries = portfolioDoc.getPortfolio().getCombinedBookEntryTable(showItems);
-		}
-		else {
+		} else {
 			bookEntries = portfolioDoc.getPortfolio().getBookEntryTable(brokerList.getSelectedBroker(), showItems);
 		}
 		return bookEntries;
@@ -206,14 +198,10 @@ public class PortfolioView extends JPanel implements ActionListener , PropertyCh
 
 	@Override
 	public void propertyChange(PropertyChangeEvent evt) {
-		
-		 if (evt.getPropertyName().equals("date")) {
+
+		if (evt.getPropertyName().equals("date")) {
 			// System.out.println((Date)evt.getNewValue());
-             portfolioDoc.setPortfolioDate((Date) evt.getNewValue());
-     }
-
+			portfolioDoc.setPortfolioDate((Date) evt.getNewValue());
+		}
 	}
-	
-	
 }
-
