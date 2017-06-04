@@ -51,9 +51,10 @@ HUH1V Huhtamäki
 ILK1S Ilkka-Yhtymä 1
 ILK2S Ilkka-Yhtymä II
 INC1V Incap
-IFA1V Innofactor (LP)
+IFA1V Innofactor
 INVEST Investors House (LP)
 XNS1V Ixonos
+KAMUX Kamux Oyj
 KRA1V Kemira
 KSLAV Keskisuomalainen A
 KESKOA Kesko A
@@ -104,6 +105,7 @@ RAIVV Raisio V
 RMR1V Ramirent
 RAP1V Rapala VMC
 RUTAV Raute A (LP)
+REMEDY Remedy Entertainment
 RESTA Restamax
 REG1V Revenio Group
 ROBIT Robit
