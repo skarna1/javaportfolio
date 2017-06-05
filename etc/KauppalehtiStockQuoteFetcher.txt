@@ -120,7 +120,7 @@ SCI1V Sievi Capital
 SOL1V Solteq
 SNO1V Soprano (LP)
 SOSI1 Sotkamo Silver
-SDA1V Sponda
+SDA1V Sponda (T)
 SRV1V SRV Yhtiöt
 SSABAH SSAB A
 SSABBH SSAB B
