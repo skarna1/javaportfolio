@@ -9,14 +9,15 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpConnectionManager;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpStatus;
-import org.apache.commons.httpclient.SimpleHttpConnectionManager;
-import org.apache.commons.httpclient.cookie.CookiePolicy;
-import org.apache.commons.httpclient.methods.GetMethod;
-import org.apache.commons.httpclient.params.HttpClientParams;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.config.CookieSpecs;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
@@ -31,8 +32,6 @@ public abstract class HTTPDocumentFetcher {
 	public HTTPDocumentFetcher() {
 		super();
 	}
-	
-	
 	
 	protected org.w3c.dom.NodeList fetchNodes(String uri, String xpathExpression)
 			throws XPathExpressionException {
@@ -55,30 +54,31 @@ public abstract class HTTPDocumentFetcher {
 	}
 
 	protected InputStream fetch(String url) {
-		HttpConnectionManager manager = new SimpleHttpConnectionManager();
-		manager.getParams().setConnectionTimeout(7000);
-		manager.getParams().setSoTimeout(3000);
-
-		HttpClient client = new HttpClient(manager);
-		  
-		
-		GetMethod httpGet = new GetMethod(url);
-		httpGet.getParams().setCookiePolicy(CookiePolicy.IGNORE_COOKIES);
+		RequestConfig globalConfig = RequestConfig.custom()
+		        .setCookieSpec(CookieSpecs.IGNORE_COOKIES)
+		        .setCircularRedirectsAllowed(true)
+		        .setConnectTimeout(3000)
+		        .setSocketTimeout(5000)
+		        .build();
+		CloseableHttpClient client = HttpClients.custom()
+		        .setDefaultRequestConfig(globalConfig)
+		        .build();
+	    
+		HttpGet httpGet = new HttpGet(url);
 
 		try {
-			client.getParams().setParameter(HttpClientParams.ALLOW_CIRCULAR_REDIRECTS, true);
-		
-			int statusCode = client.executeMethod(httpGet);
+			 CloseableHttpResponse response = client.execute(httpGet);
 			//System.out.println("http get: " + url + " status: " + statusCode);
 			// Make sure only success code content is returned, else return
 			// blank.
-			if (statusCode != HttpStatus.SC_OK) {
-				System.err.println("Method failed: " + httpGet.getStatusLine());
+			 
+			if (response.getStatusLine().getStatusCode() != HttpStatus.SC_OK) {
+				System.err.println("Method failed: " + response.getStatusLine());
 				httpGet.releaseConnection();
 				return null;
 			}
-			return httpGet.getResponseBodyAsStream();
-		} catch (HttpException e) {
+			return response.getEntity().getContent();
+		} catch (ClientProtocolException e) {
 			System.err.println("Fatal protocol violation: " + e.getMessage());
 			return null;
 		} catch (IOException e) {
