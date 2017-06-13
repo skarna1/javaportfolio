@@ -117,6 +117,7 @@ SAVOH Savo-Solar
 SCL1V Scanfil
 SIILI Siili Solutions (LP)
 SCI1V Sievi Capital
+SILMA Silmäasema Oyj
 SOL1V Solteq
 SNO1V Soprano (LP)
 SOSI1 Sotkamo Silver
