@@ -125,7 +125,6 @@ Kulutuspalvelut ; S ; RESTA ; Restamax ; 1 ; EUR
 Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
 Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
 Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
-Kulutuspalvelut ; S ; TTM1V ; Talentum ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
 Kulutustavarat ; S ; AMEAS ; Amer Sports A ; 1 ; EUR
@@ -1007,6 +1006,7 @@ vanhat osakkeet ; X ; SAT1V ; Satama Interactive ; 1
 vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
 vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
 vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
+vanhat osakkeet ; X ; TTM1V ; Talentum ; 1 ; EUR
 vanhat osakkeet ; X ; TAFPS ; Tamfelt Etu ; 1 ; EUR
 vanhat osakkeet ; X ; TAFKS ; Tamfelt Kanta ; 1 ; EUR
 vanhat osakkeet ; X ; TAF1V ; Tamfelt ; 1 ; EUR

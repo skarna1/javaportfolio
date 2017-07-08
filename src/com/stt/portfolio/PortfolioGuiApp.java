@@ -308,8 +308,8 @@ public class PortfolioGuiApp {
 		try {
 			in = new BufferedReader(new InputStreamReader(new FileInputStream(
 					filename), "ISO8859_1"));
-			String str;
-			str = in.readLine();
+			String str = in.readLine();
+			in.close();
 			return str;
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block

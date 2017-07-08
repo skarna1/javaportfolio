@@ -135,7 +135,6 @@ SUY1V Suominen
 TAALA Taaleri
 TAM1V Takoma
 TNOM Talenom (LP)
-TTM1V Talentum
 TLV1V Talvivaara (T)
 TPS1V Technopolis
 TEM1V Tecnotree (T)

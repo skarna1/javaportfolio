@@ -32,8 +32,6 @@ import com.stt.portfolio.gui.SubscriptionDialog;
 import com.stt.portfolio.gui.TaxDialog;
 import com.stt.portfolio.gui.TransferDialog;
 import com.stt.portfolio.gui.UpdateQuoteManuallyDialog;
-import com.stt.portfolio.quotes.QuoteManagerFactory;
-import com.stt.portfolio.quotes.portfoliofiles.FileQuoteManagerFactory;
 import com.stt.portfolio.transactions.Buy;
 import com.stt.portfolio.transactions.CapitalRepayment;
 import com.stt.portfolio.transactions.Dividend;
@@ -59,27 +57,15 @@ public class PortfolioDocument {
 	/** The public name of the portfolio. Stored in info.txt */
 	private String info;
 
-	/** The transaction parser. */
-//	private TransactionParser transactionParser = null;
-
-	/** The changes parser. */
-	ChangesParser changesParser = new ChangesParser("etc/muutokset.csv");
-
 	private Portfolio portfolio;
 
 	/** The portfolio view. */
-	PortfolioView portfolioView;
-
-	/**
-	 * The quote manager factory. The factory instantiates quote manager which
-	 * reads stock quotes from files
-	 */
-	QuoteManagerFactory quoteManagerFactory = new FileQuoteManagerFactory();
+	private PortfolioView portfolioView;
 
 	/** The ticker manager. */
-	I_TickerManager tickerManager = TickerManager.createTickerManager();
+	private I_TickerManager tickerManager = TickerManager.createTickerManager();
 
-	JFrame frame;
+	private JFrame frame;
 
 	public PortfolioDocument(JFrame frame) {
 	
@@ -90,7 +76,6 @@ public class PortfolioDocument {
 	}
 
 	public PortfolioDocument(JFrame frame, String name) {
-		
 		init(frame, name);
 	}
 
@@ -98,20 +83,15 @@ public class PortfolioDocument {
 		this.frame = frame;
 		this.name = name;
 		Date date = Calendar.getInstance().getTime();
-
-		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);
-		
+		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);	
 		portfolioView = new PortfolioView(this, portfolio, frame);
 	}
-
-	
 
 	public Portfolio getPortfolio() {
 		return portfolio;
 	}
 
 	public void redraw() {
-
 		portfolio.updateQuotes();
 		portfolioView.redraw();
 	}
@@ -189,9 +169,9 @@ public class PortfolioDocument {
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					new FileInputStream(filename), "ISO8859_1"));
 
-			String str;
-			str = in.readLine();
-
+			 
+			String str = in.readLine();
+			in.close(); 
 			portfolios.put(str, file.getName());
 		}
 
@@ -616,11 +596,9 @@ public class PortfolioDocument {
 
 	private void handleToggleShowPartial(boolean isSelected) {
 		portfolioView.toggleShowPartial(isSelected);
-
 	}
 
 	public void setInfo(String info) {
-
 		this.info = info;
 
 		String filename = PORTFOLIO_PATH + name + "/info.txt";
@@ -642,8 +620,8 @@ public class PortfolioDocument {
 	}
 
 	public void setPortfolioDate(Date date) {
-
 		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);
+		portfolioView.setPortfolio(portfolio);
 		redraw();
 	}
 

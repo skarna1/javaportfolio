@@ -24,11 +24,6 @@ public class Updater {
 		MorningstarQuoteFetcher fetcher = new MorningstarQuoteFetcher();
 		String uri = "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8W";
 		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tr[2]";
-		// TalentumQuoteFetcher fetcher = new TalentumStockQuoteFetcher();
-		// String uri =
-		// "http://porssi.arvopaperi.fi/list.aspx?list=FISHALLA&tabname=sharetab&chosenmenu=sharefinland";
-		// uri =
-		// "http://porssi.arvopaperi.fi/arvopaperi/site/list.page?magic=%28cc%20%28page%20finshares%29%20%28submenu%20all%29%29";
 		fetcher.setUri(uri);
 		fetcher.setXpath(xpath);
 		fetcher.setName("Nordnet superrahasto Suomi");

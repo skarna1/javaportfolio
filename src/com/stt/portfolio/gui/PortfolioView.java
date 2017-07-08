@@ -181,9 +181,9 @@ public class PortfolioView extends JPanel implements ActionListener, PropertyCha
 		Object[][] bookEntries = null;
 
 		if (brokerList.getBrokerList().getSelectedIndex() == 0) {
-			bookEntries = portfolioDoc.getPortfolio().getCombinedBookEntryTable(showItems);
+			bookEntries = portfolio.getCombinedBookEntryTable(showItems);
 		} else {
-			bookEntries = portfolioDoc.getPortfolio().getBookEntryTable(brokerList.getSelectedBroker(), showItems);
+			bookEntries = portfolio.getBookEntryTable(brokerList.getSelectedBroker(), showItems);
 		}
 		return bookEntries;
 	}
@@ -203,5 +203,10 @@ public class PortfolioView extends JPanel implements ActionListener, PropertyCha
 			// System.out.println((Date)evt.getNewValue());
 			portfolioDoc.setPortfolioDate((Date) evt.getNewValue());
 		}
+	}
+
+	public void setPortfolio(Portfolio portfolio) {
+		this.portfolio = portfolio;
+		
 	}
 }
