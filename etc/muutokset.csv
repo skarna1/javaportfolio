@@ -102,12 +102,12 @@
 27.11.2000 ; YLEPS ; SPLIT ; 1 ; 2
 27.11.2000 ; THT1V ; TUNNUSNIMI ; SOL1V ; TH Tiedonhallinta ; Solteq
 07.12.2000 ; NBH1V ; TUNNUSNIMI ; NDA1V ; Nordic Baltic Holding ; Nordea
-02.04.2001 ; RAP1V ; NIMI ; Rapala Normark ; Rapala VMC
 22.12.2000 ; SHEAV ; TUNNUS ; SHE1V
 28.12.2000 ; PHA1V ; SPLIT ; 1 ; 5
 13.02.2001 ; SHE1V ; SPLIT ; 1 ; 3
 16.02.2001 ; TPO1V ; TUNNUSNIMI ; SOO1V ; Tampereen Puhelin ; Soon Communications
 07.03.2001 ; FIFAS ; SPLIT ; 1 ; 2
+02.04.2001 ; RAP1V ; NIMI ; Rapala Normark ; Rapala VMC^M
 02.04.2001 ; PANAS ; SPLIT ; 1 ; 6
 02.04.2001 ; PANBS ; SPLIT ; 1 ; 6
 02.04.2001 ; VCCAV ; NIMI ; Vestcap A ; CapMan
@@ -220,9 +220,9 @@
 03.12.2013; KNEBV ; SPLIT ; 1 ; 2
 02.01.2014; MEO1V ; JAKAUTUMINEN ; 2 ; MEO1V ; Metso ; 0.788 ; 1.0 ; VALMT ; Valmet ; 0.212 ; 1
 28.03.2014; VAC1V ; SPLIT ; 1 ; 2
+20.06.2014 ; OUT1V ; SPLIT ; 25 ; 1^M
 07.05.2015 ; SSK1S ; TUNNUSNIMI ; INVEST ; SSK S. Sääst.Kiint. ; Investors House
 15.05.2015 ; CNC1V ; TUNNUSNIMI ; VALOE ; Cencorp ; Valoe
-20.06.2014 ; OUT1V ; SPLIT ; 25 ; 1
 02.06.2015 ; NES1V ; TUNNUSNIMI ; NESTE ; Neste Oil ; Neste
 23.06.2015 ; NVABV ; TUNNUS ; NORVE ;
 02.07.2015 ; EBC1V ; TUNNUSNIMI ; BITTI ; Elektrobit ; Bittium
