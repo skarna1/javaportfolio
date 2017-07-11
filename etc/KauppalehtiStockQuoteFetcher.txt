@@ -6,7 +6,7 @@ AKTAV Aktia Pankki A
 AKTRV Aktia Pankki R
 ALMA Alma Media
 AMEAS Amer Sports A
-APETI Apetit (LP)
+APETI Apetit
 ATG1V Asiakastieto Group
 ASU1V Aspo (LP)
 ACG1V Aspocomp Group
@@ -32,7 +32,7 @@ ELEAV Elecster A
 ELISA Elisa
 ENDOM Endomines (LP)
 EQV1V eQ
-ETT1V Etteplan (LP)
+ETT1V Etteplan
 EVLI Evli Pankki
 EXL1V Exel Composites
 FIA1S Finnair
@@ -46,7 +46,7 @@ GEO1V GeoSentric
 GLA1V Glaston
 HRTIS Herantis Pharma
 HKSAV HKScan A
-HONBS Honkarakenne B (LP)
+HONBS Honkarakenne B
 HUH1V Huhtamäki
 ILK1S Ilkka-Yhtymä 1
 ILK2S Ilkka-Yhtymä II
@@ -62,12 +62,12 @@ KESKOB Kesko B
 KELAS Kesla A
 KNEBV Kone
 KCR Konecranes
-PIZZA Kotipizza Group (LP)
+PIZZA Kotipizza Group
 LAT1V Lassila & Tikanoja
 LEHTO Lehto Group
-LEM1S Lemminkäinen
+LEM1S Lemminkäinen (T)
 MMO1V Marimekko
-MARAS Martela A (LP)
+MARAS Martela A
 METSO Metso
 METSA Metsä Board A
 METSB Metsä Board B
@@ -115,11 +115,11 @@ SAMPO Sampo A
 SAA1V Sanoma
 SAVOH Savo-Solar
 SCL1V Scanfil
-SIILI Siili Solutions (LP)
+SIILI Siili Solutions
 SCI1V Sievi Capital
 SILMA Silmäasema Oyj
 SOL1V Solteq
-SNO1V Soprano (LP)
+SNO1V Soprano
 SOSI1 Sotkamo Silver
 SDA1V Sponda (T)
 SRV1V SRV Yhtiöt
@@ -134,7 +134,7 @@ HOIVA Suomen Hoivatilat
 SUY1V Suominen
 TAALA Taaleri
 TAM1V Takoma
-TNOM Talenom (LP)
+TNOM Talenom
 TLV1V Talvivaara (T)
 TPS1V Technopolis
 TEM1V Tecnotree (T)
@@ -152,6 +152,7 @@ UPONOR Uponor
 WAT1V Uutechnic Group (LP)
 VAC1V Vacon
 VAIAS Vaisala A
+VALOE Valoe (T)
 VALMT Valmet
 VERK Verkkokauppa Oyj
 VIK1V Viking Line
