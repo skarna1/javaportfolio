@@ -1,5 +1,5 @@
 AFAGR Afarak Group
-AFE1V Affecto (LP)
+AFE1V Affecto (T,LP)
 AM1 Ahlstrom-Munksjö
 AHOLA Oyj Ahola Transport Abp
 AKTAV Aktia Pankki A
