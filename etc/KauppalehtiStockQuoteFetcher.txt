@@ -83,7 +83,7 @@ NORVE Norvestia (T)
 NLG1V Nurminen Logistics
 OKM1V Okmetic 
 OLVAS Olvi A
-OREIT Orava Asuntorahasto (LP)
+OREIT Orava Asuntorahasto (T,LP)
 OKDAV Oriola A
 OKDBV Oriola B
 ORNAV Orion A
@@ -143,6 +143,7 @@ TELIA1 Telia Company
 TIE1V Tieto
 TII1V Tiimari
 TIK1V Tikkurila
+TITAN Titanium Oyj
 TOKMAN Tokmanni Group
 TULAV Tulikivi A
 TUT1V Turvatiimi
