@@ -72,6 +72,7 @@ teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RMR1V ; Ramirent ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RUTAV ; Raute A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ROBIT ; Robit ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
@@ -155,7 +156,6 @@ First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NIXU ; Nixu ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
-First North ; S ; ROBIT ; Robit ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; TNOM ; Talenom ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
@@ -1152,7 +1152,7 @@ NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
 NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
 NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
 NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
-NYSE ; S ; IBM ;  IBM ; 1 ; USD ; USA     
+NYSE ; S ; IBM ;  IBM ; 1 ; USD ; USA
 NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
 NYSE ; S ; KFT ; Kraft Foods A ; 1; USD ; USA
 NYSE ; S ; KGC ; Kinross Gold Corp ; 1; USD ; Kanada
@@ -1179,7 +1179,7 @@ NYSE ; S ; VGK ; Vanguard Europe ; 1 ; USD ; Eurooppa
 NYSE ; S ; VNM ; Vietnam ETF ; 1 ; USD ; Kehittyvät
 NYSE ; S ; VTI ; Vanguard Total Stock Market ; 1 ; USD ; USA
 NYSE ; S ; VTR ; Ventas ; 1 ; USD ; USA
-NYSE ; S ; WPC ; W.P. Carey ; 1 ; USD ; USA^M
+NYSE ; S ; WPC ; W.P. Carey ; 1 ; USD ; USA
 OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
@@ -1190,4 +1190,4 @@ XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
 XTRA ; S ; SXR8 ; Ishares core S&P 500 ETF ; 1 ; EUR; USA
 XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; DBX6 ; Brasilia ETF ; 1 ; EUR; Kehittyvät
-XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Euroopa
+XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
