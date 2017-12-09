@@ -27,8 +27,10 @@ DETEC Detection Technology
 DIG1V Digia
 DNA   DNA
 DOV1V Dovre Group
+EFECTE Efecte Oyj
 EFO1V Efore
 ELEAV Elecster A
+ELVH  Elite Varainhoito
 ELISA Elisa
 ENDOM Endomines (LP)
 EQV1V eQ
@@ -36,6 +38,7 @@ ETT1V Etteplan
 EVLI Evli Pankki
 EXL1V Exel Composites
 FIA1S Finnair
+FITBIO FIT Biotech
 FLG1S Finnlines
 FONDIA Fondia
 FSKRS Fiskars
@@ -44,6 +47,8 @@ FORTUM Fortum
 FSC1V F-Secure
 GEO1V GeoSentric
 GLA1V Glaston
+GOFORE Gofore Oyj
+HEEROS Heeros
 HRTIS Herantis Pharma
 HKSAV HKScan A
 HONBS Honkarakenne B
@@ -83,7 +88,7 @@ NORVE Norvestia (T)
 NLG1V Nurminen Logistics
 OKM1V Okmetic 
 OLVAS Olvi A
-OREIT Orava Asuntorahasto (T,LP)
+OREIT Orava Asuntorahasto (LP)
 OKDAV Oriola A
 OKDBV Oriola B
 ORNAV Orion A
