@@ -85,7 +85,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		if (value.startsWith("EUR")) {
 			value = value.replaceAll("EURÂ ", "");
 		} else {
-			YahooCurrencyQuoteFetcher kl = new YahooCurrencyQuoteFetcher();
+			KauppalehtiExchangerateFetcher kl = new KauppalehtiExchangerateFetcher();
 
 			String ccy = value.substring(0, 3);
 			rate = kl.getExchangeRate(ccy);
