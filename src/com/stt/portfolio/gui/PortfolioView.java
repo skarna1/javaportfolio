@@ -91,7 +91,7 @@ public class PortfolioView extends JPanel implements ActionListener, PropertyCha
 
 		add(top, BorderLayout.PAGE_START);
 
-		bookEntryPane = new PortfolioTable(bookEntries);
+		bookEntryPane = new PortfolioTable(bookEntries, portfolio);
 		// PortfolioModel model = new
 		// PortfolioModel(portfolio.getCombinedBookEntryList());
 		// bookEntryPane = new JTreeTable((model));

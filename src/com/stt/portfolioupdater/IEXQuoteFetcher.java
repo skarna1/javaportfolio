@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -87,8 +88,14 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 		// date format: December 15, 2017
 		// System.out.println(symbol + " " + datestr);
 		if (!datestr.trim().equals("N/A")) {
-			DateFormat df = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
-			Date date = df.parse(datestr);
+			Date date = null;
+			if (datestr.toUpperCase().endsWith("M")) {
+			    date = Calendar.getInstance().getTime();
+			}
+			else {
+				DateFormat df = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
+				date = df.parse(datestr);
+			}
 			Item item = new Item();
 			item.setValues(symbol, last, high, low, volume, date, rate);
 			items.add(item);

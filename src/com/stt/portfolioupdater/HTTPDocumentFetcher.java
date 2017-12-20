@@ -9,6 +9,7 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.apache.http.HttpHost;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.config.CookieSpecs;
@@ -61,6 +62,7 @@ public abstract class HTTPDocumentFetcher {
 		        .setSocketTimeout(5000)
 		        .build();
 		CloseableHttpClient client = HttpClients.custom()
+				.useSystemProperties()
 		        .setDefaultRequestConfig(globalConfig)
 		        .build();
 	    

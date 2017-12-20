@@ -5,6 +5,8 @@ import java.awt.Dimension;
 import javax.swing.JTable;
 import javax.swing.table.TableCellRenderer;
 
+import com.stt.portfolio.Portfolio;
+
 public class PortfolioTable extends JTable {
 
 	/**
@@ -29,8 +31,9 @@ public class PortfolioTable extends JTable {
 	TableCellRenderer cellRendererGreenRight = null;
 	TableCellRenderer cellRendererYellowLeft = null;
 	TableCellRenderer cellRendererYellowRight = null;
-
-	public PortfolioTable(Object[][] bookEntries) {
+	Portfolio portfolio;
+	
+	public PortfolioTable(Object[][] bookEntries, Portfolio portfolio) {
 		super();
 
 		cellRendererRedLeft = new CellRenderer(java.awt.Color.RED, false, null);
@@ -45,6 +48,7 @@ public class PortfolioTable extends JTable {
 		setAutoCreateRowSorter(true);
 
 		changeContent(bookEntries);
+		this.portfolio = portfolio;
 
 	}
 
@@ -68,6 +72,7 @@ public class PortfolioTable extends JTable {
 		int modelRow = getRowSorter().convertRowIndexToModel(row);
 		Double profitPercentage = (Double) getModel().getValueAt(modelRow, 12);
 		String name = (String) getModel().getValueAt(modelRow, 0);
+		name = name + " " + portfolio.getTicker(name);
 		if (profitPercentage != null) {
 			if (profitPercentage < -10.0) {
 				return new CellRenderer(java.awt.Color.RED, (column != 0), name);
