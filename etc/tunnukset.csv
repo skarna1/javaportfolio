@@ -29,6 +29,7 @@ rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
 perusteollisuus ; S ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
+perusteollisuus ; S ; AHTIUM ; Ahtium ; 1 ; EUR
 perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
 perusteollisuus ; S ; KRA1V ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
@@ -39,7 +40,6 @@ perusteollisuus ; S ; SSABAH ; SSAB A ; 1 ; EUR
 perusteollisuus ; S ; SSABBH ; SSAB B ; 1 ; EUR
 perusteollisuus ; S ; STEAV ; Stora Enso A ; 1 ; EUR
 perusteollisuus ; S ; STERV ; Stora Enso R ; 1 ; EUR
-perusteollisuus ; S ; TLV1V ; Talvivaaran kaivosyhtiö ; 1 ; EUR
 perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ASU1V ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
@@ -1012,6 +1012,7 @@ vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
 vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
 vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
 vanhat osakkeet ; X ; TTM1V ; Talentum ; 1 ; EUR
+vanhat osakkeet ; X ; TLV1V ; Talvivaaran kaivosyhtiö ; 1 ; EUR
 vanhat osakkeet ; X ; TAFPS ; Tamfelt Etu ; 1 ; EUR
 vanhat osakkeet ; X ; TAFKS ; Tamfelt Kanta ; 1 ; EUR
 vanhat osakkeet ; X ; TAF1V ; Tamfelt ; 1 ; EUR
