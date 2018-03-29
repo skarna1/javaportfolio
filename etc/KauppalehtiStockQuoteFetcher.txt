@@ -1,6 +1,7 @@
 ADMCM Admicom Oyj (LP)
 AFAGR Afarak Group
 AFE1V Affecto (T,LP)
+ALTIA Altia
 AM1 Ahlstrom-Munksjö
 AHOLA Oyj Ahola Transport Abp
 AKTAV Aktia Pankki A
@@ -46,9 +47,9 @@ FSKRS Fiskars
 FITBIO FIT Biotech
 FORTUM Fortum
 FSC1V F-Secure
-GEO1V GeoSentric
 GLA1V Glaston
 GOFORE Gofore Oyj
+HARVIA Harvia
 HEEROS Heeros
 HRTIS Herantis Pharma
 HKSAV HKScan A
@@ -71,7 +72,6 @@ KCR Konecranes
 PIZZA Kotipizza Group
 LAT1V Lassila & Tikanoja
 LEHTO Lehto Group
-LEM1S Lemminkäinen (T)
 MMO1V Marimekko
 MARAS Martela A
 METSO Metso
@@ -85,9 +85,7 @@ NIXU Nixu
 NOKIA Nokia
 NRE1V Nokian Renkaat
 NDA1V Nordea Bank
-NORVE Norvestia (T)
 NLG1V Nurminen Logistics
-OKM1V Okmetic 
 OLVAS Olvi A
 OREIT Orava Asuntorahasto (LP)
 OKDAV Oriola A
@@ -142,7 +140,6 @@ SUY1V Suominen
 TAALA Taaleri
 TAM1V Takoma
 TNOM Talenom
-TLV1V Talvivaara (T)
 TPS1V Technopolis
 TEM1V Tecnotree (T)
 TEL1V Teleste
