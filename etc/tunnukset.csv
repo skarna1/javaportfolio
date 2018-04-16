@@ -7,8 +7,7 @@ terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
 terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
 terveydenhuolto ; S ; SILMA ; Silmäasema ; 1 ; EUR
-rahoitus ; S ; AKTAV ; Aktia A ; 1 ; EUR
-rahoitus ; S ; AKTRV ; Aktia R ; 1 ; EUR
+rahoitus ; S ; AKTIA ; Aktia; 1 ; EUR
 rahoitus ; S ; ATG1V ; Asiakastieto ; 1 ; EUR
 rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
 rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
@@ -839,6 +838,8 @@ hedge rahasto ; F ; AVENIRA ; Avenir A ; 1
 hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
 vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
+vanhat osakkeet ; X ; AKTAV ; Aktia A ; 1 ; EUR
+vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
 vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
 vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR

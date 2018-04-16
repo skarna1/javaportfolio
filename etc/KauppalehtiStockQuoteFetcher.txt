@@ -4,8 +4,7 @@ AFE1V Affecto (T,LP)
 ALTIA Altia
 AM1 Ahlstrom-Munksjö
 AHOLA Oyj Ahola Transport Abp
-AKTAV Aktia Pankki A
-AKTRV Aktia Pankki R
+AKTIA Aktia Pankki
 ALMA Alma Media
 AMEAS Amer Sports A
 APETI Apetit
