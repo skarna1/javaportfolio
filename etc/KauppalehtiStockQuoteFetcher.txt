@@ -35,6 +35,7 @@ ELVH  Elite Varainhoito
 ELISA Elisa
 ENDOM Endomines (LP)
 EQV1V eQ
+ESENSE Enersense International Oyj
 ETT1V Etteplan
 EVLI Evli Pankki
 EXL1V Exel Composites
