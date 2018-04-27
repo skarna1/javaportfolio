@@ -15,6 +15,7 @@ ATRAV Atria A
 BAS1V Basware
 BIOBV Biohit B
 BITTI Bittium
+BONE BBS-Bioactive Bone Substitutes
 CAV1V Caverion
 CAPMAN CapMan
 CGCBV Cargotec
