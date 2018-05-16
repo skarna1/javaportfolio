@@ -56,7 +56,7 @@ public class UpdateQuoteManuallyDialog extends BaseDialog {
 		priceFieldLabel = new JLabel("Noteeraus: ");
 		priceFieldLabel.setLabelFor(priceField);
 				
-		updateRateField(name);
+		updateRateFieldForce(name);
 		
 		init(getDialogLabels(), getDialogComponents());
 	}
