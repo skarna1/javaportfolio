@@ -1,6 +1,5 @@
 ADMCM Admicom Oyj (LP)
 AFAGR Afarak Group
-AFE1V Affecto (T,LP)
 ALTIA Altia
 AM1 Ahlstrom-Munksjö
 AHOLA Oyj Ahola Transport Abp
@@ -68,6 +67,7 @@ KSLAV Keskisuomalainen A
 KESKOA Kesko A
 KESKOB Kesko B
 KELAS Kesla A
+KOJAMO Kojamo
 KNEBV Kone
 KCR Konecranes
 PIZZA Kotipizza Group
