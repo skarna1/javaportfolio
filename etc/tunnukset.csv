@@ -839,7 +839,7 @@ kv. pitkän koron rahasto ; F ; SEBSBONINT ; SEB Lux International Bond ; 1
 hedge rahasto ; F ; AVENIRA ; Avenir A ; 1
 hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
-vanhat osakkeet ; S ; AFE1V ; Affecto ; 1 ; EUR
+vanhat osakkeet ; X ; AFE1V ; Affecto ; 1 ; EUR
 vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
 vanhat osakkeet ; X ; AKTAV ; Aktia A ; 1 ; EUR
 vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
@@ -1017,9 +1017,10 @@ vanhat osakkeet ; X ; SWSAV ; Sanoma-WSOY A ; 1
 vanhat osakkeet ; X ; SWSBV ; Sanoma-WSOY B ; 1
 vanhat osakkeet ; X ; SAT1V ; Satama Interactive ; 1
 vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
+vanhat osakkeet ; X ; SDA1V ; Sponda ; 1 ; EUR
 vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
 vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
-vanhat osakkeet ; S ; TAM1V ; Takoma ; 1 ; EUR
+vanhat osakkeet ; X ; TAM1V ; Takoma ; 1 ; EUR
 vanhat osakkeet ; X ; TTM1V ; Talentum ; 1 ; EUR
 vanhat osakkeet ; X ; TLV1V ; Talvivaaran kaivosyhtiö ; 1 ; EUR
 vanhat osakkeet ; X ; TAFPS ; Tamfelt Etu ; 1 ; EUR
