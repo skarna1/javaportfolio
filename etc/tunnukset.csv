@@ -112,7 +112,7 @@ teknologia ; S ; SOPRA ; Soprano ; 1 ; EUR
 teknologia ; S ; SSH1V ; SSH Communications Security ; 1 ; EUR
 teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
-teknologia ; S ; TIE1V ; Tieto ; 1 ; EUR
+teknologia ; S ; TIETO ; Tieto ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
@@ -1038,6 +1038,7 @@ vanhat osakkeet ; X ; TLS1VSR111 ; TeliaSonera myyntioikeus ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; TLS1V ; TeliaSonera ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; TEP1S ; Tervak. Puuhamaa ; 1
 vanhat osakkeet ; X ; SUT1V ; Terveystalo healthcare ; 1
+vanhat osakkeet ; X ; TIE1V ; Tieto ; 1 ; EUR
 vanhat osakkeet ; X ; TIX1V ; Tieto-X ; 1
 vanhat osakkeet ; X ; TJT1V ; TJ Group ; 1
 vanhat osakkeet ; X ; TMA1V ; Tilamarkkinat-yhtiöt ; 1
