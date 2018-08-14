@@ -145,7 +145,7 @@ TPS1V Technopolis
 TEM1V Tecnotree (T)
 TEL1V Teleste
 TELIA1 Telia Company
-TIE1V Tieto
+TIETO Tieto
 TII1V Tiimari
 TIK1V Tikkurila
 TITAN Titanium Oyj
