@@ -2,7 +2,7 @@ ADMCM Admicom Oyj (LP)
 AFAGR Afarak Group
 ALTIA Altia
 AM1 Ahlstrom-Munksjö
-AHOLA Oyj Ahola Transport Abp
+AHOLA Ahola Transport A
 AKTIA Aktia Pankki
 ALMA Alma Media
 AMEAS Amer Sports A
@@ -19,19 +19,17 @@ CAV1V Caverion
 CAPMAN CapMan
 CGCBV Cargotec
 CTY1S Citycon
-CLEAN Cleantech Invest (LP)
 CONSTI Consti Yhtiöt
 CTH1V Componenta (T)
-CTL1V Comptel (T)
 CRA1V Cramo
 DETEC Detection Technology
 DIG1V Digia
 DNA   DNA
 DOV1V Dovre Group
+EABGB EAB Group (LP)
 EFECTE Efecte Oyj
 EFO1V Efore
 ELEAV Elecster A
-ELVH  Elite Varainhoito
 ELISA Elisa
 ENDOM Endomines (LP)
 EQV1V eQ
@@ -41,7 +39,6 @@ EVLI Evli Pankki
 EXL1V Exel Composites
 FIA1S Finnair
 FITBIO FIT Biotech
-FLG1S Finnlines
 FONDIA Fondia
 FSKRS Fiskars
 FITBIO FIT Biotech
@@ -70,6 +67,7 @@ KELAS Kesla A
 KOJAMO Kojamo
 KNEBV Kone
 KCR Konecranes
+LOUD Loudspring
 PIZZA Kotipizza Group
 LAT1V Lassila & Tikanoja
 LEHTO Lehto Group
@@ -80,8 +78,8 @@ METSA Metsä Board A
 METSB Metsä Board B
 NEO1V Neo Industrial
 NESTE Neste
-NXTMH Nexstim Plc
-NXTGMS Next Games Oyj
+NXTMH Nexstim
+NXTGMS Next Games
 NIXU Nixu
 NOKIA Nokia
 NRE1V Nokian Renkaat
@@ -98,7 +96,6 @@ OTE1V Outotec
 PNA1V Panostaja
 PIHLIS Pihlajalinna
 PIIPPO Piippo
-PKC1V PKC Group (T)
 PKKAS Pohjois-Karjalan Kirjapaino (LP)
 PON1V Ponsse
 PRIVA Privanet Group
@@ -127,7 +124,6 @@ SILMA Silmäasema Oyj
 SOL1V Solteq
 SNO1V Soprano
 SOSI1 Sotkamo Silver
-SDA1V Sponda (T)
 SRV1V SRV Yhtiöt
 SSABAH SSAB A
 SSABBH SSAB B
@@ -141,12 +137,11 @@ SUY1V Suominen
 TAALA Taaleri
 TAM1V Takoma
 TNOM Talenom
-TPS1V Technopolis
+TPS1V Technopolis (T)
 TEM1V Tecnotree (T)
 TEL1V Teleste
 TELIA1 Telia Company
 TIETO Tieto
-TII1V Tiimari
 TIK1V Tikkurila
 TITAN Titanium Oyj
 TOKMAN Tokmanni Group
@@ -156,18 +151,17 @@ UPM UPM-Kymmene
 UNIAV United Bankers
 UPONOR Uponor
 WAT1V Uutechnic Group (LP)
-VAC1V Vacon
 VAIAS Vaisala A
 VALOE Valoe (T)
 VALMT Valmet
-VERK Verkkokauppa Oyj
+VERK Verkkokauppa.com
 VIK1V Viking Line
-VINCIT Vincit Group
+VINCIT Vincit
 WUF1V Wulff-Yhtiöt
 WRT1V Wärtsilä
 YTY1V YIT
 YLEPS Yleiselektroniikka E
-ZEE1V Zeeland Oyj
+ZEE1V Zeeland Family
 ALBAV Ålandsbanken A
 ALBBV Ålandsbanken B
 SLGOMXH25 OMXH25 ETF
