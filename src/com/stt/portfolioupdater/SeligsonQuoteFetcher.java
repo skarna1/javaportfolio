@@ -11,7 +11,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 	public List<Item> parseHtml() {
 		//System.out.println(getUri());
 		//System.out.println(getXpath());
-		//xpath="//table[@border='0' and @cellspacing='1' and @width='630' and @align='left']/tr"
+		
 		
 		List<Item> items = new ArrayList<>();
 
@@ -23,20 +23,12 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 				//System.out.println("Nodes: " + nodes.getLength());
 				for (int i = 0; i < nodes.getLength(); i++) {
 					org.w3c.dom.Node tr = nodes.item(i);
-
 					Item itemA = new Item();
-					Item itemB = new Item();
-					parseRow(itemA, tr, true);
-					parseRow(itemB, tr, false);
+					parseRow(itemA, tr);
 					//itemA.print();
-					//itemB.print();
+					
 					if (itemA.getTicker() != null) {
 						items.add(itemA);
-						
-					}
-					if (itemB.getTicker() != null) {
-						items.add(itemB);
-			
 					}
 				}
 			}
@@ -48,17 +40,16 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		return items;
 	}
 
-	private void parseRow(Item item, org.w3c.dom.Node tr, boolean isA) {
+	private void parseRow(Item item, org.w3c.dom.Node tr) {
 		org.w3c.dom.NodeList nodes = tr.getChildNodes();
 		for (int i = 0; i < nodes.getLength(); ++i) {
 			org.w3c.dom.Node td = nodes.item(i);
 
-			parseColumn(item, i, td, isA);
-			
+			parseColumn(item, i, td);
 		}
 	}
 
-	private void parseColumn(Item item, int column, org.w3c.dom.Node td, boolean isA) {
+	private void parseColumn(Item item, int column, org.w3c.dom.Node td) {
 		org.w3c.dom.NodeList nodes = td.getChildNodes();
 		for (int i = 0; i < nodes.getLength(); ++i) {
 			org.w3c.dom.Node tdNode = nodes.item(i);
@@ -66,40 +57,29 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			String value = tdNode.getNodeValue().trim();
 			value = value.replace(',', '.');
 			value = value.replaceAll(" ", "");
-		
+			value = value.replaceAll("[^\\d.]", "");
+			//System.out.println("column " + column + " " + "value " + value);
 			if (column == 0) {
 				if (tdNode.getNodeName().equalsIgnoreCase("a")) {
 					org.w3c.dom.Node n = tdNode.getFirstChild();
 					String name = n.getNodeValue();
-
 					item.setName(name);
-					
-					item.setTicker(getTicker(name, isA));
-					
-					
+					item.setTicker(getTicker(name));
 				}
 			} else if (column == 1) { // date
 				try {
-					
-					
 					Date date = parseDate(value);
 					item.setGivenDate(date);
 					//System.out.println(date);
 				} catch (Exception e) {
 				}
-			} else if (column == 2 && isA) { // Value of Kasvu osuus
+			} else if (column == 2) { // Value of Kasvu osuus
 				try {
 					setItemValues(item, value);
 					
 				} catch (Exception e) {
 				}
-			} else if (column == 3 && ! isA) { // Value of Tuotto osuus
-				try {
-					setItemValues(item, value);
-				} catch (Exception e) {
-				}
-			}
-			
+			} 
 		}
 	}
 
@@ -111,8 +91,8 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		item.setDecimals(4);
 	}
 	
-	private String getTicker(String name, boolean isA) {
-		String suffix = (isA) ? "A" : "B" ;
+	private String getTicker(String name) {
+		String suffix = "A";
 		//System.out.println(name + "  " + suffix);
 		if (name.equalsIgnoreCase("Aasia")) {
 			return "SELIGJAP" + suffix;
@@ -124,7 +104,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			return "SELEUROBL" + suffix;
 		}else if (name.equalsIgnoreCase("Suomi")) {
 			return "SELIGSUOM" + suffix;
-		}else if (name.startsWith("OMXH 25 ETF") && !isA) {
+		}else if (name.startsWith("OMXH 25 ETF")) {
 			return "SLGOMXH25";
 		}else if (name.equalsIgnoreCase("Global Brands")) {
 			return "SELGLOBAL" + suffix;
@@ -136,10 +116,8 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			return "SELIGKEHM" + suffix;
 		}else if (name.equalsIgnoreCase("Eurooppa")) {
 			return "SELIGEUR" + suffix;
-		}else if (name.equalsIgnoreCase("Russian Prosperity") && isA) {
+		}else if (name.equalsIgnoreCase("Russian Prosperity")) {
 			return "SELIGPRORU";
-		}else if (name.equalsIgnoreCase("Russian Prosperity") && !isA) {
-			return "SELIGRUPRK";
 		}else if (name.equalsIgnoreCase("Pharos")) {
 			return "SELIGPHAR" + suffix;
 		}else if (name.equalsIgnoreCase("Phoenix")) {
@@ -151,6 +129,4 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		}
 		return null;
 	}
-
-	
 }
