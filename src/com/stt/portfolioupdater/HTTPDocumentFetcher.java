@@ -2,6 +2,7 @@ package com.stt.portfolioupdater;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
@@ -9,8 +10,9 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.apache.http.HttpHost;
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
+import org.apache.http.entity.ContentType;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;
@@ -18,7 +20,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-
+import java.nio.charset.Charset;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
@@ -28,10 +30,10 @@ public abstract class HTTPDocumentFetcher {
 
 	String xpath= null;
 	String uri = null;
-	
+	Charset charset = null;
 	
 	public HTTPDocumentFetcher() {
-		super();
+		super();		
 	}
 	
 	protected org.w3c.dom.NodeList fetchNodes(String uri, String xpathExpression)
@@ -79,7 +81,12 @@ public abstract class HTTPDocumentFetcher {
 				httpGet.releaseConnection();
 				return null;
 			}
-			return response.getEntity().getContent();
+			HttpEntity entity = response.getEntity();
+			ContentType contentType = ContentType.getOrDefault(entity);
+	        this.charset = contentType.getCharset();
+	        //System.out.println("Charset: " + charset);
+			return entity.getContent();
+			
 		} catch (ClientProtocolException e) {
 			System.err.println("Fatal protocol violation: " + e.getMessage());
 			return null;
@@ -93,8 +100,8 @@ public abstract class HTTPDocumentFetcher {
 		Tidy tidy = new Tidy();
 		tidy.setQuiet(true);
 		tidy.setShowWarnings(false);
-
-		Document dom = tidy.parseDOM(in, null);
+		InputStreamReader reader = new InputStreamReader(in, this.charset);
+		Document dom = tidy.parseDOM(reader, null);
 		return dom;
 	}
 
@@ -113,5 +120,4 @@ public abstract class HTTPDocumentFetcher {
 	public void setUri(String uri) {
 		this.uri = uri;
 	}
-
 }
