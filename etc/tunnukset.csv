@@ -15,9 +15,9 @@ rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
-rahoitus ; S ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
+rahoitus ; S ; NDAFI ; Nordea ; 1 ; EUR ;
 rahoitus ; S ; NORVE ; Norvestia ; 1 ; EUR
-rahoitus ; S ; OREIT ; Orava Asuntorahasto ; 1 ; EUR
+rahoitus ; S ; OVARO ; Ovaro Kiinteistösijoitus Oyj ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
@@ -950,6 +950,7 @@ vanhat osakkeet ; X ; NOK1VEW195 ; Nokia Oyj 95 B-opt. ; 1
 vanhat osakkeet ; X ; NOK1V ; Nokia ; 1 ; EUR
 vanhat osakkeet ; X ; NOKES ; Nokia etu ; 1
 vanhat osakkeet ; X ; NOKEUUS ; Nokia etu uusi ; 1
+vanhat osakkeet ; X ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
 vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
@@ -957,6 +958,7 @@ vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
 vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1
 vanhat osakkeet ; X ; ORA1V ; Oral Hammaslääkärit ; 1 ; EUR
+vanhat osakkeet ; X ; OREIT ; Orava Asuntorahasto ; 1 ; EUR
 vanhat osakkeet ; X ; ORIAS ; Orion A ; 1
 vanhat osakkeet ; X ; ORIBS ; Orion B ; 1
 vanhat osakkeet ; X ; ORNAS ; Orion A (Ennen jakautumista) ; 1

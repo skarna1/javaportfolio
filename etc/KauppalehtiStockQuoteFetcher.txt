@@ -83,16 +83,16 @@ NXTGMS Next Games
 NIXU Nixu
 NOKIA Nokia
 NRE1V Nokian Renkaat
-NDA1V Nordea Bank
+NDAFI Nordea Bank
 NLG1V Nurminen Logistics
 OLVAS Olvi A
-OREIT Orava Asuntorahasto (LP)
 OKDAV Oriola A
 OKDBV Oriola B
 ORNAV Orion A
 ORNBV Orion B
 OUT1V Outokumpu
 OTE1V Outotec
+OVARO Ovaro Kiinteistösijoitus Oyj (LP)
 PNA1V Panostaja
 PIHLIS Pihlajalinna
 PIIPPO Piippo
