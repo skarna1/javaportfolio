@@ -83,7 +83,7 @@ NXTGMS Next Games
 NIXU Nixu
 NOKIA Nokia
 NRE1V Nokian Renkaat
-NDAFI Nordea Bank
+NDAFI Nordea Bank Abp
 NLG1V Nurminen Logistics
 OLVAS Olvi A
 OKDAV Oriola A
