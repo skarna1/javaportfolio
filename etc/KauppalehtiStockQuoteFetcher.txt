@@ -11,6 +11,7 @@ ATG1V Asiakastieto Group
 ASU1V Aspo (LP)
 ACG1V Aspocomp Group
 ATRAV Atria A
+AVIDLY Avidly Oyj
 BAS1V Basware
 BIOBV Biohit B
 BITTI Bittium
@@ -157,11 +158,11 @@ VALMT Valmet
 VERK Verkkokauppa.com
 VIK1V Viking Line
 VINCIT Vincit
+VMP VMP Oyj
 WUF1V Wulff-Yhtiöt
 WRT1V Wärtsilä
 YTY1V YIT
 YLEPS Yleiselektroniikka E
-ZEE1V Zeeland Family
 ALBAV Ålandsbanken A
 ALBBV Ålandsbanken B
 SLGOMXH25 OMXH25 ETF

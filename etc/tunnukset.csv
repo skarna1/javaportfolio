@@ -150,6 +150,7 @@ Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
 First North ; S ; ADMCM ; Admicom ; 1 ; EUR
 First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
+First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
 First North ; S ; CLEAN ; Cleantech Invest ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
@@ -171,7 +172,7 @@ First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
 First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
-First North ; S ; ZEE1V ; Zeeland ; 1 ; EUR
+First North ; S ; VMP ; Vmp ; 1 ; EUR
 Indeksiosuudet ; S ; SLGOMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
 optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
 optiot ; O ; POH1SU0109 ; Pohjola 2009 MO ; 1 ; EUR
@@ -1062,6 +1063,7 @@ vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1
 vanhat osakkeet ; X ; WATKV ; Vaahto Group K ; 1
 vanhat osakkeet ; X ; WEN1V ; Wecan Electronics ; 1
 vanhat osakkeet ; X ; WIC1V ; Westend ICT ; 1 ; EUR
+vanhat osakkeet ; X ; ZEE1V ; Zeeland ; 1 ; EUR
 vanhat rahastot ; Y ; CONGLOBALA ; Conventum Global A ; 1
 vanhat rahastot ; Y ; CONGLOBALB ; Conventum Global B ; 1
 vanhat rahastot ; Y ; HANKORKO ; Handelsbanken Eurokorko ; 1
