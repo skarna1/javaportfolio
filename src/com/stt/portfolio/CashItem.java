@@ -13,7 +13,7 @@ public class CashItem implements Comparable<CashItem>  {
 	public CashItem(double cost, double costPershare, Date date, String itemType) {
 		this.date = date;
 		this.cost = cost;
-		this.costPerShare = costPerShare;
+		this.costPerShare = costPershare;
 		this.itemType = itemType;
 	}
 	
