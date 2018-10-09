@@ -30,6 +30,7 @@ public class CashItem implements Comparable<CashItem>  {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+	
 	public double getCost() {
 		return cost;
 	}
