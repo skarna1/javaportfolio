@@ -13,23 +13,20 @@ rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
 rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
+rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
 rahoitus ; S ; NDAFI ; Nordea ; 1 ; EUR ;
-rahoitus ; S ; NORVE ; Norvestia ; 1 ; EUR
 rahoitus ; S ; OVARO ; Ovaro Kiinteistösijoitus Oyj ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
-rahoitus ; S ; SDA1V ; Sponda ; 1 ; EUR
-rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
 rahoitus ; S ; TPS1V ; Technopolis ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
 perusteollisuus ; S ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
-perusteollisuus ; S ; AHTIUM ; Ahtium ; 1 ; EUR
 perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
 perusteollisuus ; S ; KRA1V ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
@@ -53,7 +50,6 @@ teollisuustuotteet ja -palvelut ; S ; EFO1V ; Efore ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; FLG1S ; Finnlines ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; HUH1V ; Huhtamäki ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
@@ -67,7 +63,6 @@ teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; OTE1V ; Outotec ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; PKC1V ; PKC Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RMR1V ; Ramirent ; 1 ; EUR
@@ -96,7 +91,6 @@ tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
 tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
 teknologia ; S ; BAS1V ; BasWare ; 1 ; EUR
 teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
-teknologia ; S ; CTL1V ; Comptel ; 1 ; EUR
 teknologia ; S ; DIG1V ; Digia ; 1 ; EUR
 teknologia ; S ; FSC1V ; F-Secure ; 1 ; EUR
 teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
@@ -843,6 +837,7 @@ hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
 vanhat osakkeet ; X ; AFE1V ; Affecto ; 1 ; EUR
 vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
+vanhat osakkeet ; X ; AHTIUM ; Ahtium ; 1 ; EUR
 vanhat osakkeet ; X ; AKTAV ; Aktia A ; 1 ; EUR
 vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
@@ -867,6 +862,7 @@ vanhat osakkeet ; X ; CHIAV ; Chips A ; 1
 vanhat osakkeet ; X ; CHIBV ; Chips B ; 1
 vanhat osakkeet ; X ; CLEAN ; Cleantech Invest ; 1 ; EUR
 vanhat osakkeet ; X ; CTA1V ; Componenta (vanha) ; 1
+vanhat osakkeet ; X ; CTL1V ; Comptel ; 1 ; EUR
 vanhat osakkeet ; X ; CVM1V ; Conventum ; 1
 vanhat osakkeet ; X ; DAN1V ; Danisco A/S FDR ; 1
 vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
@@ -892,6 +888,7 @@ vanhat osakkeet ; X ; FNV1V ; Finvest ; 1
 vanhat osakkeet ; X ; FISAS ; Fiskars A ; 1 ; EUR
 vanhat osakkeet ; X ; FISKS ; Fiskars K ; 1 ; EUR
 vanhat osakkeet ; X ; FIS1V ; Fiskars ; 1 ; EUR
+vanhat osakkeet ; X ; FLG1S ; Finnlines ; 1 ; EUR
 vanhat osakkeet ; X ; FOR1V ; Ford ; 1
 vanhat osakkeet ; X ; FUM1V ; Fortum ; 1 ; EUR
 vanhat osakkeet ; X ; FUM1VW200 ; Fortum bonus ; 1
@@ -956,6 +953,7 @@ vanhat osakkeet ; X ; NOKEUUS ; Nokia etu uusi ; 1
 vanhat osakkeet ; X ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
 vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
+vanhat osakkeet ; X ; NORVE ; Norvestia ; 1 ; EUR
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
@@ -970,6 +968,7 @@ vanhat osakkeet ; X ; OMH1V ; OMHEX AB; 1
 vanhat osakkeet ; X ; PANAS ; Panostaja A ; 1
 vanhat osakkeet ; X ; PANBS ; Panostaja B ; 1
 vanhat osakkeet ; X ; PAR1S ; Partek ; 1
+vanhat osakkeet ; X ; PKC1V ; PKC Group ; 1 ; EUR
 vanhat osakkeet ; X ; POS1V ; Perlos ; 1
 vanhat osakkeet ; X ; PICAS ; PI-Consulting A ; 1
 vanhat osakkeet ; X ; PLAAS ; Plandent A ; 1
