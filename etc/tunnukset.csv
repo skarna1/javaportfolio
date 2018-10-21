@@ -58,7 +58,6 @@ teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; LEM1S ; Lemminkäinen ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
@@ -74,7 +73,6 @@ teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TNOM ; Talenom ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; TUT1V ; Turvatiimi ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; UPONOR ; Uponor ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; UUTEC ; Uutechnic Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
@@ -97,7 +95,6 @@ teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
 teknologia ; S ; XNS1V ; Ixonos ; 1 ; EUR
 teknologia ; S ; NIXU ; Nixu ; 1 ; EUR
 teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
-teknologia ; S ; OKM1V ; Okmetic ; 1 ; EUR
 teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
 teknologia ; S ; QTCOM ; Qt Group ; 1 ; EUR
 teknologia ; S ; SIILI ; Siili Solutions ; 1 ; EUR
@@ -162,7 +159,6 @@ First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
-First North ; S ; TNOM ; Talenom ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
 First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
@@ -925,6 +921,7 @@ vanhat osakkeet ; X ; KYR1V ; Kyro (ennen jak.) ; 1
 vanhat osakkeet ; X ; KRO1V ; Kyro ; 1
 vanhat osakkeet ; X ; LARBS ; Larox B ; 1 ; EUR
 vanhat osakkeet ; X ; LAS1S ; Lassila & Tikanoja (ennen jakaut) ; 1
+vanhat osakkeet ; X ; LEM1S ; Lemminkäinen ; 1 
 vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
 vanhat osakkeet ; X ; LII1V ; Liinos ; 1
 vanhat osakkeet ; X ; LTE1S ; Lännen Tehtaat ; 1 ; EUR
@@ -956,6 +953,7 @@ vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
 vanhat osakkeet ; X ; NORVE ; Norvestia ; 1 ; EUR
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
+vanhat osakkeet ; X ; OKM1V ; Okmetic ; 1 ; EUR
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
 vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1
 vanhat osakkeet ; X ; ORA1V ; Oral Hammaslääkärit ; 1 ; EUR
@@ -1049,6 +1047,7 @@ vanhat osakkeet ; X ; TMA1V ; Tilamarkkinat-yhtiöt ; 1
 vanhat osakkeet ; X ; TRO1V ; Tamro ; 1
 vanhat osakkeet ; X ; TII1V ; Tiimari ; 1 ; EUR
 vanhat osakkeet ; X ; TURCS ; Turkistuottajat C ; 1
+vanhat osakkeet ; X ; TUT1V ; Turvatiimi ; 1 ; EUR
 vanhat osakkeet ; X ; TARAS ; Turun Arvok. A ; 1
 vanhat osakkeet ; X ; UNR1V ; Uponor ; 1
 vanhat osakkeet ; X ; VAC1V ; Vacon ; 1 ; EUR
