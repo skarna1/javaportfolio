@@ -75,29 +75,21 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 					setPrice(item, value);
 
 				} catch (Exception e) {
+					System.out.println("Exception: " + e.getMessage());
 				}
 			}
 		}
 	}
 
-	private void setPrice(Item item, String value) {
+	protected void setPrice(Item item, String value) {
 		double rate = 1.0;
-		if (value.startsWith("EUR")) {
-			value = value.replaceAll("EURÂ ", "");
-		} else {
+		String ccy = value.substring(0, 3);
+		value = value.substring(3);
+		value = value.replaceAll("\u00A0", "");
+		value = value.trim();
+		if (!ccy.equals("EUR")) {
 			KauppalehtiExchangerateFetcher kl = new KauppalehtiExchangerateFetcher();
-
-			String ccy = value.substring(0, 3);
 			rate = kl.getExchangeRate(ccy);
-			if (value.startsWith("NOK")) {
-				value = value.replaceAll("NOK.* ", "");
-
-			} else if (value.startsWith("SEK")) {
-				value = value.replaceAll("SEK.* ", "");
-			} else if (value.startsWith("DKK")) {
-				value = value.replaceAll("DKK.* ", "");
-			}
-
 		}
 		item.setRate(rate);
 		setItemValues(item, value);
@@ -121,7 +113,8 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		}
 	}
 
-	private void setItemValues(Item item, String value) {
+	protected void setItemValues(Item item, String value) {
+		value = value.replaceAll(",", ".");
 		double v = Double.parseDouble(value);
 		item.setLast(v);
 		item.setHigh(v);
