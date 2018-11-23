@@ -143,11 +143,11 @@ First North ; S ; ADMCM ; Admicom ; 1 ; EUR
 First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
 First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
-First North ; S ; CLEAN ; Cleantech Invest ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
+First North ; S ; EABGB ; EAB Group ; 1 ; EUR
 First North ; S ; EFECTE ; Efecte ; 1 ; EUR
-First North ; S ; ELVH ; Elite Varainhoito ; 1 ; EUR
 First North ; S ; ESENSE ; Enersense International ; 1 ; EUR
+First North ; S ; FELLOW ; Fellow Finance ; 1 ; EUR
 First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
 First North ; S ; GOFORE ; Gofore ; 1 ; EUR
@@ -157,11 +157,14 @@ First North ; S ; LOUD ; Loudspring ; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
+First North ; S ; PRIVA ; Privanet ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
+First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
 First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
+First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
 First North ; S ; VMP ; Vmp ; 1 ; EUR
 Indeksiosuudet ; S ; SLGOMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
@@ -868,6 +871,7 @@ vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
 vanhat osakkeet ; X ; EBC1V ; Elektrobit ; 1 ; EUR
 vanhat osakkeet ; X ; EBG1V ; Elektrobit ; 1 ; EUR
 vanhat osakkeet ; X ; ELI1V ; Elisa ; 1 ; EUR
+vanhat osakkeet ; X ; ELVH ; Elite Varainhoito ; 1 ; EUR
 vanhat osakkeet ; X ; ENE1V ; Endero ; 1
 vanhat osakkeet ; X ; ENSRS ; Enso R ; 1
 vanhat osakkeet ; X ; EON1V ; E.ON Finland ; 1

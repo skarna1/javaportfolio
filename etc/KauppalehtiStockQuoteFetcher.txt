@@ -38,11 +38,11 @@ ESENSE Enersense International Oyj
 ETT1V Etteplan
 EVLI Evli Pankki
 EXL1V Exel Composites
+FELLOW Fellow Finance Oyj
 FIA1S Finnair
 FITBIO FIT Biotech
 FONDIA Fondia
 FSKRS Fiskars
-FITBIO FIT Biotech
 FORTUM Fortum
 FSC1V F-Secure
 GLA1V Glaston
@@ -107,6 +107,7 @@ RAIKV Raisio K
 RAIVV Raisio V
 RMR1V Ramirent
 RAP1V Rapala VMC
+RUSH Rush Factory (LP)
 RUTAV Raute A (LP)
 REMEDY Remedy Entertainment
 RESTA Restamax
@@ -156,6 +157,7 @@ VAIAS Vaisala A
 VALOE Valoe (T)
 VALMT Valmet
 VERK Verkkokauppa.com
+VIAFIN Viafin Service
 VIK1V Viking Line
 VINCIT Vincit
 VMP VMP Oyj
