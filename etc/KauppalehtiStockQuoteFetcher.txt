@@ -85,6 +85,7 @@ NIXU Nixu
 NOKIA Nokia
 NRE1V Nokian Renkaat
 NDAFI Nordea Bank Abp
+NORDID Nordic ID Oyj
 NLG1V Nurminen Logistics
 OLVAS Olvi A
 OKDAV Oriola A
