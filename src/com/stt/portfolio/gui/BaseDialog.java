@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
-import java.awt.Frame;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
@@ -22,7 +21,6 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
-import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -32,7 +30,7 @@ import javax.swing.JTextField;
 
 import com.stt.portfolio.I_TickerManager;
 import com.stt.portfolio.Stock;
-import com.stt.portfolioupdater.KauppalehtiExchangerateFetcher;
+import com.stt.portfolioupdater.KauppalehtiJsonExchangerateFetcher;
 import com.toedter.calendar.JDateChooser;
 
 public abstract class BaseDialog extends JDialog implements ActionListener,
@@ -262,7 +260,7 @@ KeyListener {
 
 		if (!ccy.equals("EUR")) {
 			if (force || foreignCurrencyButton.isSelected()) {
-				KauppalehtiExchangerateFetcher f = new KauppalehtiExchangerateFetcher();
+				KauppalehtiJsonExchangerateFetcher f = new KauppalehtiJsonExchangerateFetcher();
 				rate = f.getExchangeRate(ccy);
 			} 
 		}

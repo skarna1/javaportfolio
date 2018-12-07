@@ -88,7 +88,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		value = value.replaceAll("\u00A0", "");
 		value = value.trim();
 		if (!ccy.equals("EUR")) {
-			KauppalehtiExchangerateFetcher kl = new KauppalehtiExchangerateFetcher();
+			KauppalehtiJsonExchangerateFetcher kl = new KauppalehtiJsonExchangerateFetcher();
 			rate = kl.getExchangeRate(ccy);
 		}
 		item.setRate(rate);

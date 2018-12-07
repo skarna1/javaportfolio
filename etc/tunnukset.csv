@@ -16,7 +16,7 @@ rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
 rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
-rahoitus ; S ; NDAFI ; Nordea ; 1 ; EUR ;
+rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR ;
 rahoitus ; S ; OVARO ; Ovaro Kiinteistösijoitus Oyj ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
@@ -38,7 +38,7 @@ perusteollisuus ; S ; SSABBH ; SSAB B ; 1 ; EUR
 perusteollisuus ; S ; STEAV ; Stora Enso A ; 1 ; EUR
 perusteollisuus ; S ; STERV ; Stora Enso R ; 1 ; EUR
 perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; ASU1V ; Aspo ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ASPO ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
@@ -168,7 +168,7 @@ First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
 First North ; S ; VMP ; Vmp ; 1 ; EUR
-Indeksiosuudet ; S ; SLGOMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
+Indeksiosuudet ; S ; SLG OMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
 optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
 optiot ; O ; POH1SU0109 ; Pohjola 2009 MO ; 1 ; EUR
 optiot ; O ; ALM2VEW199 ; Alma Media -99 A-opt ; 1
@@ -847,6 +847,7 @@ vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; ARM1V ; A-Rakennusmies ; 1
 vanhat osakkeet ; X ; ASKAS ; Asko ; 1
+vanhat osakkeet ; X ; ASU1V ; Aspo ; 1
 vanhat osakkeet ; X ; AVP1V ; AvestaPolarit ; 1
 vanhat osakkeet ; X ; BALAS ; A Company Finland ; 1
 vanhat osakkeet ; X ; BEL1V ; Beltton-Yhtiöt ; 1

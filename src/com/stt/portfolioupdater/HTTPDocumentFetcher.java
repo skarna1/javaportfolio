@@ -36,6 +36,11 @@ public abstract class HTTPDocumentFetcher {
 		super();		
 	}
 	
+	public HTTPDocumentFetcher(String uri) {
+		super();	
+		this.uri = uri;
+	}
+	
 	protected org.w3c.dom.NodeList fetchNodes(String uri, String xpathExpression)
 			throws XPathExpressionException {
 

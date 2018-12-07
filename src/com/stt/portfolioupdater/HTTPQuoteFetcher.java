@@ -10,6 +10,14 @@ public abstract class HTTPQuoteFetcher extends HTTPDocumentFetcher {
 
 	public abstract List<Item> parseHtml();
 
+	public HTTPQuoteFetcher() {
+		super();	
+	}
+	
+	public HTTPQuoteFetcher(String uri) {
+		super(uri);	
+	}
+	
 	public boolean isIgnoreVolume() {
 		return ignoreVolume;
 	}
@@ -49,6 +57,25 @@ public abstract class HTTPQuoteFetcher extends HTTPDocumentFetcher {
 		String day = items[1].trim();
 		String month = items[0].trim();
 		String year = items[2].trim();
+		int y = Integer.parseInt(year);
+		int m = Integer.parseInt(month) - 1;
+		int d = Integer.parseInt(day);
+
+		Calendar c = Calendar.getInstance();
+		c.set(y, m, d);
+
+		return c.getTime();
+	}
+
+	protected Date parseKauppalehtiDate(String dateStr) throws Exception {
+
+		String[] items = dateStr.split("[-T]");
+		if (items.length < 3) {
+			throw new Exception("Invalid date string: " + dateStr);
+		}
+		String day = items[2].trim();
+		String month = items[1].trim();
+		String year = items[0].trim();
 		int y = Integer.parseInt(year);
 		int m = Integer.parseInt(month) - 1;
 		int d = Integer.parseInt(day);

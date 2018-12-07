@@ -17,11 +17,11 @@ import javax.script.ScriptException;
 
 public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 	
-	private KauppalehtiExchangerateFetcher currencyFetcher;
+	private KauppalehtiJsonExchangerateFetcher currencyFetcher;
 	private ScriptEngine engine;
 	  
 	public IEXQuoteFetcher() {
-		currencyFetcher = new KauppalehtiExchangerateFetcher();
+		currencyFetcher = new KauppalehtiJsonExchangerateFetcher();
 		ScriptEngineManager sem = new ScriptEngineManager();
 	    this.engine = sem.getEngineByName("javascript");
 	}
