@@ -18,7 +18,11 @@ public class KauppalehtiExchangerateFetcher extends HTTPDocumentFetcher {
 				rates.put(ccy, rate);
 			}
 		}
-		return rates.get(ccy);
+		Double r = rates.get(ccy);
+		if (r == null) {
+			return 1.0;
+		}
+		return r;
 	}
 
 	private double parseHtmlCcy(String uri) {
