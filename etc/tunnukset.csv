@@ -64,8 +64,8 @@ teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; OTE1V ; Outotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; RMR1V ; Ramirent ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; RUTAV ; Raute A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; RAMI ; Ramirent ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; RAUTE ; Raute A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ROBIT ; Robit ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
@@ -77,11 +77,11 @@ teollisuustuotteet ja -palvelut ; S ; UPONOR ; Uponor ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; UUTEC ; Uutechnic Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; YTY1V ; YIT-Yhtymä ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; YIT ; YIT-Yhtymä ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VAIAS ; Vaisala A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VALOE ; Valoe ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VALMT ; Valmet ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; YLEPS ; Yleiselektroniikka E ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; YEINT ; Yleiselektroniikka E ; 1 ; EUR
 yhdyskuntapalvelut ; S ; FORTUM ; Fortum ; 1 ; EUR
 energia ; S ; NESTE ; Neste; 1 ; EUR
 tietoliikennepalvelut ; S ; DNA ; DNA ; 1 ; EUR
@@ -987,10 +987,12 @@ vanhat osakkeet ; X ; POLKS ; Polar Kiinteistöt ; 1
 vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
 vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
+vanhat osakkeet ; X ; RMR1V ; Ramirent ; 1 ; EUR
 vanhat osakkeet ; X ; RAM1V ; Rauma ; 1
 vanhat osakkeet ; X ; RTK1S ; Rautakirja A ; 1
 vanhat osakkeet ; X ; RTKBS ; Rautakirja B ; 1
 vanhat osakkeet ; X ; RTRKS ; Rautaruukki K ; 1 ; EUR
+vanhat osakkeet ; X ; RUTAV ; Raute A ; 1
 vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
 vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
 vanhat osakkeet ; X ; SAL1V ; Salcomp ; 1
@@ -1062,7 +1064,9 @@ vanhat osakkeet ; X ; VAMPS ; Valtameri E ; 1
 vanhat osakkeet ; X ; VCCAV ; Vestcap A ; 1
 vanhat osakkeet ; X ; VCCBV ; Vestcap B ; 1
 vanhat osakkeet ; X ; UHI1V ; Ühispank ; 1
-vanhat osakkeet ; X ; UPM1V ; UPM-Kymmene ; 1 ;
+vanhat osakkeet ; X ; UPM1V ; UPM-Kymmene ; 1
+vanhat osakkeet ; X ; YTY1V ; YIT-Yhtymä ; 1
+vanhat osakkeet ; X ; YLEPS ; Yleiselektroniikka E ; 1
 vanhat osakkeet ; X ; YOM1V ; Yomi ; 1
 vanhat osakkeet ; X ; WAT1V ; Vaahto Group ; 1 ; EUR
 vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1

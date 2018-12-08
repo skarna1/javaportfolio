@@ -30,14 +30,17 @@ public class KauppalehtiJsonQuoteFetcher extends HTTPQuoteFetcher {
 				// System.out.println(stringToSearch);
 				// specify that we want to search for two groups in the string
 				// "name":"Outokumpu","symbol":"OUT1V","isin":"FI0009002422",
-				// "tradeCurrency":"EUR","lastPrice":8.56
+				// "tradeCurrency":"EUR","lastPrice":8.56,"dayLowPrice":3.57,"dayHighPrice":3.681
+				// "quantity":3400763
 				String contents = convertStreamToString(in);
 
 				in.close();
 
 				Pattern p = Pattern.compile("name\":\"([^\"]*)\",\"symbol\":\"([^\"]*)\","
 						+ "\"isin\":\"([^\"]*)\",\"tradeCurrency\":\"([^\"]*)\","
-						+ "\"lastPrice\":([0-9.]*),.*?\"dateTime\":\"([^\"]*)\",");
+						+ "\"lastPrice\":([0-9.]*),.*?\"quantity\":([0-9]*),.*?"
+						+ "\"dateTime\":\"([^\"]*)\",.*?\"dayLowPrice\":([0-9.]*),"
+						+ "\"dayHighPrice\":([0-9.]*)");
 				Matcher m = p.matcher(contents);
 				// List<String> allMatches = new ArrayList<String>();
 				// if our pattern matches the string, we can try to extract our groups
@@ -45,8 +48,10 @@ public class KauppalehtiJsonQuoteFetcher extends HTTPQuoteFetcher {
 					String name = m.group(1);
 					String ticker = m.group(2);
 					String lastPrice = m.group(5);
-					String date = m.group(6);
-
+					String quantity = m.group(6);
+					String date = m.group(7);
+					String dayLowPrice = m.group(8);
+					String dayHighPrice = m.group(9);
 					 
 					try {
 						Item item = new Item();
@@ -54,10 +59,13 @@ public class KauppalehtiJsonQuoteFetcher extends HTTPQuoteFetcher {
 						item.setDecimals(4);
 						item.setName(name);
 						item.setTicker(ticker);
+						item.setLow(Double.parseDouble(dayLowPrice));
+						item.setHigh(Double.parseDouble(dayHighPrice));
+						item.setVolume(Integer.parseInt(quantity));
 						item.setLast(Double.parseDouble(lastPrice));
 						item.setGivenDate(parseKauppalehtiDate(date));
 						items.add(item);
-						//System.out.format("'%s', '%s', '%s', '%s'\n", name, ticker, lastPrice, date);
+						//System.out.format("'%s', '%s', '%s', '%s', '%s', '%s', '%s'\n", name, ticker, lastPrice, dayLowPrice, dayHighPrice, quantity, date);
 					} catch (NumberFormatException e) {
 						System.out.println(e.getMessage());
 					} catch (Exception e) {
