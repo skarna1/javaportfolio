@@ -113,8 +113,8 @@ Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
 Kulutuspalvelut ; S ; PIZZA ; Kotipizza Group ; 1 ; EUR
+Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
 Kulutuspalvelut ; S ; PKKAS ; Pohj-K.Kirjap A ; 1 ; EUR
-Kulutuspalvelut ; S ; RESTA ; Restamax ; 1 ; EUR
 Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
 Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
 Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
@@ -994,6 +994,7 @@ vanhat osakkeet ; X ; RTK1S ; Rautakirja A ; 1
 vanhat osakkeet ; X ; RTKBS ; Rautakirja B ; 1
 vanhat osakkeet ; X ; RTRKS ; Rautaruukki K ; 1 ; EUR
 vanhat osakkeet ; X ; RUTAV ; Raute A ; 1
+vanhat osakkeet ; X ; RESTA ; Restamax ; 1 ; EUR
 vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
 vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
 vanhat osakkeet ; X ; SAL1V ; Salcomp ; 1
