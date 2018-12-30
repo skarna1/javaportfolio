@@ -69,7 +69,6 @@ teollisuustuotteet ja -palvelut ; S ; RAUTE ; Raute A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ROBIT ; Robit ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; TAM1V ; Takoma ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TNOM ; Talenom ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
@@ -89,10 +88,10 @@ tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
 tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
 teknologia ; S ; BAS1V ; BasWare ; 1 ; EUR
 teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
-teknologia ; S ; DIG1V ; Digia ; 1 ; EUR
+teknologia ; S ; DIGIA ; Digia ; 1 ; EUR
+teknologia ; S ; DIGIGR ; Digitalist Group ; 1 ; EUR
 teknologia ; S ; FSC1V ; F-Secure ; 1 ; EUR
 teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
-teknologia ; S ; XNS1V ; Ixonos ; 1 ; EUR
 teknologia ; S ; NIXU ; Nixu ; 1 ; EUR
 teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
 teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
@@ -867,6 +866,7 @@ vanhat osakkeet ; X ; CTA1V ; Componenta (vanha) ; 1
 vanhat osakkeet ; X ; CTL1V ; Comptel ; 1 ; EUR
 vanhat osakkeet ; X ; CVM1V ; Conventum ; 1
 vanhat osakkeet ; X ; DAN1V ; Danisco A/S FDR ; 1
+vanhat osakkeet ; X ; DIG1V ; Digia ; 1 ; EUR
 vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
 vanhat osakkeet ; X ; DSO1V ; Done Solutions ; 1
 vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
@@ -907,6 +907,7 @@ vanhat osakkeet ; X ; INS1V ; Instrumentarium ; 1
 vanhat osakkeet ; X ; INT1S ; Interavanti ; 1 ; EUR
 vanhat osakkeet ; X ; IOC1V ; Iocore ; 1
 vanhat osakkeet ; X ; ISKAS ; Isko A ; 1
+vanhat osakkeet ; X ; XNS1V ; Ixonos ; 1 ; EUR
 vanhat osakkeet ; X ; JAN1V ; Janton ; 1
 vanhat osakkeet ; X ; JIP1V ; Jippii Group ; 1
 vanhat osakkeet ; X ; JOT1V ; JOT Automation ; 1
