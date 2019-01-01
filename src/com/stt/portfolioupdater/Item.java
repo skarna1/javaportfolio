@@ -72,7 +72,7 @@ public class Item {
 	}
 
 	String getLine() {
-		String line = getDate() + "," + formatNDecimals(high, decimals) + ","
+		String line = ticker + " " + getDate() + "," + formatNDecimals(high, decimals) + ","
 				+ formatNDecimals(low, decimals) + ","
 				+ formatNDecimals(last, decimals) + "," + volume;
 

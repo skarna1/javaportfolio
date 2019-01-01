@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="/usr/share/java/hamcrest/core.jar"/>
 	<classpathentry kind="lib" path="jar/httpcore.jar"/>
 	<classpathentry kind="lib" path="jar/httpclient.jar"/>
+	<classpathentry kind="lib" path="jar/mysql-connector-java.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
