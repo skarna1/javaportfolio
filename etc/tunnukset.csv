@@ -28,7 +28,7 @@ rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
 perusteollisuus ; S ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
 perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
-perusteollisuus ; S ; KRA1V ; Kemira ; 1 ; EUR
+perusteollisuus ; S ; KEMIRA ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
 perusteollisuus ; S ; METSB ; Metsä Board B ; 1 ; EUR
 perusteollisuus ; S ; OUT1V ; Outokumpu ; 1 ; EUR
@@ -918,6 +918,7 @@ vanhat osakkeet ; X ; KESBV ; Kesko B ; 1
 vanhat osakkeet ; X ; KKA1V ; Kauppakaari ; 1
 vanhat osakkeet ; X ; KCI1V ; KCI konecranes ; 1
 vanhat osakkeet ; X ; KEKAS ; Kekkilä ; 1
+vanhat osakkeet ; X ; KRA1V ; Kemira ; 1 ; EUR
 vanhat osakkeet ; X ; KGH1V ; Kemira GrowHow ; 1
 vanhat osakkeet ; X ; KES1S ; Kesko B ; 1
 vanhat osakkeet ; X ; KNT1V ; Kontram-yhtiöt ; 1
