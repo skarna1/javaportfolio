@@ -25,7 +25,8 @@ CONSTI Consti Yhtiöt
 CTH1V Componenta (T)
 CRA1V Cramo
 DETEC Detection Technology
-DIG1V Digia
+DIGIA Digia
+DIGIGR Digitalist Group
 DNA   DNA
 DOV1V Dovre Group
 EABGB EAB Group (LP)
@@ -59,7 +60,6 @@ ILK2S Ilkka-Yhtymä II
 INC1V Incap
 IFA1V Innofactor
 INVEST Investors House (LP)
-XNS1V Ixonos
 KAMUX Kamux Oyj
 KRA1V Kemira
 KSLAV Keskisuomalainen A
