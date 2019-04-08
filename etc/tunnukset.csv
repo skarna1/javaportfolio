@@ -139,6 +139,7 @@ Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
 Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
+First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
 First North ; S ; ADMCM ; Admicom ; 1 ; EUR
 First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
 First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
@@ -420,7 +421,7 @@ osakerahasto ; F ; NSMALLCAPT ; Nordea Nordic Small Cap Tuotto ; 1
 osakerahasto ; F ; NVENAJAK ; Nordea Venäjä Kasvu ; 100 ; EUR 
 osakerahasto ; F ; NVENAJAT ; Nordea Venäjä Tuotto ; 100 ; EUR
 osakerahasto ; F ; NSUOMIINDK; Nordea Suomi indeksirahasto B Kasvu; 100 ; EUR
-osakerahasto ; F ; NNORDSMK ; Nordea Nordic Small Cap Kasvu ; 1 ; EUR
+osakerahasto ; F ; NNORDSMK ; Nordea Nordic Small Cap Kasvu ; 100 ; EUR
 osakerahasto ; F ; ODINFIN ; ODIN Finland ; 1
 osakerahasto ; F ; ODINMARITI ; ODIN Maritim ; 1
 osakerahasto ; F ; ODINNORDEN ; ODIN Norden ; 1
@@ -1078,6 +1079,7 @@ vanhat osakkeet ; X ; WATKV ; Vaahto Group K ; 1
 vanhat osakkeet ; X ; WEN1V ; Wecan Electronics ; 1
 vanhat osakkeet ; X ; WIC1V ; Westend ICT ; 1 ; EUR
 vanhat osakkeet ; X ; ZEE1V ; Zeeland ; 1 ; EUR
+vanhat osakkeet ; X ; KFT ; Kraft ; 1 ; USD
 vanhat rahastot ; Y ; CONGLOBALA ; Conventum Global A ; 1
 vanhat rahastot ; Y ; CONGLOBALB ; Conventum Global B ; 1
 vanhat rahastot ; Y ; HANKORKO ; Handelsbanken Eurokorko ; 1
@@ -1188,7 +1190,7 @@ NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
 NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
 NYSE ; S ; IBM ;  IBM ; 1 ; USD ; USA
 NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
-NYSE ; S ; KFT ; Kraft Foods A ; 1; USD ; USA
+NYSE ; S ; KHC ; Kraft Heinz ; 1; USD ; USA
 NYSE ; S ; KGC ; Kinross Gold Corp ; 1; USD ; Kanada
 NYSE ; S ; KMI ; Kinder Morgan ; 1 ; USD ; USA
 NYSE ; S ; KOO ; Coca-Cola Co ; 1 ; USD ; USA
@@ -1219,6 +1221,7 @@ OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
 OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
+OMXS ; S ; SWED ; Swedbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHRTTSL ; Minishort Tesla VT 139 ; 1 ; SEK ; USA
 XTRA ; S ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
 XTRA ; S ; IS3N ; Ishares EM ETF ; 1 ; EUR; Kehittyvät
