@@ -113,7 +113,7 @@ Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
 Kulutuspalvelut ; S ; PIZZA ; Kotipizza Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
-Kulutuspalvelut ; S ; PKKAS ; Pohj-K.Kirjap A ; 1 ; EUR
+Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
 Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
 Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
@@ -990,6 +990,7 @@ vanhat osakkeet ; X ; POH1S ; Pohjola Pankki ; 1 ; EUR
 vanhat osakkeet ; X ; POLKS ; Polar Kiinteistöt ; 1
 vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
 vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
+vanhat osakkeet ; X ; PKK1V ; Pohj-K.Kirjap A ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
 vanhat osakkeet ; X ; RMR1V ; Ramirent ; 1 ; EUR
 vanhat osakkeet ; X ; RAM1V ; Rauma ; 1
@@ -1173,6 +1174,7 @@ vanhat rahastot ; Y ; ALBEUACTPF ; Ålandsbanken Europe Active Portfolio ; 1
 vanhat rahastot ; Y ; ALBGLOBLUE ; Ålandsbanken Global Blue Chip ; 1
 vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
+NYSE ; S ; AXP ; American Express ; 1 ; USD ; USA
 NYSE ; S ; ASHR ; Deutche CSI300 China A-shares ; 1 ; USD ; Kehittyvät
 NYSE ; S ; CNDA ; IQ Canada Small Cap ETF ; 1 ; USD ; Kanada
 NYSE ; S ; BRKB ; Berkshire Hathaway B ; 1 ; USD ; USA
@@ -1184,6 +1186,7 @@ NYSE ; S ; DEO ; Diageo ADS ; 1; USD ; Britannia
 NYSE ; S ; EWZ ; IShare MSCI Brazil ETF; 1; USD ; USA
 NYSE ; S ; GDX ; Market Vectors Gold Miners ETF ; 1 ; USD ; USA
 NYSE ; S ; GEE ; General Electric ; 1; USD ; USA
+NYSE ; S ; GM ; General Motors ; 1 ; USD ; USA
 NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
 NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
 NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
@@ -1196,6 +1199,7 @@ NYSE ; S ; KMI ; Kinder Morgan ; 1 ; USD ; USA
 NYSE ; S ; KOO ; Coca-Cola Co ; 1 ; USD ; USA
 NYSE ; S ; LAND ; Gladstone Land REIT ; 1 ; USD ; USA
 NYSE ; S ; MO ;  Altria ; 1 ; USD ; USA
+NYSE ; S ; MA ; Mastercard ; 1 ; USD ; USA
 NYSE ; S ; MSFT ; Microsoft ; 1 ; USD ; USA
 NYSE ; S ; NEM ; Newmont Mining ; 1 ; USD ; USA
 NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA

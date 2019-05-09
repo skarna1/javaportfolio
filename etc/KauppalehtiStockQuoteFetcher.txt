@@ -99,9 +99,9 @@ OVARO Ovaro Kiinteistösijoitus Oyj (LP)
 PNA1V Panostaja
 PIHLIS Pihlajalinna
 PIIPPO Piippo
-PKKAS Pohjois-Karjalan Kirjapaino (LP)
 PON1V Ponsse
 PRIVA Privanet Group
+PUMU PunaMusta Media
 JPG1V Pöyry
 QPR1V QPR Software
 QTCOM Qt Group
