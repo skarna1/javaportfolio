@@ -130,7 +130,7 @@ Kulutustavarat ; S ; HKSAV ; HKScan ; 1 ; EUR
 Kulutustavarat ; S ; HONBS ; Honkarakenne B ; 1 ; EUR
 Kulutustavarat ; S ; MMO1V ; Marimekko ; 1 ; EUR
 Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
-Kulutustavarat ; S ; NRE1V ; Nokian Renkaat ; 1 ; EUR
+Kulutustavarat ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 Kulutustavarat ; S ; OLVAS ; Olvi A ; 1 ; EUR
 Kulutustavarat ; S ; RAIVV ; Raisio-yhtymä V ; 1 ; EUR
 Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
@@ -154,6 +154,7 @@ First North ; S ; FONDIA ; Fondia ; 1 ; EUR
 First North ; S ; GOFORE ; Gofore ; 1 ; EUR
 First North ; S ; HEEROS ; Heeros ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
+First North ; S ; LEADD ; Leaddesk ; 1 ; EUR
 First North ; S ; LOUD ; Loudspring ; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
@@ -961,6 +962,7 @@ vanhat osakkeet ; X ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
 vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
 vanhat osakkeet ; X ; NORVE ; Norvestia ; 1 ; EUR
+vanhat osakkeet ; X ; NRE1V ; Nokian Renkaat ; 1 ; EUR
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; OKM1V ; Okmetic ; 1 ; EUR
