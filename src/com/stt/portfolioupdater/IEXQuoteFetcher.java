@@ -38,11 +38,21 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 			String ccy = parts[2];
 
 			try {
-				String uri = "https://api.iextrading.com/1.0/stock/" + symbolString + "/quote";
+				String uri = "https://api.iextrading.com/1.0/tops?symbols=" + symbolString;
 				String lines = YahooUtils.readInput(uri);
-				
-				Map contents = this.parseJson(lines);
-				parseItem(contents, localsymbol, ccy, items);
+			    //System.out.println("lines: " + lines);
+				//
+				// [{"symbol":"PG","sector":"householdpersonalproducts",
+				//   "securityType":"commonstock","bidPrice":110.16,"bidSize":100,
+				//   "askPrice":110.25,"askSize":100,"lastUpdated":1560870353076,
+				//   "lastSalePrice":110.22,"lastSaleSize":100,
+				//   "lastSaleTime":1560870332640,"volume":74884,"marketPercent":0.03445}]
+				//
+				//
+				List contents = this.parseJson(lines);
+				if (contents != null) {
+					parseItem((Map)(contents.get(0)), localsymbol, ccy, items);
+				}
 			} catch (Exception e) {
 				System.out.println("Error: " + stockString);
 				e.printStackTrace();
@@ -62,18 +72,18 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 			}
 		}
 		
-		double last = convertToDouble(contents.get("latestPrice"));
+		double last = convertToDouble(contents.get("lastSalePrice"));
 		double high = last;
 		double low = last;
-		try {
-			high = convertToDouble(contents.get("high"));
-			low = convertToDouble(contents.get("low"));
-		}
-		catch (NullPointerException e) 
-		{
-		}
+//		try {
+//			high = convertToDouble(contents.get("high"));
+//			low = convertToDouble(contents.get("low"));
+//		}
+//		catch (NullPointerException e) 
+//		{
+//		}
 		long volume = 0;
-		Object o = contents.get("latestVolume");
+		Object o = contents.get("volume");
 		if (o instanceof Long) {
 			volume = (long) o;
 		}
@@ -84,18 +94,9 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 			volume = 0;
 		}
 		
-		String datestr = (String) contents.get("latestTime");
-		// date format: December 15, 2017
-		// System.out.println(symbol + " " + datestr);
-		if (!datestr.trim().equals("N/A")) {
-			Date date = null;
-			if (datestr.toUpperCase().endsWith("M")) {
-			    date = Calendar.getInstance().getTime();
-			}
-			else {
-				DateFormat df = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
-				date = df.parse(datestr);
-			}
+		Long seconds = new Double((double)contents.get("lastSaleTime")).longValue();
+		Date date = new Date(seconds);
+		if (date != null) {
 			Item item = new Item();
 			item.setValues(symbol, last, high, low, volume, date, rate);
 			items.add(item);
@@ -116,10 +117,10 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 		return symbollist;
 	}
 	
-	 public Map parseJson(String json) throws IOException, ScriptException {
+	 public List parseJson(String json) throws IOException, ScriptException {
 	        String script = "Java.asJSONCompatible(" + json + ")";
 	        Object result = this.engine.eval(script);
-	        Map contents = (Map) result;
+	        List contents = (List) result;
 	        return contents;
 	    }
 

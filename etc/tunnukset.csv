@@ -171,6 +171,7 @@ First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
 First North ; S ; VMP ; Vmp ; 1 ; EUR
 Indeksiosuudet ; S ; SLG OMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
+optiot ; O ; GLA1VUO119 ; Glaston merk oikeus ; 1 ; EUR
 optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
 optiot ; O ; POH1SU0109 ; Pohjola 2009 MO ; 1 ; EUR
 optiot ; O ; ALM2VEW199 ; Alma Media -99 A-opt ; 1
@@ -1226,6 +1227,7 @@ NYSE ; S ; WPC ; W.P. Carey ; 1 ; USD ; USA
 OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
+OMXS  ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SWED ; Swedbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHRTTSL ; Minishort Tesla VT 139 ; 1 ; SEK ; USA
