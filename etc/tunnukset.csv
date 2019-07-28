@@ -1233,6 +1233,11 @@ OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SWED ; Swedbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHRTTSL ; Minishort Tesla VT 139 ; 1 ; SEK ; USA
 OMXS ; S ; BEARNTFLX ; Bear Netflix ; 1 ; SEK ; USA
+OMXS ; S ; KINDRED ; Kindred Group ; 1 ; SEK ; Ruotsi
+OMXS ; S ; NILORN ; Nilörn Group ; 1 ; SEK ; Ruotsi
+OMXS ; S ; LOOMIS ; Loomis ; 1 ; SEK ; Ruotsi
+OMXS ; S ; NIBE ; Nibe ; 1 ; SEK ; Ruotsi
+OMXS ; S ; NOLATO ; Nolato ; 1 ; SEK ; Ruotsi
 XTRA ; S ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
 XTRA ; S ; IS3N ; Ishares EM ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; EUNL ; Ishares World ETF ; 1 ; EUR; Maailma
