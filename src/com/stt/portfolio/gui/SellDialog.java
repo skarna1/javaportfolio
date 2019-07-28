@@ -77,11 +77,11 @@ public class SellDialog extends BaseDialog {
 			updateStockList(broker);
 			updateOwnedAmount();
 			String stockName = (String) stocksList.getSelectedItem();
-			updateRateField(stockName);
+			updateRateFieldForce(stockName);
 		} else if (STOCK_SELECTED.equals(e.getActionCommand())) {
 			updateOwnedAmount();
 			String stockName = (String) stocksList.getSelectedItem();
-			updateRateField(stockName);
+			updateRateFieldForce(stockName);
 		}
 		else {
 			super.actionPerformed(e);
@@ -186,9 +186,7 @@ public class SellDialog extends BaseDialog {
 		for (Object o : entries.toArray()) {
 			BookEntry be = (BookEntry) o;
 			stocksList.addItem(be.getName()  );
-		}
-		
-		
+		}		
 	}
 
 	

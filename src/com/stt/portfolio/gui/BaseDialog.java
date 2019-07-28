@@ -232,7 +232,6 @@ KeyListener {
 
 			Stock s = tickerManager.getStock(ticker);
 			if (s != null) {
-				
 				updateRateFieldCcy(s.getCcy(), false);
 			}
 		}
@@ -244,7 +243,6 @@ KeyListener {
 
 			Stock s = tickerManager.getStock(ticker);
 			if (s != null) {
-				
 				updateRateFieldCcy(s.getCcy(), true);
 			}
 		}

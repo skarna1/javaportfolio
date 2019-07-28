@@ -219,10 +219,12 @@ public class BuyDialog extends BaseDialog {
 		stocksList.removeAllItems();
 
 		List<String> stockNames = stocks.get(sector);
+		java.util.Collections.sort(stockNames);
 
 		for (Object o : stockNames.toArray()) {
 			stocksList.addItem(o);
 		}
+		
 	}
 
 
