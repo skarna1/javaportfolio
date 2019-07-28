@@ -22,7 +22,6 @@ rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
-rahoitus ; S ; TPS1V ; Technopolis ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
@@ -38,6 +37,7 @@ perusteollisuus ; S ; SSABBH ; SSAB B ; 1 ; EUR
 perusteollisuus ; S ; STEAV ; Stora Enso A ; 1 ; EUR
 perusteollisuus ; S ; STERV ; Stora Enso R ; 1 ; EUR
 perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ADAPT ; Adapteo ; 1 ; SEK
 teollisuustuotteet ja -palvelut ; S ; ASPO ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
@@ -111,7 +111,6 @@ Kulutuspalvelut ; S ; KAMUX ; Kamux ; 1 ; EUR
 Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
-Kulutuspalvelut ; S ; PIZZA ; Kotipizza Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
 Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
@@ -927,6 +926,7 @@ vanhat osakkeet ; X ; KES1S ; Kesko B ; 1
 vanhat osakkeet ; X ; KNT1V ; Kontram-yhtiöt ; 1
 vanhat osakkeet ; X ; KONBS ; Kone B ; 1
 vanhat osakkeet ; X ; KCR1V ; Konecarnaes ; 1
+vanhat osakkeet ; X ; PIZZA ; Kotipizza Group ; 1 ; EUR
 vanhat osakkeet ; X ; KPUAV ; KSP Yhtiöt A ; 1
 vanhat osakkeet ; X ; KYPAS ; Kylpyläkasino A ; 1
 vanhat osakkeet ; X ; KYR1V ; Kyro (ennen jak.) ; 1
@@ -1048,6 +1048,7 @@ vanhat osakkeet ; X ; TAF1V ; Tamfelt ; 1 ; EUR
 vanhat osakkeet ; X ; TPO1V ; Tampereen Puhelin ; 1
 vanhat osakkeet ; X ; TCN1V ; Tecnomen (ennen sulautum) ; 1
 vanhat osakkeet ; X ; TEC1V ; Technopolis ; 1
+vanhat osakkeet ; X ; TPS1V ; Technopolis ; 1 ; EUR
 vanhat osakkeet ; X ; TEN1V ; Tecnomen (ennen tunnusmuutosta); 1
 vanhat osakkeet ; X ; TEC1V ; Tectia ; 1 ; EUR
 vanhat osakkeet ; X ; TLA1V ; Tekla ; 1 ; EUR

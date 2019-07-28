@@ -71,7 +71,6 @@ KNEBV Kone
 KCR Konecranes
 LEADD Leaddesk
 LOUD Loudspring
-PIZZA Kotipizza Group
 LAT1V Lassila & Tikanoja
 LEHTO Lehto Group
 MMO1V Marimekko
@@ -142,7 +141,6 @@ SUY1V Suominen
 TAALA Taaleri
 TAM1V Takoma
 TNOM Talenom
-TPS1V Technopolis (T)
 TEM1V Tecnotree (T)
 TEL1V Teleste
 TELIA1 Telia Company
