@@ -21,8 +21,6 @@ public class KauppalehtiJsonQuoteFetcher extends HTTPQuoteFetcher {
 
 	public List<Item> parseHtml() {
 		List<Item> items = new ArrayList<>();
-		// Reader reader = new FileReader("data.json");
-		// String stringToSearch = "Four score and seven years ago our fathers ...";
 		try {
 			InputStream in = fetch(uri);
 

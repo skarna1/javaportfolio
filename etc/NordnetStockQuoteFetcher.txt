@@ -1,0 +1,139 @@
+AFAGR Afarak Group Plc
+AM1 Ahlstrom-Munksjö Oyj
+AKTIA Aktia Bank Plc
+ALMA Alma Media Corporation
+ALTIA Altia Plc
+APETI Apetit Plc
+TALLINK AS Tallink Grupp FDR
+ATG1V Asiakastieto Group Oyj
+ASU1V Aspo Plc
+ACG1V Aspocomp Group Plc
+ATRAV Atria Plc A
+ALBAV Bank of Åland Plc A
+ALBBV Bank of Åland Plc B
+BAS1V Basware Corporation
+BIOBV Biohit Oyj B
+BITTI Bittium Corporation
+CAPMAN CapMan Plc
+CGCBV Cargotec Oyj
+CAV1V Caverion Oyj
+CTY1S Citycon Oyj
+CTH1V Componenta Corporation
+CONSTI Consti Yhtiöt Oyj
+CRA1V Cramo Oyj
+DIGIA Digia Plc
+DIGIGR Digitalist Group Plc
+DNA DNA Oyj
+DOV1V Dovre Group Plc
+EABGB EAB Group Oyj
+EFO1V Efore Plc
+ELEAV Elecster Oyj A
+ELISA Elisa Corporation
+ENDOM Endomines AB
+EQV1V eQ Oyj
+ETT1V Etteplan Oyj
+EVLI Evli Pankki Oyj
+EXL1V Exel Composites Plc
+FSC1V F-Secure Corporation
+FIA1S Finnair Oyj
+FSKRS Fiskars Corporation
+FORTUM Fortum Corporation
+GLA1V Glaston Corporation
+HARVIA Harvia Plc
+HKSAV HKScan Oyj A
+HOIVA Hoivatilat Oyj
+HONBS Honkarakenne Oyj B
+HUH1V Huhtamäki Oyj
+ILK1S Ilkka-Yhtymä Oyj 1
+ILK2S Ilkka-Yhtymä Oyj 2
+INC1V Incap Corporation
+IFA1V Innofactor Plc
+INVEST Investors House Oyj
+KAMUX Kamux Corporation
+KRA1V Kemira Oyj
+KSLAV Keskisuomalainen Oyj A
+KESKOA Kesko Corporation A
+KESKOB Kesko Corporation B
+KELAS Kesla Oyj A
+KOJAMO Kojamo Plc
+KNEBV KONE Corporation
+KCR Konecranes Plc
+LAT1V Lassila & Tikanoja Plc
+LEHTO Lehto Group Oyj
+MMO1V Marimekko Corporation
+MARAS Martela Oyj A
+METSO Metso Corporation
+METSA Metsä Board Oyj A
+METSB Metsä Board Oyj B
+NEO1V Neo Industrial Oyj
+NESTE Neste Corporation
+NIXU Nixu Oyj
+NOHO NoHo Partners Oyj
+NOKIA Nokia Corporation
+TYRES Nokian Tyres Plc
+NDAFI Nordea Bank Abp
+NLG1V Nurminen Logistics Plc
+OLVAS Olvi Plc A
+OMASP Oma Säästöpankki Oyj
+OKDAV Oriola Corporation A
+OKDBV Oriola Corporation B
+ORNAV Orion Corporation A
+ORNBV Orion Corporation B
+OUT1V Outokumpu Oyj
+OTE1V Outotec Oyj
+OVARO Ovaro Kiinteistösijoitus Oyj
+PNA1V Panostaja Oyj
+PIHLIS Pihlajalinna Oyj
+WAT1V Plc Uutechnic Group Oyj
+PON1V Ponsse Oyj 1
+PUMU PunaMusta Media Oyj
+QPR1V QPR Software Plc
+QTCOM Qt Group Oyj
+RAIKV Raisio Plc K
+RAIVV Raisio Plc Vaihto-osake
+RMR1V Ramirent Plc
+RAP1V Rapala VMC Corporation
+RUTAV Raute Corporation A
+REG1V Revenio Group Corporation
+ROBIT Robit Oyj
+ROVIO Rovio Entertainment Corporation
+SAGCV Saga Furs Oyj C
+SAMPO Sampo Plc A
+SAA1V Sanoma Corporation
+SCL1V Scanfil Plc
+SCI1V Sievi Capital plc
+SIILI Siili Solutions Oyj
+SILMA Silmäasema Oyj
+SOL1V Solteq Oyj
+SNO1V Soprano Oyj
+SOSI1 Sotkamo Silver AB
+SRV1V SRV Group Plc
+SSABAH SSAB AB ser. A
+SSABBH SSAB AB ser. B
+SSH1V SSH Communications Security Oyj
+STCAS Stockmann Plc A
+STCBV Stockmann Plc B
+STEAV Stora Enso Oyj A
+STERV Stora Enso Oyj R
+SUY1V Suominen Oyj
+TAALA Taaleri Oyj
+TNOM Talenom Oyj
+TEM1V Tecnotree Corporation
+TEL1V Teleste Corporation
+TELIA1 Telia Company AB
+TTALO Terveystalo Plc
+TIETO Tieto Corporation
+TIK1V Tikkurila Oyj
+TOKMAN Tokmanni Group Oyj
+TRH1V Trainers House Plc
+TULAV Tulikivi Oyj A
+UPM UPM-Kymmene Corporation
+UPONOR Uponor Oyj
+VAIAS Vaisala Corporation A
+VALMT Valmet Corporation
+VALOE Valoe Oyj
+VIK1V Viking Line Abp
+WUF1V Wulff Group Plc
+WRT1V Wärtsilä Corporation
+YTY1V YIT Corporation
+YEINT Yleiselektroniikka Oyj
