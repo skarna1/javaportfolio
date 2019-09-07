@@ -164,7 +164,7 @@ VINCIT Vincit
 VMP VMP Oyj
 WUF1V Wulff-Yhtiöt
 WRT1V Wärtsilä
-YTY1V YIT
+YIT YIT
 YLEPS Yleiselektroniikka E
 ALBAV Ålandsbanken A
 ALBBV Ålandsbanken B

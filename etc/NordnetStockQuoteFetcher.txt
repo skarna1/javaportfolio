@@ -135,5 +135,5 @@ VALOE Valoe Oyj
 VIK1V Viking Line Abp
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation
-YTY1V YIT Corporation
+YIT YIT Corporation
 YEINT Yleiselektroniikka Oyj
