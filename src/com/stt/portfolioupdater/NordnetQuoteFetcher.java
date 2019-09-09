@@ -156,7 +156,10 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 				String[] items = line.split("[ \t]", 2);
 				if (items.length > 1) {
 					if (items[0].length() > 0) {
-						tickers.put(items[1].trim(), items[0].trim());
+						String ticker = items[0].trim();
+						ticker = ticker.replace('_', ' ');
+						String name = items[1].trim();
+						tickers.put(name, ticker);
 					}
 				}
 	            line = br.readLine();

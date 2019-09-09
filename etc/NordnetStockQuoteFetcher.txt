@@ -71,7 +71,7 @@ NIXU Nixu Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
 TYRES Nokian Tyres Plc
-NDAFI Nordea Bank Abp
+NDA_FI Nordea Bank Abp
 NLG1V Nurminen Logistics Plc
 OLVAS Olvi Plc A
 OMASP Oma Säästöpankki Oyj
@@ -93,7 +93,7 @@ RAIKV Raisio Plc K
 RAIVV Raisio Plc Vaihto-osake
 RMR1V Ramirent Plc
 RAP1V Rapala VMC Corporation
-RUTAV Raute Corporation A
+RAUTE Raute Corporation A
 REG1V Revenio Group Corporation
 ROBIT Robit Oyj
 ROVIO Rovio Entertainment Corporation
