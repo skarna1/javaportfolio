@@ -50,7 +50,7 @@ INC1V Incap Corporation
 IFA1V Innofactor Plc
 INVEST Investors House Oyj
 KAMUX Kamux Corporation
-KRA1V Kemira Oyj
+KEMIRA Kemira Oyj
 KSLAV Keskisuomalainen Oyj A
 KESKOA Kesko Corporation A
 KESKOB Kesko Corporation B
