@@ -14,6 +14,13 @@ public class KauppalehtiJsonExchangerateFetcher extends HTTPDocumentFetcher {
 	static final String uri = "https://www.kauppalehti.fi/porssi/valuutat/";
 
 	static Map<String, Double> rates = new HashMap<>();
+	
+	public KauppalehtiJsonExchangerateFetcher() {
+		rates.put("USD", 1.1063);
+		rates.put("SEK", 10.6722);
+		rates.put("NOK", 9.8699);
+		rates.put("DKK", 7.4596);
+	}
 
 	public double getExchangeRate(String ccy) {
 		if (!rates.containsKey(ccy)) {

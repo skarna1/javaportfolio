@@ -8,6 +8,16 @@ import javax.xml.xpath.XPathExpressionException;
 
 public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
+	public MorningstarQuoteFetcher(String uri, String xpath) {
+		super(uri);
+		this.uri = uri;
+		this.xpath = xpath;
+	}
+	
+	public MorningstarQuoteFetcher() {
+		super();
+	}
+	
 	public List<Item> parseHtml() {
 
 		// System.out.println(getUri());
@@ -25,7 +35,8 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 					Item item = new Item();
 
 					parseRow(item, tr);
-
+					//System.out.println(getName());
+					
 					item.setName(getName());
 
 					item.setTicker(getTicker(item.getName()));
@@ -82,11 +93,16 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	protected void setPrice(Item item, String value) {
+		System.out.println(value);
 		double rate = 1.0;
 		String ccy = value.substring(0, 3);
 		value = value.substring(3);
 		value = value.replaceAll("\u00A0", "");
 		value = value.trim();
+		
+		//System.out.println("value: " + value);
+		//System.out.println("ccy: " + ccy);
+		
 		if (!ccy.equals("EUR")) {
 			KauppalehtiJsonExchangerateFetcher kl = new KauppalehtiJsonExchangerateFetcher();
 			rate = kl.getExchangeRate(ccy);
@@ -134,4 +150,15 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		return "";
 	}
 
+	public static void main(String[] args) {
+		String uri = "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8U";
+		
+		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tr[2]";
+		MorningstarQuoteFetcher fetcher = new MorningstarQuoteFetcher(uri, xpath);
+		fetcher.setName("Nordnet superrahasto norja");
+		List<Item> items = fetcher.parseHtml();
+		//for (Item item : items) {
+		//	item.print();
+		//}
+	}
 }
