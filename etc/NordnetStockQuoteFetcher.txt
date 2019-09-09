@@ -6,7 +6,7 @@ ALTIA Altia Plc
 APETI Apetit Plc
 TALLINK AS Tallink Grupp FDR
 ATG1V Asiakastieto Group Oyj
-ASU1V Aspo Plc
+ASPO Aspo Plc
 ACG1V Aspocomp Group Plc
 ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
