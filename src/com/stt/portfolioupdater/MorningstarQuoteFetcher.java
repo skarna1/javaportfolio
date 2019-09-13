@@ -93,7 +93,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	protected void setPrice(Item item, String value) {
-		System.out.println(value);
+		//System.out.println(value);
 		double rate = 1.0;
 		String ccy = value.substring(0, 3);
 		value = value.substring(3);

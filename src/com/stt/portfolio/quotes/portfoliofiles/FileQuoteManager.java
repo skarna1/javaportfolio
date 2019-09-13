@@ -5,11 +5,8 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -24,13 +21,18 @@ public class FileQuoteManager implements QuoteManager {
 	Map<String, Quote> quotes = new HashMap<String, Quote>();
 
 	// all quotes
-	Map<String, List<Quote>> allQuotes = new HashMap<String, List<Quote>>();
+	Map<String, ArrayList<Quote>> allQuotes = new HashMap<String, ArrayList<Quote>>();
 
 	Date currentDate; 
 	
 	public FileQuoteManager() {
 		Calendar c = Calendar.getInstance();
 		currentDate = c.getTime();
+	}
+
+	@Override
+	public void init() {
+		readQuotes();
 	}
 
 	@Override
@@ -44,17 +46,16 @@ public class FileQuoteManager implements QuoteManager {
 
 	@Override
 	public Quote getQuote(String ticker, Date date) {
-
+		System.out.println("Get quotes for " + ticker + " date: " + date);
 		if (Util.compareDates(currentDate, date) == 0) {
-			
 			return getQuote(ticker);
 		}
 
-		ArrayList quotes = (ArrayList) allQuotes.get(ticker);
-		if (quotes == null) {
+		if (!allQuotes.containsKey(ticker)) {
+			System.out.println("Reading all quotes for " + ticker);
 			readAllQuotes(ticker, "etc/kurssidata/" + ticker + ".csv");
-			quotes = (ArrayList) allQuotes.get(ticker);
 		}
+		ArrayList<Quote> quotes = allQuotes.get(ticker);
 
 		Quote q = null;
 		if (quotes != null) {
@@ -64,7 +65,7 @@ public class FileQuoteManager implements QuoteManager {
 			int i = Collections.binarySearch(quotes, quote);
 			//System.out.println(i + " " + quotes.size());
 			if (i >= 0) {
-				q = (Quote) quotes.get(i);
+				q = quotes.get(i);
 				 //System.out.println(date + " " + q.getDate());
 			} else {
 				i=-i;
@@ -78,29 +79,10 @@ public class FileQuoteManager implements QuoteManager {
 						break;
 					}
 					i = i - 1;
-					
 				}
 			}
-			// Iterator<Quote> iter = quotes.iterator();
-			//
-			// while (iter.hasNext()) {
-			//
-			// Quote quote = iter.next();
-			// if (Util.compareDates(quote.getDate(), date) >= 0) {
-			//
-			// return (q != null) ? q : quote;
-			// } else {
-			// q = quote;
-			// }
-			// }
 		}
 		return q;
-	}
-
-	@Override
-	public void init() {
-		readQuotes();
-
 	}
 
 	private void readQuotes() {

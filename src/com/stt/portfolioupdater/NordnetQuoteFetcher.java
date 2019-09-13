@@ -43,7 +43,7 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 					getUri(),
 					getXpath());
 			if (nodes != null) {
-				System.out.println("Nodes: " + nodes.getLength());
+				// System.out.println("Nodes : " + nodes.getLength());
 				for (int i = 0; i < nodes.getLength(); i++) {
 					org.w3c.dom.Node tr = nodes.item(i);
 					Item item = new Item();

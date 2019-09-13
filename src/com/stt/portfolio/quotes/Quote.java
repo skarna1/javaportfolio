@@ -4,7 +4,7 @@ import java.util.Date;
 
 import com.stt.portfolio.Util;
 
-public class Quote implements Comparable {
+public class Quote implements Comparable<Quote> {
 
 	private String ticker = null;
 	private double last = 0.0;
@@ -75,9 +75,8 @@ public class Quote implements Comparable {
 	}
 
 	@Override
-	public int compareTo(Object o) {
-		
-		return Util.compareDates(this.getDate(), ((Quote)o).getDate()); 
+	public int compareTo(Quote o) {
+		return Util.compareDates(this.getDate(), o.getDate());
 	}
-	
+
 }
