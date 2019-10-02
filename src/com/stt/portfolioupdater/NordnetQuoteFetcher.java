@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Date;
 
 import javax.xml.xpath.XPathExpressionException;
 
@@ -48,10 +49,12 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 					org.w3c.dom.Node tr = nodes.item(i);
 					Item item = new Item();
 					parseRow(item, tr);
+					item.setGivenDate(new Date());
 					//item.print();
 					
 					if (item.getTicker() != null) {
 						items.add(item);
+						item.print();
 					}
 				}
 			}
@@ -66,6 +69,7 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	
 	private void parseRow(Item item, org.w3c.dom.Node tr) {
 		org.w3c.dom.NodeList nodes = tr.getChildNodes();
+		//System.out.println("Columns : " + nodes.getLength());
 		for (int i = 1; i < nodes.getLength(); ++i) {
 			org.w3c.dom.Node td = nodes.item(i);
 			parseColumn(item, i, td);
@@ -73,64 +77,74 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	private void parseColumn(Item item, int column, org.w3c.dom.Node td) {
-		org.w3c.dom.NodeList nodes = td.getChildNodes();
-		for (int i = 0; i < nodes.getLength(); ++i) {
-			org.w3c.dom.Node tdNode = nodes.item(i);
+		//org.w3c.dom.NodeList nodes = td.getChildNodes();
+		//for (int i = 0; i < nodes.getLength(); ++i) {
+		//	org.w3c.dom.Node tdNode = nodes.item(i);
 
-			String value = tdNode.getNodeValue().trim();
-			value = value.replace(',', '.');
-			value = value.replaceAll(" ", "");
-			value = value.replaceAll("[^\\d.]", "");
-			//System.out.println("column " + column + " " + "value " + value);
-			if (column == 1) {
-				
-				tdNode = tdNode.getFirstChild();
+		org.w3c.dom.Node tdNode = td.getFirstChild();
+			if (column == 4) {
+				tdNode = tdNode.getFirstChild();  // div
+				if (tdNode != null) tdNode = tdNode.getFirstChild();
 				
 				if (tdNode.getNodeName().equalsIgnoreCase("a")) {
 					org.w3c.dom.Node n = tdNode.getFirstChild();
 					String name = n.getNodeValue();
 					item.setName(name);
-					//System.out.println(name);
+					System.out.println(name + " " + getTicker(name));
 					item.setTicker(getTicker(name));
 				
 				}
-			} else if (column == 2) {
-				try {
-					double v = Double.parseDouble(value);
-					item.setLast(v);
-
-				} catch (Exception e) {
-					System.out.println("Exception: " + e.getMessage());
-				}
+			} else if (column == 7) {
+				// div, span, span, span, span /span, /span, span,span, /span, /span, span value /span, span, /span,/span,/span/div
+				// last
+				tdNode = tdNode.getFirstChild();  // div
+				
+				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+				//if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
+				if (tdNode != null) tdNode = childs.item(2);
+				String columnValue = this.getValue(tdNode);
+				//System.out.println("Column " + column + " value: " + columnValue);
+				double v = Double.parseDouble(columnValue);
+				item.setLast(v);	
 			}
-			else if (column == 7) {
-				try {
-					double v = Double.parseDouble(value);
-					item.setHigh(v);
-
-				} catch (Exception e) {
-					System.out.println("Exception: " + e.getMessage());
-				}
+			else if (column == 11) {
+				// high
+				tdNode = tdNode.getFirstChild();  // div
+				
+				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+				
+				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
+				if (tdNode != null) tdNode = childs.item(2);
+				String columnValue = this.getValue(tdNode);
+				//System.out.println("Column " + column + " value: " + columnValue);
+				double v = Double.parseDouble(columnValue);
+				item.setHigh(v);
 			}
-			else if (column == 8) {
-				try {
-					double v = Double.parseDouble(value);
-					item.setLow(v);
-
-				} catch (Exception e) {
-					System.out.println("Exception: " + e.getMessage());
-				}
+			else if (column == 12) {
+				// low
+				tdNode = tdNode.getFirstChild();  // div
+				
+				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+			
+				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
+				if (tdNode != null) tdNode = childs.item(2);
+				String columnValue = this.getValue(tdNode);
+				//System.out.println("Column " + column + " value: " + columnValue);
+				double v = Double.parseDouble(columnValue);
+				item.setLow(v);
 			}
-			else if (column == 9) {
-				try {
-					long v = Long.parseLong(value);
-					item.setVolume(v);
-
-				} catch (Exception e) {
-					System.out.println("Exception: " + e.getMessage());
-				}
-			}
-		}
+		//}
+	}
+	
+	private String getValue(org.w3c.dom.Node node) {
+		if (node == null) return "";
+		String value = node.getNodeValue().trim();
+		value = value.replace(',', '.');
+		value = value.replaceAll(" ", "");
+		value = value.replaceAll("[^\\d.]", "");
+		
+		return value;
 	}
 
 	protected String getTicker(String name) {
@@ -184,14 +198,13 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	}
 	
 	public static void main(String[] args) {
-		String uri = "https://www.nordnet.fi/mux/web/marknaden/kurslista/aktier.html?" + 
-	                 "marknad=Finland&lista=1_1&large=on&mid=on&small=on&sektor=0" +
-				     "&subtyp=price&sortera=aktie&sorteringsordning=stigande";
+		String uri = "https://www.nordnet.fi/markkinakatsaus/osakekurssit/";
+		String xpathstr = "//table[@class='c01413 c01415 md c01414']/tbody/tr";
 		NordnetQuoteFetcher fetcher = new NordnetQuoteFetcher(uri, 
-				"//table[@id='kurstabell']/tbody/tr[@class='highLight first' or @class='highLight' or @class='highLight last']");
+				xpathstr);
 		List<Item> items = fetcher.parseHtml();
-		//for (Item item : items) {
-		//	item.print();
-		//}
+		for (Item item : items) {
+			item.print();
+		}
 	}
 }

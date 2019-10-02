@@ -46,7 +46,7 @@ public class FileQuoteManager implements QuoteManager {
 
 	@Override
 	public Quote getQuote(String ticker, Date date) {
-		System.out.println("Get quotes for " + ticker + " date: " + date);
+		//System.out.println("Get quotes for " + ticker + " date: " + date);
 		if (Util.compareDates(currentDate, date) == 0) {
 			return getQuote(ticker);
 		}
