@@ -1,3 +1,4 @@
+AALLON Aallon Group Oyj
 AFAGR Afarak Group Plc
 AM1 Ahlstrom-Munksjö Oyj
 AKTIA Aktia Bank Plc
@@ -26,6 +27,7 @@ DIGIGR Digitalist Group Plc
 DNA DNA Oyj
 DOV1V Dovre Group Plc
 EABGB EAB Group Oyj
+EFECTE Efecte Plc
 EFO1V Efore Plc
 ELEAV Elecster Oyj A
 ELISA Elisa Corporation
@@ -36,6 +38,7 @@ EVLI Evli Pankki Oyj
 EXL1V Exel Composites Plc
 FSC1V F-Secure Corporation
 FIA1S Finnair Oyj
+FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
 FORTUM Fortum Corporation
 GLA1V Glaston Corporation
@@ -85,6 +88,7 @@ OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
 WAT1V Plc Uutechnic Group Oyj
+PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
 PUMU PunaMusta Media Oyj
 QPR1V QPR Software Plc
@@ -124,6 +128,7 @@ TELIA1 Telia Company AB
 TTALO Terveystalo Plc
 TIETO Tieto Corporation
 TIK1V Tikkurila Oyj
+TITAN Titanium Oyj
 TOKMAN Tokmanni Group Oyj
 TRH1V Trainers House Plc
 TULAV Tulikivi Oyj A
