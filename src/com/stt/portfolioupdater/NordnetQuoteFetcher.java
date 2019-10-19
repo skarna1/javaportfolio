@@ -199,7 +199,7 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	
 	public static void main(String[] args) {
 		String uri = "https://www.nordnet.fi/markkinakatsaus/osakekurssit/";
-		String xpathstr = "//table[@class='c01413 c01415 md c01414']/tbody/tr";
+		String xpathstr = "//table[@class='c02415 c02417 md c02416']/tbody/tr";
 		NordnetQuoteFetcher fetcher = new NordnetQuoteFetcher(uri, 
 				xpathstr);
 		List<Item> items = fetcher.parseHtml();
