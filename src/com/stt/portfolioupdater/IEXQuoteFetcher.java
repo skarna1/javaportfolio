@@ -94,7 +94,12 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 			volume = 0;
 		}
 		
-		Long seconds = new Double((double)contents.get("lastSaleTime")).longValue();
+		Long seconds = 0L;
+		try {
+			seconds = Double.valueOf((double)contents.get("lastSaleTime")).longValue();
+		}
+		catch (java.lang.ClassCastException e) {
+		}
 		Date date = new Date(seconds);
 		if (date != null) {
 			Item item = new Item();

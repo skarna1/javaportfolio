@@ -103,7 +103,7 @@ public class FileQuoteManager implements QuoteManager {
 						quote = parser.parse(line);
 
 						String ticker = filename.substring(0,
-								filename.indexOf('.'));
+								filename.lastIndexOf('.'));
 						quote.setTicker(ticker);
 
 						quotes.put(ticker, quote);
@@ -149,7 +149,7 @@ public class FileQuoteManager implements QuoteManager {
 		System.out.println(listOfFiles[1].getAbsolutePath());
 
 		String ticker = listOfFiles[1].getName().substring(0,
-				listOfFiles[1].getName().indexOf('.'));
+				listOfFiles[1].getName().lastIndexOf('.'));
 		System.out.println(ticker);
 
 	}

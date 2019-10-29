@@ -1190,6 +1190,7 @@ NYSE ; S ; DEO ; Diageo ADS ; 1; USD ; Britannia
 NYSE ; S ; EWZ ; IShare MSCI Brazil ETF; 1; USD ; USA
 NYSE ; S ; GDX ; Market Vectors Gold Miners ETF ; 1 ; USD ; USA
 NYSE ; S ; GEE ; General Electric ; 1; USD ; USA
+NYSE ; S ; GEO ; Geo group ; 1 ; USD ; USA
 NYSE ; S ; GM ; General Motors ; 1 ; USD ; USA
 NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
 NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
@@ -1214,6 +1215,7 @@ NYSE ; S ; POT ;  Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
+NYSE ; S ; RDS.A ; Royal Dutch Shell ; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
