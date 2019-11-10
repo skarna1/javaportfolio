@@ -104,8 +104,8 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		//System.out.println("ccy: " + ccy);
 		
 		if (!ccy.equals("EUR")) {
-			KauppalehtiJsonExchangerateFetcher kl = new KauppalehtiJsonExchangerateFetcher();
-			rate = kl.getExchangeRate(ccy);
+			CcyFetcher currencyFetcher = CcyFactory.createCcyFetcher();
+			rate = currencyFetcher.getExchangeRate(ccy);
 		}
 		item.setRate(rate);
 		setItemValues(item, value);

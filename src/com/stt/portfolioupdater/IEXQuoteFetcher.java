@@ -17,11 +17,11 @@ import javax.script.ScriptException;
 
 public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 	
-	private KauppalehtiJsonExchangerateFetcher currencyFetcher;
+	private CcyFetcher currencyFetcher;
 	private ScriptEngine engine;
 	  
 	public IEXQuoteFetcher() {
-		currencyFetcher = new KauppalehtiJsonExchangerateFetcher();
+		currencyFetcher = CcyFactory.createCcyFetcher();
 		ScriptEngineManager sem = new ScriptEngineManager();
 	    this.engine = sem.getEngineByName("javascript");
 	}
@@ -50,7 +50,7 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 				//
 				//
 				List contents = this.parseJson(lines);
-				if (contents != null) {
+				if (contents != null && contents.size() > 0) {
 					parseItem((Map)(contents.get(0)), localsymbol, ccy, items);
 				}
 			} catch (Exception e) {

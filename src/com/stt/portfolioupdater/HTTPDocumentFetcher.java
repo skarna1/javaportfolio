@@ -48,7 +48,6 @@ public abstract class HTTPDocumentFetcher {
 
 		if (in != null) {
 			Document dom = tidyHtml(in);
-			
 			XPathFactory factory = XPathFactory.newInstance();
 			XPath xPath = factory.newXPath();
 
@@ -124,5 +123,12 @@ public abstract class HTTPDocumentFetcher {
 
 	public void setUri(String uri) {
 		this.uri = uri;
+	}
+
+	public Double convertToDouble(String value) {
+		value = value.replace(',', '.');
+		value = value.replaceAll(" ", "");
+		value = value.replaceAll("[^\\d.]", "");
+		return Double.parseDouble(value);
 	}
 }

@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 import javax.xml.xpath.XPathExpressionException;
 
-public class KauppalehtiJsonExchangerateFetcher extends HTTPDocumentFetcher {
+public class KauppalehtiJsonExchangerateFetcher extends HTTPDocumentFetcher implements CcyFetcher {
 
 	static final String uri = "https://www.kauppalehti.fi/porssi/valuutat/";
 
