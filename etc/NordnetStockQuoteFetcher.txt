@@ -1,4 +1,5 @@
 AALLON Aallon Group Oyj
+ADMCM Admicom Oyj
 AFAGR Afarak Group Plc
 AM1 Ahlstrom-Munksjö Oyj
 AKTIA Aktia Bank Plc
@@ -22,6 +23,7 @@ CTY1S Citycon Oyj
 CTH1V Componenta Corporation
 CONSTI Consti Yhtiöt Oyj
 CRA1V Cramo Oyj
+DETEC Detection Technology Oyj
 DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
 DNA DNA Oyj
@@ -36,13 +38,17 @@ EQV1V eQ Oyj
 ETT1V Etteplan Oyj
 EVLI Evli Pankki Oyj
 EXL1V Exel Composites Plc
+FELLOW Fellow Finance Plc
 FSC1V F-Secure Corporation
 FIA1S Finnair Oyj
+FODELIA Fodelia Oyj
 FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
 FORTUM Fortum Corporation
 GLA1V Glaston Corporation
+GOFORE Gofore Plc
 HARVIA Harvia Plc
+HEEROS Heeros Oyj
 HKSAV HKScan Oyj A
 HOIVA Hoivatilat Oyj
 HONBS Honkarakenne Oyj B
@@ -62,6 +68,7 @@ KOJAMO Kojamo Plc
 KNEBV KONE Corporation
 KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
+LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 MMO1V Marimekko Corporation
 MARAS Martela Oyj A
@@ -73,6 +80,7 @@ NESTE Neste Corporation
 NIXU Nixu Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
+NORDID Nordic ID Plc
 TYRES Nokian Tyres Plc
 NDA_FI Nordea Bank Abp
 NLG1V Nurminen Logistics Plc
@@ -99,6 +107,7 @@ RMR1V Ramirent Plc
 RAP1V Rapala VMC Corporation
 RAUTE Raute Corporation A
 REG1V Revenio Group Corporation
+REMEDY Remedy Entertainment Oyj
 ROBIT Robit Oyj
 ROVIO Rovio Entertainment Corporation
 SAGCV Saga Furs Oyj C
@@ -126,18 +135,23 @@ TEM1V Tecnotree Corporation
 TEL1V Teleste Corporation
 TELIA1 Telia Company AB
 TTALO Terveystalo Plc
-TIETO Tieto Corporation
+TIETO TietoEvry Corporation
 TIK1V Tikkurila Oyj
 TITAN Titanium Oyj
 TOKMAN Tokmanni Group Oyj
 TRH1V Trainers House Plc
 TULAV Tulikivi Oyj A
+UNIAV United Bankers Oyj
 UPM UPM-Kymmene Corporation
 UPONOR Uponor Oyj
 VAIAS Vaisala Corporation A
 VALMT Valmet Corporation
 VALOE Valoe Oyj
+VERK Verkkokauppa.com Oyj
+VIAFIN Viafin Service Oyj
+VINCIT Vincit Oyj
 VIK1V Viking Line Abp
+VMP VMP Oyj
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation
 YIT YIT Corporation
