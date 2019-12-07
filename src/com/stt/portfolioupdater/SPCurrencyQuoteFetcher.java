@@ -17,6 +17,7 @@ public class SPCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyFe
 	
 	static Map<String, Double> rates = new HashMap<String, Double>();
 
+	
 	public SPCurrencyQuoteFetcher() {
 		super();
 		this.date = null;
@@ -29,13 +30,13 @@ public class SPCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyFe
 		this.date = null;
 	}
 
-	public double getExchangeRate(String ccy) {
+	public double getExchangeRate(String ccy) throws Exception {
 		if (!rates.containsKey(ccy)) {
 			parseHtmlCcy();
 		}
 		Double r = rates.get(ccy);
 		if (r == null) {
-			return 1.0;
+			throw new Exception("Rate for " + ccy + " not found");
 		}
 		return r;
 	}

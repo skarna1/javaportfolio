@@ -66,10 +66,16 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 		
 		double rate = 1.0;
 		if (!ccy.equalsIgnoreCase("EUR")) {
-			rate = currencyFetcher.getExchangeRate(ccy);
-			if (rate == 0.0) {
+			try {
+				rate = currencyFetcher.getExchangeRate(ccy);
+				if (rate == 0.0) {
+					return;
+				}
+			}
+			catch (Exception e) {
 				return;
 			}
+			
 		}
 		
 		double last = convertToDouble(contents.get("lastSalePrice"));

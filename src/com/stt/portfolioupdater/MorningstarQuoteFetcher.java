@@ -100,15 +100,20 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		value = value.replaceAll("\u00A0", "");
 		value = value.trim();
 		
-		//System.out.println("value: " + value);
-		//System.out.println("ccy: " + ccy);
-		
+		// System.out.println("value: " + value);
+		// System.out.println("ccy: " + ccy);
+		try {
 		if (!ccy.equals("EUR")) {
 			CcyFetcher currencyFetcher = CcyFactory.createCcyFetcher();
 			rate = currencyFetcher.getExchangeRate(ccy);
+			// System.out.println("rate: " + rate);
 		}
 		item.setRate(rate);
 		setItemValues(item, value);
+		}
+		catch (Exception e) {
+		
+		}
 	}
 
 	private void readDate(Item item, org.w3c.dom.Node tdNode) {
@@ -157,8 +162,8 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		MorningstarQuoteFetcher fetcher = new MorningstarQuoteFetcher(uri, xpath);
 		fetcher.setName("Nordnet superrahasto norja");
 		List<Item> items = fetcher.parseHtml();
-		//for (Item item : items) {
-		//	item.print();
-		//}
+		for (Item item : items) {
+			item.print();
+		}
 	}
 }
