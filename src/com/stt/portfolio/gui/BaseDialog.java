@@ -30,7 +30,8 @@ import javax.swing.JTextField;
 
 import com.stt.portfolio.I_TickerManager;
 import com.stt.portfolio.Stock;
-import com.stt.portfolioupdater.KauppalehtiJsonExchangerateFetcher;
+import com.stt.portfolioupdater.CcyFactory;
+import com.stt.portfolioupdater.CcyFetcher;
 import com.toedter.calendar.JDateChooser;
 
 public abstract class BaseDialog extends JDialog implements ActionListener,
@@ -258,8 +259,13 @@ KeyListener {
 
 		if (!ccy.equals("EUR")) {
 			if (force || foreignCurrencyButton.isSelected()) {
-				KauppalehtiJsonExchangerateFetcher f = new KauppalehtiJsonExchangerateFetcher();
-				rate = f.getExchangeRate(ccy);
+				CcyFetcher f = CcyFactory.createCcyFetcher();
+				try {
+					rate = f.getExchangeRate(ccy);
+				}
+				catch (Exception e) {
+					
+				}
 			} 
 		}
 		rateField.setText(String.format("%1$.5f", rate));
