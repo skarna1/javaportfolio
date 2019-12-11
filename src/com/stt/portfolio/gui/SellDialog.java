@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -28,8 +29,8 @@ public class SellDialog extends BaseDialog {
 	private JTextField brokerCostField = new JTextField(FIELD_LEN);
 
 	
-	JComboBox brokerList;
-	JComboBox stocksList;
+	JComboBox<String> brokerList;
+	JComboBox<String> stocksList;
 
 	JLabel totalCostFieldLabel;
 	JLabel brokerCostFieldLabel;
@@ -132,7 +133,8 @@ public class SellDialog extends BaseDialog {
 		brokerList.addActionListener(this);
 		//brokerList.setMinimumSize(new Dimension(200,20));
 		// Stocks
-		stocksList = new JComboBox();
+		
+		stocksList = new JComboBox<String>();
 		updateStockList((String) brokerList.getSelectedItem());
 		stocksList.setActionCommand(STOCK_SELECTED);
 		stocksList.addActionListener(this);
@@ -140,9 +142,7 @@ public class SellDialog extends BaseDialog {
 		amountField.addKeyListener(this);
 		costField.addKeyListener(this);
 		brokerCostField.addKeyListener(this);
-		
-		
-		
+
 		totalCostField.setEditable(false);
 		totalCostField.setText("0.00");
 
@@ -180,16 +180,16 @@ public class SellDialog extends BaseDialog {
 
 	private void updateStockList(String broker) {
 		stocksList.removeAllItems();
-
 		Collection<BookEntry> entries = bookEntries.get(broker);
-
-		for (Object o : entries.toArray()) {
-			BookEntry be = (BookEntry) o;
-			stocksList.addItem(be.getName()  );
-		}		
+		List<String> names = new ArrayList<String>();
+		for (BookEntry be : entries) {
+			names.add(be.getName());
+		}
+		Collections.sort(names);
+		for (String name: names) {
+			stocksList.addItem(name);
+		}
 	}
-
-	
 
 	@Override
 	public void keyReleased(KeyEvent e) {
