@@ -80,13 +80,11 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 		//org.w3c.dom.NodeList nodes = td.getChildNodes();
 		//for (int i = 0; i < nodes.getLength(); ++i) {
 		//	org.w3c.dom.Node tdNode = nodes.item(i);
-
+		
+	
 		org.w3c.dom.Node tdNode = td.getFirstChild();
-			if (column == 4) {
-				tdNode = tdNode.getFirstChild();  // div
-				if (tdNode != null) tdNode = tdNode.getFirstChild();
-				
-				if (tdNode.getNodeName().equalsIgnoreCase("a")) {
+			if (column == 4) {				
+				if (tdNode != null && tdNode.getNodeName().equalsIgnoreCase("a")) {
 					org.w3c.dom.Node n = tdNode.getFirstChild();
 					String name = n.getNodeValue();
 					item.setName(name);
@@ -97,42 +95,43 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 			} else if (column == 7) {
 				// div, span, span, span, span /span, /span, span,span, /span, /span, span value /span, span, /span,/span,/span/div
 				// last
-				tdNode = tdNode.getFirstChild();  // div
-				
+				//tdNode = tdNode.getFirstChild();  // div
 				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
-				//if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+				
 				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
 				if (tdNode != null) tdNode = childs.item(2);
+				
 				String columnValue = this.getValue(tdNode);
-				//System.out.println("Column " + column + " value: " + columnValue);
-				double v = Double.parseDouble(columnValue);
-				item.setLast(v);	
+				System.out.println("Column " + column + " value: " + columnValue);
+				try {
+					double v = Double.parseDouble(columnValue);
+					item.setLast(v);
+				}
+				catch (NumberFormatException e ) {
+					
+				}
 			}
 			else if (column == 11) {
 				// high
-				tdNode = tdNode.getFirstChild();  // div
 				
-				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+				if (tdNode != null) {
 				
-				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
-				if (tdNode != null) tdNode = childs.item(2);
 				String columnValue = this.getValue(tdNode);
 				//System.out.println("Column " + column + " value: " + columnValue);
 				double v = Double.parseDouble(columnValue);
 				item.setHigh(v);
+				}
 			}
 			else if (column == 12) {
 				// low
-				tdNode = tdNode.getFirstChild();  // div
-				
-				if (tdNode != null) tdNode = tdNode.getFirstChild(); // span
+
+				if (tdNode != null) {
 			
-				org.w3c.dom.NodeList childs = tdNode.getChildNodes();
-				if (tdNode != null) tdNode = childs.item(2);
 				String columnValue = this.getValue(tdNode);
 				//System.out.println("Column " + column + " value: " + columnValue);
 				double v = Double.parseDouble(columnValue);
 				item.setLow(v);
+				}
 			}
 		//}
 	}
