@@ -88,6 +88,7 @@ OLVAS Olvi Plc A
 OMASP Oma Säästöpankki Oyj
 OKDAV Oriola Corporation A
 OKDBV Oriola Corporation B
+OPTOMED Optomed Plc
 ORNAV Orion Corporation A
 ORNBV Orion Corporation B
 OUT1V Outokumpu Oyj
@@ -107,6 +108,7 @@ RMR1V Ramirent Plc
 RAP1V Rapala VMC Corporation
 RAUTE Raute Corporation A
 REG1V Revenio Group Corporation
+RELAIS Relais Group Oyj
 REMEDY Remedy Entertainment Oyj
 ROBIT Robit Oyj
 ROVIO Rovio Entertainment Corporation

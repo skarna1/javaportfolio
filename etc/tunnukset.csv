@@ -2,6 +2,7 @@
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
 terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
 terveydenhuolto ; S ; OKDBV ; Oriola B ; 1
+terveydenhuolto ; S ; OPTOMED ; Optomed ; 1 ; EUR
 terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
 terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
@@ -102,7 +103,7 @@ teknologia ; S ; SOPRA ; Soprano ; 1 ; EUR
 teknologia ; S ; SSH1V ; SSH Communications Security ; 1 ; EUR
 teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
-teknologia ; S ; TIETO ; Tieto ; 1 ; EUR
+teknologia ; S ; TIETO ; TietoEVRY ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
