@@ -505,13 +505,13 @@ public class Portfolio {
 					row[j++] = (stock != null) ? stock.getName() : e
 							.getTicker();
 
-					row[j++] = new Double(e.getAmount());
-					row[j++] = new Double(e.getPrice());
-					row[j++] = new Double(e.getBrokerCost());
-					row[j++] = new Double(e.getRate());
+					row[j++] = Double.valueOf(e.getAmount());
+					row[j++] = Double.valueOf(e.getPrice());
+					row[j++] = Double.valueOf(e.getBrokerCost());
+					row[j++] = Double.valueOf(e.getRate());
 					row[j++] = e.getBroker();
-					row[j++] = new Double(e.getCost());
-					row[j++] = new Double(e.getCost() / e.getRate());
+					row[j++] = Double.valueOf(e.getCost());
+					row[j++] = Double.valueOf(e.getCost() / e.getRate());
 
 					sum += e.getCost() / e.getRate();
 					trs.add(row);
@@ -532,7 +532,7 @@ public class Portfolio {
 		row[j++] = "";
 		row[j++] = "";
 		row[j++] = "";
-		row[j++] = new Double(sum);
+		row[j++] = Double.valueOf(sum);
 		trs.add(row);
 
 		// Build table

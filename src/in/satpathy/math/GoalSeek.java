@@ -167,7 +167,7 @@ public class GoalSeek {
 
 		return Double.isInfinite(dfx) ?
 		       new GoalSeekStatus(GoalSeekStatus.GOAL_SEEK_ERROR, null) :
-		       new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK, new Double(dfx) ) ;
+		       new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK, Double.valueOf(dfx) ) ;
 		//return gnm_finite(*dfx) ? GoalSeekStatus.GOAL_SEEK_OK : GoalSeekStatus.GOAL_SEEK_ERROR;
 	}
 
@@ -205,7 +205,7 @@ public class GoalSeek {
 
 		if ( data.have_root )   {
 			return new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK,
-			                           new Double(data.root) ) ;
+					Double.valueOf(data.root) ) ;
 		}
 
 		if ( DEBUG_GOAL_SEEK ) {
@@ -236,7 +236,7 @@ public class GoalSeek {
 			}
 			if (update_data (x0, y0, data) )    {
 				return new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK,
-				                           new Double(data.root) ) ;
+						Double.valueOf(data.root) ) ;
             }
 
 			if ( df != null ) {
@@ -282,7 +282,7 @@ public class GoalSeek {
 				data.root = x0;
 				data.have_root = true;
 				return new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK,
-				                           new Double(data.root) ) ;
+						Double.valueOf(data.root) ) ;
 			}
 		}
 

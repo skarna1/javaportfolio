@@ -66,7 +66,7 @@ public class XIRRNPV implements GoalSeekFunction {
 		}
 
 //		GoalSeekStatus.returnData = new Double( sum ) ;
-		return new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK, new Double(sum) ) ;
+		return new GoalSeekStatus( GoalSeekStatus.GOAL_SEEK_OK, Double.valueOf(sum) ) ;
 	}
 
 }   /*  End of the XIRRNPV class. */

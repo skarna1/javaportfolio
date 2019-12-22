@@ -246,18 +246,17 @@ public class BookEntryManager implements I_BookEntryManagement {
 
 				if (!showItems) {
 
-					table[i][j++] = (stock != null) ? stock.getName() : e
-							.getSymbol();
+					table[i][j++] = (stock != null) ? stock.getName() : e.getSymbol();
 					table[i][j++] = e.getCcy();
 
-					table[i][j++] = new Double(e.getMarketPrice() * e.getRate());
+					table[i][j++] = Double.valueOf(e.getMarketPrice() * e.getRate());
 					table[i][j++] = (e.getQuoteDate() != null) ? e
 							.getQuoteDate() : "N/A";
 
-							table[i][j++] = new Integer((int) e.getAmount());
+							table[i][j++] = Integer.valueOf((int) e.getAmount());
 							// table[i][j++] = new Double(e.getCost());
 							// table[i][j++] = String.format("%1$.2f", e.getPrice());
-							table[i][j++] = new Double(e.getPriceOriginalCurrency()); // Show
+							table[i][j++] = Double.valueOf(e.getPriceOriginalCurrency()); // Show
 							// buy
 							// price
 							// in
@@ -265,18 +264,18 @@ public class BookEntryManager implements I_BookEntryManagement {
 							// currency
 							table[i][j++] = e.getPurchaseDate();
 
-							table[i][j++] = new Double(e.getMarketPrice() * e.getRate()
+							table[i][j++] = Double.valueOf(e.getMarketPrice() * e.getRate()
 									* e.getAmount());
-							table[i][j++] = new Double(e.getMarketPrice()
+							table[i][j++] = Double.valueOf(e.getMarketPrice()
 									* e.getAmount());
 							portfolioValue += e.getMarketPrice() * e.getAmount();
-							table[i][j++] = new Double(e.getTaxCost());
-							table[i][j++] = new Double(e.getDividents());
+							table[i][j++] = Double.valueOf(e.getTaxCost());
+							table[i][j++] = Double.valueOf(e.getDividents());
 
-							table[i][j++] = new Double(e.getProfit(e.getMarketPrice()));
-							table[i][j++] = new Double(e.getProfitPercent(e
+							table[i][j++] = Double.valueOf(e.getProfit(e.getMarketPrice()));
+							table[i][j++] = Double.valueOf(e.getProfitPercent(e
 									.getMarketPrice()));
-							table[i][j++] = new Double(xirrAdapter.getXirr(e.getQuoteDate(), e));
+							table[i][j++] = Double.valueOf(xirrAdapter.getXirr(e.getQuoteDate(), e));
 
 							++i;
 				} else {
@@ -285,40 +284,37 @@ public class BookEntryManager implements I_BookEntryManagement {
 						j = 0;
 						BookEntryItem item = iter.next();
 
-						table[i][j++] = (stock != null) ? stock.getName() : e
-								.getSymbol();
+						table[i][j++] = (stock != null) ? stock.getName() : e.getSymbol();
 						table[i][j++] = e.getCcy();
 
-						table[i][j++] = new Double(e.getMarketPrice()
+						table[i][j++] = Double.valueOf(e.getMarketPrice()
 								* e.getRate());
 						table[i][j++] = (e.getQuoteDate() != null) ? e
 								.getQuoteDate() : "N/A";
 
-								table[i][j++] = new Integer((int) item.getAmount());
+								table[i][j++] = Integer.valueOf((int) item.getAmount());
 								// table[i][j++] = new Double(e.getCost());
 								// table[i][j++] = String.format("%1$.2f",
 								// e.getPrice());
-								table[i][j++] = new Double(-item
+								table[i][j++] = Double.valueOf(-item
 										.getCostInOriginalCurrency()
 										/ item.getAmount()); // Show buy price in
 								// original currency
 								table[i][j++] = item.getPurchaseDate();
 
-								table[i][j++] = new Double(e.getMarketPrice() *
+								table[i][j++] = Double.valueOf(e.getMarketPrice() *
 										e.getRate() * item.getAmount());
-								table[i][j++] = new Double(e.getMarketPrice() *
+								table[i][j++] = Double.valueOf(e.getMarketPrice() *
 										item.getAmount());
 
-								table[i][j++] = new Double(item.getTaxCost() );
-								table[i][j++] = new Double(item.getDividents());
+								table[i][j++] = Double.valueOf(item.getTaxCost() );
+								table[i][j++] = Double.valueOf(item.getDividents());
 
-								table[i][j++] = new
-										Double(item.getProfit(e.getMarketPrice()));
+								table[i][j++] = Double.valueOf(item.getProfit(e.getMarketPrice()));
 
-								table[i][j++] = new
-										Double(item.getProfitPercent(e.getMarketPrice()));
+								table[i][j++] = Double.valueOf(item.getProfitPercent(e.getMarketPrice()));
 
-								table[i][j++] = new Double(xirrAdapter.getXirr(e.getQuoteDate(), e.getMarketPrice(), item));
+								table[i][j++] = Double.valueOf(xirrAdapter.getXirr(e.getQuoteDate(), e.getMarketPrice(), item));
 
 								portfolioValue += e.getMarketPrice() * item.getAmount();
 
@@ -331,7 +327,7 @@ public class BookEntryManager implements I_BookEntryManagement {
 		// add weight % from portfolio
 		for (int k = 0; k < i; ++k) {
 			if (table[k][8] != null) {
-				table[k][14] = new Double(100.0 * (Double) (table[k][8])
+				table[k][14] = Double.valueOf(100.0 * (Double) (table[k][8])
 						/ portfolioValue);
 			}
 		}
@@ -355,8 +351,8 @@ public class BookEntryManager implements I_BookEntryManagement {
 
 			@Override
 			public int compare(BookEntry o1, BookEntry o2) {
-				Double v1 = new Double(o1.getMarketPrice() * o1.getAmount());
-				Double v2 = new Double(o2.getMarketPrice() * o2.getAmount());
+				Double v1 = Double.valueOf(o1.getMarketPrice() * o1.getAmount());
+				Double v2 = Double.valueOf(o2.getMarketPrice() * o2.getAmount());
 				return v1.compareTo(v2);
 			}
 

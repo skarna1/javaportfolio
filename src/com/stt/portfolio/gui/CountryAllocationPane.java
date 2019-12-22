@@ -33,7 +33,7 @@ public class CountryAllocationPane extends JPanel {
 		
 		for (Entry<String, Double> entry : bookEntries) {
 			double percentage = (Double) entry.getValue()/totalValue * 100.0 ;
-			dataset.setValue(entry.getKey(), new Double(percentage) );
+			dataset.setValue(entry.getKey(), Double.valueOf(percentage) );
 		}
 
 		this.chart = ChartFactory.createPieChart(

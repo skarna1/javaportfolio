@@ -117,24 +117,24 @@ public class TaxManager {
 			Stock stock = tickerManager.getStock(e.getSymbol());
 			table[i][j++] = (stock != null) ? stock.getName() : e.getSymbol();
 
-			table[i][j++] = new Double(e.getAmount());
+			table[i][j++] = Double.valueOf(e.getAmount());
 
 			table[i][j++] = e.getPurchaseDate();
 			table[i][j++] = e.getSellDate();
 
-			table[i][j++] = new Double(e.getPurchasePrice());
-			table[i][j++] = new Double(0.0);
-			table[i][j++] = new Double(e.getSellPrice());
-			table[i][j++] = new Double(e.getSellCosts());
+			table[i][j++] = Double.valueOf(e.getPurchasePrice());
+			table[i][j++] = Double.valueOf(0.0);
+			table[i][j++] = Double.valueOf(e.getSellPrice());
+			table[i][j++] = Double.valueOf(e.getSellCosts());
 
 			table[i][j++] = e.getBroker();
 			if (e.getPurchasePriceAssumption() > e.getPurchasePrice()) {
-				table[i][j++] = new Double(e.getPurchasePriceAssumption()); // hankintameno-olettama
-				table[i][j++] = new Double(e.getSellPrice()
+				table[i][j++] = Double.valueOf(e.getPurchasePriceAssumption()); // hankintameno-olettama
+				table[i][j++] = Double.valueOf(e.getSellPrice()
 						- e.getPurchasePriceAssumption());
 			} else {
-				table[i][j++] = new Double(0.0);
-				table[i][j++] = new Double(e.getProfit());
+				table[i][j++] = Double.valueOf(0.0);
+				table[i][j++] = Double.valueOf(e.getProfit());
 			}
 
 			++i;

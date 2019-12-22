@@ -37,14 +37,14 @@ public class PieChartPane extends JPanel {
 		  for (int i = 0; i < bookEntries.length; ++i) {
 			  double percentage = (Double) bookEntries[i][8]/totalValue * 100.0 ;
 			  if (percentage > percentageLimit) {
-				  dataset.setValue( (String) bookEntries[i][0],  new Double(percentage) );
+				  dataset.setValue( (String) bookEntries[i][0], Double.valueOf(percentage) );
 			  }
 			  else {
 				  belowXPercent += percentage;
 			  }
 		  }
 		  if (belowXPercent > 0.0) {
-			  dataset.setValue( "Alle " + belowPercentage + "%",  new Double(belowXPercent) );
+			  dataset.setValue( "Alle " + belowPercentage + "%", Double.valueOf(belowXPercent) );
 		  }
 		 
 		  
