@@ -29,6 +29,7 @@ DIGIGR Digitalist Group Plc
 DNA DNA Oyj
 DOV1V Dovre Group Plc
 EABGB EAB Group Oyj
+EEZY Eezy Oyj
 EFECTE Efecte Plc
 EFO1V Efore Plc
 ELEAV Elecster Oyj A
@@ -49,6 +50,7 @@ GLA1V Glaston Corporation
 GOFORE Gofore Plc
 HARVIA Harvia Plc
 HEEROS Heeros Oyj
+HRTIS Herantis Pharma Oyj
 HKSAV HKScan Oyj A
 HOIVA Hoivatilat Oyj
 HONBS Honkarakenne Oyj B

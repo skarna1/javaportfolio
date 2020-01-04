@@ -121,7 +121,6 @@ Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
 Kulutustavarat ; S ; ALTIA ; Altia ; 1 ; EUR
-Kulutustavarat ; S ; AMEAS ; Amer Sports A ; 1 ; EUR
 Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
 Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
 Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
@@ -146,10 +145,12 @@ First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
 First North ; S ; EABGB ; EAB Group ; 1 ; EUR
+First North ; S ; EEZY ; Eezy ; 1 ; EUR
 First North ; S ; EFECTE ; Efecte ; 1 ; EUR
 First North ; S ; ESENSE ; Enersense International ; 1 ; EUR
 First North ; S ; FELLOW ; Fellow Finance ; 1 ; EUR
 First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
+First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
 First North ; S ; GOFORE ; Gofore ; 1 ; EUR
 First North ; S ; HEEROS ; Heeros ; 1 ; EUR
@@ -169,7 +170,6 @@ First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
 First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
-First North ; S ; VMP ; Vmp ; 1 ; EUR
 Indeksiosuudet ; S ; SLG OMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
 optiot ; O ; GLA1VUO119 ; Glaston merk oikeus ; 1 ; EUR
 optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
@@ -849,6 +849,7 @@ vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
 vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR
 vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
+vanhat osakkeet ; X ; AMEAS ; Amer Sports A ; 1 ; EUR
 vanhat osakkeet ; X ; ARM1V ; A-Rakennusmies ; 1
 vanhat osakkeet ; X ; ASKAS ; Asko ; 1
 vanhat osakkeet ; X ; ASU1V ; Aspo ; 1
@@ -927,7 +928,7 @@ vanhat osakkeet ; X ; KGH1V ; Kemira GrowHow ; 1
 vanhat osakkeet ; X ; KES1S ; Kesko B ; 1
 vanhat osakkeet ; X ; KNT1V ; Kontram-yhtiöt ; 1
 vanhat osakkeet ; X ; KONBS ; Kone B ; 1
-vanhat osakkeet ; X ; KCR1V ; Konecarnaes ; 1
+vanhat osakkeet ; X ; KCR1V ; Konecranes ; 1
 vanhat osakkeet ; X ; PIZZA ; Kotipizza Group ; 1 ; EUR
 vanhat osakkeet ; X ; KPUAV ; KSP Yhtiöt A ; 1
 vanhat osakkeet ; X ; KYPAS ; Kylpyläkasino A ; 1
@@ -1075,6 +1076,7 @@ vanhat osakkeet ; X ; VALAS ; Valmet A ; 1
 vanhat osakkeet ; X ; VAMPS ; Valtameri E ; 1
 vanhat osakkeet ; X ; VCCAV ; Vestcap A ; 1
 vanhat osakkeet ; X ; VCCBV ; Vestcap B ; 1
+vanhat osakkeet ; X ; VMP ; Vmp ; 1 ; EUR
 vanhat osakkeet ; X ; UHI1V ; Ühispank ; 1
 vanhat osakkeet ; X ; UPM1V ; UPM-Kymmene ; 1
 vanhat osakkeet ; X ; YTY1V ; YIT-Yhtymä ; 1
@@ -1179,6 +1181,7 @@ vanhat rahastot ; Y ; ALBEUBO ; Ålandsbanken Euro Bond ; 1
 vanhat rahastot ; Y ; ALBEUACTPF ; Ålandsbanken Europe Active Portfolio ; 1
 vanhat rahastot ; Y ; ALBGLOBLUE ; Ålandsbanken Global Blue Chip ; 1
 vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
+vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
 NYSE ; S ; AXP ; American Express ; 1 ; USD ; USA
 NYSE ; S ; ASHR ; Deutche CSI300 China A-shares ; 1 ; USD ; Kehittyvät
