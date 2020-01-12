@@ -104,8 +104,8 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			return "SELEUROBL" + suffix;
 		}else if (name.equalsIgnoreCase("Suomi")) {
 			return "SELIGSUOM" + suffix;
-		}else if (name.startsWith("OMXH 25 ETF")) {
-			return "SLGOMXH25";
+		}else if (name.startsWith("OMXH25")) {
+			return "SLG OMXH25";
 		}else if (name.equalsIgnoreCase("Global Brands")) {
 			return "SELGLOBAL" + suffix;
 		}else if (name.startsWith("Global Pharma")) {
