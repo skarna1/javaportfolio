@@ -14,6 +14,7 @@ ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
 BAS1V Basware Corporation
+BILOT Bilot Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
 CAPMAN CapMan Plc
@@ -39,6 +40,7 @@ EQV1V eQ Oyj
 ETT1V Etteplan Oyj
 EVLI Evli Pankki Oyj
 EXL1V Exel Composites Plc
+FARON Faron Pharmaceuticals Oy
 FELLOW Fellow Finance Plc
 FSC1V F-Secure Corporation
 FIA1S Finnair Oyj
