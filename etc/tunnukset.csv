@@ -7,7 +7,6 @@ terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
 terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
 terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
-terveydenhuolto ; S ; SILMA ; Silmäasema ; 1 ; EUR
 rahoitus ; S ; AKTIA ; Aktia; 1 ; EUR
 rahoitus ; S ; ATG1V ; Asiakastieto ; 1 ; EUR
 rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
@@ -47,7 +46,7 @@ teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CONSTI ; Consti ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CRA1V ; Cramo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; DOV1V ; Dovre ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; EFO1V ; Efore ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ENEDO ; Enedo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
@@ -881,6 +880,7 @@ vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
 vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
 vanhat osakkeet ; X ; EBC1V ; Elektrobit ; 1 ; EUR
 vanhat osakkeet ; X ; EBG1V ; Elektrobit ; 1 ; EUR
+vanhat osakkeet ; X ; EFO1V ; Efore ; 1 ;
 vanhat osakkeet ; X ; ELI1V ; Elisa ; 1 ; EUR
 vanhat osakkeet ; X ; ELVH ; Elite Varainhoito ; 1 ; EUR
 vanhat osakkeet ; X ; ENE1V ; Endero ; 1
@@ -1019,6 +1019,7 @@ vanhat osakkeet ; X ; SAU1V ; Saunatec ; 1
 vanhat osakkeet ; X ; SCAAS ; Yrityspankki Skop A ; 1
 vanhat osakkeet ; X ; SCF1V ; Scanfil ; 1
 vanhat osakkeet ; X ; SNR1V ; Sentera ; 1
+vanhat osakkeet ; X ; SILMA ; Silmäasema ; 1 ;
 vanhat osakkeet ; X ; SJA1V ; Silja ; 1
 vanhat osakkeet ; X ; SOO1VNELI2 ; Soon Comm. vaih-os 2 ; 1
 vanhat osakkeet ; X ; SOO1V ; Soon Communications ; 1
