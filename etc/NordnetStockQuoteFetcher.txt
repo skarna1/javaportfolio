@@ -17,12 +17,13 @@ BAS1V Basware Corporation
 BILOT Bilot Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
+BONEH BBS-Bioactive Bone Substitutes
 CAPMAN CapMan Plc
 CGCBV Cargotec Oyj
 CAV1V Caverion Oyj
 CTY1S Citycon Oyj
 CTH1V Componenta Corporation
-CONSTI Consti Yhtiöt Oyj
+CONSTI Consti Plc
 CRA1V Cramo Oyj
 DETEC Detection Technology Oyj
 DIGIA Digia Plc
@@ -32,9 +33,9 @@ DOV1V Dovre Group Plc
 EABGB EAB Group Oyj
 EEZY Eezy Oyj
 EFECTE Efecte Plc
-EFO1V Efore Plc
 ELEAV Elecster Oyj A
 ELISA Elisa Corporation
+ENEDO Enedo Plc
 ENDOM Endomines AB
 EQV1V eQ Oyj
 ETT1V Etteplan Oyj
