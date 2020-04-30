@@ -1189,6 +1189,7 @@ vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
 NYSE ; S ; AXP ; American Express ; 1 ; USD ; USA
 NYSE ; S ; ASHR ; Deutche CSI300 China A-shares ; 1 ; USD ; Kehittyvät
+NYSE ; S ; BPY ; Brookfield Property Partners ; 1 ; USD
 NYSE ; S ; CNDA ; IQ Canada Small Cap ETF ; 1 ; USD ; Kanada
 NYSE ; S ; BRKB ; Berkshire Hathaway B ; 1 ; USD ; USA
 NYSE ; S ; BUD ; Anheuser-Busch Inbev ; 1  ; USD ; Belgia
@@ -1224,7 +1225,8 @@ NYSE ; S ; POT ;  Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
-NYSE ; S ; RDS.A ; Royal Dutch Shell ; 1 ; USD ; USA
+NYSE ; S ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
+NYSE ; S ; RDS.B ; Royal Dutch Shell B; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
@@ -1241,6 +1243,7 @@ NYSE ; S ; IRM ; Iron Mountain ; 1 ; USD ; USA
 NYSE ; S ; WY ; Weyerhaeuser ; 1 ; USD ; USA
 TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
+OMXS  ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
