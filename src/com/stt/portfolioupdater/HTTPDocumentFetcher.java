@@ -32,12 +32,10 @@ public abstract class HTTPDocumentFetcher {
 	String uri = null;
 	Charset charset = null;
 	
-	public HTTPDocumentFetcher() {
-		super();		
+	public HTTPDocumentFetcher() {		
 	}
 	
 	public HTTPDocumentFetcher(String uri) {
-		super();	
 		this.uri = uri;
 	}
 	

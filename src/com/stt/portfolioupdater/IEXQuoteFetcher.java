@@ -1,14 +1,9 @@
 package com.stt.portfolioupdater;
 
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 import javax.script.ScriptEngine;
@@ -21,6 +16,7 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 	private ScriptEngine engine;
 	  
 	public IEXQuoteFetcher() {
+		super();
 		currencyFetcher = CcyFactory.createCcyFetcher();
 		ScriptEngineManager sem = new ScriptEngineManager();
 	    this.engine = sem.getEngineByName("javascript");
@@ -38,7 +34,8 @@ public class IEXQuoteFetcher extends HTTPQuoteFetcher {
 			String ccy = parts[2];
 
 			try {
-				String uri = "https://api.iextrading.com/1.0/tops?symbols=" + symbolString;
+				String uri = getUri() + symbolString;
+				System.out.println("IEX uri: " + uri);
 				String lines = YahooUtils.readInput(uri);
 			    //System.out.println("lines: " + lines);
 				//

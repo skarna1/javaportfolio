@@ -10,7 +10,10 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -222,15 +225,31 @@ public class PortfolioGuiApp {
 
 				try {
 					Class cl = Class.forName(className);
-					HTTPQuoteFetcher fetcher = (HTTPQuoteFetcher) cl
-							.newInstance();
-					fetcher.setUri(uri);
-					fetcher.setXpath(xpath);
-					fetcher.setIgnoreVolume(ignoreVolume);
-					if (name != null) {
-						fetcher.setName(name);
+					Constructor[] ctors = cl.getDeclaredConstructors();
+					for (Constructor ctor : ctors) {
+						if (ctor.getGenericParameterTypes().length == 0) {
+							HTTPQuoteFetcher fetcher;
+							try {
+								fetcher = (HTTPQuoteFetcher) ctor.newInstance();
+								fetcher.setUri(uri);
+								fetcher.setXpath(xpath);
+								fetcher.setIgnoreVolume(ignoreVolume);
+								if (name != null) {
+									fetcher.setName(name);
+								}
+								quoteUpdaters.add(fetcher);
+							} catch (IllegalArgumentException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							} catch (InvocationTargetException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							
+							break;
+						}
 					}
-					quoteUpdaters.add(fetcher);
+					
 
 				} catch (ClassNotFoundException e) {
 					// TODO Auto-generated catch block
@@ -252,26 +271,42 @@ public class PortfolioGuiApp {
 	private void updateQuotes() {
 		String path = "etc/kurssidata/";
 		boolean ok = true;
+		Map<String, Boolean> fetched_urls = new HashMap<String, Boolean>();
+		
 		Updater updater = new Updater();
 
 		for (HTTPQuoteFetcher fetcher : quoteUpdaters) {
-			// System.out.println(fetcher.getUri());
+			System.out.println("Fetching data from: " + fetcher.getUri());
 			List<Item> items = fetcher.parseHtml();
 
 			if (items.size() == 0) {
-				ok = false;
 				System.out.println("update failed: " + fetcher.getUri());
+				fetched_urls.put(fetcher.getUri(), false);
+				ok = false;
 				continue;
 			}
 			updater.writeToFiles(path, items, fetcher.isIgnoreVolume());
+			fetched_urls.put(fetcher.getUri(), true);
+		}
+		final StringBuilder message = new StringBuilder();
+		message.append("Kurssitiedot haettu");
+		if (ok) {
+			message.append(" OK");
+		}
+		else {
+			message.append("\n\n");
+			fetched_urls.forEach((key, value) -> {
+				message.append(key + ": ");
+				if (value) {
+					message.append("OK!\n");
+				}
+				else {
+					message.append(" Virhe!\n");
+				}
+			});
 		}
 
-		if (ok) {
-			JOptionPane.showMessageDialog(frame, "Kurssitiedot haettu.");
-		} else {
-			JOptionPane.showMessageDialog(frame,
-					"Kurssitietoja ei saatu haettua.");
-		}
+		JOptionPane.showMessageDialog(frame, message.toString());
 
 		if (portfolioDocument != null) {
 			portfolioDocument.redraw();
