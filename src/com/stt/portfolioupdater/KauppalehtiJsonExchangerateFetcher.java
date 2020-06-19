@@ -1,5 +1,6 @@
 package com.stt.portfolioupdater;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -35,7 +36,7 @@ public class KauppalehtiJsonExchangerateFetcher extends HTTPDocumentFetcher impl
 
 	private double parseHtmlCcy(String uri) {
 		try {
-			InputStream in = fetch(uri);
+			InputStream in = new ByteArrayInputStream(fetch(uri).getBytes());
 
 			if (in != null) {
 				// System.out.println(stringToSearch);

@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -22,7 +23,8 @@ public class KauppalehtiJsonQuoteFetcher extends HTTPQuoteFetcher {
 	public List<Item> parseHtml() {
 		List<Item> items = new ArrayList<>();
 		try {
-			InputStream in = fetch(uri);
+			
+			InputStream in = new ByteArrayInputStream(fetch(uri).getBytes());
 
 			if (in != null) {
 				// System.out.println(stringToSearch);

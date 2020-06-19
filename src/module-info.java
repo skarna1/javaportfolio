@@ -12,9 +12,8 @@ module javaportfolio {
 	exports com.stt.portfolio.gui;
 
 	requires Tidy;
-	requires httpclient;
-	requires httpcore;
 	requires java.desktop;
+	requires java.net.http;
 	requires java.scripting;
 	requires java.sql;
 	requires java.xml;

@@ -1,18 +1,20 @@
 package com.stt.portfolioupdater;
 
 import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.SocketTimeoutException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.http.HttpClient.Redirect;
+import java.net.http.HttpClient.Version;
+import java.net.http.HttpResponse.BodyHandlers;
+import java.time.Duration;
 import java.util.Locale;
 
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.config.CookieSpecs;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
 
 public class YahooUtils {
 
@@ -42,38 +44,44 @@ public class YahooUtils {
 	}
 	
 	public static InputStream fetch(String url) {
-		RequestConfig globalConfig = RequestConfig.custom()
-		        .setCookieSpec(CookieSpecs.IGNORE_COOKIES)
-		        .setCircularRedirectsAllowed(true)
-		        .setConnectTimeout(3000)
-		        .setSocketTimeout(5000)
-		        .build();
-		CloseableHttpClient client = HttpClients.custom()
-		        .setDefaultRequestConfig(globalConfig)
-		        .build();
-	    
-		HttpGet httpGet = new HttpGet(url);
+		
+		InputStream in = new ByteArrayInputStream(fetchString(url).getBytes());
+		return in;
+	}
+	
+	protected static String fetchString(String url) {
+		
+		HttpClient client = HttpClient.newBuilder()
+			      .version(Version.HTTP_2)
+			      .followRedirects(Redirect.ALWAYS)
+			      .connectTimeout(Duration.ofSeconds(5))
+			      .build();
+		
+		HttpRequest request = HttpRequest.newBuilder()
+			      .uri(URI.create(url)).timeout(Duration.ofMillis(5000))
+			      .build();
 
 		try {
-			 CloseableHttpResponse response = client.execute(httpGet);
-			//System.out.println("http get: " + url + " status: " + statusCode);
-			// Make sure only success code content is returned, else return
-			// blank.
+			 HttpResponse<String> response =
+				      client.send(request, BodyHandlers.ofString());
+	
+
 			 
-			if (response.getStatusLine().getStatusCode() != org.apache.http.HttpStatus.SC_OK) {
-				System.err.println("Method failed: " + response.getStatusLine());
-				httpGet.releaseConnection();
+			if (response.statusCode() != 200) {
+				System.err.println("Method failed: " + response.body());
 				return null;
 			}
-			return response.getEntity().getContent();
-		} catch (ClientProtocolException e) {
-			System.err.println("Fatal protocol violation: " + e.getMessage());
-			return null;
-		} catch (IOException e) {
+
+			return response.body();
+			
+		}  catch (IOException e) {
 			System.err.println("Fatal transport error: " + e.getMessage());
+			return null;
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 			return null;
 		}
 	}
-	
 
 }
