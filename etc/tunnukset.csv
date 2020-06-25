@@ -8,9 +8,9 @@ terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
 terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
 rahoitus ; S ; AKTIA ; Aktia; 1 ; EUR
-rahoitus ; S ; ATG1V ; Asiakastieto ; 1 ; EUR
 rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
 rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
+rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
 rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
@@ -856,6 +856,7 @@ vanhat osakkeet ; X ; AMEAS ; Amer Sports A ; 1 ; EUR
 vanhat osakkeet ; X ; ARM1V ; A-Rakennusmies ; 1
 vanhat osakkeet ; X ; ASKAS ; Asko ; 1
 vanhat osakkeet ; X ; ASU1V ; Aspo ; 1
+vanhat osakkeet ; X ; ATG1V ; Asiakastieto ; 1 ; EUR^
 vanhat osakkeet ; X ; AVP1V ; AvestaPolarit ; 1
 vanhat osakkeet ; X ; BALAS ; A Company Finland ; 1
 vanhat osakkeet ; X ; BEL1V ; Beltton-Yhtiöt ; 1

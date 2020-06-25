@@ -7,7 +7,6 @@ ALMA Alma Media Corporation
 ALTIA Altia Plc
 APETI Apetit Plc
 TALLINK AS Tallink Grupp FDR
-ATG1V Asiakastieto Group Oyj
 ASPO Aspo Plc
 ACG1V Aspocomp Group Plc
 ATRAV Atria Plc A
@@ -36,6 +35,7 @@ EFECTE Efecte Plc
 ELEAV Elecster Oyj A
 ELISA Elisa Corporation
 ENEDO Enedo Plc
+ENENTO Enento Group Oyj
 ENDOM Endomines AB
 EQV1V eQ Oyj
 ETT1V Etteplan Oyj
