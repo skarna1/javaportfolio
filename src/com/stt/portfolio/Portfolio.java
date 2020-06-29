@@ -608,14 +608,16 @@ public class Portfolio {
 	 * 
 	 * @return the brokers
 	 */
-	public Object[] getBrokers() {
+	public String[] getBrokers() {
 		List<String> brokers = new ArrayList<String>();
 		for (Account a : accounts) {
 			if (!a.getBroker().equalsIgnoreCase("ver")) {
 				brokers.add(a.getBroker());
 			}
 		}
-		return brokers.toArray();
+		String[] brokerarray = new String[brokers.size()];
+		brokerarray = brokers.toArray(brokerarray);
+		return brokerarray;
 	}
 
 	/**
@@ -653,7 +655,7 @@ public class Portfolio {
 	 * 
 	 * @return the sectors
 	 */
-	public Object[] getSectors() {
+	public String[] getSectors() {
 		return tickerManager.getSectors();
 	}
 

@@ -5,8 +5,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.Map;
+
+import javax.swing.BoxLayout;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import com.stt.portfolio.I_TickerManager;
@@ -23,9 +26,9 @@ public class DividendDialog extends BaseDialog {
 	private JTextField costField = new JTextField(FIELD_LEN);
 	private JTextField dividendTaxField = new JTextField(FIELD_LEN);
 
-	JComboBox brokerList;
-	JComboBox sectorList;
-	JComboBox stocksList;
+	JComboBox<String> brokerList;
+	JComboBox<String> sectorList;
+	JComboBox<String> stocksList;
 
 	JLabel totalCostFieldLabel;
 	JLabel netCostFieldLabel;
@@ -36,12 +39,15 @@ public class DividendDialog extends BaseDialog {
 	JLabel stockFieldLabel;
 	JLabel sectorFieldLabel;
 	JLabel dividendTaxLabel;
+	private JLabel localCurrencyButtonLabel;
 
+	private JPanel currencyButtonPanel;
+	
 	Map<String, List<String>> stocks = null;
 	I_TickerManager tickerManager = null;
 
 	public String getStockName() {
-		return (String) stocksList.getSelectedItem();
+		return String.valueOf(stocksList.getSelectedItem());
 	}
 
 	public double getAmount() {
@@ -74,9 +80,15 @@ public class DividendDialog extends BaseDialog {
 			updateRateFieldForce(stockName);
 		} else if (STOCK_SELECTED.equals(e.getActionCommand())) {
 			String stockName = (String) stocksList.getSelectedItem();
+			updateForeignCurrency(stockName);
 			updateRateFieldForce(stockName);
 
-		} else {
+		} 
+		else if (foreignCurrencyString.equals(e.getActionCommand()) || localCurrencyString.equals(e.getActionCommand())) {
+			String stockName = (String) stocksList.getSelectedItem();
+			updateRateField(stockName);
+		}
+		else {
 			super.actionPerformed(e);
 		}
 
@@ -92,7 +104,7 @@ public class DividendDialog extends BaseDialog {
 	 */
 
 	public DividendDialog(Component frameComp, Component locationComp,
-			String title, Object[] brokers, Object[] sectors,
+			String title, String[] brokers, String[] sectors,
 			Map<String, List<String>> stocks, I_TickerManager tickerManager, Stock s) {
 		super(frameComp, locationComp, title, tickerManager);
 
@@ -101,16 +113,16 @@ public class DividendDialog extends BaseDialog {
 
 		// Brokers
 
-		brokerList = new JComboBox(brokers);
+		brokerList = new JComboBox<String>(brokers);
 		brokerList.setEditable(true);
 
 		// Sectors
-		sectorList = new JComboBox(sectors);
+		sectorList = new JComboBox<String>(sectors);
 		sectorList.setActionCommand(SECTOR_CHANGED);
 		sectorList.addActionListener(this);
 
 		// Stocks
-		stocksList = new JComboBox();
+		stocksList = new JComboBox<String>();
 		updateStockList((String) sectorList.getSelectedItem());
 		stocksList.setActionCommand(STOCK_SELECTED);
 		stocksList.addActionListener(this);
@@ -134,6 +146,17 @@ public class DividendDialog extends BaseDialog {
 		dateFieldLabel = new JLabel("Maksupäivä: ");
 		dateFieldLabel.setLabelFor(dateChooser);
 
+		localCurrencyButtonLabel = new JLabel("Valuutta: ");
+		
+		currencyButtonPanel = new JPanel();
+		currencyButtonPanel.setLayout(new BoxLayout(currencyButtonPanel,
+	            BoxLayout.LINE_AXIS));
+
+		localCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+		currencyButtonPanel.add(localCurrencyButton);
+		foreignCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+		currencyButtonPanel.add(foreignCurrencyButton);
+		
 		amountFieldLabel = new JLabel("Määrä: ");
 		amountFieldLabel.setLabelFor(amountField);
 
@@ -154,8 +177,9 @@ public class DividendDialog extends BaseDialog {
 		netCostFieldLabel.setLabelFor(totalCostField);
 		
 		setSelection(s);
-		String stockName = (String) stocksList.getSelectedItem();
+		String stockName = String.valueOf(stocksList.getSelectedItem());
 		updateRateFieldForce(stockName);
+		updateForeignCurrency(stockName);
 		init(getDialogLabels(), getDialogComponents());
 	}
 
@@ -171,10 +195,9 @@ public class DividendDialog extends BaseDialog {
 
 		List<String> stockNames = stocks.get(sector);
 
-		for (Object o : stockNames.toArray()) {
+		for (String o : stockNames) {
 			stocksList.addItem(o);
 		}
-
 	}
 
 	
@@ -209,13 +232,13 @@ public class DividendDialog extends BaseDialog {
 	}
 
 	protected Component[] getDialogComponents() {
-		Component[] components = { sectorList, stocksList, dateChooser,
+		Component[] components = { sectorList, stocksList, dateChooser, currencyButtonPanel,
 				amountField, costField, rateField, brokerList, dividendTaxField, totalCostField, netCostField };
 		return components;
 	}
 
 	protected JLabel[] getDialogLabels() {
-		JLabel[] labels = { sectorFieldLabel, stockFieldLabel, dateFieldLabel,
+		JLabel[] labels = { sectorFieldLabel, stockFieldLabel, dateFieldLabel, localCurrencyButtonLabel,
 				amountFieldLabel, costFieldLabel, rateFieldLabel,
 				brokerFieldLabel, dividendTaxLabel, totalCostFieldLabel, netCostFieldLabel };
 		return labels;

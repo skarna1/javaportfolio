@@ -11,6 +11,7 @@ import java.io.OutputStreamWriter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
@@ -386,7 +387,9 @@ public class PortfolioDocument {
 
 		Stock s = getSelectedStock();
 		
-		Object[] brokers = portfolio.getBrokers();
+		String[] brokers = portfolio.getBrokers();
+
+		
 		DividendDialog d = new DividendDialog(frame, frame, "Osinko", brokers,
 				portfolio.getSectors(), portfolio.getStocksBySector(),
 				tickerManager, s);

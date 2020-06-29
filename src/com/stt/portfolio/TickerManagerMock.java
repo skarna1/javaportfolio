@@ -30,8 +30,8 @@ public class TickerManagerMock implements I_TickerManager {
 	}
 
 	@Override
-	public Object[] getSectors() {
-		Object[] sectors = {"kulutustavarat", "metsä", "rahoitus"};
+	public String[] getSectors() {
+		String[] sectors = {"kulutustavarat", "metsä", "rahoitus"};
 		return sectors;
 	}
 

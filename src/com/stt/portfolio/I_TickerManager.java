@@ -23,7 +23,7 @@ public interface I_TickerManager {
 	 * 
 	 * @return the sectors
 	 */
-	public abstract Object[] getSectors();
+	public abstract String[] getSectors();
 
 	/**
 	 * Gets the stocks by sector.

@@ -52,8 +52,10 @@ public class TickerManager implements I_TickerManager {
 	/* (non-Javadoc)
 	 * @see com.stt.portfolio.I_TickerManager#getSectors()
 	 */
-	public Object[] getSectors() {
-		return sectors.toArray();
+	public String[] getSectors() {
+		String[] sectorarray = new String[sectors.size()];
+		sectorarray = sectors.toArray(sectorarray);
+		return sectorarray;
 	}
 
 	/* (non-Javadoc)
