@@ -58,10 +58,10 @@ teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; MOCORP ; Metso Outotec; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; NELES ; Neles ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; OTE1V ; Outotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RAMI ; Ramirent ; 1 ; EUR
@@ -956,6 +956,7 @@ vanhat osakkeet ; X ; MRE1VU0100 ; Menire Oyj MO ; 1
 vanhat osakkeet ; X ; MRE1VN0100 ; Menire Oyj uudet ; 1
 vanhat osakkeet ; X ; METAS ; Metra A ; 1
 vanhat osakkeet ; X ; METBS ; Metra B ; 1
+vanhat osakkeet ; X ; METSO ; Metso ; 1 ; EUR
 vanhat osakkeet ; X ; MTI1V ; Metsä Tissue ; 1
 vanhat osakkeet ; X ; MGH1V ; Mgine Holding ; 1
 vanhat osakkeet ; X ; MUNK1 ; Munksjö ; 1 ; EUR
@@ -984,6 +985,7 @@ vanhat osakkeet ; X ; ORIBS ; Orion B ; 1
 vanhat osakkeet ; X ; ORNAS ; Orion A (Ennen jakautumista) ; 1
 vanhat osakkeet ; X ; ORNBS ; Orion B (Ennen jakautumista) ; 1
 vanhat osakkeet ; X ; OMH1V ; OMHEX AB; 1
+vanhat osakkeet ; X ; OTE1V ; Outotec ; 1 ; EUR^
 vanhat osakkeet ; X ; PANAS ; Panostaja A ; 1
 vanhat osakkeet ; X ; PANBS ; Panostaja B ; 1
 vanhat osakkeet ; X ; PAR1S ; Partek ; 1

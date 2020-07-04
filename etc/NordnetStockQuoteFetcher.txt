@@ -77,11 +77,12 @@ LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 MMO1V Marimekko Corporation
 MARAS Martela Oyj A
-METSO Metso Corporation
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
+MOCORP Metso Outotec Oyj
 MUSTI Musti Group Plc
 NANOFH Nanoform Finland Oyj
+NELES Neles Corporation
 NEO1V Neo Industrial Oyj
 NESTE Neste Corporation
 NIXU Nixu Oyj
@@ -99,7 +100,6 @@ OPTOMED Optomed Plc
 ORNAV Orion Corporation A
 ORNBV Orion Corporation B
 OUT1V Outokumpu Oyj
-OTE1V Outotec Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj

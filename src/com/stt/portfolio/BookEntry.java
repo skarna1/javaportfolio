@@ -408,10 +408,12 @@ public class BookEntry implements I_BookEntryModifier {
 			fractions += newAmount - newIntAmount;
 			i.setAmount(newIntAmount);
 			
-		    //System.out.println("SPINOFF: " + getSymbol() + " " + ratio + " " + stockratio);
+		    //System.out.println("SPINOFF: " + getSymbol() + " " + ratio + " " + stockratio + " fractions: " + fractions);
 		}
-		if (fractions >= 1.0 ) {
-			items.get(0).addAmount((int)fractions);
+		double roundedFractions = Math.round(fractions * 1000000.0) / 1000000.0;
+		//System.out.println("Rounded fractions: " + roundedFractions);
+		if (roundedFractions >= 1.0 ) {
+			items.get(0).addAmount((int)roundedFractions);
 		}
 	}
 
