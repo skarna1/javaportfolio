@@ -1,7 +1,7 @@
 # toimiala ; tyyppi ; tunnus ; nimi ; jakaja ; CCY
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
 terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
-terveydenhuolto ; S ; OKDBV ; Oriola B ; 1
+terveydenhuolto ; S ; OKDBV ; Oriola B ; 1 ; EUR
 terveydenhuolto ; S ; OPTOMED ; Optomed ; 1 ; EUR
 terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
 terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
@@ -13,7 +13,6 @@ rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
 rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
-rahoitus ; S ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
 rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR ;
@@ -22,6 +21,7 @@ rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
+rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
@@ -44,7 +44,6 @@ teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CONSTI ; Consti ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; CRA1V ; Cramo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; DOV1V ; Dovre ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ENEDO ; Enedo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
@@ -83,7 +82,6 @@ teollisuustuotteet ja -palvelut ; S ; VALMT ; Valmet ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; YEINT ; Yleiselektroniikka E ; 1 ; EUR
 yhdyskuntapalvelut ; S ; FORTUM ; Fortum ; 1 ; EUR
 energia ; S ; NESTE ; Neste; 1 ; EUR
-tietoliikennepalvelut ; S ; DNA ; DNA ; 1 ; EUR
 tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
 tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
 teknologia ; S ; BAS1V ; BasWare ; 1 ; EUR
@@ -119,6 +117,7 @@ Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
 Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
 Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
+Kulutuspalvelut ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
 Kulutustavarat ; S ; ALTIA ; Altia ; 1 ; EUR
 Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
@@ -169,8 +168,6 @@ First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
-First North ; S ; UNIAV ; United Bankers ; 1 ; EUR
-First North ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
 Indeksiosuudet ; S ; SLG OMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
@@ -871,11 +868,13 @@ vanhat osakkeet ; X ; CNC1V ; Cencorp ; 1
 vanhat osakkeet ; X ; CHIAV ; Chips A ; 1
 vanhat osakkeet ; X ; CHIBV ; Chips B ; 1
 vanhat osakkeet ; X ; CLEAN ; Cleantech Invest ; 1 ; EUR
+vanhat osakkeet ; X ; CRA1V ; Cramo ; 1 ; EUR
 vanhat osakkeet ; X ; CTA1V ; Componenta (vanha) ; 1
 vanhat osakkeet ; X ; CTL1V ; Comptel ; 1 ; EUR
 vanhat osakkeet ; X ; CVM1V ; Conventum ; 1
 vanhat osakkeet ; X ; DAN1V ; Danisco A/S FDR ; 1
 vanhat osakkeet ; X ; DIG1V ; Digia ; 1 ; EUR
+vanhat osakkeet ; X ; DNA ; DNA ; 1 ; EUR
 vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
 vanhat osakkeet ; X ; DSO1V ; Done Solutions ; 1
 vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
@@ -912,6 +911,7 @@ vanhat osakkeet ; X ; HARAS ; Hartwall A ; 1
 vanhat osakkeet ; X ; HAN1V ; Hansapank ; 1
 vanhat osakkeet ; X ; HPHAV ; HPY Holding ; 1
 vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
+vanhat osakkeet ; X ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 vanhat osakkeet ; X ; HVL1V ; Huhtamäki van Leer ; 1
 vanhat osakkeet ; X ; INS1V ; Instrumentarium ; 1
 vanhat osakkeet ; X ; INT1S ; Interavanti ; 1 ; EUR

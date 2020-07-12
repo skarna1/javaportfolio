@@ -23,7 +23,6 @@ CAV1V Caverion Oyj
 CTY1S Citycon Oyj
 CTH1V Componenta Corporation
 CONSTI Consti Plc
-CRA1V Cramo Oyj
 DETEC Detection Technology Oyj
 DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
@@ -55,7 +54,6 @@ HARVIA Harvia Plc
 HEEROS Heeros Oyj
 HRTIS Herantis Pharma Oyj
 HKSAV HKScan Oyj A
-HOIVA Hoivatilat Oyj
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
 ILK1S Ilkka-Yhtymä Oyj 1
