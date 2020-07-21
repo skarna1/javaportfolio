@@ -1248,6 +1248,8 @@ NYSE ; S ; WY ; Weyerhaeuser ; 1 ; USD ; USA
 TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
 OMXS  ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
+OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; CTA ; Catena Media ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
