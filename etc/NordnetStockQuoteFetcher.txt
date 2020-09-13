@@ -102,6 +102,7 @@ OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
 WAT1V Plc Uutechnic Group Oyj
+PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
 PUMU PunaMusta Media Oyj

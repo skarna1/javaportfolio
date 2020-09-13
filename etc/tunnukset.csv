@@ -162,6 +162,7 @@ First North ; S ; NANOFH ; Nanoform Finland; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NORDID ; Nordic ID ; 1 ; EUR
+First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; PRIVA ; Privanet ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
@@ -1229,6 +1230,7 @@ NYSE ; S ; POT ;  Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
+NYSE ; S ; RESN ; Resonant Inc ; 1 ; USD ; USA
 NYSE ; S ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
 NYSE ; S ; RDS.B ; Royal Dutch Shell B; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
@@ -1249,6 +1251,7 @@ TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
 OMXS  ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; BITCOINXBT ; Bitcoin XBT ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CTA ; Catena Media ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS  ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
