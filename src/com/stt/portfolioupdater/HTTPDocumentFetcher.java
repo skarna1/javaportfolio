@@ -100,18 +100,18 @@ public abstract class HTTPDocumentFetcher {
 			 
 			if (response.statusCode() != 200) {
 				System.err.println("Method failed: " + response.body());
-				return null;
+				return "";
 			}
 			
 			return response.body();
 			
 		}  catch (IOException e) {
 			System.err.println("Fatal transport error: " + e.getMessage());
-			return null;
+			return "";
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			return null;
+			return "";
 		}
 	}
 
