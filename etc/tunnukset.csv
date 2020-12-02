@@ -736,10 +736,10 @@ pitkän koron rahasto ; F ; SELEUCBIA ; Seligson Euro Corporate Bond A ; 1
 pitkän koron rahasto ; F ; SELEUCBIB ; Seligson Euro Corporate Bond B ; 1
 pitkän koron rahasto ; F ; TAPKORKO ; Tapiola Korko ; 1
 osakeindeksirahasto ; F ; OPFININDEX ; OPSTOCK Finland Index ; 1
-osakeindeksirahasto ; F ; NONSUPERSUOMI ; Nordnet superrahasto Suomi; 1 ; EUR ; Suomi
-osakeindeksirahasto ; F ; NONSUPERRUOTSI ; Nordnet superrahasto Ruotsi; 1 ; EUR ; Ruotsi
-osakeindeksirahasto ; F ; NONSUPERTANSKA ; Nordnet superrahasto Tanska; 1 ; EUR ; Tanska
-osakeindeksirahasto ; F ; NONSUPERNORJA ; Nordnet superrahasto Norja; 1 ; EUR ; Norja
+osakeindeksirahasto ; F ; NONSUPERSUOMI ; Nordnet indeksirahasto Suomi; 1 ; EUR ; Suomi
+osakeindeksirahasto ; F ; NONSUPERRUOTSI ; Nordnet indeksirahasto Ruotsi; 1 ; SEK ; Ruotsi
+osakeindeksirahasto ; F ; NONSUPERTANSKA ; Nordnet indeksirahasto Tanska; 1 ; DKK ; Tanska
+osakeindeksirahasto ; F ; NONSUPERNORJA ; Nordnet indeksirahasto Norja; 1 ; NOK ; Norja
 vipurahasto ; F ; 3CALPHA ; 3C Alpha ; 1
 vipurahasto ; F ; CONFOCUSA ; Conventum Focus Tekno A ; 1
 vipurahasto ; F ; CONFOCUSB ; Conventum Focus Tekno B ; 1
@@ -1191,7 +1191,9 @@ vanhat rahastot ; Y ; ALBEUACTPF ; Ålandsbanken Europe Active Portfolio ; 1
 vanhat rahastot ; Y ; ALBGLOBLUE ; Ålandsbanken Global Blue Chip ; 1
 vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
 vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
+NYSE ; S ; AAPL ; Apple ; 1 ; USD ; USA
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
+NYSE ; S ; AFL ; Aflac ; 1 ; USD ; USA
 NYSE ; S ; AXP ; American Express ; 1 ; USD ; USA
 NYSE ; S ; ASHR ; Deutche CSI300 China A-shares ; 1 ; USD ; Kehittyvät
 NYSE ; S ; BPY ; Brookfield Property Partners ; 1 ; USD
@@ -1236,6 +1238,7 @@ NYSE ; S ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
 NYSE ; S ; RDS.B ; Royal Dutch Shell B; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
+NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
 NYSE ; S ; UN ; Unilever ; 1 ; USD ; Eurooppa
 NYSE ; S ; XOM ; Exxon ; 1 ; USD ; USA
@@ -1272,10 +1275,10 @@ OMXS ; S ; NOLATO ; Nolato ; 1 ; SEK ; Ruotsi
 OMXS ; S ; TOP ; Top Danmark ; 1 ; DKK ; Tanska
 XTRA ; S ; 4GLD ; Xetra-Gold ; 1 ; EUR ; Maailma
 XTRA ; S ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
-XTRA ; S ; IS3N ; Ishares EM ETF ; 1 ; EUR; Kehittyvät
-XTRA ; S ; EUNL ; Ishares World ETF ; 1 ; EUR; Maailma
+XTRA ; S ; IS3N ; iShares EM ETF ; 1 ; EUR; Kehittyvät
+XTRA ; S ; EUNL ; iShares World ETF ; 1 ; EUR; Maailma
 XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
-XTRA ; S ; SXR8 ; Ishares core S&P 500 ETF ; 1 ; EUR; USA
+XTRA ; S ; SXR8 ; iShares core S&P 500 ETF ; 1 ; EUR; USA
 XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; DBX6 ; Brasilia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
