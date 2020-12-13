@@ -12,6 +12,7 @@ ACG1V Aspocomp Group Plc
 ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
+AVIDLY Avidly Oyj
 BAS1V Basware Corporation
 BILOT Bilot Oyj
 BIOBV Biohit Oyj B
@@ -35,6 +36,7 @@ ELEAV Elecster Oyj A
 ELISA Elisa Corporation
 ENEDO Enedo Plc
 ENENTO Enento Group Oyj
+ESENSE Enersense International Oyj
 ENDOM Endomines AB
 EQV1V eQ Oyj
 ETT1V Etteplan Oyj
@@ -81,8 +83,8 @@ MOCORP Metso Outotec Oyj
 MUSTI Musti Group Plc
 NANOFH Nanoform Finland Oyj
 NELES Neles Corporation
-NEO1V Neo Industrial Oyj
 NESTE Neste Corporation
+NXTGMS Next Games Oyj
 NIXU Nixu Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
@@ -110,6 +112,7 @@ QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
 RAIKV Raisio Plc K
 RAIVV Raisio Plc Vaihto-osake
+REKA Reka Industrial Oyj
 RMR1V Ramirent Plc
 RAP1V Rapala VMC Corporation
 RAUTE Raute Corporation A
@@ -118,6 +121,7 @@ RELAIS Relais Group Oyj
 REMEDY Remedy Entertainment Oyj
 ROBIT Robit Oyj
 ROVIO Rovio Entertainment Corporation
+RUSH Rush Factory Plc
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SAA1V Sanoma Corporation

@@ -59,7 +59,7 @@ teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; MOCORP ; Metso Outotec; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NELES ; Neles ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; NEO1V ; Neo industrial ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; REKA ; Reka industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
@@ -963,6 +963,7 @@ vanhat osakkeet ; X ; MGH1V ; Mgine Holding ; 1
 vanhat osakkeet ; X ; MUNK1 ; Munksjö ; 1 ; EUR
 vanhat osakkeet ; X ; NED1V ; Nedecon ; 1
 vanhat osakkeet ; X ; NEOBV ; Neomarkka B ; 1 ; EUR
+vanhat osakkeet ; X ; NEO1V ; Neo industrial ; 1 ; EUR
 vanhat osakkeet ; X ; NEP1V ; Neptun Maritime ; 1
 vanhat osakkeet ; X ; NES1V ; Neste Oil ; 1 ; EUR
 vanhat osakkeet ; X ; NOK1VEW195 ; Nokia Oyj 95 B-opt. ; 1
