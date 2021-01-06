@@ -126,7 +126,7 @@ Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
 Kulutustavarat ; S ; HARVIA ; Harvia ; 1 ; EUR
 Kulutustavarat ; S ; HKSAV ; HKScan ; 1 ; EUR
 Kulutustavarat ; S ; HONBS ; Honkarakenne B ; 1 ; EUR
-Kulutustavarat ; S ; MMO1V ; Marimekko ; 1 ; EUR
+Kulutustavarat ; S ; MEKKO ; Marimekko ; 1 ; EUR
 Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
 Kulutustavarat ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 Kulutustavarat ; S ; OLVAS ; Olvi A ; 1 ; EUR
@@ -952,6 +952,7 @@ vanhat osakkeet ; X ; MESAS ; M-Real A ; 1
 vanhat osakkeet ; X ; MESBS ; M-Real B ; 1
 vanhat osakkeet ; X ; MDMBV ; Mandatum B ; 1
 vanhat osakkeet ; X ; MAV1V ; Markk. Viherjuuri ; 1
+vanhat osakkeet ; X ; MMO1V ; Marimekko ; 1
 vanhat osakkeet ; X ; MRE1V ; Menire ; 1
 vanhat osakkeet ; X ; MRE1VU0100 ; Menire Oyj MO ; 1
 vanhat osakkeet ; X ; MRE1VN0100 ; Menire Oyj uudet ; 1
@@ -1254,15 +1255,15 @@ NYSE ; S ; IRM ; Iron Mountain ; 1 ; USD ; USA
 NYSE ; S ; WY ; Weyerhaeuser ; 1 ; USD ; USA
 TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
-OMXS  ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
+OMXS ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BITCOINXBT ; Bitcoin XBT ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CTA ; Catena Media ; 1 ; SEK ; Ruotsi
-OMXS  ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
-OMXS  ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
-OMXS  ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
-OMXS  ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
-OMXS  ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
+OMXS ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
+OMXS ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
+OMXS ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SAVE ; Nordnet ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SWED ; Swedbanken ; 1 ; SEK ; Ruotsi

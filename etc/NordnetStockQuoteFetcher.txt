@@ -59,7 +59,7 @@ HKSAV HKScan Oyj A
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
 ILK1S Ilkka-Yhtymä Oyj 1
-ILK2S Ilkka-Yhtymä Oyj 2
+ILK2S Ilkka-YhtymÃ Oyj 2
 INC1V Incap Corporation
 IFA1V Innofactor Plc
 INVEST Investors House Oyj
@@ -75,7 +75,7 @@ KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
-MMO1V Marimekko Corporation
+MEKKO Marimekko Corporation
 MARAS Martela Oyj A
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
