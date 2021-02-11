@@ -18,6 +18,7 @@ BILOT Bilot Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
 BONEH BBS-Bioactive Bone Substitutes
+BOREO Boreo Oyj
 CAPMAN CapMan Plc
 CGCBV Cargotec Oyj
 CAV1V Caverion Oyj
@@ -167,4 +168,3 @@ VMP VMP Oyj
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation
 YIT YIT Corporation
-YEINT Yleiselektroniikka Oyj

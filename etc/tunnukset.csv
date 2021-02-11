@@ -40,6 +40,7 @@ perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ADAPT ; Adapteo ; 1 ; SEK
 teollisuustuotteet ja -palvelut ; S ; ASPO ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; BOREO ; Boreo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
@@ -79,7 +80,6 @@ teollisuustuotteet ja -palvelut ; S ; YIT ; YIT-Yhtymä ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VAIAS ; Vaisala A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VALOE ; Valoe ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VALMT ; Valmet ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; YEINT ; Yleiselektroniikka E ; 1 ; EUR
 yhdyskuntapalvelut ; S ; FORTUM ; Fortum ; 1 ; EUR
 energia ; S ; NESTE ; Neste; 1 ; EUR
 tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
@@ -1093,6 +1093,7 @@ vanhat osakkeet ; X ; UHI1V ; Ühispank ; 1
 vanhat osakkeet ; X ; UPM1V ; UPM-Kymmene ; 1
 vanhat osakkeet ; X ; YTY1V ; YIT-Yhtymä ; 1
 vanhat osakkeet ; X ; YLEPS ; Yleiselektroniikka E ; 1
+vanhat osakkeet ; X ; YEINT ; Yleiselektroniikka E ; 1 ; EUR^
 vanhat osakkeet ; X ; YOM1V ; Yomi ; 1
 vanhat osakkeet ; X ; WAT1V ; Vaahto Group ; 1 ; EUR
 vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1
@@ -1257,6 +1258,7 @@ NYSE ; S ; WY ; Weyerhaeuser ; 1 ; USD ; USA
 TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
 OMXS ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
+OMXS ; S ; BACKA ; Backaheden ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BITCOINXBT ; Bitcoin XBT ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CTA ; Catena Media ; 1 ; SEK ; Ruotsi
@@ -1264,6 +1266,7 @@ OMXS ; S ; CFAB ; Cloetta Fazer B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
 OMXS ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
+OMXS ; S ; ERIC B ; Ericsson B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SAVE ; Nordnet ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
@@ -1289,3 +1292,4 @@ XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
 XTRA ; S ; G2X ; Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; G2XJ ; Junior Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SPPX ; US Bond 10+ year ETF ; 1 ; EUR ; USA
+XTRA ; S ; VZLC ; WisdomTree Physical Silver ; 1 ; EUR ; Maailma
