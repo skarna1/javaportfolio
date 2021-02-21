@@ -28,7 +28,6 @@ CONSTI Consti Plc
 DETEC Detection Technology Oyj
 DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
-DNA DNA Oyj
 DOV1V Dovre Group Plc
 EABGB EAB Group Oyj
 EEZY Eezy Oyj
@@ -60,7 +59,7 @@ HKSAV HKScan Oyj A
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
 ILK1S Ilkka-Yhtymä Oyj 1
-ILK2S Ilkka-YhtymÃ Oyj 2
+ILK2S Ilkka-Yhtymä Oyj 2
 INC1V Incap Corporation
 IFA1V Innofactor Plc
 INVEST Investors House Oyj
@@ -105,7 +104,7 @@ OUT1V Outokumpu Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
-WAT1V Plc Uutechnic Group Oyj
+UUTEC Plc Uutechnic Group Oyj
 PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
@@ -130,7 +129,6 @@ SAA1V Sanoma Corporation
 SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
-SILMA Silmäasema Oyj
 SOL1V Solteq Oyj
 SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB

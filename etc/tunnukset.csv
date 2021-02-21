@@ -56,7 +56,7 @@ teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KELAS ; Kesla A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; KREATE ; 	Kreate Group Plc ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; KREATE ; Kreate Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; MOCORP ; Metso Outotec; 1 ; EUR
@@ -1268,6 +1268,7 @@ OMXS ; S ; CIBUS ; Cibus ; 1 ; SEK ; Ruotsi
 OMXS ; S ; HMB ; Hennes & Mauritz B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; AZN ; Astra Zeneca ; 1 ; SEK ; Britannia
 OMXS ; S ; ERIC B ; Ericsson B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; EVO ; Evolution Gaming ; 1 ; SEK ; Ruotsi
 OMXS ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SAVE ; Nordnet ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SHBA ; Svenska Handelsbanken ; 1 ; SEK ; Ruotsi
