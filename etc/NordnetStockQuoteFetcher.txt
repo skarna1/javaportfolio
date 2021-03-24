@@ -53,6 +53,7 @@ FORTUM Fortum Corporation
 GLA1V Glaston Corporation
 GOFORE Gofore Plc
 HARVIA Harvia Plc
+HEALTH Nightingale Health Oyj B
 HEEROS Heeros Oyj
 HRTIS Herantis Pharma Oyj
 HKSAV HKScan Oyj A
@@ -100,6 +101,7 @@ OKDBV Oriola Corporation B
 OPTOMED Optomed Plc
 ORNAV Orion Corporation A
 ORNBV Orion Corporation B
+ORTHEX Orthex
 OUT1V Outokumpu Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
@@ -129,6 +131,7 @@ SAA1V Sanoma Corporation
 SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
+SITOWS Sitowise
 SOL1V Solteq Oyj
 SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB
