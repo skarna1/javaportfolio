@@ -101,7 +101,7 @@ OKDBV Oriola Corporation B
 OPTOMED Optomed Plc
 ORNAV Orion Corporation A
 ORNBV Orion Corporation B
-ORTHEX Orthex
+ORTHEX Orthex Plc
 OUT1V Outokumpu Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
@@ -131,7 +131,7 @@ SAA1V Sanoma Corporation
 SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
-SITOWS Sitowise
+SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
 SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB
