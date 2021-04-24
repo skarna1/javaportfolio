@@ -77,6 +77,7 @@ KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
+LOUD Loudspring Plc
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
 METSA Metsä Board Oyj A
@@ -87,6 +88,7 @@ NANOFH Nanoform Finland Oyj
 NELES Neles Corporation
 NESTE Neste Corporation
 NXTGMS Next Games Oyj
+NXTMH Nexstim Oyj
 NIXU Nixu Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
@@ -110,6 +112,7 @@ UUTEC Plc Uutechnic Group Oyj
 PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
+PRIVA Privanet Group Oyj
 PUMU PunaMusta Media Oyj
 QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
@@ -128,6 +131,7 @@ RUSH Rush Factory Plc
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SAA1V Sanoma Corporation
+SAVOH Savosolar Plc
 SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
@@ -139,8 +143,7 @@ SRV1V SRV Group Plc
 SSABAH SSAB AB ser. A
 SSABBH SSAB AB ser. B
 SSH1V SSH Communications Security Oyj
-STCAS Stockmann Plc A
-STCBV Stockmann Plc B
+STOCKA Stockmann Plc 
 STEAV Stora Enso Oyj A
 STERV Stora Enso Oyj R
 SUY1V Suominen Oyj
@@ -166,7 +169,6 @@ VERK Verkkokauppa.com Oyj
 VIAFIN Viafin Service Oyj
 VINCIT Vincit Oyj
 VIK1V Viking Line Abp
-VMP VMP Oyj
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation
 YIT YIT Corporation

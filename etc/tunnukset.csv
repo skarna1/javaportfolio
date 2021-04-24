@@ -114,8 +114,7 @@ Kulutuspalvelut ; S ; MUSTI ; Musti Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
 Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
-Kulutuspalvelut ; S ; STCAS ; Stockmann A ; 1 ; EUR
-Kulutuspalvelut ; S ; STCBV ; Stockmann B ; 1 ; EUR
+Kulutuspalvelut ; S ; STOCKA ; Stockmann ; 1 ; EUR
 Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VERK ; Verkkokauppa ; 1 ; EUR
@@ -1039,6 +1038,8 @@ vanhat osakkeet ; X ; SRA1V ; Sonera ; 1
 vanhat osakkeet ; X ; SRA1VN0399 ; Sonera bonus ; 1
 vanhat osakkeet ; X ; SSH1V ; SSH Communications ; 1
 vanhat osakkeet ; X ; STABS ; Starckjohann ; 1
+vanhat osakkeet ; X ; STCAS ; Stockmann A ; 1 ; EUR
+vanhat osakkeet ; X ; STCBV ; Stockmann B ; 1 ; EUR
 vanhat osakkeet ; X ; STOAS ; Stockmann A ; 1
 vanhat osakkeet ; X ; STOBV ; Stockmann B ; 1
 vanhat osakkeet ; X ; SOI1S ; Suom. Optiopörssi ; 1
