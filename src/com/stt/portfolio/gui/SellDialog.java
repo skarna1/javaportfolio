@@ -6,9 +6,11 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
+import java.util.stream.Collectors;
+
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -28,7 +30,7 @@ public class SellDialog extends BaseDialog {
 	private JTextField ownedAmountField = new JTextField(FIELD_LEN);
 	private JTextField brokerCostField = new JTextField(FIELD_LEN);
 
-	
+
 	JComboBox<String> brokerList;
 	JComboBox<String> stocksList;
 
@@ -40,12 +42,12 @@ public class SellDialog extends BaseDialog {
 	JLabel amountFieldLabel;
 	JLabel dateFieldLabel;
 	JLabel stockFieldLabel;
-	
-	
+
+
 	Map<String, Collection<BookEntry>> bookEntries;
-	
-	
-	
+
+
+
 	public String getStockName() {
 		return (String) stocksList.getSelectedItem();
 	}
@@ -92,7 +94,7 @@ public class SellDialog extends BaseDialog {
 
 	private void updateOwnedAmount() {
 		String stockName = (String) stocksList.getSelectedItem();
-		Collection<BookEntry> entries = bookEntries.get((String) brokerList.getSelectedItem());
+		Collection<BookEntry> entries = bookEntries.get(brokerList.getSelectedItem());
 		for (BookEntry entry : entries) {
 			if (entry.getName().equals(stockName)) {
 				ownedAmountField.setText(String.format("%1$.2f", entry.getAmount()));
@@ -115,30 +117,23 @@ public class SellDialog extends BaseDialog {
 		super(frameComp, locationComp, title, tickerManager);
 
 		this.bookEntries = bookEntries;
-		
-		
+
+
 		// Brokers
-		List<String> brokers = new ArrayList<String>();
-		Iterator<String > iter = bookEntries.keySet().iterator();
-		while (iter.hasNext()) {
-			String b = iter.next();
-			if (bookEntries.get(b).size() > 0) {
-				brokers.add(b);
-			}
-		}
-		
-		
-		brokerList = new JComboBox(brokers.toArray());
+		Vector<String> vector = bookEntries.keySet().stream().filter(s -> bookEntries.get(s).size() > 0)
+				.collect(Collectors.toCollection(Vector::new));
+
+		brokerList = new JComboBox<String>(vector);
 		brokerList.setActionCommand(BROKER_CHANGED);
 		brokerList.addActionListener(this);
 		//brokerList.setMinimumSize(new Dimension(200,20));
 		// Stocks
-		
+
 		stocksList = new JComboBox<String>();
 		updateStockList((String) brokerList.getSelectedItem());
 		stocksList.setActionCommand(STOCK_SELECTED);
 		stocksList.addActionListener(this);
-		
+
 		amountField.addKeyListener(this);
 		costField.addKeyListener(this);
 		brokerCostField.addKeyListener(this);
@@ -147,20 +142,20 @@ public class SellDialog extends BaseDialog {
 		totalCostField.setText("0.00");
 
 		ownedAmountField.setEditable(false);
-		
+
 		brokerFieldLabel = new JLabel("Välittäjä: ");
 		brokerFieldLabel.setLabelFor(brokerList);
-		
+
 		stockFieldLabel = new JLabel("Arvopaperi: ");
 		stockFieldLabel.setLabelFor(stocksList);
 
 		dateFieldLabel = new JLabel("Myyntipäivä: ");
 		dateFieldLabel.setLabelFor(dateChooser);
-		
+
 		ownedAmountFieldLabel = new JLabel("Myytävissä: ");
 		ownedAmountFieldLabel.setLabelFor(ownedAmountField);
 
-		
+
 		amountFieldLabel = new JLabel("Määrä: ");
 		amountFieldLabel.setLabelFor(amountField);
 
@@ -174,7 +169,7 @@ public class SellDialog extends BaseDialog {
 		totalCostFieldLabel.setLabelFor(totalCostField);
 
 		updateOwnedAmount();
-		
+
 		init(getDialogLabels(), getDialogComponents());
 	}
 
@@ -219,8 +214,8 @@ public class SellDialog extends BaseDialog {
 		totalCostField.setText(String.format("%1$.2f", totalCost));
 
 	}
-	
-	
+
+
 	protected Component[] getDialogComponents() {
 		Component[] components = {  brokerList, stocksList, dateChooser,
 				ownedAmountField, amountField, costField,  rateField, brokerCostField,
@@ -228,7 +223,7 @@ public class SellDialog extends BaseDialog {
 		return components;
 	}
 
-	
+
 	protected JLabel[] getDialogLabels() {
 		JLabel[] labels = { brokerFieldLabel, stockFieldLabel, dateFieldLabel,
 				ownedAmountFieldLabel, amountFieldLabel, costFieldLabel,rateFieldLabel,

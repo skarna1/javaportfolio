@@ -11,7 +11,6 @@ import java.io.OutputStreamWriter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
@@ -69,7 +68,7 @@ public class PortfolioDocument {
 	private JFrame frame;
 
 	public PortfolioDocument(JFrame frame) {
-	
+
 		String name = getNewPortfolioName();
 
 		createPortfolioFiles(PORTFOLIO_PATH + name);
@@ -84,7 +83,7 @@ public class PortfolioDocument {
 		this.frame = frame;
 		this.name = name;
 		Date date = Calendar.getInstance().getTime();
-		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);	
+		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);
 		portfolioView = new PortfolioView(this, portfolio, frame);
 	}
 
@@ -114,7 +113,7 @@ public class PortfolioDocument {
 
 	/**
 	 * Gets the new available portfolio name.
-	 * 
+	 *
 	 * @return the new portfolio name
 	 */
 	private static String getNewPortfolioName() {
@@ -141,7 +140,7 @@ public class PortfolioDocument {
 
 	/**
 	 * Write transaction.
-	 * 
+	 *
 	 * @param t
 	 *            the t
 	 */
@@ -153,9 +152,9 @@ public class PortfolioDocument {
 
 	/**
 	 * Read porfolio names.
-	 * 
+	 *
 	 * @return the map< string, string>
-	 * 
+	 *
 	 * @throws IOException
 	 *             Signals that an I/O exception has occurred.
 	 */
@@ -170,9 +169,9 @@ public class PortfolioDocument {
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					new FileInputStream(filename), "ISO8859_1"));
 
-			 
+
 			String str = in.readLine();
-			in.close(); 
+			in.close();
 			portfolios.put(str, file.getName());
 		}
 
@@ -386,12 +385,10 @@ public class PortfolioDocument {
 	public void handleDivident() {
 
 		Stock s = getSelectedStock();
-		
-		String[] brokers = portfolio.getBrokers();
 
-		
-		DividendDialog d = new DividendDialog(frame, frame, "Osinko", brokers,
+		DividendDialog d = new DividendDialog(frame, frame, "Osinko",
 				portfolio.getSectors(), portfolio.getStocksBySector(),
+				portfolio.getBookEntries(),
 				tickerManager, s);
 		if (d.isOk()) {
 			Transaction t = new Dividend();
@@ -527,7 +524,7 @@ public class PortfolioDocument {
 		}
 
 		if (selectedStock != null) {
-			
+
 			UpdateQuoteManuallyDialog d = new UpdateQuoteManuallyDialog(frame,
 					frame, "Päivitä noteeraus", selectedStock, ticker,
 					tickerManager);
