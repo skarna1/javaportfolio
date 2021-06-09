@@ -80,6 +80,7 @@ LEHTO Lehto Group Oyj
 LOUD Loudspring Plc
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
+MERUS Merus Power Oyj
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
 MOCORP Metso Outotec Oyj
