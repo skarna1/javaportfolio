@@ -158,6 +158,7 @@ TTALO Terveystalo Plc
 TIETO TietoEVRY Corporation
 TIK1V Tikkurila Oyj
 TITAN Titanium Oyj
+TOIVO Toivo Group Oyj
 TOKMAN Tokmanni Group Oyj
 TRH1V Trainers House Plc
 TULAV Tulikivi Oyj A
