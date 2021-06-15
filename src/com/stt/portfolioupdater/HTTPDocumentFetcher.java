@@ -11,18 +11,17 @@ import java.net.http.HttpClient.Version;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
+import java.nio.charset.Charset;
+import java.time.Duration;
+import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
-import java.nio.charset.Charset;
-import java.time.Duration;
-import java.util.Optional;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -34,14 +33,14 @@ public abstract class HTTPDocumentFetcher {
 	String xpath= null;
 	String uri = null;
 	Charset charset = null;
-	
-	public HTTPDocumentFetcher() {		
+
+	public HTTPDocumentFetcher() {
 	}
-	
+
 	public HTTPDocumentFetcher(String uri) {
 		this.uri = uri;
 	}
-	
+
 	protected org.w3c.dom.NodeList fetchNodes(String uri, String xpathExpression)
 			throws XPathExpressionException {
 
@@ -59,13 +58,13 @@ public abstract class HTTPDocumentFetcher {
 	}
 
 	protected String fetch(String url) {
-		
+
 		HttpClient client = HttpClient.newBuilder()
 			      .version(Version.HTTP_2)
 			      .followRedirects(Redirect.ALWAYS)
 			      .connectTimeout(Duration.ofSeconds(5))
 			      .build();
-		
+
 		HttpRequest request = HttpRequest.newBuilder()
 			      .uri(URI.create(url)).timeout(Duration.ofMillis(5000))
 			      .build();
@@ -73,10 +72,10 @@ public abstract class HTTPDocumentFetcher {
 		try {
 			 HttpResponse<String> response =
 				      client.send(request, BodyHandlers.ofString());
-	
+
 
 			System.out.println(response);
-			 
+
 			Optional<String> contentType = response.headers().firstValue("Content-Type");
 			if (contentType.isPresent()) {
 				String contentTypeStr = contentType.get();
@@ -86,25 +85,25 @@ public abstract class HTTPDocumentFetcher {
 				if (matcher.find())
 				{
 				    String charset=matcher.group(1);
-				    //System.out.println("CHARSET: " + charset + ";");
+					// System.out.println("CHARSET: " + charset + ";");
 				    try {
 				    	this.charset = Charset.forName(charset);
 				    }
 				    catch (java.nio.charset.IllegalCharsetNameException ex)
 				    {
-				    	
+
 				    }
 				}
-				
+
 			}
-			 
+
 			if (response.statusCode() != 200) {
 				System.err.println("Method failed: " + response.body());
 				return "";
 			}
-			
+
 			return response.body();
-			
+
 		}  catch (IOException e) {
 			System.err.println("Fatal transport error: " + e.getMessage());
 			return "";
@@ -120,6 +119,7 @@ public abstract class HTTPDocumentFetcher {
 		Tidy tidy = new Tidy();
 		tidy.setQuiet(true);
 		tidy.setShowWarnings(false);
+		tidy.setXmlTags(true);
 		InputStreamReader reader;
 
 		reader = new InputStreamReader(in, this.charset != null ? this.charset : Charset.forName("iso-8859-1"));

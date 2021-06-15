@@ -20,15 +20,15 @@ public class ECBCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyF
 	private Date date = null;
 	private String uri = defaulturi;
 	private String xpathstr = defaultxpathstr;
-	
+
 	public static Map<String, Double> rates = new HashMap<String, Double>();
 
-	
+
 	public ECBCurrencyQuoteFetcher() {
 		super();
 		this.date = null;
 	}
-	
+
 	public ECBCurrencyQuoteFetcher(String uri, String xpathstr) {
 		super(uri);
 		this.uri = uri;
@@ -39,7 +39,8 @@ public class ECBCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyF
 	public Date getDate() {
 		return this.date;
 	}
-	
+
+	@Override
 	public double getExchangeRate(String ccy) throws Exception {
 		if (!rates.containsKey(ccy)) {
 			parseHtmlCcy();
@@ -50,32 +51,32 @@ public class ECBCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyF
 		}
 		return r;
 	}
-	
+
 	public void parseHtmlCcy() {
 
 		try {
 			org.w3c.dom.NodeList nodes = fetchNodes(this.uri, this.xpathstr);
-			System.out.println("Length: " + nodes.getLength());
+			// System.out.println("Length: " + nodes.getLength());
 
 			this.date = Calendar.getInstance().getTime();
 			// System.out.println(date);
-			
+
 			this.rates = IntStream.range(0, nodes.getLength() / 2).boxed()
-				    .collect(Collectors.toMap(i -> nodes.item(i * 2).getNodeValue(), 
+				    .collect(Collectors.toMap(i -> nodes.item(i * 2).getNodeValue(),
 				    		i -> convertToDouble(nodes.item(i * 2 + 1).getNodeValue())));
-			
-			
+
+
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
 		ECBCurrencyQuoteFetcher fetcher = new ECBCurrencyQuoteFetcher();
 		fetcher.parseHtmlCcy();
 
 		System.out.println(fetcher.rates.get("USD"));
 	}
 
-	
+
 }
