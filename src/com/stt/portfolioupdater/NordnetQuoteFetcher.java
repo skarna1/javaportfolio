@@ -5,10 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Date;
 
 import javax.xml.xpath.XPathExpressionException;
 
@@ -41,11 +41,12 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 			org.w3c.dom.NodeList nodes = fetchNodes(getUri(), getXpath());
 			if (nodes != null) {
 				// System.out.println("Nodes : " + nodes.getLength());
-				for (int i = 0; i < nodes.getLength(); i += 8) {
+				for (int i = 0; i < nodes.getLength(); i += 7) {
 
 					Item item = new Item();
 
 					String name = this.getValue(nodes.item(i));
+					// System.out.println("name: " + name);
 					item.setName(name);
 					item.setTicker(getTicker(name));
 
