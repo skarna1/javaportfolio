@@ -116,6 +116,7 @@ PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
 PRIVA Privanet Group Oyj
 PUMU PunaMusta Media Oyj
+PUUILO Puuilo Plc
 QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
 RAIKV Raisio Plc K
@@ -141,6 +142,7 @@ SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
 SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB
+SPINN Spinnova Oyj
 SRV1V SRV Group Plc
 SSABAH SSAB AB ser. A
 SSABBH SSAB AB ser. B
