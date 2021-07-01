@@ -1,6 +1,7 @@
 AALLON Aallon Group Oyj
 ADMCM Admicom Oyj
 AFAGR Afarak Group Plc
+ALEX Alexandria Pankkiiriliike Oyj
 AM1 Ahlstrom-Munksjö Oyj
 AKTIA Aktia Bank Plc
 ALMA Alma Media Corporation
@@ -140,6 +141,7 @@ SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
+SOLWERS Solwers Oyj
 SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB
 SPINN Spinnova Oyj
@@ -167,6 +169,7 @@ TULAV Tulikivi Oyj A
 UNIAV United Bankers Oyj
 UPM UPM-Kymmene Corporation
 UPONOR Uponor Oyj
+VACSPAC Virala Acquisition Company Oyj C
 VAIAS Vaisala Corporation A
 VALMT Valmet Corporation
 VALOE Valoe Oyj
