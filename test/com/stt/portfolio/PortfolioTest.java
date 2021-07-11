@@ -1,6 +1,8 @@
 package com.stt.portfolio;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import java.util.List;
 
@@ -13,7 +15,7 @@ import com.stt.portfolio.quotes.portfoliofiles.FileQuoteManagerFactory;
 public class PortfolioTest {
 
 	Portfolio portfolio;
-	
+
 	@Before
 	public void setUp() throws Exception {
 		QuoteManagerFactory f = new FileQuoteManagerFactory();
@@ -22,12 +24,12 @@ public class PortfolioTest {
 
 	@Test
 	public void testAddAccount() {
-		Account account = new Account("NON", null);
+		Account account = new Account("NON", new BookEntryManager(null, null, null));
 		List<Account> accounts = portfolio.getAccounts();
 		assertEquals(0, accounts.size());
-		
+
 		portfolio.addAccount(account);
-				
+
 		assertEquals(1, accounts.size());
 	}
 
@@ -35,25 +37,25 @@ public class PortfolioTest {
 	public void testCreateAccount() {
 		List<Account> accounts = portfolio.getAccounts();
 		assertEquals(0, accounts.size());
-		
+
 		portfolio.createAccount("nordnet");
-				
+
 		assertEquals(1, accounts.size());
 	}
-	
+
 	@Test
-	public void testGetAccount() {		
+	public void testGetAccount() {
 		portfolio.createAccount("nordnet");
 		Account a = portfolio.getAccount("nordnet");
-		assertNotNull(a);	
+		assertNotNull(a);
 		assertEquals("nordnet", a.getBroker());
 	}
-	
+
 	@Test
-	public void testGetAccountNull() {		
+	public void testGetAccountNull() {
 		portfolio.createAccount("nordnet");
 		Account a = portfolio.getAccount("eq");
-		assertNull(a);	
-		
+		assertNull(a);
+
 	}
 }

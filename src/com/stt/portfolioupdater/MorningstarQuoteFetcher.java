@@ -13,11 +13,12 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		this.uri = uri;
 		this.xpath = xpath;
 	}
-	
+
 	public MorningstarQuoteFetcher() {
 		super();
 	}
-	
+
+	@Override
 	public List<Item> parseHtml() {
 
 		// System.out.println(getUri());
@@ -35,8 +36,8 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 					Item item = new Item();
 
 					parseRow(item, tr);
-					//System.out.println(getName());
-					
+					// System.out.println(getName());
+
 					item.setName(getName());
 
 					item.setTicker(getTicker(item.getName()));
@@ -93,26 +94,24 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	protected void setPrice(Item item, String value) {
-		//System.out.println(value);
+		// System.out.println(value);
 		double rate = 1.0;
 		String ccy = value.substring(0, 3);
 		value = value.substring(3);
 		value = value.replaceAll("\u00A0", "");
+		value = value.replace(',', '.');
 		value = value.trim();
-		
-		// System.out.println("value: " + value);
-		// System.out.println("ccy: " + ccy);
+
 		try {
-		if (!ccy.equals("EUR")) {
-			CcyFetcher currencyFetcher = CcyFactory.createCcyFetcher();
-			rate = currencyFetcher.getExchangeRate(ccy);
-			// System.out.println("rate: " + rate);
-		}
-		item.setRate(rate);
-		setItemValues(item, value);
-		}
-		catch (Exception e) {
-		
+			if (!ccy.equals("EUR")) {
+				CcyFetcher currencyFetcher = CcyFactory.createCcyFetcher();
+				rate = currencyFetcher.getExchangeRate(ccy);
+				System.out.println("rate: " + rate);
+			}
+			item.setRate(rate);
+			setItemValues(item, value);
+		} catch (Exception e) {
+
 		}
 	}
 
@@ -157,7 +156,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
 	public static void main(String[] args) {
 		String uri = "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8U";
-		
+
 		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tr[2]";
 		MorningstarQuoteFetcher fetcher = new MorningstarQuoteFetcher(uri, xpath);
 		fetcher.setName("Nordnet superrahasto norja");
