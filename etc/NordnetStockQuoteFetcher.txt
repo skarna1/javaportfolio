@@ -115,7 +115,6 @@ UUTEC Plc Uutechnic Group Oyj
 PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
-PRIVA Privanet Group Oyj
 PUMU PunaMusta Media Oyj
 PUUILO Puuilo Plc
 QPR1V QPR Software Plc
@@ -140,6 +139,7 @@ SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
+SKARTA Skarta Group Oyj
 SOL1V Solteq Oyj
 SOLWERS Solwers Oyj
 SNO1V Soprano Oyj

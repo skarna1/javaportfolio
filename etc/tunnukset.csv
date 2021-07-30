@@ -170,10 +170,10 @@ First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NORDID ; Nordic ID ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
-First North ; S ; PRIVA ; Privanet ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
+First North ; S ; SKARTA ; Skarta Group ; 1 ; EUR
 First North ; S ; SPINN ; Spinnova ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; TOIVO ; Toivo Group ; 1 ; EUR
@@ -1013,6 +1013,7 @@ vanhat osakkeet ; X ; POH1SUO109 ; Pohjola merkintäoikeus ; 1
 vanhat osakkeet ; X ; POH1S ; Pohjola Pankki ; 1 ; EUR
 vanhat osakkeet ; X ; POLKS ; Polar Kiinteistöt ; 1
 vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
+vanhat osakkeet ; X ; PRIVA ; Privanet ; 1 ; EUR^
 vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
 vanhat osakkeet ; X ; PKK1V ; Pohj-K.Kirjap A ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
