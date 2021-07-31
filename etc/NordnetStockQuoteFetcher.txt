@@ -2,7 +2,6 @@ AALLON Aallon Group Oyj
 ADMCM Admicom Oyj
 AFAGR Afarak Group Plc
 ALEX Alexandria Pankkiiriliike Oyj
-AM1 Ahlstrom-Munksjö Oyj
 AKTIA Aktia Bank Plc
 ALMA Alma Media Corporation
 ALTIA Altia Plc
@@ -30,7 +29,7 @@ DETEC Detection Technology Oyj
 DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
 DOV1V Dovre Group Plc
-EABGB EAB Group Oyj
+EAB EAB Group Oyj
 EEZY Eezy Oyj
 EFECTE Efecte Plc
 ELEAV Elecster Oyj A

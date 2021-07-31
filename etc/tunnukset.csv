@@ -23,10 +23,10 @@ rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
 rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
+rahoitus ; S ; VACSPAC ; Virala Acquisition Company ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
-perusteollisuus ; S ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
 perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
 perusteollisuus ; S ; KEMIRA ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
@@ -153,7 +153,6 @@ First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
 First North ; S ; EFECTE ; Efecte ; 1 ; EUR
 First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
 First North ; S ; FELLOW ; Fellow Finance ; 1 ; EUR
-First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
 First North ; S ; HEEROS ; Heeros ; 1 ; EUR
@@ -858,6 +857,7 @@ vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
 vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
 vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR
+vanhat osakkeet ; X ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
 vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMEAS ; Amer Sports A ; 1 ; EUR
@@ -911,6 +911,7 @@ vanhat osakkeet ; X ; FNV1V ; Finvest ; 1
 vanhat osakkeet ; X ; FISAS ; Fiskars A ; 1 ; EUR
 vanhat osakkeet ; X ; FISKS ; Fiskars K ; 1 ; EUR
 vanhat osakkeet ; X ; FIS1V ; Fiskars ; 1 ; EUR
+vanhat osakkeet ; X ; FITBIO ; FIT Biotech ; 1 ; EUR
 vanhat osakkeet ; X ; FLG1S ; Finnlines ; 1 ; EUR
 vanhat osakkeet ; X ; FOR1V ; Ford ; 1
 vanhat osakkeet ; X ; FUM1V ; Fortum ; 1 ; EUR
