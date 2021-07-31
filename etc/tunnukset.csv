@@ -10,6 +10,7 @@ terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
 rahoitus ; S ; AKTIA ; Aktia; 1 ; EUR
 rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
 rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
+rahoitus ; S ; EAB ; EAB Group ; 1 ; EUR
 rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
@@ -46,8 +47,10 @@ teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CONSTI ; Consti ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; DOV1V ; Dovre ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; EEZY ; Eezy ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ENEDO ; Enedo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; ESENSE ; Enersense International ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
@@ -64,11 +67,11 @@ teollisuustuotteet ja -palvelut ; S ; NELES ; Neles ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; REKA ; Reka industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; JPG1V ; Poyry ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RAMI ; Ramirent ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RAUTE ; Raute A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ROBIT ; Robit ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; SITOWS ; Sitowise ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TNOM ; Talenom ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
@@ -90,6 +93,7 @@ teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
 teknologia ; S ; DIGIA ; Digia ; 1 ; EUR
 teknologia ; S ; DIGIGR ; Digitalist Group ; 1 ; EUR
 teknologia ; S ; FSC1V ; F-Secure ; 1 ; EUR
+teknologia ; S ; GOFORE ; Gofore ; 1 ; EUR
 teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
 teknologia ; S ; NIXU ; Nixu ; 1 ; EUR
 teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
@@ -131,34 +135,29 @@ Kulutustavarat ; S ; MEKKO ; Marimekko ; 1 ; EUR
 Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
 Kulutustavarat ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 Kulutustavarat ; S ; OLVAS ; Olvi A ; 1 ; EUR
+Kulutustavarat ; S ; ORTHEX ; Orthex ; 1 ; EUR
 Kulutustavarat ; S ; RAIVV ; Raisio-yhtymä V ; 1 ; EUR
 Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
-Pre-lista ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
 Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
-Pre-lista ; S ; ORTHEX ; Orthex ; 1 ; EUR
-Pre-lista ; S ; SITOWS ; Sitowise ; 1 ; EUR
 First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
 First North ; S ; ADMCM ; Admicom ; 1 ; EUR
-First North ; S ; AHOLA ; Ahola Transport A ; 1 ; EUR
+First North ; S ; ALEX ; Alexandria Pankkiiriliike ; 1 ; EUR
 First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BILOT ; Bilot ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
-First North ; S ; EABGB ; EAB Group ; 1 ; EUR
-First North ; S ; EEZY ; Eezy ; 1 ; EUR
 First North ; S ; EFECTE ; Efecte ; 1 ; EUR
-First North ; S ; ESENSE ; Enersense International ; 1 ; EUR
 First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
 First North ; S ; FELLOW ; Fellow Finance ; 1 ; EUR
 First North ; S ; FITBIO ; FIT Biotech ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
-First North ; S ; GOFORE ; Gofore ; 1 ; EUR
 First North ; S ; HEEROS ; Heeros ; 1 ; EUR
+First North ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
 First North ; S ; LEADD ; Leaddesk ; 1 ; EUR
 First North ; S ; LOUD ; Loudspring ; 1 ; EUR
@@ -170,11 +169,13 @@ First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NORDID ; Nordic ID ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
+First North ; S ; RELAIS ; Relais Group ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; SKARTA ; Skarta Group ; 1 ; EUR
 First North ; S ; SPINN ; Spinnova ; 1 ; EUR
+First North ; S ; SOLWERS ; Solwers ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; TOIVO ; Toivo Group ; 1 ; EUR
 First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
@@ -850,6 +851,7 @@ hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
 vanhat osakkeet ; X ; AFE1V ; Affecto ; 1 ; EUR
 vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
+vanhat osakkeet ; X ; AHOLA ; Ahola Transport A ; 1 ; EUR
 vanhat osakkeet ; X ; AHTIUM ; Ahtium ; 1 ; EUR
 vanhat osakkeet ; X ; AKTAV ; Aktia A ; 1 ; EUR
 vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
@@ -930,6 +932,7 @@ vanhat osakkeet ; X ; XNS1V ; Ixonos ; 1 ; EUR
 vanhat osakkeet ; X ; JAN1V ; Janton ; 1
 vanhat osakkeet ; X ; JIP1V ; Jippii Group ; 1
 vanhat osakkeet ; X ; JOT1V ; JOT Automation ; 1
+vanhat osakkeet ; X ; JPG1V ; Poyry ; 1 ; EUR
 vanhat osakkeet ; X ; JTKBS ; J Tallberg-Kiint. B ; 1
 vanhat osakkeet ; X ; KASAS ; Kasola A ; 1
 vanhat osakkeet ; X ; KESAV ; Kesko A ; 1
@@ -996,7 +999,7 @@ vanhat osakkeet ; X ; ORIBS ; Orion B ; 1
 vanhat osakkeet ; X ; ORNAS ; Orion A (Ennen jakautumista) ; 1
 vanhat osakkeet ; X ; ORNBS ; Orion B (Ennen jakautumista) ; 1
 vanhat osakkeet ; X ; OMH1V ; OMHEX AB; 1
-vanhat osakkeet ; X ; OTE1V ; Outotec ; 1 ; EUR^
+vanhat osakkeet ; X ; OTE1V ; Outotec ; 1 ; EUR
 vanhat osakkeet ; X ; PANAS ; Panostaja A ; 1
 vanhat osakkeet ; X ; PANBS ; Panostaja B ; 1
 vanhat osakkeet ; X ; PAR1S ; Partek ; 1
