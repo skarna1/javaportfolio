@@ -38,7 +38,6 @@ perusteollisuus ; S ; SSABBH ; SSAB B ; 1 ; EUR
 perusteollisuus ; S ; STEAV ; Stora Enso A ; 1 ; EUR
 perusteollisuus ; S ; STERV ; Stora Enso R ; 1 ; EUR
 perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; ADAPT ; Adapteo ; 1 ; SEK
 teollisuustuotteet ja -palvelut ; S ; ASPO ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; BOREO ; Boreo ; 1 ; EUR
@@ -179,7 +178,7 @@ First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; TOIVO ; Toivo Group ; 1 ; EUR
 First North ; S ; VIAFIN ; Viafin Service ; 1 ; EUR
 First North ; S ; VINCIT ; Vincit Group ; 1 ; EUR
-Indeksiosuudet ; S ; SLG OMXH25 ; OMX25-indeksiosuus ; 1 ; EUR
+Indeksiosuudet ; S ; SLG OMXH25 ; OMXH25-indeksiosuus ; 1 ; EUR
 optiot ; O ; GLA1VUO119 ; Glaston merk oikeus ; 1 ; EUR
 optiot ; O ; KRA1VU0109 ; Kemira merk oikeus ; 1 ; EUR
 optiot ; O ; POH1SU0109 ; Pohjola 2009 MO ; 1 ; EUR
@@ -848,6 +847,7 @@ kv. pitkän koron rahasto ; F ; SEBSBONINT ; SEB Lux International Bond ; 1
 hedge rahasto ; F ; AVENIRA ; Avenir A ; 1
 hedge rahasto ; F ; AVENIRB ; Avenir B ; 1
 hedge rahasto ; F ; LEONIAVEGA ; Sampo-Leonia Vega Tuotto ; 1
+vanhat osakkeet ; X ; ADAPT ; Adapteo ; 1 ; SEK
 vanhat osakkeet ; X ; AFE1V ; Affecto ; 1 ; EUR
 vanhat osakkeet ; X ; AHL1V ; Ahlstrom ; 1 ; EUR
 vanhat osakkeet ; X ; AHOLA ; Ahola Transport A ; 1 ; EUR
