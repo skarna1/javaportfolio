@@ -282,6 +282,7 @@
 16.04.2020 ; CONSTI ; NIMI ; Consti Yhtiöt ; Consti ;
 28.04.2020 ; KESKOA ; SPLIT ; 1 ; 4
 28.04.2020 ; KESKOB ; SPLIT ; 1 ; 4
+01.05.2020 ; NONSUPERSUOMI ; NIMI ; Nordnet superrahasto Suomi ; Nordnet indeksirahasto Suomi
 16.06.2020 ; ATG1V ; TUNNUSNIMI ; ENENTO ; Asiakastieto ; Enento
 30.06.2020 ; METSO ; JAKAUTUMINEN ; 2 ; MOCORP ; Metso Outotec ; 0.6593 ; 4.3 ; NELES ; Neles ; 0.3407 ; 1
 30.06.2020 ; OTE1V ; TUNNUSNIMI ; MOCORP ; Outotec ; Metso Outotec
@@ -290,3 +291,4 @@
 03.01.2021 ; MMO1V ; TUNNUS ; MEKKO ;
 10.02.2021 ; YEINT ; TUNNUSNIMI ; BOREO ; Yleiselektroniikka ; Boreo
 21.07.2021 ; PRIVA ; TUNNUSNIMI ; SKARTA ; Privanet ; Skarta Group
+02.09.2021 ; ALTIA ; TUNNUSNIMI ; ANORA ; Altia ; Anora Group 

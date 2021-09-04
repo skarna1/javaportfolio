@@ -123,7 +123,7 @@ Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
-Kulutustavarat ; S ; ALTIA ; Altia ; 1 ; EUR
+Kulutustavarat ; S ; ANORA ; Anora ; 1 ; EUR
 Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
 Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
 Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
@@ -857,6 +857,7 @@ vanhat osakkeet ; X ; AKTRV ; Aktia R ; 1 ; EUR
 vanhat osakkeet ; X ; ALM1VPOPA06 ; Alma Media pääoman palautus ; 1
 vanhat osakkeet ; X ; ALD1V ; Aldata Solution ; 1 ; EUR
 vanhat osakkeet ; X ; ALN1V ; Alma Media ; 1 ; EUR
+vanhat osakkeet ; X ; ALTIA ; Altia ; 1 ; EUR
 vanhat osakkeet ; X ; AM1 ; Ahlstrom-Munksjö ; 1 ; EUR
 vanhat osakkeet ; X ; AMA1V ; Amanda Capital ; 1
 vanhat osakkeet ; X ; AMC1V ; Amanda Capital ; 1
@@ -1017,7 +1018,7 @@ vanhat osakkeet ; X ; POH1SUO109 ; Pohjola merkintäoikeus ; 1
 vanhat osakkeet ; X ; POH1S ; Pohjola Pankki ; 1 ; EUR
 vanhat osakkeet ; X ; POLKS ; Polar Kiinteistöt ; 1
 vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
-vanhat osakkeet ; X ; PRIVA ; Privanet ; 1 ; EUR^
+vanhat osakkeet ; X ; PRIVA ; Privanet ; 1 ; EUR
 vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
 vanhat osakkeet ; X ; PKK1V ; Pohj-K.Kirjap A ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
