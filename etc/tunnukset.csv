@@ -66,7 +66,6 @@ teollisuustuotteet ja -palvelut ; S ; NELES ; Neles ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; REKA ; Reka industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; PON1V ; Ponsse 1 ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; RAMI ; Ramirent ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; RAUTE ; Raute A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ROBIT ; Robit ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; SCL1V ; Scanfil ; 1 ; EUR
@@ -76,7 +75,6 @@ teollisuustuotteet ja -palvelut ; S ; TNOM ; Talenom ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; UPONOR ; Uponor ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; UUTEC ; Uutechnic Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; YIT ; YIT-Yhtymä ; 1 ; EUR
@@ -1023,6 +1021,7 @@ vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
 vanhat osakkeet ; X ; PKK1V ; Pohj-K.Kirjap A ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
 vanhat osakkeet ; X ; RMR1V ; Ramirent ; 1 ; EUR
+vanhat osakkeet ; X ; RAMI ; Ramirent ; 1 ; EUR
 vanhat osakkeet ; X ; RAM1V ; Rauma ; 1
 vanhat osakkeet ; X ; RTK1S ; Rautakirja A ; 1
 vanhat osakkeet ; X ; RTKBS ; Rautakirja B ; 1
@@ -1099,6 +1098,7 @@ vanhat osakkeet ; X ; TUT1V ; Turvatiimi ; 1 ; EUR
 vanhat osakkeet ; X ; TARAS ; Turun Arvok. A ; 1
 vanhat osakkeet ; X ; UN ; Unilever ; 1 ; USD ; Eurooppa
 vanhat osakkeet ; X ; UNR1V ; Uponor ; 1
+vanhat osakkeet ; X ; UUTEC ; Uutechnic Group ; 1 ; EUR
 vanhat osakkeet ; X ; VAC1V ; Vacon ; 1 ; EUR
 vanhat osakkeet ; X ; VALAS ; Valmet A ; 1
 vanhat osakkeet ; X ; VAMPS ; Valtameri E ; 1
@@ -1109,7 +1109,7 @@ vanhat osakkeet ; X ; UHI1V ; Ühispank ; 1
 vanhat osakkeet ; X ; UPM1V ; UPM-Kymmene ; 1
 vanhat osakkeet ; X ; YTY1V ; YIT-Yhtymä ; 1
 vanhat osakkeet ; X ; YLEPS ; Yleiselektroniikka E ; 1
-vanhat osakkeet ; X ; YEINT ; Yleiselektroniikka E ; 1 ; EUR^
+vanhat osakkeet ; X ; YEINT ; Yleiselektroniikka E ; 1 ; EUR
 vanhat osakkeet ; X ; YOM1V ; Yomi ; 1
 vanhat osakkeet ; X ; WAT1V ; Vaahto Group ; 1 ; EUR
 vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1

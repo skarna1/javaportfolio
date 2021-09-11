@@ -110,7 +110,6 @@ OUT1V Outokumpu Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
-UUTEC Plc Uutechnic Group Oyj
 PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
@@ -121,7 +120,6 @@ QTCOM Qt Group Oyj
 RAIKV Raisio Plc K
 RAIVV Raisio Plc Vaihto-osake
 REKA Reka Industrial Oyj
-RMR1V Ramirent Plc
 RAP1V Rapala VMC Corporation
 RAUTE Raute Corporation A
 REG1V Revenio Group Corporation
