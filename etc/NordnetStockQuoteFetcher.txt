@@ -19,6 +19,7 @@ BIOBV Biohit Oyj B
 BITTI Bittium Corporation
 BONEH BBS-Bioactive Bone Substitutes
 BOREO Boreo Oyj
+BRETEC Bioretec Oy
 CAPMAN CapMan Plc
 CGCBV Cargotec Oyj
 CAV1V Caverion Oyj
@@ -30,6 +31,7 @@ DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
 DOV1V Dovre Group Plc
 EAB EAB Group Oyj
+ECOUP EcoUp Oyj
 EEZY Eezy Oyj
 EFECTE Efecte Plc
 ELEAV Elecster Oyj A
@@ -84,6 +86,7 @@ MERUS Merus Power Oyj
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
 MOCORP Metso Outotec Oyj
+MODU Modulight Oyj
 MUSTI Musti Group Plc
 NANOFH Nanoform Finland Oyj
 NELES Neles Corporation
