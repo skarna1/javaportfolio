@@ -1265,6 +1265,7 @@ NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
 NYSE ; S ; UL ; Unilever ; 1 ; USD ; Eurooppa
+NYSE ; S ; UROY ; Uranium Royalty ; 1 ; USD ; USA
 NYSE ; S ; XOM ; Exxon ; 1 ; USD ; USA
 NYSE ; S ; WMT ; Wal-mart Stores ; 1; USD ; USA
 NYSE ; S ; VGK ; Vanguard Europe ; 1 ; USD ; Eurooppa
@@ -1300,6 +1301,7 @@ OMXS ; S ; NILORN ; Nilörn Group ; 1 ; SEK ; Ruotsi
 OMXS ; S ; LOOMIS ; Loomis ; 1 ; SEK ; Ruotsi
 OMXS ; S ; NIBE ; Nibe ; 1 ; SEK ; Ruotsi
 OMXS ; S ; NOLATO ; Nolato ; 1 ; SEK ; Ruotsi
+OMXS ; S ; SWMA ; Swedish Match ; 1 ; SEK ; Ruotsi
 OMXS ; S ; TOP ; Top Danmark ; 1 ; DKK ; Tanska
 OMXS ; S ; THUNDR ; Thunderful Group ; 1 ; SEK ; Ruotsi
 XTRA ; S ; 4GLD ; Xetra-Gold ; 1 ; EUR ; Maailma
