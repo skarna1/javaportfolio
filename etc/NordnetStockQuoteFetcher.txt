@@ -64,6 +64,7 @@ HUH1V Huhtamäki Oyj
 ILK1S Ilkka-Yhtymä Oyj 1
 ILK2S Ilkka-Yhtymä Oyj 2
 INC1V Incap Corporation
+INDERES Inderes Oyj
 IFA1V Innofactor Plc
 INVEST Investors House Oyj
 KAMUX Kamux Corporation
@@ -79,6 +80,7 @@ KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
+LOIHDE Loihde Oyj
 LOUD Loudspring Plc
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
