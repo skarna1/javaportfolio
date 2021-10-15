@@ -80,6 +80,7 @@ KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
+LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 LOUD Loudspring Plc
 MEKKO Marimekko Corporation

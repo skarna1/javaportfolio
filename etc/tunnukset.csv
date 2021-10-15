@@ -23,7 +23,6 @@ rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
 rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
-rahoitus ; S ; VACSPAC ; Virala Acquisition Company ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
@@ -138,6 +137,8 @@ Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
+SPAC ; S ; LL1SPAC ; Lifeline SPAC I ; 1 ; EUR
+SPAC ; S ; VACSPAC ; Virala Acquisition Company ; 1 ; EUR
 Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
 First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
