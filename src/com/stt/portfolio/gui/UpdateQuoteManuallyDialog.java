@@ -18,7 +18,7 @@ public class UpdateQuoteManuallyDialog extends BaseDialog {
 	private JLabel nameFieldLabel;
 	private JLabel tickerFieldLabel;
 	private JLabel dateFieldLabel;
-	
+
 	/**
 	 * Set up and show the dialog. The first Component argument determines which
 	 * frame the dialog depends on; it should be a component in the dialog's
@@ -35,7 +35,7 @@ public class UpdateQuoteManuallyDialog extends BaseDialog {
 		priceField = new JTextField(11);
 		nameField = new JTextField(11);
 		tickerField = new JTextField(11);
-		
+
 		nameField.setEditable(false);
 		nameField.setText(name);
 
@@ -55,9 +55,9 @@ public class UpdateQuoteManuallyDialog extends BaseDialog {
 
 		priceFieldLabel = new JLabel("Noteeraus: ");
 		priceFieldLabel.setLabelFor(priceField);
-				
-		updateRateFieldForce(name);
-		
+
+		updateRateField(name);
+
 		init(getDialogLabels(), getDialogComponents());
 	}
 
@@ -90,11 +90,11 @@ public class UpdateQuoteManuallyDialog extends BaseDialog {
 	}
 
 	public String getStockName() {
-		return (String) nameField.getText();
+		return nameField.getText();
 	}
 
 	public String getTicker() {
-		return (String) tickerField.getText();
+		return tickerField.getText();
 	}
 
 	public double getPrice() {

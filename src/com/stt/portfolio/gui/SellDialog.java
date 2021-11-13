@@ -80,11 +80,17 @@ public class SellDialog extends BaseDialog {
 			updateStockList(broker);
 			updateOwnedAmount();
 			String stockName = (String) stocksList.getSelectedItem();
-			updateRateFieldForce(stockName);
+			updateForeignCurrency(stockName);
 		} else if (STOCK_SELECTED.equals(e.getActionCommand())) {
 			updateOwnedAmount();
 			String stockName = (String) stocksList.getSelectedItem();
-			updateRateFieldForce(stockName);
+			updateForeignCurrency(stockName);
+		}
+		else if (CURRENCY_SELECTED.equals(e.getActionCommand())) {
+			Object item = currencyList.getSelectedItem();
+			if (item != null) {
+				updateRateFieldCcy((String) item);
+			}
 		}
 		else {
 			super.actionPerformed(e);

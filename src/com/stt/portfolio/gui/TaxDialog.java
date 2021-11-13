@@ -3,7 +3,7 @@ package com.stt.portfolio.gui;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-import javax.swing.JComboBox;
+
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
@@ -11,17 +11,11 @@ import com.stt.portfolio.I_TickerManager;
 
 public class TaxDialog extends BaseDialog {
 
-	private static String CURRENCY_CHANGED = "currency";
-	
 	private JTextField totalCostField;
-	private JComboBox currencyList;
-	
+
 	private JLabel totalCostFieldLabel;
 	private JLabel dateFieldLabel;
 	private JLabel currencyFieldLabel;
-
-	
-
 	public double getTotalCost() {
 		return convertToDouble(totalCostField.getText());
 	}
@@ -29,11 +23,13 @@ public class TaxDialog extends BaseDialog {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 
-		if (CURRENCY_CHANGED.equals(e.getActionCommand())) {
-		String ccy = (String) currencyList.getSelectedItem();
-		updateRateFieldCcy(ccy, true);
+		if (CURRENCY_SELECTED.equals(e.getActionCommand())) {
+			Object item = currencyList.getSelectedItem();
+			if (item != null) {
+				updateRateFieldCcy((String) item);
+			}
 		} else
-	{
+		{
 			super.actionPerformed(e);
 		}
 
@@ -52,18 +48,11 @@ public class TaxDialog extends BaseDialog {
 			String title,  I_TickerManager tickerManager) {
 		super(frameComp, locationComp, title, tickerManager);
 
-		String[] currencies = {"EUR", "USD", "SEK" , "NOK"};
-		currencyList = new JComboBox(currencies);
-		currencyList.setEditable(true);
-		currencyList.addActionListener(this);
-		currencyList.setSelectedIndex(0);
-		currencyList.setActionCommand(CURRENCY_CHANGED);
-		
 		totalCostField = new JTextField(FIELD_LEN);
 		totalCostField.setEditable(true);
-		totalCostField.setText("");		
+		totalCostField.setText("");
 		totalCostField.addKeyListener(this);
-		
+
 		dateFieldLabel = new JLabel("Maksupäivä: ");
 		dateFieldLabel.setLabelFor(dateChooser);
 
@@ -72,15 +61,15 @@ public class TaxDialog extends BaseDialog {
 		totalCostFieldLabel.setLabelFor(totalCostField);
 
 		currencyFieldLabel = new JLabel("Valuutta: ");
-		
-		updateRateFieldCcy((String) currencyList.getSelectedItem(), true);
+
+		updateRateFieldCcy(localCurrencyString);
 		init(getDialogLabels(), getDialogComponents());
 	}
-	
+
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		
+
 		enableOK();
 	}
 
@@ -88,7 +77,7 @@ public class TaxDialog extends BaseDialog {
 		boolean isEnabled = false;
 
 		String c = totalCostField.getText();
-		
+
 
 		isEnabled = !c.isEmpty();
 

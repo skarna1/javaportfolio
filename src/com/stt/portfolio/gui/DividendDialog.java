@@ -9,10 +9,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import javax.swing.BoxLayout;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import com.stt.portfolio.BookEntry;
@@ -46,7 +44,7 @@ public class DividendDialog extends BaseDialog {
 	JLabel dividendTaxLabel;
 	private JLabel localCurrencyButtonLabel;
 
-	private JPanel currencyButtonPanel;
+
 
 	private Map<String, List<String>> stocks = null;
 	private I_TickerManager tickerManager = null;
@@ -78,28 +76,27 @@ public class DividendDialog extends BaseDialog {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
 		if (SECTOR_SELECTED.equals(e.getActionCommand())) {
 			String sector = (String) sectorList.getSelectedItem();
 			updateStockList(sector);
 			String stockName = (String) stocksList.getSelectedItem();
-			updateRateFieldForce(stockName);
+			updateForeignCurrency(stockName);
 		} else if (STOCK_SELECTED.equals(e.getActionCommand())) {
 			String stockName = (String) stocksList.getSelectedItem();
 			updateBrokers(stockName);
 			updateForeignCurrency(stockName);
-			updateRateFieldForce(stockName);
-
 		}
 		else if (BROKER_SELECTED.equals(e.getActionCommand())) {
 			String broker = getBrokerName();
 			String stockName = (String) stocksList.getSelectedItem();
+			updateForeignCurrency(stockName);
 			updateOwnedAmount(broker, stockName);
-
 		}
-		else if (foreignCurrencyString.equals(e.getActionCommand()) || localCurrencyString.equals(e.getActionCommand())) {
-			String stockName = (String) stocksList.getSelectedItem();
-			updateRateField(stockName);
+		else if (CURRENCY_SELECTED.equals(e.getActionCommand())) {
+			Object item = currencyList.getSelectedItem();
+			if (item != null) {
+				updateRateFieldCcy((String) item);
+			}
 		}
 		else {
 			super.actionPerformed(e);
@@ -172,15 +169,7 @@ public class DividendDialog extends BaseDialog {
 		dateFieldLabel.setLabelFor(dateChooser);
 
 		localCurrencyButtonLabel = new JLabel("Valuutta: ");
-
-		currencyButtonPanel = new JPanel();
-		currencyButtonPanel.setLayout(new BoxLayout(currencyButtonPanel,
-	            BoxLayout.LINE_AXIS));
-
-		localCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-		currencyButtonPanel.add(localCurrencyButton);
-		foreignCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-		currencyButtonPanel.add(foreignCurrencyButton);
+		localCurrencyButtonLabel.setLabelFor(currencyList);
 
 		brokerFieldLabel = new JLabel("Välittäjä: ");
 		brokerFieldLabel.setLabelFor(brokerList);
@@ -203,7 +192,7 @@ public class DividendDialog extends BaseDialog {
 
 		setSelection(s);
 		String stockName = String.valueOf(stocksList.getSelectedItem());
-		updateRateFieldForce(stockName);
+
 		updateForeignCurrency(stockName);
 		init(getDialogLabels(), getDialogComponents());
 	}
@@ -274,8 +263,8 @@ public class DividendDialog extends BaseDialog {
 	}
 
 	protected Component[] getDialogComponents() {
-		Component[] components = { sectorList, stocksList, dateChooser, currencyButtonPanel,
-				amountField, costField, rateField, brokerList, dividendTaxField, totalCostField, netCostField };
+		Component[] components = { sectorList, stocksList, dateChooser, currencyList, amountField, costField, rateField,
+				brokerList, dividendTaxField, totalCostField, netCostField };
 		return components;
 	}
 

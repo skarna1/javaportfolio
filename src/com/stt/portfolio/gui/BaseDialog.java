@@ -13,19 +13,18 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Calendar;
 import java.util.Date;
-
 import java.util.Locale;
 
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
 import com.stt.portfolio.I_TickerManager;
@@ -46,19 +45,23 @@ KeyListener {
 	private boolean isOk = false;
 
 	protected int FIELD_LEN = 20;
+	protected static String CURRENCY_SELECTED = "ccy";
 
 	protected JTextField rateField;
 	protected JLabel rateFieldLabel;
 
 	I_TickerManager tickerManager = null;
 
-	protected JRadioButton localCurrencyButton;
-	protected JRadioButton foreignCurrencyButton;
-	protected ButtonGroup currencyGroup;
+	// protected JRadioButton localCurrencyButton;
+	// protected JRadioButton foreignCurrencyButton;
+	// protected ButtonGroup currencyGroup;
+
+	protected JComboBox<String> currencyList;
+
 	protected static String localCurrencyString="EUR";
-	protected static String foreignCurrencyString="USD";
+
 	private Component frameComp;
-	
+
 	public boolean isOk() {
 		return isOk;
 	}
@@ -119,26 +122,19 @@ KeyListener {
 		rateFieldLabel.setLabelFor(rateField);
 		rateFieldLabel.setVisible(true);
 
-		localCurrencyButton = new JRadioButton(localCurrencyString);
-		foreignCurrencyButton = new JRadioButton(foreignCurrencyString);
-		currencyGroup = new ButtonGroup();
+		// Currencies
+		currencyList = new JComboBox<String>();
+		currencyList.addItem(localCurrencyString);
+		currencyList.setActionCommand(CURRENCY_SELECTED);
+		currencyList.addActionListener(this);
 
-		localCurrencyButton.setActionCommand(localCurrencyString);
-		foreignCurrencyButton.setActionCommand(foreignCurrencyString);
-		localCurrencyButton.setSelected(true);
-		currencyGroup.add(localCurrencyButton);
-		currencyGroup.add(foreignCurrencyButton);
-		updateRateFieldCcy("EUR", false);
-		localCurrencyButton.addActionListener(this);
-		foreignCurrencyButton.addActionListener(this);
-		foreignCurrencyButton.setEnabled(false);
-		
+		updateRateFieldCcy(localCurrencyString);
 	}
 
 	protected void init(JLabel[] labels, Component[] components) {
 
 		// Lay out the buttons from left to right.
-		
+
 		JPanel buttonPane = new JPanel();
 		buttonPane.setLayout(new BoxLayout(buttonPane, BoxLayout.LINE_AXIS));
 		buttonPane.setBorder(BorderFactory.createEmptyBorder(0, 10, 10, 10));
@@ -154,7 +150,7 @@ KeyListener {
 		contentPane.add(buttonPane, BorderLayout.PAGE_END);
 
 		pack();
-		
+
 		setLocationRelativeTo(frameComp);
 		setVisible(true);
 	}
@@ -233,40 +229,27 @@ KeyListener {
 
 			Stock s = tickerManager.getStock(ticker);
 			if (s != null) {
-				updateRateFieldCcy(s.getCcy(), false);
+				updateRateFieldCcy(s.getCcy());
 			}
 		}
 	}
 
-	protected void updateRateFieldForce(String stockName) {
-		if (stockName != null) {
-			String ticker = tickerManager.getTicker(stockName);
-
-			Stock s = tickerManager.getStock(ticker);
-			if (s != null) {
-				updateRateFieldCcy(s.getCcy(), true);
-			}
-		}
-	}
-
-	
-	protected void updateRateFieldCcy(String ccy, boolean force) {
+	protected void updateRateFieldCcy(String ccy) {
 		double rate = 1.000;
-		
+
 		rateField.setVisible(true);
 		rateFieldLabel.setText("Kurssi EUR/" + ccy + " : ");
 		rateFieldLabel.setVisible(true);
 
-		if (!ccy.equals("EUR")) {
-			if (force || foreignCurrencyButton.isSelected()) {
+		if (!ccy.equals(localCurrencyString)) {
+
 				CcyFetcher f = CcyFactory.createCcyFetcher();
 				try {
 					rate = f.getExchangeRate(ccy);
 				}
 				catch (Exception e) {
-					
+
 				}
-			} 
 		}
 		rateField.setText(String.format("%1$.5f", rate));
 	}
@@ -277,11 +260,21 @@ KeyListener {
 
 			Stock s = tickerManager.getStock(ticker);
 			if (s != null) {
-				foreignCurrencyButton.setText(s.getCcy());
-				boolean isForeignCurrency = !s.getCcy().equals("EUR");
-				foreignCurrencyButton.setEnabled(isForeignCurrency);
-				foreignCurrencyButton.setSelected(isForeignCurrency);
-				localCurrencyButton.setSelected(!isForeignCurrency);
+				currencyList.removeAllItems();
+				currencyList.addItem(s.getCcy());
+				if (!s.getCcy().equals(localCurrencyString)) {
+					currencyList.addItem(localCurrencyString);
+				}
+
+				String[] currencies = { "SEK", "USD", "CAD", "NOK", "DEK" };
+
+
+				for (String ccy : currencies) {
+					if (((DefaultComboBoxModel) currencyList.getModel()).getIndexOf(ccy) == -1) {
+						currencyList.addItem(ccy);
+					}
+				}
+				currencyList.setSelectedIndex(0);
 			}
 		}
 	}

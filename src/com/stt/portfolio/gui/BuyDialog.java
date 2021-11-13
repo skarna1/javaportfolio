@@ -6,7 +6,6 @@ import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.Map;
 
-import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
@@ -49,7 +48,7 @@ public class BuyDialog extends BaseDialog {
 	private JRadioButton totalCostButton;
 	private JRadioButton perShareCostButton;
 	private ButtonGroup buttonGroup;
-	
+
 	Map<String, List<String>> stocks;
 
 	public String getStockName() {
@@ -94,7 +93,7 @@ public class BuyDialog extends BaseDialog {
 			String stockName = (String) stocksList.getSelectedItem();
 			updateForeignCurrency(stockName);
 			updateRateField(stockName);
-		} 
+		}
 		else if (totalCostString.equals(e.getActionCommand())){
 			totalCostField.setEditable(true);
 			costField.setEditable(false);
@@ -103,16 +102,18 @@ public class BuyDialog extends BaseDialog {
 			totalCostField.setEditable(false);
 			costField.setEditable(true);
 		}
-		else if (foreignCurrencyString.equals(e.getActionCommand()) || localCurrencyString.equals(e.getActionCommand())) {
-			String stockName = (String) stocksList.getSelectedItem();
-			updateRateField(stockName);
+		else if (CURRENCY_SELECTED.equals(e.getActionCommand())) {
+			Object item = currencyList.getSelectedItem();
+			if (item != null) {
+				updateRateFieldCcy((String) item);
+			}
 		}
 		else {
 			super.actionPerformed(e);
 		}
 	}
 
-	
+
 	/**
 	 * Set up and show the dialog. The first Component argument determines which
 	 * frame the dialog depends on; it should be a component in the dialog's
@@ -136,8 +137,8 @@ public class BuyDialog extends BaseDialog {
 	    totalCostButton = new JRadioButton(totalCostString);
 		perShareCostButton = new JRadioButton(perShareCostString);
 		buttonGroup = new ButtonGroup();
-		
-	   
+
+
 		// Brokers
 
 		brokerList = new JComboBox(brokers);
@@ -187,29 +188,20 @@ public class BuyDialog extends BaseDialog {
 		totalCostFieldLabel = new JLabel("yhteensä: ");
 		totalCostFieldLabel.setLabelFor(totalCostField);
 
-		totalCostButtonLabel = new JLabel("");
-		perShareCostButtonLabel = new JLabel("");
 		localCurrencyButtonLabel = new JLabel("Valuutta: ");
-		
+		localCurrencyButtonLabel.setLabelFor(currencyButtonPanel);
+
+		totalCostButtonLabel = new JLabel("");
+
 		totalCostButton.setActionCommand(totalCostString);
+		perShareCostButtonLabel = new JLabel("");
 		perShareCostButton.setActionCommand(perShareCostString);
 		perShareCostButton.setSelected(true);
 		buttonGroup.add(totalCostButton);
 		buttonGroup.add(perShareCostButton);
 		totalCostButton.addActionListener(this);
 		perShareCostButton.addActionListener(this);
-		
-		
-		
-		currencyButtonPanel = new JPanel();
-		currencyButtonPanel.setLayout(new BoxLayout(currencyButtonPanel,
-	            BoxLayout.LINE_AXIS));
 
-		localCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-		currencyButtonPanel.add(localCurrencyButton);
-		foreignCurrencyButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-		currencyButtonPanel.add(foreignCurrencyButton);
-		
 		setSelection(s);
 
 		init(getDialogLabels(), getDialogComponents());
@@ -224,7 +216,7 @@ public class BuyDialog extends BaseDialog {
 		for (Object o : stockNames.toArray()) {
 			stocksList.addItem(o);
 		}
-		
+
 	}
 
 
@@ -251,7 +243,7 @@ public class BuyDialog extends BaseDialog {
 
 		okButton.setEnabled(isEnabled);
 	}
-	
+
 	private void updateTotalCost() {
 
 		double amount = convertToDouble(amountField.getText());
@@ -272,11 +264,11 @@ public class BuyDialog extends BaseDialog {
 
 		costField.setText(String.format("%1$.2f", cost));
 	}
-	
+
 	protected Component[] getDialogComponents() {
 		Component[] components = { sectorList, stocksList, dateChooser,
-				amountField, perShareCostButton,totalCostButton,costField, 
-				currencyButtonPanel,rateField, brokerList, brokerCostField,
+				amountField, perShareCostButton,totalCostButton,costField,
+				currencyList, rateField, brokerList, brokerCostField,
 				totalCostField };
 		return components;
 	}
@@ -284,7 +276,7 @@ public class BuyDialog extends BaseDialog {
 
 	protected JLabel[] getDialogLabels() {
 		JLabel[] labels = { sectorFieldLabel, stockFieldLabel, dateFieldLabel,
-				amountFieldLabel, perShareCostButtonLabel,totalCostButtonLabel,costFieldLabel, 
+				amountFieldLabel, perShareCostButtonLabel,totalCostButtonLabel,costFieldLabel,
 				localCurrencyButtonLabel,rateFieldLabel,brokerFieldLabel,
 				brokerCostFieldLabel, totalCostFieldLabel };
 		return labels;
