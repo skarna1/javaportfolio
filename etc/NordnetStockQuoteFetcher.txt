@@ -30,6 +30,7 @@ DETEC Detection Technology Oyj
 DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
 DOV1V Dovre Group Plc
+DUELL Duell Oyj
 EAB EAB Group Oyj
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
