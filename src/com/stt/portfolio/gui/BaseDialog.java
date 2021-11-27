@@ -266,7 +266,7 @@ KeyListener {
 					currencyList.addItem(localCurrencyString);
 				}
 
-				String[] currencies = { "SEK", "USD", "CAD", "NOK", "DEK" };
+				String[] currencies = { "SEK", "USD", "CAD", "NOK", "DKK" };
 
 
 				for (String ccy : currencies) {
