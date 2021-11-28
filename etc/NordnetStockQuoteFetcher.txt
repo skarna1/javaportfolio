@@ -49,6 +49,7 @@ FARON Faron Pharmaceuticals Oy
 FELLOW Fellow Finance Plc
 FSC1V F-Secure Corporation
 FIA1S Finnair Oyj
+FIFAX Fifax Abp
 FODELIA Fodelia Oyj
 FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
@@ -81,6 +82,7 @@ KCR Konecranes Plc
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
+LEMON Lemonsoft Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 LOUD Loudspring Plc
