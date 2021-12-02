@@ -172,7 +172,7 @@ First North ; S ; NETUM ; Netum Group; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NORDID ; Nordic ID ; 1 ; EUR
-First North ; S ; NORRH ; Norrhydro ; 1 ; EUR^
+First North ; S ; NORRH ; Norrhydro ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; RELAIS ; Relais Group ; 1 ; EUR
@@ -181,6 +181,7 @@ First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; SKARTA ; Skarta Group ; 1 ; EUR
 First North ; S ; SPINN ; Spinnova ; 1 ; EUR
+First North ; S ; SPRING ; Springvest ; 1 ; EUR
 First North ; S ; SOLWERS ; Solwers ; 1 ; EUR
 First North ; S ; TITAN ; Titanium ; 1 ; EUR
 First North ; S ; TOIVO ; Toivo Group ; 1 ; EUR
@@ -1246,7 +1247,7 @@ NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
 NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
 NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
 NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
-NYSE ; S ; IBM ;  IBM ; 1 ; USD ; USA
+NYSE ; S ; IBM ; IBM ; 1 ; USD ; USA
 NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
 NYSE ; S ; KHC ; Kraft Heinz ; 1; USD ; USA
 NYSE ; S ; KGC ; Kinross Gold Corp ; 1; USD ; Kanada
@@ -1259,9 +1260,10 @@ NYSE ; S ; MSFT ; Microsoft ; 1 ; USD ; USA
 NYSE ; S ; NEM ; Newmont Mining ; 1 ; USD ; USA
 NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA
 NYSE ; S ; OHI ; Omega Healthcare ; 1 ; USD ; USA
+NYSE ; S ; ONL ; Orion Office REIT ; 1 ; USD ; USA
 NYSE ; S ; PGG ; Procter & Gamble ; 1; USD ; USA
 NYSE ; S ; PMM ; Philip Morris Intl ; 1; USD ; USA
-NYSE ; S ; POT ;  Potash ; 1 ; USD ; USA
+NYSE ; S ; POT ; Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
