@@ -31,6 +31,7 @@ DIGIA Digia Plc
 DIGIGR Digitalist Group Plc
 DOV1V Dovre Group Plc
 DUELL Duell Oyj
+DWF Digital Workforce Services Oyj
 EAB EAB Group Oyj
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
@@ -79,6 +80,7 @@ KELAS Kesla Oyj A
 KOJAMO Kojamo Plc
 KNEBV KONE Corporation
 KCR Konecranes Plc
+LAMOR Lamor Corporation Oyj
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
