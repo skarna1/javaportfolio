@@ -1,6 +1,7 @@
 AALLON Aallon Group Oyj
 ADMCM Admicom Oyj
 AFAGR Afarak Group Plc
+AIFORIA Aiforia Technologies Oyj
 ALEX Alexandria Pankkiiriliike Oyj
 AKTIA Aktia Bank Plc
 ALMA Alma Media Corporation
@@ -14,6 +15,7 @@ ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
 AVIDLY Avidly Oyj
 BAS1V Basware Corporation
+BETOLAR Betolar Oyj
 BILOT Bilot Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
