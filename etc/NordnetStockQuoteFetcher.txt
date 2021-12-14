@@ -79,6 +79,7 @@ KSLAV Keskisuomalainen Oyj A
 KESKOA Kesko Corporation A
 KESKOB Kesko Corporation B
 KELAS Kesla Oyj A
+KEMPOWR Kempower Oyj
 KOJAMO Kojamo Plc
 KNEBV KONE Corporation
 KCR Konecranes Plc
