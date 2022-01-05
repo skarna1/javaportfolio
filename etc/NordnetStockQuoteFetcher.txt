@@ -130,6 +130,7 @@ PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 PON1V Ponsse Oyj 1
 PUMU PunaMusta Media Oyj
+PURMO Purmo Group Oyj C
 PUUILO Puuilo Plc
 QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
@@ -183,7 +184,6 @@ TULAV Tulikivi Oyj A
 UNIAV United Bankers Oyj
 UPM UPM-Kymmene Corporation
 UPONOR Uponor Oyj
-VACSPAC Virala Acquisition Company Oyj C
 VAIAS Vaisala Corporation A
 VALMT Valmet Corporation
 VALOE Valoe Oyj
