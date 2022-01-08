@@ -20,4 +20,5 @@ module javaportfolio {
 	requires junit;
 	requires org.jfree.jfreechart;
 	requires jtidy;
+	requires com.google.gson;
 }
