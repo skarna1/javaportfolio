@@ -115,7 +115,7 @@ public abstract class Transaction implements Comparable {
 
 	public  String getLineContent() {
 		return getDateString(getDate()) + SEP + getOp() + SEP + getTicker() + SEP + getName() + SEP + getAmount() +
-		SEP + round(getPrice()) + SEP + getBroker() + SEP + round(getBrokerCost()) + SEP + round(getCost()) + SEP + formatNDecimals(getRate(), 6) + SEP ;
+		SEP + formatNDecimals(getPrice(),4) + SEP + getBroker() + SEP + round(getBrokerCost()) + SEP + round(getCost()) + SEP + formatNDecimals(getRate(), 5) + SEP ;
 	}
 	
 	protected String getDateString(Date date) {
@@ -140,7 +140,6 @@ public abstract class Transaction implements Comparable {
 	public abstract void process(I_BookEntryModifier modifier);
 
 	public abstract String getOp();
-	
 	
 	
 }
