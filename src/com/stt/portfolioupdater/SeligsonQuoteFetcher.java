@@ -8,11 +8,12 @@ import javax.xml.xpath.XPathExpressionException;
 
 public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 
+	@Override
 	public List<Item> parseHtml() {
 		//System.out.println(getUri());
 		//System.out.println(getXpath());
-		
-		
+
+
 		List<Item> items = new ArrayList<>();
 
 		try {
@@ -26,7 +27,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 					Item itemA = new Item();
 					parseRow(itemA, tr);
 					//itemA.print();
-					
+
 					if (itemA.getTicker() != null) {
 						items.add(itemA);
 					}
@@ -76,10 +77,10 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			} else if (column == 2) { // Value of Kasvu osuus
 				try {
 					setItemValues(item, value);
-					
+
 				} catch (Exception e) {
 				}
-			} 
+			}
 		}
 	}
 
@@ -90,7 +91,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		item.setLow(v);
 		item.setDecimals(4);
 	}
-	
+
 	private String getTicker(String name) {
 		String suffix = "A";
 		//System.out.println(name + "  " + suffix);
@@ -120,8 +121,8 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			return "SELIGPRORU";
 		}else if (name.equalsIgnoreCase("Pharos")) {
 			return "SELIGPHAR" + suffix;
-		}else if (name.equalsIgnoreCase("Phoenix")) {
-			return "SELPHOENI" + suffix;
+		} else if (name.equalsIgnoreCase("Perheyhtiöt")) {
+			return "SELPERHE" + suffix;
 		}else if (name.equalsIgnoreCase("Phoebus")) {
 			return "PHOEBUS" + suffix;
 		} else if (name.equalsIgnoreCase("Tropico LatAm")) {

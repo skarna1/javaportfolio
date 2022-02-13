@@ -839,8 +839,8 @@ kv. osakerahasto ; F ; SEBNAMESMA ; SEB Nordamerikanska Medelstora Bolagsfon ; 1
 kv. osakerahasto ; F ; SEBNORDSMA ; SEB Norden Småbolagsfond ; 1
 kv. osakerahasto ; F ; SELIG25PHA ; Seligson Global Top 25 Pharmac. A ; 1
 kv. osakerahasto ; F ; SELIG25PHB ; Seligson Global Top 25 Pharmac. B ; 1
-kv. osakerahasto ; F ; SELPHOENIA ; Seligson Phoenix A ; 1
-kv. osakerahasto ; F ; SELPHOENIB ; Seligson Phoenix B ; 1
+kv. osakerahasto ; F ; SELPERHEA ; Seligson Perheyhtiöt A ; 1
+kv. osakerahasto ; F ; SELPERHEB ; Seligson Perheyhtiöt B ; 1
 kv. yhdistelmärahasto ; F ; AKTIAFOLKA ; Aktia Folkhälsan A ; 1
 kv. yhdistelmärahasto ; F ; AKTIAFOLKB ; Aktia Folkhälsan B ; 1
 kv. yhdistelmärahasto ; F ; EVLIGLMMA ; Evli Global Multi Manager A ; 1
@@ -1200,6 +1200,8 @@ vanhat rahastot ; Y ; SELIGJOUSA ; Seligson & Co Joustosalkku A ; 1
 vanhat rahastot ; Y ; SELIGJOUSB ; Seligson & Co Joustosalkku B ; 1
 vanhat rahastot ; Y ; PHALANXA ; Seligson Phalanx A ; 1
 vanhat rahastot ; Y ; PHALANXB ; Seligson Phalanx B ; 1
+vanhat rahastot ; Y ; SELPHOENIA ; Seligson Phoenix A ; 1
+vanhat rahastot ; Y ; SELPHOENIB ; Seligson Phoenix B ; 1
 vanhat rahastot ; Y ; SELIGVAKAA ; Seligson & Co Vakaasalkku A ; 1
 vanhat rahastot ; Y ; SELIGVAKAB ; Seligson & Co Vakaasalkku B ; 1
 vanhat rahastot ; Y ; SELIGT2010 ; Tapiola 2010 Seligson & Co ; 1
