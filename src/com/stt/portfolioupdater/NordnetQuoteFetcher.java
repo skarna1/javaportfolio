@@ -41,7 +41,7 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 			org.w3c.dom.NodeList nodes = fetchNodes(getUri(), getXpath());
 			if (nodes != null) {
 				// System.out.println("Nodes : " + nodes.getLength());
-				for (int i = 0; i < nodes.getLength(); i += 7) {
+				for (int i = 0; i < nodes.getLength(); i += 6) {
 
 					Item item = new Item();
 
@@ -146,8 +146,8 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	public static void main(String[] args) {
-		String uri = "https://www.nordnet.fi/markkinakatsaus/osakekurssit/?page=2&exchangeCountry=FI";
-		String xpathstr = "(//div[@role=\"row\"]/div[@role=\"cell\"]/div//span[@aria-hidden=\"true\"]/text() | //div[@role=\"cell\"]/div/div/span/span/a/text())";
+		String uri = "https://www.nordnet.fi/markkinakatsaus/osakekurssit?page=1&exchangeCountry=FI&limit=100";
+		String xpathstr = "(//div[@role=\"row\"]/div[@role=\"cell\"]/div/span/text()|//div[2]/span/span/a/text())";
 
 		NordnetQuoteFetcher fetcher = new NordnetQuoteFetcher(uri, xpathstr);
 		List<Item> items = fetcher.parseHtml();
