@@ -21,7 +21,7 @@ rahoitus ; S ; OVARO ; Ovaro Kiinteistösijoitus Oyj ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
 rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
-rahoitus ; S ; TAALA ; Taaleritehdas ; 1 ; EUR
+rahoitus ; S ; TAALA ; Taaleri ; 1 ; EUR
 rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
@@ -1086,6 +1086,7 @@ vanhat osakkeet ; X ; SAT1V ; Satama Interactive ; 1
 vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
 vanhat osakkeet ; X ; SDA1V ; Sponda ; 1 ; EUR
 vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
+vanhat osakkeet ; X ; TAALB ; Taaleritehdas ; 1
 vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
 vanhat osakkeet ; X ; TAM1V ; Takoma ; 1 ; EUR
 vanhat osakkeet ; X ; TTM1V ; Talentum ; 1 ; EUR
