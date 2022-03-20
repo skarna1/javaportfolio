@@ -51,7 +51,7 @@ EVLI Evli Pankki Oyj
 EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
 FELLOW Fellow Finance Plc
-FSC1V F-Secure Corporation
+FSC1V WithSecure Corporation
 FIA1S Finnair Oyj
 FIFAX Fifax Abp
 FODELIA Fodelia Oyj
