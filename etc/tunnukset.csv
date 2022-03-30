@@ -1261,6 +1261,7 @@ NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
 NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
 NYSE ; S ; IBM ; IBM ; 1 ; USD ; USA
 NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
+NYSE ; S ; KD ; Kyndryl ; 1 ; USD ; USA
 NYSE ; S ; KHC ; Kraft Heinz ; 1; USD ; USA
 NYSE ; S ; KGC ; Kinross Gold Corp ; 1; USD ; Kanada
 NYSE ; S ; KMI ; Kinder Morgan ; 1 ; USD ; USA
@@ -1283,6 +1284,7 @@ NYSE ; S ; RESN ; Resonant Inc ; 1 ; USD ; USA
 NYSE ; S ; SHEL ; Royal Dutch Shell; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
+NYSE ; S ; STOR ; Store Capital ; 1 ; USD ; USA
 NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
 NYSE ; S ; UL ; Unilever ; 1 ; USD ; Eurooppa
