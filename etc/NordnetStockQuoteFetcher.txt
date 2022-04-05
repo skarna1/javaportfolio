@@ -152,7 +152,7 @@ SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
-SKARTA Skarta Group Oyj
+SKARTA SkartaNYAB Oyj
 SOL1V Solteq Oyj
 SOLWERS Solwers Oyj
 SNO1V Soprano Oyj
