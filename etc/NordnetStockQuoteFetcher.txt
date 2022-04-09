@@ -47,10 +47,10 @@ ESENSE Enersense International Oyj
 ENDOM Endomines AB
 EQV1V eQ Oyj
 ETT1V Etteplan Oyj
-EVLI Evli Pankki Oyj
+EVLI Evli Oyj
 EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
-FELLOW Fellow Finance Plc
+FELLOW Fellow Pankki Oyj
 FSC1V WithSecure Corporation
 FIA1S Finnair Oyj
 FIFAX Fifax Abp
@@ -85,6 +85,7 @@ KOJAMO Kojamo Plc
 KNEBV KONE Corporation
 KCR Konecranes Plc
 LAMOR Lamor Corporation Oyj
+LAPWALL LapWall Oyj
 LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
