@@ -1045,6 +1045,7 @@ vanhat osakkeet ; X ; RTK1S ; Rautakirja A ; 1
 vanhat osakkeet ; X ; RTKBS ; Rautakirja B ; 1
 vanhat osakkeet ; X ; RTRKS ; Rautaruukki K ; 1 ; EUR
 vanhat osakkeet ; X ; RUTAV ; Raute A ; 1
+vanhat osakkeet ; X ; RESN ; Resonant Inc ; 1 ; USD ; USA
 vanhat osakkeet ; X ; RESTA ; Restamax ; 1 ; EUR
 vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
 vanhat osakkeet ; X ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
@@ -1281,7 +1282,6 @@ NYSE ; S ; POT ; Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
-NYSE ; S ; RESN ; Resonant Inc ; 1 ; USD ; USA
 NYSE ; S ; SHEL ; Royal Dutch Shell; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA

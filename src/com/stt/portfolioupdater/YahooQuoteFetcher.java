@@ -49,14 +49,14 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 				Gson gson = new Gson();
 				JsonObject jsonObject = gson.fromJson(jsonstr, JsonObject.class);
 				JsonArray result = jsonObject.get("quoteResponse").getAsJsonObject().get("result").getAsJsonArray();
-
+				// System.out.println(result);
 				for (int i = j; i < Math.min(j + chunk, stocks.length); i++) {
 					parseItem(items, stocks[i], result.get(i - j).getAsJsonObject());
 				}
 				j += chunk;
 
 			} catch (Exception e) {
-				System.out.println("Error: " + symbollist);
+				System.out.println("Error: " + e.getMessage() + " " + symbollist);
 				e.printStackTrace();
 			}
 		}
