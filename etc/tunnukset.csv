@@ -169,6 +169,7 @@ First North ; S ; LAMOR ; Lamor ; 1 ; EUR
 First North ; S ; LAPWALL ; LapWall ; 1 ; EUR
 First North ; S ; LEADD ; Leaddesk ; 1 ; EUR
 First North ; S ; LEMON ; Lemonsoft ; 1 ; EUR
+First North ; S ; LIFA ; Lifa Air ; 1 ; EUR
 First North ; S ; LOIHDE ; Loihde ; 1 ; EUR
 First North ; S ; LOUD ; Loudspring ; 1 ; EUR
 First North ; S ; MERUS ; Merus Power ; 1 ; EUR
@@ -1286,6 +1287,7 @@ NYSE ; S ; SHEL ; Royal Dutch Shell; 1 ; USD ; USA
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; STOR ; Store Capital ; 1 ; USD ; USA
+NYSE ; S ; T ; AT&T ; 1 ; USD ; USA
 NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
 NYSE ; S ; UL ; Unilever ; 1 ; USD ; Eurooppa

@@ -90,6 +90,7 @@ LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
+LIFA Lifa Air Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 LOUD Loudspring Plc
