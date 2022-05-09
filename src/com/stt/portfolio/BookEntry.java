@@ -26,7 +26,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/** The name. */
 	String name;
-	
+
 	String ccy;
 
 	/** The broker. */
@@ -51,14 +51,14 @@ public class BookEntry implements I_BookEntryModifier {
 	List<BookEntryItem> subEntries = new ArrayList<BookEntryItem>();
 
 	TaxManager taxManager = null;
-	
+
 	boolean isOption = false;
-	
+
 	double lastDividendAmount = 0.0;
-	
+
 	/**
 	 * Instantiates a new book entry.
-	 * 
+	 *
 	 * @param symbol the symbol
 	 * @param name the name
 	 * @param broker the broker
@@ -67,7 +67,7 @@ public class BookEntry implements I_BookEntryModifier {
 	 * @param taxManager the tax manager
 	 */
 	public BookEntry(String symbol, String name, String ccy, String broker,
-			CashManager manager, BookEntryManager bookEntryManager, 
+			CashManager manager, BookEntryManager bookEntryManager,
 			TaxManager taxManager) {
 		this.symbol = symbol;
 		this.name = name;
@@ -80,7 +80,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Instantiates a new book entry.
-	 * 
+	 *
 	 * @param e the e
 	 */
 	public BookEntry(BookEntry e) {
@@ -94,25 +94,25 @@ public class BookEntry implements I_BookEntryModifier {
 		add(e);
 	}
 
-	
+
 
 	/**
 	 * Gets the dividends.
-	 * 
+	 *
 	 * @return the dividends
 	 */
 	public double getDividents() {
 		double dividents = 0.0;
 		for (BookEntryItem i : subEntries) {
 			dividents += i.getDividents();
-			
+
 		}
 		return dividents;
 	}
 
 	/**
 	 * Adds the dividends.
-	 * 
+	 *
 	 * @param amount the amount
 	 * @param dividentsPerShare the dividends per share
 	 * @param date the date
@@ -126,14 +126,14 @@ public class BookEntry implements I_BookEntryModifier {
 			double amountOfItem = Math.min(amountToBeHandled, i.amount);
 			i.addDivident(new CashItem(dividentsPerShare * amountOfItem, dividentsPerShare, date, itemtype));
 			amountToBeHandled -= amountOfItem;
-			
+
 		}
 
 	}
 
 	/**
 	 * Adds the.
-	 * 
+	 *
 	 * @param e the e
 	 */
 	public void add(BookEntry e) {
@@ -142,12 +142,12 @@ public class BookEntry implements I_BookEntryModifier {
 			subEntries.add(new BookEntryItem(i));
 		}
 		Collections.sort(subEntries);
-		
+
 	}
-	
+
 	/**
 	 * Adds the.
-	 * 
+	 *
 	 * @param e the e
 	 */
 	public List<BookEntryItem> add(BookEntry e, boolean storeParent) {
@@ -172,7 +172,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Change symbol.
-	 * 
+	 *
 	 * @param newSymbol the new symbol
 	 */
 	public void changeSymbol(String newSymbol) {
@@ -182,7 +182,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the purchase date.
-	 * 
+	 *
 	 * @return the purchase date
 	 */
 	public Date getPurchaseDate() {
@@ -194,7 +194,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the symbol.
-	 * 
+	 *
 	 * @param symbol the new symbol
 	 */
 	public void setSymbol(String symbol) {
@@ -203,7 +203,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the symbol.
-	 * 
+	 *
 	 * @return the symbol
 	 */
 	public String getSymbol() {
@@ -212,7 +212,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the amount.
-	 * 
+	 *
 	 * @return the amount
 	 */
 	public double getAmount() {
@@ -225,7 +225,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the purchase price per share
-	 * 
+	 *
 	 * @return the price
 	 */
 	public double getPrice() {
@@ -238,7 +238,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the price in original currency.
-	 * 
+	 *
 	 * @return the price
 	 */
 	public double getPriceOriginalCurrency() {
@@ -251,7 +251,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the cost.
-	 * 
+	 *
 	 * @return the cost
 	 */
 	public double getCost() {
@@ -264,7 +264,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the cost in original currency.
-	 * 
+	 *
 	 * @return the cost
 	 */
 	public double getCostOriginalCurrency() {
@@ -277,7 +277,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the tax cost.
-	 * 
+	 *
 	 * @return the taxable cost
 	 */
 	public double getTaxCost() {
@@ -302,7 +302,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#buy(com.stt.portfolio
 	 * .transactions.Transaction)
@@ -334,7 +334,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#sell(com.stt.portfolio
 	 * .transactions.Transaction)
@@ -393,7 +393,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.stt.portfolio.transactions.I_BookEntryModifier#spinoff(double)
 	 */
 	@Override
@@ -407,7 +407,7 @@ public class BookEntry implements I_BookEntryModifier {
 			int newIntAmount = (int) newAmount;
 			fractions += newAmount - newIntAmount;
 			i.setAmount(newIntAmount);
-			
+
 		    //System.out.println("SPINOFF: " + getSymbol() + " " + ratio + " " + stockratio + " fractions: " + fractions);
 		}
 		double roundedFractions = Math.round(fractions * 1000000.0) / 1000000.0;
@@ -419,14 +419,14 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Split.
-	 * 
+	 *
 	 * @param ratio the ratio
 	 */
 	public void split(double ratio) {
 		double fractions = 0.0;
 		for (BookEntryItem i : subEntries) {
 			double newAmount = (i.getAmount() * ratio);
-			int newIntAmount = (int) newAmount;
+			int newIntAmount = (int) (newAmount + 0.00000000001);
 			fractions += newAmount - newIntAmount;
 			i.setAmount(newIntAmount);
 			// System.out.println("SPLIT: " + getSymbol() + " " + ratio);
@@ -439,7 +439,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#addDividend(com.stt
 	 * .portfolio.transactions.Transaction)
@@ -449,20 +449,20 @@ public class BookEntry implements I_BookEntryModifier {
 		lastDividendAmount = t.getAmount();
 		addDividents(t.getAmount(), t.getCost() / t.getAmount() / t.getRate(),
 				t.getDate(), "DIVIDEND");
-		
+
 		String country = bookEntryManager.getTickerManager().getCountry(t.getTicker());
-		taxManager.addDivident(country, t.getDate(), t.getCost()/ t.getRate());	
+		taxManager.addDivident(country, t.getDate(), t.getCost()/ t.getRate());
 
 		addCash(t);
 
 	}
-	
+
 	@Override
 	public void addDividendTax(Transaction t) {
 		double amount = 0.0;
 		if (lastDividendAmount != 0.0) {
 			amount = lastDividendAmount;
-			
+
 		}
 		else {
 			System.out.println("ERROR: Dividend tax could not be associated with dividend");
@@ -470,35 +470,35 @@ public class BookEntry implements I_BookEntryModifier {
 		addDividents(amount, t.getCost() / amount / t.getRate(),
 				t.getDate(), "DIVIDEND TAX");
 		String country = bookEntryManager.getTickerManager().getCountry(t.getTicker());
-		taxManager.addDividentTax(country, t.getDate(), t.getCost()/ t.getRate());	
-		
+		taxManager.addDividentTax(country, t.getDate(), t.getCost()/ t.getRate());
+
 		addCash(t);
 	}
 
 	/*
 	 * Subscribe share based on existing ownership
-	 * 
+	 *
 	 * Osakeanti viimeistään 31.12.2004 ----------------------------------
-	 * 
+	 *
 	 * jos osakkeet on saatu osakeannissa, jota vastaava osakepääoman korotus on
 	 * merkitty kaupparekisteriin viimeistään 31.12.2004, hankintameno määräytyy
 	 * seuraavasti:
-	 * 
+	 *
 	 * Osakemerkinnän perusteena olleen osakkeen hankintamenoa ei oteta huomioon
 	 * merkityn osakkeen hankintamenoa laskettaessa eli ei jaeta osaksikaan
 	 * merkityille uusille osakkeille.
-	 * 
+	 *
 	 * Osakemerkinnän perusteena olevan osakkeen hankintameno säilyy
 	 * osakeannissa entisellään.
-	 * 
+	 *
 	 * Maksullisessa uusmerkinnässä merkityn osakkeen hankintameno on osakkeesta
 	 * maksettu merkintähinta lisättynä merkintää varten mahdollisesti
 	 * hankittujen lisämerkintäoikeuksien hankintamenolla.
-	 * 
+	 *
 	 * Rahastoannissa ilmaiseksi saadun osakkeen hankintameno on 0.
-	 * 
+	 *
 	 * Osakeanti 1.1.2005 tai sen jälkeen ----------------------------------
-	 * 
+	 *
 	 * Jos osakkeen perusteella merkitään tai saadaan uusia osakkeita 1.1.2005
 	 * tai sen jälkeen toimeenpannussa osakeannissa, merkinnän perusteena olevan
 	 * osakkeen hankintameno ja merkityn osakkeen mahdollinen hankintameno
@@ -508,7 +508,7 @@ public class BookEntry implements I_BookEntryModifier {
 	 */
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#subscribe(com.stt.
 	 * portfolio.transactions.RightsSubscription)
@@ -534,10 +534,10 @@ public class BookEntry implements I_BookEntryModifier {
 				if (t.isCostShared()) {
 					//System.out.println("cost shared");
 					if (i.getAmount() <= amountToBeHandled + DELTA) {
-						
+
 						subscribeBasedOnOwnership(t, newEntries, i);
 					} else {
-						
+
 						// Partial usage, split entry to two
 
 						BookEntryItem splitted = splitBookEntry(i,
@@ -588,7 +588,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Subscribe based on ownership.
-	 * 
+	 *
 	 * @param t the t
 	 * @param newEntries the new entries
 	 * @param i the i
@@ -596,7 +596,7 @@ public class BookEntry implements I_BookEntryModifier {
 	private void subscribeBasedOnOwnership(RightsSubscription t,
 			List<BookEntryItem> newEntries, BookEntryItem i) {
 
-		
+
 		double amount = Math.floor(i.getAmount() * t.getRatio());
 		double ratio = (amount / t.getAmount());
 		BookEntryItem item = new BookEntryItem();
@@ -617,10 +617,10 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Split book entry.
-	 * 
+	 *
 	 * @param i the i
 	 * @param newamount the newamount
-	 * 
+	 *
 	 * @return the book entry item
 	 */
 	private BookEntryItem splitBookEntry(BookEntryItem i, double newamount) {
@@ -653,9 +653,9 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the profit.
-	 * 
+	 *
 	 * @param currentPrice the current price
-	 * 
+	 *
 	 * @return the profit
 	 */
 	public double getProfit(double currentPrice) {
@@ -668,9 +668,9 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the profit percent.
-	 * 
+	 *
 	 * @param currentPrice the current price
-	 * 
+	 *
 	 * @return the profit percent
 	 */
 	public double getProfitPercent(double currentPrice) {
@@ -679,10 +679,10 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Generate tax entry.
-	 * 
+	 *
 	 * @param i the i
 	 * @param t the t
-	 * 
+	 *
 	 * @return the tax entry
 	 */
 	public TaxEntry generateTaxEntry(BookEntryItem i, Transaction t) {
@@ -706,11 +706,11 @@ public class BookEntry implements I_BookEntryModifier {
 		return e;
 	}
 
-	
+
 
 	/**
 	 * Gets the name.
-	 * 
+	 *
 	 * @return the name
 	 */
 	public String getName() {
@@ -719,7 +719,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the name.
-	 * 
+	 *
 	 * @param name the new name
 	 */
 	public void setName(String name) {
@@ -728,7 +728,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the broker.
-	 * 
+	 *
 	 * @return the broker
 	 */
 	public String getBroker() {
@@ -737,7 +737,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the broker.
-	 * 
+	 *
 	 * @param broker the new broker
 	 */
 	public void setBroker(String broker) {
@@ -746,7 +746,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the market price.
-	 * 
+	 *
 	 * @return the market price
 	 */
 	public double getMarketPrice() {
@@ -755,7 +755,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the market price.
-	 * 
+	 *
 	 * @param marketPrice the new market price
 	 */
 	public void setMarketPrice(double marketPrice) {
@@ -764,7 +764,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the rate.
-	 * 
+	 *
 	 * @return the rate
 	 */
 	public double getRate() {
@@ -773,7 +773,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the rate.
-	 * 
+	 *
 	 * @param rate the new rate
 	 */
 	public void setRate(double rate) {
@@ -782,7 +782,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Gets the quote date.
-	 * 
+	 *
 	 * @return the quote date
 	 */
 	public Date getQuoteDate() {
@@ -791,7 +791,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/**
 	 * Sets the quote date.
-	 * 
+	 *
 	 * @param quoteDate the new quote date
 	 */
 	public void setQuoteDate(Date quoteDate) {
@@ -800,7 +800,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.stt.portfolio.transactions.I_BookEntryModifier#addCash(double)
 	 */
 	@Override
@@ -811,7 +811,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#removeCapital(com.
 	 * stt.portfolio.transactions.Transaction)
@@ -823,15 +823,15 @@ public class BookEntry implements I_BookEntryModifier {
 
 	}
 
-	
 
-	
 
-	
+
+
+
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * com.stt.portfolio.transactions.I_BookEntryModifier#addCapitalRepayment
 	 * (com.stt.portfolio.transactions.Transaction)
@@ -841,7 +841,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 		double amountToBeHandled = t.getAmount();
 		//while (amountToBeHandled > 0.00001) {
-			
+
 			for (BookEntryItem e : subEntries) {
 
 				double a = Math.min(e.getAmount(), amountToBeHandled);
@@ -853,7 +853,7 @@ public class BookEntry implements I_BookEntryModifier {
 
 				amountToBeHandled -= a;
 			}
-			
+
 		//}
 		addCash(t);
 		addDividents(t.getAmount(), t.getCost() / t.getAmount() / t.getRate(),
@@ -871,7 +871,7 @@ public class BookEntry implements I_BookEntryModifier {
 			addCash(t);
 
 			double amountToBeHandled = t.getAmount() * t.getSubscriptionRatio();
-			double oddlots = 0.0;	
+			double oddlots = 0.0;
 			Iterator<BookEntryItem> iter = options.subEntries.iterator();
 			while (amountToBeHandled > DELTA && iter.hasNext()) {
 
@@ -881,9 +881,9 @@ public class BookEntry implements I_BookEntryModifier {
 					double amount = Math.floor(itemAmount / t.getSubscriptionRatio());
 					if (i.amount - amount > DELTA) {
 						oddlots += i.amount - amount* t.getSubscriptionRatio();
-						
+
 					}
-					
+
 					subscribeOption(t, i, amount);
 					amountToBeHandled -= amount;
 					iter.remove();
@@ -902,14 +902,14 @@ public class BookEntry implements I_BookEntryModifier {
 				}
 			}
 		}
-	//printItems();	
+	//printItems();
 	}
 
-	
+
 
 	/**
 	 * Subscribe option.
-	 * 
+	 *
 	 * @param t the subscription transaction
 	 * @param i the bookentryitem of the options
 	 * @param amount the amount of new shares
@@ -917,7 +917,7 @@ public class BookEntry implements I_BookEntryModifier {
 	private void subscribeOption(OptionSubscription t, BookEntryItem i, double amount) {
 
 		//i.print();
-		
+
 		BookEntryItem item = new BookEntryItem();
 		item.setAmount(amount);
 		item.setCost(amount/t.getAmount()*t.getCost() / t.getRate() + i.getCost());
@@ -931,7 +931,7 @@ public class BookEntry implements I_BookEntryModifier {
 		subEntries.add(item);
 
 	}
-	
+
 	@SuppressWarnings("unused")
 	private void printItems() {
 		//System.out.println(getSymbol() + " items");
@@ -939,12 +939,12 @@ public class BookEntry implements I_BookEntryModifier {
 		while (iter.hasNext()) {
 
 			final BookEntryItem i = iter.next();
-			i.print();	
+			i.print();
 		}
-		
+
 	}
 
-	
+
 	public String getCcy() {
 		return ccy;
 	}
@@ -960,15 +960,15 @@ public class BookEntry implements I_BookEntryModifier {
 	public void setOption(boolean isOption) {
 		this.isOption = isOption;
 	}
-	
+
 	public Object[] getChildren() {
 		return subEntries.toArray();
 	}
-	
+
 	public int getChildrenCount() {
 		return subEntries.size();
 	}
-	
+
 	public Iterator<BookEntryItem> getChildrenIterator() {
 		return subEntries.iterator();
 	}
