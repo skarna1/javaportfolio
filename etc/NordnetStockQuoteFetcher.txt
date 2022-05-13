@@ -192,6 +192,7 @@ VERK Verkkokauppa.com Oyj
 VIAFIN Viafin Service Oyj
 VINCIT Vincit Oyj
 VIK1V Viking Line Abp
+WITTED Witted Megacorp Oyj
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation
 YIT YIT Corporation
