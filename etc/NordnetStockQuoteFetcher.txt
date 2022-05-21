@@ -67,8 +67,8 @@ HRTIS Herantis Pharma Oyj
 HKSAV HKScan Oyj A
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
-ILK1S Ilkka-Yhtymä Oyj 1
-ILK2S Ilkka-Yhtymä Oyj 2
+ILKKA1 Ilkka Oyj 1
+ILKKA2 Ilkka Oyj 2
 INC1V Incap Corporation
 INDERES Inderes Oyj
 IFA1V Innofactor Plc

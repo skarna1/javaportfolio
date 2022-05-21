@@ -105,7 +105,7 @@ teknologia ; S ; TIETO ; TietoEVRY ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
-Kulutuspalvelut ; S ; ILK2S ; Ilkka-yhtymä 2 ; 1 ; EUR
+Kulutuspalvelut ; S ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
 Kulutuspalvelut ; S ; KAMUX ; Kamux ; 1 ; EUR
 Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
@@ -138,7 +138,7 @@ Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
 SPAC ; S ; LL1SPAC ; Lifeline SPAC I ; 1 ; EUR
-Pre-lista ; S ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
+Pre-lista ; S ; ILKKA1 ; Ilkka 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
 First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
 First North ; S ; ADMCM ; Admicom ; 1 ; EUR
@@ -943,6 +943,8 @@ vanhat osakkeet ; X ; HPHAV ; HPY Holding ; 1
 vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
 vanhat osakkeet ; X ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 vanhat osakkeet ; X ; HVL1V ; Huhtamäki van Leer ; 1
+vanhat osakkeet ; X ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
+vanhat osakkeet ; X ; ILK2S ; Ilkka-yhtymä 2 ; 1 ; EUR
 vanhat osakkeet ; X ; INS1V ; Instrumentarium ; 1
 vanhat osakkeet ; X ; INT1S ; Interavanti ; 1 ; EUR
 vanhat osakkeet ; X ; IOC1V ; Iocore ; 1
