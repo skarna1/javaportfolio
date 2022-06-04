@@ -164,15 +164,17 @@ public class PortfolioDocument {
 		File folder = new File(PORTFOLIO_PATH);
 		File[] files = folder.listFiles();
 		for (File file : files) {
-			File infoFile = new File(file, "info.txt");
-			String filename = infoFile.getCanonicalPath();
-			BufferedReader in = new BufferedReader(new InputStreamReader(
+			if (file.isDirectory()) {
+				File infoFile = new File(file, "info.txt");
+				String filename = infoFile.getCanonicalPath();
+				BufferedReader in = new BufferedReader(new InputStreamReader(
 					new FileInputStream(filename), "ISO8859_1"));
 
 
-			String str = in.readLine();
-			in.close();
-			portfolios.put(str, file.getName());
+				String str = in.readLine();
+				in.close();
+				portfolios.put(str, file.getName());
+			}
 		}
 
 		return portfolios;
