@@ -114,7 +114,7 @@ Kulutuspalvelut ; S ; MUSTI ; Musti Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
 Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; PUUILO ; Puuilo ; 1 ; EUR
-Kulutuspalvelut ; S ; SAA1V ; Sanoma ; 1 ; EUR
+Kulutuspalvelut ; S ; SANOMA ; Sanoma ; 1 ; EUR
 Kulutuspalvelut ; S ; STOCKA ; Stockmann ; 1 ; EUR
 Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
@@ -1055,6 +1055,7 @@ vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
 vanhat osakkeet ; X ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
 vanhat osakkeet ; X ; RDS.B ; Royal Dutch Shell B; 1 ; USD ; USA
 vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
+vanhat osakkeet ; X ; SAA1V ; Sanoma ; 1 ; EUR
 vanhat osakkeet ; X ; SAL1V ; Salcomp ; 1
 vanhat osakkeet ; X ; SAMAS ; Sampo ; 1 ; EUR
 vanhat osakkeet ; X ; SAC1V ; Sanitec ; 1

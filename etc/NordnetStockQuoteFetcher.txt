@@ -148,7 +148,7 @@ ROVIO Rovio Entertainment Corporation
 RUSH Rush Factory Plc
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
-SAA1V Sanoma Corporation
+SANOMA Sanoma Corporation
 SAVOH Savosolar Plc
 SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
