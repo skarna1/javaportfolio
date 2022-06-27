@@ -14,6 +14,7 @@ rahoitus ; S ; EAB ; EAB Group ; 1 ; EUR
 rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
+rahoitus ; S ; FELLOW ; Fellow Pankki ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
 rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR ;
@@ -156,7 +157,6 @@ First North ; S ; DWF ; Digital Workforce Services ; 1 ; EUR
 First North ; S ; ECOUP ; EcoUp ; 1 ; EUR
 First North ; S ; EFECTE ; Efecte ; 1 ; EUR
 First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
-First North ; S ; FELLOW ; Fellow Pankki ; 1 ; EUR
 First North ; S ; FIFAX ; Fifax ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
