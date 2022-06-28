@@ -11,6 +11,7 @@ APETI Apetit Plc
 TALLINK AS Tallink Grupp FDR
 ASPO Aspo Plc
 ACG1V Aspocomp Group Plc
+ASUNTO Asuntosalkku Oyj
 ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
