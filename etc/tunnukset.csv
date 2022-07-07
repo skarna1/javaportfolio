@@ -179,7 +179,6 @@ First North ; S ; NANOFH ; Nanoform Finland; 1 ; EUR
 First North ; S ; NETUM ; Netum Group; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
-First North ; S ; NORDID ; Nordic ID ; 1 ; EUR
 First North ; S ; NORRH ; Norrhydro ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
@@ -1008,6 +1007,7 @@ vanhat osakkeet ; X ; NOKEUUS ; Nokia etu uusi ; 1
 vanhat osakkeet ; X ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
 vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
+vanhat osakkeet ; X ; NORDID ; Nordic ID ; 1
 vanhat osakkeet ; X ; NORVE ; Norvestia ; 1 ; EUR
 vanhat osakkeet ; X ; NRE1V ; Nokian Renkaat ; 1 ; EUR
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
