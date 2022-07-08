@@ -111,6 +111,7 @@ NXTMH Nexstim Oyj
 NIXU Nixu Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
+NORLIG Nordic Lights Group Oyj
 NORRH Norrhydro Group Oyj
 TYRES Nokian Tyres Plc
 NDA_FI Nordea Bank Abp
