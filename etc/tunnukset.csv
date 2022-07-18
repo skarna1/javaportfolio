@@ -1289,7 +1289,7 @@ NYSE ; S ; POT ; Potash ; 1 ; USD ; USA
 NYSE ; S ; PFF ; iShares US Preferred Stock ; 1 ; USD ; USA
 NYSE ; S ; PSEC ; Prospect Capital ; 1 ; USD ; USA
 NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
-NYSE ; S ; SHEL ; Royal Dutch Shell; 1 ; USD ; USA
+NYSE ; S ; SHEL ; Shell; 1 ; USD ; Britannia 
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; STOR ; Store Capital ; 1 ; USD ; USA
@@ -1358,4 +1358,5 @@ XTRA ; S ; G2X ; Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; G2XJ ; Junior Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SPPX ; US Bond 10+ year ETF ; 1 ; EUR ; USA
 XTRA ; S ; VZLC ; WisdomTree Physical Silver ; 1 ; EUR ; Maailma
+AEB  ; S ; SHELL ; Shell ; 1 ; EUR ; Britannia
 AEB  ; S ; UNA  ; Unilever ; 1 ; EUR ; Eurooppa
