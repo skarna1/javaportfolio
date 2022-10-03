@@ -51,7 +51,7 @@ EVLI Evli Oyj
 EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
 FELLOW Fellow Pankki Oyj
-FSC1V WithSecure Corporation
+FSECURE F-Secure Oyj
 FIA1S Finnair Oyj
 FIFAX Fifax Abp
 FODELIA Fodelia Oyj
@@ -192,6 +192,7 @@ VERK Verkkokauppa.com Oyj
 VIAFIN Viafin Service Oyj
 VINCIT Vincit Oyj
 VIK1V Viking Line Abp
+WITH WithSecure Corporation
 WITTED Witted Megacorp Oyj
 WUF1V Wulff Group Plc
 WRT1V Wärtsilä Corporation

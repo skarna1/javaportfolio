@@ -89,7 +89,7 @@ teknologia ; S ; BAS1V ; BasWare ; 1 ; EUR
 teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
 teknologia ; S ; DIGIA ; Digia ; 1 ; EUR
 teknologia ; S ; DIGIGR ; Digitalist Group ; 1 ; EUR
-teknologia ; S ; FSC1V ; F-Secure ; 1 ; EUR
+teknologia ; S ; FSECURE ; F-Secure ; 1 ; EUR
 teknologia ; S ; GOFORE ; Gofore ; 1 ; EUR
 teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
 teknologia ; S ; NIXU ; Nixu ; 1 ; EUR
@@ -104,6 +104,7 @@ teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
 teknologia ; S ; TIETO ; TietoEVRY ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
+teknologia ; S ; WITH ; WithSecure ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
 Kulutuspalvelut ; S ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
@@ -437,8 +438,8 @@ osakerahasto ; F ; NAVANTIK ; Nordea Avanti Kasvu ; 1
 osakerahasto ; F ; NAVANTIT ; Nordea Avanti Tuotto ; 1
 osakerahasto ; F ; NBIOTEKK ; Nordea Biotekniikka Kasvu ; 1
 osakerahasto ; F ; NBIOTEKT ; Nordea Biotekniikka Tuotto ; 1
-osakerahasto ; F ; NEURINDBK ; Nordea Eurooppa indeksirahasto B Kasvu ; 100 ; EUR
-osakerahasto ; F ; NEURINDBT ; Nordea Eurooppa indeksirahasto B Tuotto ; 100 ; EUR
+osakerahasto ; F ; NEURINDBK ; Nordea Eurooppa indeksirahasto B Kasvu ; 1 ; EUR
+osakerahasto ; F ; NEURINDBT ; Nordea Eurooppa indeksirahasto B Tuotto ; 1 ; EUR
 osakerahasto ; F ; NJAPANIK ; Nordea Japani Kasvu ; 100 ; EUR
 osakerahasto ; F ; NJAPANIT ; Nordea Japani Tuotto ; 100 ; EUR
 osakerahasto ; F ; NKIINAK ; Nordea Kiina Kasvu ; 100 ; EUR
@@ -448,7 +449,7 @@ osakerahasto ; F ; NSMALLCAPK ; Nordea Nordic Small Cap Kasvu ; 1
 osakerahasto ; F ; NSMALLCAPT ; Nordea Nordic Small Cap Tuotto ; 1
 osakerahasto ; F ; NVENAJAK ; Nordea Venäjä Kasvu ; 100 ; EUR 
 osakerahasto ; F ; NVENAJAT ; Nordea Venäjä Tuotto ; 100 ; EUR
-osakerahasto ; F ; NSUOMIINDK; Nordea Suomi indeksirahasto B Kasvu; 100 ; EUR
+osakerahasto ; F ; NSUOMIINDK; Nordea Suomi indeksirahasto B Kasvu; 1 ; EUR
 osakerahasto ; F ; NNORDSMK ; Nordea Nordic Small Cap Kasvu ; 100 ; EUR
 osakerahasto ; F ; ODINFIN ; ODIN Finland ; 1
 osakerahasto ; F ; ODINMARITI ; ODIN Maritim ; 1
@@ -935,6 +936,7 @@ vanhat osakkeet ; X ; FLG1S ; Finnlines ; 1 ; EUR
 vanhat osakkeet ; X ; FOR1V ; Ford ; 1
 vanhat osakkeet ; X ; FUM1V ; Fortum ; 1 ; EUR
 vanhat osakkeet ; X ; FUM1VW200 ; Fortum bonus ; 1
+vanhat osakkeet ; X ; FSC1V ; F-Secure ; 1 ; EUR^
 vanhat osakkeet ; X ; GEO1V ; Geosentric ; 1
 vanhat osakkeet ; X ; HACAS ; Hackman A ; 1
 vanhat osakkeet ; X ; HAC1V ; Hackman ; 1
