@@ -36,6 +36,7 @@ DOV1V Dovre Group Plc
 DUELL Duell Oyj
 DWF Digital Workforce Services Oyj
 EAB EAB Group Oyj
+EAGLE Eagle Filters Group Plc
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
 EFECTE Efecte Plc
@@ -93,7 +94,6 @@ LEMON Lemonsoft Oyj
 LIFA Lifa Air Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
-LOUD Loudspring Plc
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
 MERUS Merus Power Oyj
