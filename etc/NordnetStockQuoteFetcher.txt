@@ -83,6 +83,7 @@ KESKOB Kesko Corporation B
 KELAS Kesla Oyj A
 KEMPOWR Kempower Oyj
 KOJAMO Kojamo Plc
+KOSKI Koskisen Oyj
 KNEBV KONE Corporation
 KCR Konecranes Plc
 LAMOR Lamor Corporation Oyj
