@@ -909,6 +909,7 @@ vanhat osakkeet ; X ; DIG1V ; Digia ; 1 ; EUR
 vanhat osakkeet ; X ; DNA ; DNA ; 1 ; EUR
 vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
 vanhat osakkeet ; X ; DSO1V ; Done Solutions ; 1
+vanhat osakkeet ; X ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR;
 vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
 vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
 vanhat osakkeet ; X ; EBC1V ; Elektrobit ; 1 ; EUR
@@ -937,7 +938,7 @@ vanhat osakkeet ; X ; FLG1S ; Finnlines ; 1 ; EUR
 vanhat osakkeet ; X ; FOR1V ; Ford ; 1
 vanhat osakkeet ; X ; FUM1V ; Fortum ; 1 ; EUR
 vanhat osakkeet ; X ; FUM1VW200 ; Fortum bonus ; 1
-vanhat osakkeet ; X ; FSC1V ; F-Secure ; 1 ; EUR^
+vanhat osakkeet ; X ; FSC1V ; F-Secure ; 1 ; EUR
 vanhat osakkeet ; X ; GEO1V ; Geosentric ; 1
 vanhat osakkeet ; X ; HACAS ; Hackman A ; 1
 vanhat osakkeet ; X ; HAC1V ; Hackman ; 1
@@ -981,7 +982,7 @@ vanhat osakkeet ; X ; LAS1S ; Lassila & Tikanoja (ennen jakaut) ; 1
 vanhat osakkeet ; X ; LEM1S ; Lemminkäinen ; 1 
 vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
 vanhat osakkeet ; X ; LII1V ; Liinos ; 1
-vanhat osakkeet ; X ; LOUD ; Loudspring ; 1 ; EUR^M
+vanhat osakkeet ; X ; LOUD ; Loudspring ; 1 ; EUR
 vanhat osakkeet ; X ; LTE1S ; Lännen Tehtaat ; 1 ; EUR
 vanhat osakkeet ; X ; LVO1V ; Länsivoima ; 1
 vanhat osakkeet ; X ; MEO1V ; Metso ; 1 ; EUR
@@ -1349,7 +1350,7 @@ OMXS ; S ; VAR ; Vår Energi ASA ; 1 ; NOK ; Norja
 OMXS ; S ; VIVA ; Viva Wine Group; 1 ; SEK ; Ruotsi
 OMXS ; S ; VOLCARB ; Volvo Car B; 1 ; SEK ; Ruotsi
 XTRA ; S ; 4GLD ; Xetra-Gold ; 1 ; EUR ; Maailma
-XTRA ; S ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
+XTRA ; S ; XESC ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
 XTRA ; S ; IS3N ; iShares EM ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; EUNL ; iShares World ETF ; 1 ; EUR; Maailma
 XTRA ; S ; EUNN ; iShares Japan ETF ; 1 ; EUR ; Aasia
@@ -1361,6 +1362,7 @@ XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
 XTRA ; S ; G2X ; Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; G2XJ ; Junior Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SPPX ; US Bond 10+ year ETF ; 1 ; EUR ; USA
+XTRA ; S ; URNU ; Global X Uranium ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; VZLC ; WisdomTree Physical Silver ; 1 ; EUR ; Maailma
 AEB  ; S ; SHELL ; Shell ; 1 ; EUR ; Britannia
 AEB  ; S ; UNA  ; Unilever ; 1 ; EUR ; Britannia
