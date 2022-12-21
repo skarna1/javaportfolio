@@ -910,6 +910,8 @@ vanhat osakkeet ; X ; DIG1V ; Digia ; 1 ; EUR
 vanhat osakkeet ; X ; DNA ; DNA ; 1 ; EUR
 vanhat osakkeet ; X ; DON1V ; Done (ennen jakautum) ; 1
 vanhat osakkeet ; X ; DSO1V ; Done Solutions ; 1
+vanhat osakkeet ; X ; DBX6 ; MSCI Brazil ETF ; 1 ; EUR ;
+vanhat osakkeet ; X ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ;
 vanhat osakkeet ; X ; DXET ; Eurostoxx 50 ETF ; 1 ; EUR;
 vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
 vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
@@ -1358,8 +1360,8 @@ XTRA ; S ; EUNN ; iShares Japan ETF ; 1 ; EUR ; Aasia
 XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
 XTRA ; S ; SXR8 ; iShares core S&P 500 ETF ; 1 ; EUR; USA
 XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
-XTRA ; S ; DBX6 ; Brasilia ETF ; 1 ; EUR; Kehittyvät
-XTRA ; S ; DX2X ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
+XTRA ; S ; XMBR ; Brasilia ETF ; 1 ; EUR; Kehittyvät
+XTRA ; S ; XSX6 ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
 XTRA ; S ; G2X ; Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; G2XJ ; Junior Gold Miners ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SPPX ; US Bond 10+ year ETF ; 1 ; EUR ; USA
