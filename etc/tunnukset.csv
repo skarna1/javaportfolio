@@ -27,7 +27,7 @@ rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
 rahoitus ; S ; ALBBV ; Ålandsbanken B ; 1 ; EUR
 perusteollisuus ; S ; AFAGR ; Afarak Group ; 1 ; EUR
-perusteollisuus ; S ; ENDOM ; Endomines ; 1 ; EUR
+perusteollisuus ; S ; PAMPALO ; Endomines Finland; 1 ; EUR
 perusteollisuus ; S ; KEMIRA ; Kemira ; 1 ; EUR
 perusteollisuus ; S ; KOSKI ; Koskisen ; 1 ; EUR
 perusteollisuus ; S ; METSA ; Metsä Board A ; 1 ; EUR
@@ -920,6 +920,7 @@ vanhat osakkeet ; X ; EBG1V ; Elektrobit ; 1 ; EUR
 vanhat osakkeet ; X ; EFO1V ; Efore ; 1 ;
 vanhat osakkeet ; X ; ELI1V ; Elisa ; 1 ; EUR
 vanhat osakkeet ; X ; ELVH ; Elite Varainhoito ; 1 ; EUR
+vanhat osakkeet ; X ; ENDOM ; Endomines ; 1 ; EUR
 vanhat osakkeet ; X ; ENE1V ; Endero ; 1
 vanhat osakkeet ; X ; ENSRS ; Enso R ; 1
 vanhat osakkeet ; X ; EON1V ; E.ON Finland ; 1
