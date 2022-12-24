@@ -1287,6 +1287,7 @@ NYSE ; S ; KOO ; Coca-Cola Co ; 1 ; USD ; USA
 NYSE ; S ; LAND ; Gladstone Land REIT ; 1 ; USD ; USA
 NYSE ; S ; MO ;  Altria ; 1 ; USD ; USA
 NYSE ; S ; MA ; Mastercard ; 1 ; USD ; USA
+NYSE ; S ; MDT ; Medtronic ; 1 ; USD ; Eurooppa
 NYSE ; S ; MSFT ; Microsoft ; 1 ; USD ; USA
 NYSE ; S ; NEM ; Newmont Mining ; 1 ; USD ; USA
 NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA
@@ -1303,6 +1304,7 @@ NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
 NYSE ; S ; STOR ; Store Capital ; 1 ; USD ; USA
 NYSE ; S ; T ; AT&T ; 1 ; USD ; USA
+NYSE ; S ; TD ; Toronto-Dominion Bank ; 1 ; USD ; Kanada
 NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
 NYSE ; S ; USO ; U.S. Oil Fund ETF ; 1; USD ; USA
 NYSE ; S ; UL ; Unilever ; 1 ; USD ; Britannia
