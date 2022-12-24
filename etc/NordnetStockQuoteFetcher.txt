@@ -16,7 +16,6 @@ ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
 AVIDLY Avidly Oyj
-BAS1V Basware Corporation
 BETOLAR Betolar Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
