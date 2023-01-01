@@ -98,7 +98,6 @@ teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
 teknologia ; S ; QTCOM ; Qt Group ; 1 ; EUR
 teknologia ; S ; SIILI ; Siili Solutions ; 1 ; EUR
 teknologia ; S ; SOL1V ; Solteq ; 1 ; EUR
-teknologia ; S ; SOPRA ; Soprano ; 1 ; EUR
 teknologia ; S ; SSH1V ; SSH Communications Security ; 1 ; EUR
 teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
@@ -122,6 +121,7 @@ Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VERK ; Verkkokauppa ; 1 ; EUR
 Kulutuspalvelut ; S ; VIK1V ; Viking Line ; 1 ; EUR
+Kulutuspalvelut ; S ; WETTERI ; Wetteri ; 1 ; EUR
 Kulutustavarat ; S ; ANORA ; Anora ; 1 ; EUR
 Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
 Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
@@ -1081,6 +1081,7 @@ vanhat osakkeet ; X ; SJA1V ; Silja ; 1
 vanhat osakkeet ; X ; SOO1VNELI2 ; Soon Comm. vaih-os 2 ; 1
 vanhat osakkeet ; X ; SOO1V ; Soon Communications ; 1
 vanhat osakkeet ; X ; SOO1VELI ; Soon vaihto-osake ; 1
+vanhat osakkeet ; X ; SOPRA ; Soprano ; 1 ; EUR
 vanhat osakkeet ; X ; SRA1V ; Sonera ; 1
 vanhat osakkeet ; X ; SRA1VN0399 ; Sonera bonus ; 1
 vanhat osakkeet ; X ; SSH1V ; SSH Communications ; 1
