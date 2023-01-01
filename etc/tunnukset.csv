@@ -181,13 +181,13 @@ First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NXTGMS ; Next Games ; 1 ; EUR
 First North ; S ; NORLIG ; Nordic Lights ; 1 ; EUR
 First North ; S ; NORRH ; Norrhydro ; 1 ; EUR
+First North ; S ; NYAB ; NYAB ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; RELAIS ; Relais Group ; 1 ; EUR
 First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
-First North ; S ; SKARTA ; SkartaNYAB ; 1 ; EUR
 First North ; S ; SPINN ; Spinnova ; 1 ; EUR
 First North ; S ; SPRING ; Springvest ; 1 ; EUR
 First North ; S ; SOLWERS ; Solwers ; 1 ; EUR
@@ -1078,6 +1078,7 @@ vanhat osakkeet ; X ; SCF1V ; Scanfil ; 1
 vanhat osakkeet ; X ; SNR1V ; Sentera ; 1
 vanhat osakkeet ; X ; SILMA ; Silmäasema ; 1 ;
 vanhat osakkeet ; X ; SJA1V ; Silja ; 1
+vanhat osakkeet ; X ; SKARTA ; SkartaNYAB ; 1 ; EUR
 vanhat osakkeet ; X ; SOO1VNELI2 ; Soon Comm. vaih-os 2 ; 1
 vanhat osakkeet ; X ; SOO1V ; Soon Communications ; 1
 vanhat osakkeet ; X ; SOO1VELI ; Soon vaihto-osake ; 1

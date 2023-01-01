@@ -111,6 +111,7 @@ NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
 NORLIG Nordic Lights Group Oyj
 NORRH Norrhydro Group Oyj
+NYAB NYAB Oyj
 TYRES Nokian Tyres Plc
 NDA_FI Nordea Bank Abp
 NLG1V Nurminen Logistics Plc
@@ -154,7 +155,6 @@ SCL1V Scanfil Plc
 SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
-SKARTA SkartaNYAB Oyj
 SOL1V Solteq Oyj
 SOLWERS Solwers Oyj
 SNO1V Soprano Oyj
