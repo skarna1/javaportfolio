@@ -1105,6 +1105,7 @@ vanhat osakkeet ; X ; SWSBV ; Sanoma-WSOY B ; 1
 vanhat osakkeet ; X ; SAT1V ; Satama Interactive ; 1
 vanhat osakkeet ; X ; SAG1V ; Saunalahti Group ; 1
 vanhat osakkeet ; X ; SDA1V ; Sponda ; 1 ; EUR
+vanhat osakkeet ; X ; STOR ; Store Capital ; 1 ; USD ; USA
 vanhat osakkeet ; X ; STMBS ; Stromsdal B ; 1
 vanhat osakkeet ; X ; TAALB ; Taaleritehdas ; 1
 vanhat osakkeet ; X ; THT1V ; TH Tiedonhallinta ; 1
@@ -1304,7 +1305,6 @@ NYSE ; S ; SLV ; Ishares silver trust ; 1; USD ; USA
 NYSE ; S ; SHEL ; Shell; 1 ; USD ; Britannia 
 NYSE ; S ; SPG ; Simon Property Group ; 1 ; USD ; USA
 NYSE ; S ; STAG ; Stag ; 1 ; USD ; USA
-NYSE ; S ; STOR ; Store Capital ; 1 ; USD ; USA
 NYSE ; S ; T ; AT&T ; 1 ; USD ; USA
 NYSE ; S ; TD ; Toronto-Dominion Bank ; 1 ; USD ; Kanada
 NYSE ; S ; TGT ; Target ; 1 ; USD ; USA
