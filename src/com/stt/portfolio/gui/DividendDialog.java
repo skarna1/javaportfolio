@@ -326,7 +326,10 @@ public class DividendDialog extends BaseDialog {
 		double cost = convertToDouble(costField.getText());
 		double totalCost = amount * cost;
 		double tax = totalCost * taxPercent / 100.0;
+		double netCost = totalCost - tax;
 		dividendTaxField.setText(String.format("%1$.2f", tax));
+		totalCostField.setText(String.format("%1$.2f", totalCost));
+		netCostField.setText(String.format("%1$.2f", netCost));
 	}
 
 	protected Component[] getDialogComponents() {
@@ -338,7 +341,7 @@ public class DividendDialog extends BaseDialog {
 	protected JLabel[] getDialogLabels() {
 		JLabel[] labels = { sectorFieldLabel, stockFieldLabel, dateFieldLabel, localCurrencyButtonLabel,
 				amountFieldLabel, costFieldLabel, rateFieldLabel,
-				brokerFieldLabel, new JLabel("tax percents"),
+				brokerFieldLabel, new JLabel("Veroprosentti"), dividendTaxLabel,
 				totalCostFieldLabel, netCostFieldLabel };
 		return labels;
 	}
