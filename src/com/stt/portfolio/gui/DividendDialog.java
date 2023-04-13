@@ -123,7 +123,15 @@ public class DividendDialog extends BaseDialog {
 			updateOwnedAmount(broker, stockName);
 		}
 		else if (TAX_SELECTED.equals(e.getActionCommand())) {
+			String stockName = (String) stocksList.getSelectedItem();
+			updateForeignCurrency(stockName);
 			updateTax();
+		}
+		else if (CURRENCY_SELECTED.equals(e.getActionCommand())) {
+			Object item = currencyList.getSelectedItem();
+			if (item != null) {
+				updateRateFieldCcy((String) item);
+			}
 		}
 		else {
 			super.actionPerformed(e);
