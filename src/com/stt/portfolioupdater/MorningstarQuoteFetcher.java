@@ -40,7 +40,12 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
 					item.setName(getName());
 
-					item.setTicker(getTicker(item.getName()));
+					if (getTicker() != null) {
+						item.setTicker(getTicker());
+					}
+					else {
+						item.setTicker(getTicker(item.getName()));
+					}
 					// System.out.println(getName() + " "
 					// + getTicker(item.getName()));
 					if (item.getTicker() != null) {

@@ -7,17 +7,18 @@ import java.util.List;
 public abstract class HTTPQuoteFetcher extends HTTPDocumentFetcher {
 	private boolean ignoreVolume = false;
 	private String name;
+	private String ticker;
 
 	public abstract List<Item> parseHtml();
 
 	public HTTPQuoteFetcher() {
-		super();	
+		super();
 	}
-	
+
 	public HTTPQuoteFetcher(String uri) {
-		super(uri);	
+		super(uri);
 	}
-	
+
 	public boolean isIgnoreVolume() {
 		return ignoreVolume;
 	}
@@ -92,5 +93,13 @@ public abstract class HTTPQuoteFetcher extends HTTPDocumentFetcher {
 
 	public String getName() {
 		return name;
+	}
+
+	public String getTicker() {
+		return ticker;
+	}
+
+	public void setTicker(String ticker) {
+		this.ticker = ticker;
 	}
 }

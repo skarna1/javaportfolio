@@ -180,7 +180,7 @@ public class PortfolioGuiApp {
 
 	/**
 	 * Handle menu command.
-	 * 
+	 *
 	 * @param item
 	 *            the item
 	 */
@@ -215,7 +215,7 @@ public class PortfolioGuiApp {
 				String className = props.getProperty("class_" + i);
 				String ignoreVolumeStr = props.getProperty("ignorevolume_" + i);
 				String name = props.getProperty("name_" + i);
-
+				String ticker = props.getProperty("ticker_" + i);
 				if (uri == null || xpath == null || className == null) {
 					break;
 				}
@@ -237,6 +237,9 @@ public class PortfolioGuiApp {
 								if (name != null) {
 									fetcher.setName(name);
 								}
+								if (ticker != null) {
+									fetcher.setTicker(ticker);
+								}
 								quoteUpdaters.add(fetcher);
 							} catch (IllegalArgumentException e) {
 								// TODO Auto-generated catch block
@@ -245,11 +248,11 @@ public class PortfolioGuiApp {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
-							
+
 							break;
 						}
 					}
-					
+
 
 				} catch (ClassNotFoundException e) {
 					// TODO Auto-generated catch block
@@ -272,7 +275,7 @@ public class PortfolioGuiApp {
 		String path = "etc/kurssidata/";
 		boolean ok = true;
 		Map<String, Boolean> fetched_urls = new HashMap<String, Boolean>();
-		
+
 		Updater updater = new Updater();
 
 		for (HTTPQuoteFetcher fetcher : quoteUpdaters) {
@@ -316,7 +319,7 @@ public class PortfolioGuiApp {
 	/**
 	 * Save portfolio name. Saves the name of the last portfolio into
 	 * etc/salkku.ini file.
-	 * 
+	 *
 	 * @param info
 	 *            the name of the portfolio
 	 */
@@ -366,7 +369,7 @@ public class PortfolioGuiApp {
 
 	/**
 	 * The main method.
-	 * 
+	 *
 	 * @param args
 	 *            the args
 	 */
@@ -375,6 +378,7 @@ public class PortfolioGuiApp {
 		// Schedule a job for the event-dispatching thread:
 		// creating and showing this application's GUI.
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				new PortfolioGuiApp();
 			}
