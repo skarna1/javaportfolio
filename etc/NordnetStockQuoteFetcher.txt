@@ -3,8 +3,9 @@ ADMCM Admicom Oyj
 ADMIN Administer Oyj
 AFAGR Afarak Group SE 
 AIFORIA Aiforia Technologies Oyj
-ALEX Alexandria Pankkiiriliike Oyj
+ALEX Alexandria Group Oyj
 AKTIA Aktia Bank Plc
+ALISA Alisa Pankki Oyj
 ALMA Alma Media Corporation
 ANORA Anora Group Plc
 APETI Apetit Plc
@@ -49,7 +50,6 @@ ETT1V Etteplan Oyj
 EVLI Evli Oyj
 EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
-FELLOW Fellow Pankki Oyj
 FSECURE F-Secure Oyj
 FIA1S Finnair Oyj
 FIFAX Fifax Abp
@@ -139,7 +139,7 @@ RAIKV Raisio Plc K
 RAIVV Raisio Plc Vaihto-osake
 REKA Reka Industrial Oyj
 RAP1V Rapala VMC Corporation
-RAUTE Raute Corporation A
+RAUTE Raute Corporation
 REG1V Revenio Group Corporation
 RELAIS Relais Group Oyj
 REMEDY Remedy Entertainment Oyj

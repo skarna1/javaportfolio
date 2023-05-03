@@ -8,13 +8,13 @@ terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
 terveydenhuolto ; S ; PIHLIS ; Pihlajalinna ; 1 ; EUR
 terveydenhuolto ; S ; REG1V ; Revenio Group ; 1 ; EUR
 rahoitus ; S ; AKTIA ; Aktia; 1 ; EUR
+rahoitus ; S ; ALISA ; Alisa Pankki; 1 ; EUR
 rahoitus ; S ; CAPMAN ; CapMan; 1 ; EUR
 rahoitus ; S ; CTY1S ; Citycon ; 1 ; EUR
 rahoitus ; S ; EAB ; EAB Group ; 1 ; EUR
 rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
-rahoitus ; S ; FELLOW ; Fellow Pankki ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
 rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR ;
@@ -930,6 +930,7 @@ vanhat osakkeet ; X ; FIFAS ; Efore A ; 1
 vanhat osakkeet ; X ; ELIAV ; Elisa Communications ; 1
 vanhat osakkeet ; X ; EVI1V ; Evia ; 1 ; EUR
 vanhat osakkeet ; X ; ERG1V ; Evox Rifa Group ; 1
+vanhat osakkeet ; X ; FELLOW ; Fellow Pankki ; 1 ; EUR
 vanhat osakkeet ; X ; FINAS ; Finvest A (ennen jak) ; 1
 vanhat osakkeet ; X ; FINBS ; Finvest B (ennen jak) ; 1
 vanhat osakkeet ; X ; FNV1V ; Finvest ; 1
@@ -1280,6 +1281,7 @@ NYSE ; S ; GILD ; Gilead ; 1 ; USD ; USA
 NYSE ; S ; GLD ; Streettracks Gold Trust ; 1; USD ; USA
 NYSE ; S ; GOOG ; Google ; 1 ; USD ; USA
 NYSE ; S ; HCP ; HCP ; 1 ; USD ; USA
+NYSE ; S ; IFF ; International Flavors & Fragrances ; 1 ; USD ; USA
 NYSE ; S ; IBM ; IBM ; 1 ; USD ; USA
 NYSE ; S ; JNJ ; Johnson & Johnson ; 1; USD ; USA
 NYSE ; S ; KD ; Kyndryl ; 1 ; USD ; USA
