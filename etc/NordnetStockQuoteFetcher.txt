@@ -98,7 +98,7 @@ MARAS Martela Oyj A
 MERUS Merus Power Oyj
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
-MOCORP Metso Outotec Oyj
+METSO Metso Oyj
 MODU Modulight Oyj
 MUSTI Musti Group Plc
 NANOFH Nanoform Finland Oyj

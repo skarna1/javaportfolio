@@ -62,6 +62,7 @@ teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KREATE ; Kreate Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; MOCORP ; Metso Outotec; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; REKA ; Reka industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
@@ -1003,6 +1004,7 @@ vanhat osakkeet ; X ; METBS ; Metra B ; 1
 vanhat osakkeet ; X ; METSO ; Metso ; 1 ; EUR
 vanhat osakkeet ; X ; MTI1V ; Metsä Tissue ; 1
 vanhat osakkeet ; X ; MGH1V ; Mgine Holding ; 1
+vanhat osakkeet ; X ; MOCORP ; Metso Outotec; 1 ; EUR
 vanhat osakkeet ; X ; MUNK1 ; Munksjö ; 1 ; EUR
 vanhat osakkeet ; X ; NED1V ; Nedecon ; 1
 vanhat osakkeet ; X ; NELES ; Neles ; 1 ; EUR
