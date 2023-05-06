@@ -1364,6 +1364,7 @@ OMXS ; S ; VIVA ; Viva Wine Group; 1 ; SEK ; Ruotsi
 OMXS ; S ; VOLCARB ; Volvo Car B; 1 ; SEK ; Ruotsi
 XTRA ; S ; 4GLD ; Xetra-Gold ; 1 ; EUR ; Maailma
 XTRA ; S ; XESC ; Eurostoxx 50 ETF ; 1 ; EUR; Eurooppa
+XTRA ; S ; IS04 ; iShares Treasury Bond 20+yr  ETF ; 1 ; EUR;
 XTRA ; S ; IS3N ; iShares EM ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; EUNL ; iShares World ETF ; 1 ; EUR; Maailma
 XTRA ; S ; EUNN ; iShares Japan ETF ; 1 ; EUR ; Aasia
