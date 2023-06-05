@@ -16,12 +16,12 @@ rahoitus ; S ; ENENTO ; Enento ; 1 ; EUR
 rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
+rahoitus ; S ; KHG ; KH Group ; 1 ; EUR
 rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
 rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR ;
 rahoitus ; S ; OVARO ; Ovaro Kiinteistösijoitus Oyj ; 1 ; EUR
 rahoitus ; S ; PNA1V ; Panostaja ; 1 ; EUR
 rahoitus ; S ; SAMPO ; Sampo ; 1 ; EUR
-rahoitus ; S ; SCI1V ; Sievi Capital ; 1 ; EUR
 rahoitus ; S ; TAALA ; Taaleri ; 1 ; EUR
 rahoitus ; S ; UNIAV ; United Bankers ; 1 ; EUR
 rahoitus ; S ; ALBAV ; Ålandsbanken A ; 1 ; EUR
@@ -1078,6 +1078,8 @@ vanhat osakkeet ; X ; SAU1V ; Saunatec ; 1
 vanhat osakkeet ; X ; SCAAS ; Yrityspankki Skop A ; 1
 vanhat osakkeet ; X ; SCF1V ; Scanfil ; 1
 vanhat osakkeet ; X ; SNR1V ; Sentera ; 1
+vanhat osakkeet ; X ; SCI1V ; Sievi Capital ; 1 ; EUR
+vanhat osakkeet ; X ; SIEVI ; Sievi Capital ; 1 ; EUR
 vanhat osakkeet ; X ; SILMA ; Silmäasema ; 1 ;
 vanhat osakkeet ; X ; SJA1V ; Silja ; 1
 vanhat osakkeet ; X ; SKARTA ; SkartaNYAB ; 1 ; EUR
@@ -1330,6 +1332,7 @@ TSX ; S ; AMC ; Arizona Metals ; 1 ; CAD ; Kanada
 OMXS ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BACKA ; Backaheden ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
+OMXS ; S ; BHG ; BHG Group ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BITCOINXBT ; Bitcoin XBT ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CASTT ; Castellum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; CTA ; Catena Media ; 1 ; SEK ; Ruotsi

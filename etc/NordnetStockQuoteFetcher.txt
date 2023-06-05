@@ -80,6 +80,7 @@ KESKOA Kesko Corporation A
 KESKOB Kesko Corporation B
 KELAS Kesla Oyj A
 KEMPOWR Kempower Oyj
+KHG KH Group Plc
 KOJAMO Kojamo Plc
 KOSKI Koskisen Oyj
 KNEBV KONE Corporation
@@ -151,7 +152,6 @@ SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
 SAVOH Savosolar Plc
 SCL1V Scanfil Plc
-SCI1V Sievi Capital plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
