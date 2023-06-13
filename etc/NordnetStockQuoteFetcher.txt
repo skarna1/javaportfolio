@@ -96,6 +96,7 @@ LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
+MERIH Meriaura Group Plc
 MERUS Merus Power Oyj
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
@@ -150,7 +151,6 @@ RUSH Rush Factory Plc
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
-SAVOH Savosolar Plc
 SCL1V Scanfil Plc
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
