@@ -38,6 +38,7 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 
 			HttpRequest request = HttpRequest.newBuilder(new URI("https://finance.yahoo.com"))
 					.timeout(Duration.ofSeconds(10, 0)).GET()
+
 					.headers("accept",
 							"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
 							"Accept-language", "en-US,en;q=0.5", "User-Agent",
@@ -53,7 +54,7 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 				return null;
 			}
 
-			System.out.println("response uri: " + response.uri());
+
 			if (response.uri().toString() != "https://finance.yahoo.com") {
 				String content = "agree=agree";
 				Pattern p = Pattern.compile("<input type=\"hidden\" name=\"([a-zA-Z]+)\" value=\"([a-zA-Z-_0-9]+)\"");
@@ -87,6 +88,7 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 		String uri = "https://query1.finance.yahoo.com/v1/test/getcrumb";
 
 		HttpRequest request = HttpRequest.newBuilder(new URI(uri)).timeout(Duration.ofSeconds(20, 0)).GET()
+				.header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0")
 				.version(HttpClient.Version.HTTP_2).build();
 
 		HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
