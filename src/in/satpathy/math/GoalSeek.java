@@ -20,11 +20,6 @@
  */
 package in.satpathy.math;
 
-/*
- *  Imports
- */
-import java.lang.Math  ;
-
 /**
  *  A generic root finder.
  *
@@ -212,7 +207,7 @@ public class GoalSeek {
 			log( "goalSeekNewton" ) ;
 		}
 
-		for (iterations = 0; iterations < 200; iterations++) {
+		for (iterations = 0; iterations < 2000; iterations++) {
 			double x1 ;
             double y0 ;
             double df0 ;
