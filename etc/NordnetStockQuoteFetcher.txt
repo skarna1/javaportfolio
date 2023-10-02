@@ -94,6 +94,7 @@ LEMON Lemonsoft Oyj
 LIFA Lifa Air Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
+MANTA Mandatum Oyj
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
 MERIH Meriaura Group Plc
