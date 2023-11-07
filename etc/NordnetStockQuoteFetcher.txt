@@ -91,7 +91,6 @@ LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
-LIFA Lifa Air Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 MANTA Mandatum Oyj
@@ -127,6 +126,7 @@ ORNBV Orion Corporation B
 ORTHEX Orthex Plc
 OUT1V Outokumpu Oyj
 OVARO Ovaro Kiinteistösijoitus Oyj
+PALLAS Pallas Air Oyj
 PAMPALO Endomines Finland Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
