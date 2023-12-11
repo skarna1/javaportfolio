@@ -17,7 +17,6 @@ module javaportfolio {
 	requires java.xml;
 	requires jcalendar;
 	requires jcommon;
-	requires junit;
 	requires org.jfree.jfreechart;
 	requires jtidy;
 	requires com.google.gson;
