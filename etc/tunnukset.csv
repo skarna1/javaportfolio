@@ -405,6 +405,7 @@ osakerahasto ; F ; GYLLFINLB ; Gyllenberg Finlandia B ; 1
 osakerahasto ; F ; GYLLSFIRMA ; Gyllenberg Small Firm A ; 1
 osakerahasto ; F ; GYLLSFIRMB ; Gyllenberg Small Firm B ; 1
 osakerahasto ; F ; HANAMERICA ; Handelsbanken America ; 1
+osakeindeksirahasto; F ; HANUSAINDEX ; Handelsbanken USA indeksi ; 1
 osakerahasto ; F ; HANEASTERN ; Handelsbanken Eastern Europe ; 1
 osakerahasto ; F ; HANEACTIVE ; Handelsbanken Euro Active ; 1
 osakeindeksirahasto ; F ; HBFINEUROPAINDEXA1 ; HANDELSBANKEN EUROPAFOND INDEX ; 1
