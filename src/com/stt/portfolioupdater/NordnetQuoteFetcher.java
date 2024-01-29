@@ -41,7 +41,9 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 			org.w3c.dom.NodeList nodes = fetchNodes(getUri(), getXpath());
 			if (nodes != null) {
 				// System.out.println("Nodes : " + nodes.getLength());
-				for (int i = 0; i < nodes.getLength(); i += 6) {
+
+
+				for (int i = 0; i < nodes.getLength(); i += 7) {
 
 					Item item = new Item();
 
@@ -56,12 +58,12 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 					} catch (NumberFormatException e) {
 					}
 					try {
-						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 4)));
+						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 5)));
 						item.setHigh(v);
 					} catch (NumberFormatException e) {
 					}
 					try {
-						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 5)));
+						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 6)));
 						item.setLow(v);
 					} catch (NumberFormatException e) {
 					}
@@ -71,7 +73,7 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 
 					if (item.getTicker() != null) {
 						items.add(item);
-						//item.print();
+						// item.print();
 					}
 				}
 			}
