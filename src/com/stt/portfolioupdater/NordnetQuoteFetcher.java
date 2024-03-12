@@ -43,12 +43,12 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 				// System.out.println("Nodes : " + nodes.getLength());
 
 
-				for (int i = 0; i < nodes.getLength(); i += 7) {
+				for (int i = 0; i < nodes.getLength(); i += 8) {
 
 					Item item = new Item();
 
 					String name = this.getValue(nodes.item(i));
-					// System.out.println("name: " + name);
+					System.out.println("name: " + name);
 					item.setName(name);
 					item.setTicker(getTicker(name));
 
