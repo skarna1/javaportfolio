@@ -114,12 +114,12 @@ Kulutuspalvelut ; S ; KAMUX ; Kamux ; 1 ; EUR
 Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
+Kulutuspalvelut ; S ; LINDEX ; Lindex ; 1 ; EUR
 Kulutuspalvelut ; S ; MUSTI ; Musti Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
 Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; PUUILO ; Puuilo ; 1 ; EUR
 Kulutuspalvelut ; S ; SANOMA ; Sanoma ; 1 ; EUR
-Kulutuspalvelut ; S ; STOCKA ; Stockmann ; 1 ; EUR
 Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
 Kulutuspalvelut ; S ; VERK ; Verkkokauppa ; 1 ; EUR
@@ -668,8 +668,8 @@ lyhyen koron rahasto ; F ; HANKORKOB ; Handelsbanken Eurokorko B ; 1
 lyhyen koron rahasto ; F ; MANDLIKVID ; Mandatum Likvidi ; 1
 lyhyen koron rahasto ; F ; NEUROKORK ; Nordea Euro Korko Kasvu ; 1
 lyhyen koron rahasto ; F ; NEUROKORT ; Nordea Euro Korko Tuotto ; 1
-lyhyen koron rahasto ; F ; NKORKOK ; Nordea Korko.fi Kasvu ; 1
-lyhyen koron rahasto ; F ; NKORKOT ; Nordea Korko.fi Tuotto ; 1
+lyhyen koron rahasto ; F ; NKORKOAK ; Nordea Korko A Kasvu ; 1
+lyhyen koron rahasto ; F ; NKORKOAT ; Nordea Korko A Tuotto ; 1
 lyhyen koron rahasto ; F ; NPROEKORK ; Nordea Pro Euro Korko Kasvu ; 1
 lyhyen koron rahasto ; F ; NPROEKORT ; Nordea Pro Euro Korko Tuotto ; 1
 lyhyen koron rahasto ; F ; OPMARKKA ; OP-Markka-sijoitusrahasto ; 1
@@ -1098,6 +1098,7 @@ vanhat osakkeet ; X ; SRA1V ; Sonera ; 1
 vanhat osakkeet ; X ; SRA1VN0399 ; Sonera bonus ; 1
 vanhat osakkeet ; X ; SSH1V ; SSH Communications ; 1
 vanhat osakkeet ; X ; STABS ; Starckjohann ; 1
+vanhat osakkeet ; X ; STOCKA ; Stockmann ; 1 ; EUR^
 vanhat osakkeet ; X ; STCAS ; Stockmann A ; 1 ; EUR
 vanhat osakkeet ; X ; STCBV ; Stockmann B ; 1 ; EUR
 vanhat osakkeet ; X ; STOAS ; Stockmann A ; 1

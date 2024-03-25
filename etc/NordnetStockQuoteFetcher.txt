@@ -91,6 +91,7 @@ LAT1V Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
+LINDEX Lindex Group Oyj
 LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 MANTA Mandatum Oyj
@@ -166,7 +167,6 @@ SRV1V SRV Group Plc
 SSABAH SSAB AB ser. A
 SSABBH SSAB AB ser. B
 SSH1V SSH Communications Security Oyj
-STOCKA Stockmann Plc 
 STEAV Stora Enso Oyj A
 STERV Stora Enso Oyj R
 SUY1V Suominen Oyj
