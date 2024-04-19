@@ -113,7 +113,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 			return "SELIG25PH" + suffix;
 		}else if (name.startsWith("Pohjois-Amer")) {
 			return "SELIGPAM" + suffix;
-		}else if (name.startsWith("Kehittyvät markk")) {
+		}else if (name.startsWith("Kehittyvät Markkinat")) {
 			return "SELIGKEHM" + suffix;
 		}else if (name.equalsIgnoreCase("Eurooppa")) {
 			return "SELIGEUR" + suffix;
