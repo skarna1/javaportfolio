@@ -1099,11 +1099,11 @@ vanhat osakkeet ; X ; SRA1V ; Sonera ; 1
 vanhat osakkeet ; X ; SRA1VN0399 ; Sonera bonus ; 1
 vanhat osakkeet ; X ; SSH1V ; SSH Communications ; 1
 vanhat osakkeet ; X ; STABS ; Starckjohann ; 1
-vanhat osakkeet ; X ; STOCKA ; Stockmann ; 1 ; EUR^
 vanhat osakkeet ; X ; STCAS ; Stockmann A ; 1 ; EUR
 vanhat osakkeet ; X ; STCBV ; Stockmann B ; 1 ; EUR
 vanhat osakkeet ; X ; STOAS ; Stockmann A ; 1
 vanhat osakkeet ; X ; STOBV ; Stockmann B ; 1
+vanhat osakkeet ; X ; STOCKA ; Stockmann ; 1 ; EUR
 vanhat osakkeet ; X ; SOI1S ; Suom. Optiopörssi ; 1
 vanhat osakkeet ; X ; SHEAV ; Suomen Helasto A ; 1
 vanhat osakkeet ; X ; SHE1V ; Suomen Helasto ; 1
@@ -1270,6 +1270,7 @@ vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
 vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
 NYSE ; S ; AAPL ; Apple ; 1 ; USD ; USA
 NYSE ; S ; ABBV ; AbbVie ; 1 ; USD ; USA
+NYSE ; S ; ADP ; Automatic Data Processing ; 1 ; USD ; USA
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
 NYSE ; S ; AFL ; Aflac ; 1 ; USD ; USA
 NYSE ; S ; AXP ; American Express ; 1 ; USD ; USA
@@ -1285,6 +1286,7 @@ NYSE ; S ; DBC ; DB Commodity index ETF ; 1; USD ; USA
 NYSE ; S ; DEO ; Diageo ADS ; 1; USD ; Britannia
 NYSE ; S ; EWZ ; IShare MSCI Brazil ETF; 1; USD ; USA
 NYSE ; S ; FNV ; Franco-Nevada ; 1 ; USD ; USA
+NYSE ; S ; GD ; General Dynamics ; 1 ; USD ; USA
 NYSE ; S ; GDX ; Market Vectors Gold Miners ETF ; 1 ; USD ; USA
 NYSE ; S ; GEE ; General Electric ; 1; USD ; USA
 NYSE ; S ; GEO ; Geo group ; 1 ; USD ; USA
@@ -1312,6 +1314,7 @@ NYSE ; S ; NLOP ; Net Lease Office Properties ; 1 ; USD ; USA
 NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA
 NYSE ; S ; OHI ; Omega Healthcare ; 1 ; USD ; USA
 NYSE ; S ; ONL ; Orion Office REIT ; 1 ; USD ; USA
+NYSE ; S ; PFE ; Pfizer ; 1 ; USD ; US
 NYSE ; S ; PGG ; Procter & Gamble ; 1; USD ; USA
 NYSE ; S ; PMM ; Philip Morris Intl ; 1; USD ; USA
 NYSE ; S ; POT ; Potash ; 1 ; USD ; USA
@@ -1382,6 +1385,7 @@ XTRA ; S ; IS3N ; iShares EM ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; EUNL ; iShares World ETF ; 1 ; EUR; Maailma
 XTRA ; S ; EUNN ; iShares Japan ETF ; 1 ; EUR ; Aasia
 XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
+XTRA ; S ; SPYI ; SPDR ACWI IMI ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SXR8 ; iShares core S&P 500 ETF ; 1 ; EUR; USA
 XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; XMBR ; Brasilia ETF ; 1 ; EUR; Kehittyvät
