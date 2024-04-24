@@ -708,6 +708,7 @@ pitkän koron rahasto ; F ; EVLIEUOBLA ; Evli Euro Valtionobligaatio A ; 1
 pitkän koron rahasto ; F ; EVLIEUOBLB ; Evli Euro Valtionobligaatio B ; 1
 pitkän koron rahasto ; F ; EVLIEHYA ; Evli European High Yield A ; 1
 pitkän koron rahasto ; F ; EVLIEHYB ; Evli European High Yield B ; 1
+pitkän koron rahasto ; F ; EVLIPOYRB ; Evli Pohjoismaat yrityslaina B ; 1
 pitkän koron rahasto ; F ; FIMEURO ; FIM Euro ; 1
 pitkän koron rahasto ; F ; FIDEURBOND ; Fidelity Euro Bond ; 1
 pitkän koron rahasto ; F ; FIDINTBOND ; Fidelity International Bond ; 1
@@ -1303,6 +1304,7 @@ NYSE ; S ; KOO ; Coca-Cola Co ; 1 ; USD ; USA
 NYSE ; S ; LAND ; Gladstone Land REIT ; 1 ; USD ; USA
 NYSE ; S ; MO ;  Altria ; 1 ; USD ; USA
 NYSE ; S ; MA ; Mastercard ; 1 ; USD ; USA
+NYSE ; S ; MCD ; McDonalds ; 1 ; USD ; USA
 NYSE ; S ; MDT ; Medtronic ; 1 ; USD ; Eurooppa
 NYSE ; S ; MSFT ; Microsoft ; 1 ; USD ; USA
 NYSE ; S ; NEM ; Newmont Mining ; 1 ; USD ; USA
