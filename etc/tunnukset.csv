@@ -1270,6 +1270,7 @@ vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
 vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
 NYSE ; S ; AAPL ; Apple ; 1 ; USD ; USA
 NYSE ; S ; ABBV ; AbbVie ; 1 ; USD ; USA
+NYSE ; S ; ADC ; Agree Realty REIT ; 1 ; USD ; USA
 NYSE ; S ; ADP ; Automatic Data Processing ; 1 ; USD ; USA
 NYSE ; S ; AEM ; Agnico Eagle Mines ; 1 ; USD ; Kanada
 NYSE ; S ; AFL ; Aflac ; 1 ; USD ; USA
