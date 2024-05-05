@@ -78,7 +78,6 @@ teollisuustuotteet ja -palvelut ; S ; SRV1V ; SRV Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TNOM ; Talenom ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TIK1V ; Tikkurila ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; TULAV ; Tulikivi A ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; UPONOR ; Uponor ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WUF1V ; Wulff-Yhtiöt ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; YIT ; YIT-Yhtymä ; 1 ; EUR
@@ -1152,6 +1151,7 @@ vanhat osakkeet ; X ; TUT1V ; Turvatiimi ; 1 ; EUR
 vanhat osakkeet ; X ; TARAS ; Turun Arvok. A ; 1
 vanhat osakkeet ; X ; UN ; Unilever ; 1 ; USD ; Eurooppa
 vanhat osakkeet ; X ; UNR1V ; Uponor ; 1
+vanhat osakkeet ; X ; UPONOR ; Uponor ; 1 ; EUR
 vanhat osakkeet ; X ; UUTEC ; Uutechnic Group ; 1 ; EUR
 vanhat osakkeet ; X ; VACSPAC ; Virala Acquisition Company ; 1 ; EUR
 vanhat osakkeet ; X ; VAC1V ; Vacon ; 1 ; EUR
