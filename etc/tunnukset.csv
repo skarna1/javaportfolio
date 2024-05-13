@@ -738,6 +738,7 @@ pitkän koron rahasto ; F ; MANDEUROBB ; Mandatum Euro Bond B ; 1
 pitkän koron rahasto ; F ; MAEUYRIK ; Mandatum Euro Yrityslaina K ; 1
 pitkän koron rahasto ; F ; MANDKORKO ; Mandatum Korko ; 1
 pitkän koron rahasto ; F ; N1USCOBHB ; N1 US Corporate Bond HB Kasvu; 1 ; EUR
+pitkän koron rahasto ; F ; NCORPBONDAK ; Nordea Corporate Bond A Kasvu ; 1 ; EUR
 pitkän koron rahasto ; F ; NEUROYLPLK ; Nordea Euro yrityslaina plus Kasvu; 100 ; EUR
 pitkän koron rahasto ; F ; NKEHITKORK ; Nordea Kehittyvät korkomarkkinat Kasvu ; 100 ; EUR
 pitkän koron rahasto ; F ; NEOBLIGAK ; Nordea Euro Obligaatio Kasvu ; 1
@@ -1359,6 +1360,7 @@ OMXS ; S ; ERIC B ; Ericsson B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; EVO ; Evolution Gaming ; 1 ; SEK ; Ruotsi
 OMXS ; S ; FLMNG ; Fleming Properties ; 1 ; SEK ; Ruotsi
 OMXS ; S ; INDUA ; Industrivärden A ; 1 ; SEK ; Ruotsi
+OMXS ; S ; INISSB ; Inission B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; INTRUM ; Intrum ; 1 ; SEK ; Ruotsi
 OMXS ; S ; INVE-B ; Investor B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SAVE ; Nordnet ; 1 ; SEK ; Ruotsi
