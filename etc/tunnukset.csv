@@ -111,7 +111,7 @@ Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
 Kulutuspalvelut ; S ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
 Kulutuspalvelut ; S ; KAMUX ; Kamux ; 1 ; EUR
-Kulutuspalvelut ; S ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
+Kulutuspalvelut ; S ; KSL ; Keskisuomalainen ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
 Kulutuspalvelut ; S ; LINDEX ; Lindex ; 1 ; EUR
@@ -130,7 +130,7 @@ Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
 Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
 Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
 Kulutustavarat ; S ; HARVIA ; Harvia ; 1 ; EUR
-Kulutustavarat ; S ; HKSAV ; HKScan ; 1 ; EUR
+Kulutustavarat ; S ; HKFOODS ; HKFoods ; 1 ; EUR
 Kulutustavarat ; S ; HONBS ; Honkarakenne B ; 1 ; EUR
 Kulutustavarat ; S ; MEKKO ; Marimekko ; 1 ; EUR
 Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
@@ -956,6 +956,7 @@ vanhat osakkeet ; X ; HACAS ; Hackman A ; 1
 vanhat osakkeet ; X ; HAC1V ; Hackman ; 1
 vanhat osakkeet ; X ; HARAS ; Hartwall A ; 1
 vanhat osakkeet ; X ; HAN1V ; Hansapank ; 1
+vanhat osakkeet ; X ; HKSAV ; HKScan ; 1 ; EUR
 vanhat osakkeet ; X ; HPHAV ; HPY Holding ; 1
 vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
 vanhat osakkeet ; X ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
@@ -973,6 +974,7 @@ vanhat osakkeet ; X ; JOT1V ; JOT Automation ; 1
 vanhat osakkeet ; X ; JPG1V ; Poyry ; 1 ; EUR
 vanhat osakkeet ; X ; JTKBS ; J Tallberg-Kiint. B ; 1
 vanhat osakkeet ; X ; KASAS ; Kasola A ; 1
+vanhat osakkeet ; X ; KSLAV ; Keskisuomalainen A ; 1 ; EUR
 vanhat osakkeet ; X ; KESAV ; Kesko A ; 1
 vanhat osakkeet ; X ; KESBV ; Kesko B ; 1
 vanhat osakkeet ; X ; KKA1V ; Kauppakaari ; 1
@@ -1339,6 +1341,7 @@ NYSE ; S ; VGK ; Vanguard Europe ; 1 ; USD ; Eurooppa
 NYSE ; S ; VNM ; Vietnam ETF ; 1 ; USD ; Kehittyvät
 NYSE ; S ; VTI ; Vanguard Total Stock Market ; 1 ; USD ; USA
 NYSE ; S ; VTR ; Ventas ; 1 ; USD ; USA
+NYSE ; S ; WFC ; Wells Fargo ; 1 ; USD ; USA
 NYSE ; S ; WPC ; W.P. Carey ; 1 ; USD ; USA
 NYSE ; S ; APH ; Amphenol ; 1 ; USD ; USA
 NYSE ; S ; IRM ; Iron Mountain ; 1 ; USD ; USA
@@ -1376,6 +1379,7 @@ OMXS ; S ; NILORN ; Nilörn Group ; 1 ; SEK ; Ruotsi
 OMXS ; S ; LOOMIS ; Loomis ; 1 ; SEK ; Ruotsi
 OMXS ; S ; NIBE ; Nibe ; 1 ; SEK ; Ruotsi
 OMXS ; S ; NOLATO ; Nolato ; 1 ; SEK ; Ruotsi
+OMXS ; S ; SEYE ; Smart Eye ; 1 ; SEK ; Ruotsi
 OMXS ; S ; SWMA ; Swedish Match ; 1 ; SEK ; Ruotsi
 OMXS ; S ; TOP ; Top Danmark ; 1 ; DKK ; Tanska
 OMXS ; S ; THUNDR ; Thunderful Group ; 1 ; SEK ; Ruotsi

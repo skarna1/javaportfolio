@@ -63,7 +63,7 @@ HARVIA Harvia Plc
 HEALTH Nightingale Health Oyj B
 HEEROS Heeros Oyj
 HRTIS Herantis Pharma Oyj
-HKSAV HKScan Oyj A
+HKFOODS HKFoods Oyj A
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
 ILKKA1 Ilkka Oyj 1
@@ -76,7 +76,7 @@ KALMAR Kalmar Oyj B
 KAMUX Kamux Corporation
 KEMIRA Kemira Oyj
 KREATE Kreate Group Plc
-KSLAV Keskisuomalainen Oyj A
+KSL Keskisuomalainen Oyj
 KESKOA Kesko Corporation A
 KESKOB Kesko Corporation B
 KELAS Kesla Oyj A
