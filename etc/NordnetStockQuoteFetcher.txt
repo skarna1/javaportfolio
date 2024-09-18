@@ -23,6 +23,7 @@ BITTI Bittium Corporation
 BONEH BBS-Bioactive Bone Substitutes
 BOREO Boreo Oyj
 BRETEC Bioretec Oy
+CANATU Canatu Oyj A
 CAPMAN CapMan Plc
 CGCBV Cargotec Oyj
 CAV1V Caverion Oyj
@@ -93,7 +94,6 @@ LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
 LINDEX Lindex Group Oyj
-LL1SPAC Lifeline SPAC I Plc A
 LOIHDE Loihde Oyj
 MANTA Mandatum Oyj
 MEKKO Marimekko Corporation

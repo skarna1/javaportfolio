@@ -142,7 +142,6 @@ Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
-SPAC ; S ; LL1SPAC ; Lifeline SPAC I ; 1 ; EUR
 Pre-lista ; S ; ILKKA1 ; Ilkka 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
 First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
@@ -155,6 +154,7 @@ First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BETOLAR ; Betolar ; 1 ; EUR
 First North ; S ; BRETEC ; Bioretec ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
+First North ; S ; CANATU ; Canatu ; 1 ; EUR
 First North ; S ; DETEC ; Detection Technology ; 1 ; EUR
 First North ; S ; DUELL ; Duell ; 1 ; EUR
 First North ; S ; DWF ; Digital Workforce Services ; 1 ; EUR
@@ -996,6 +996,7 @@ vanhat osakkeet ; X ; LAS1S ; Lassila & Tikanoja (ennen jakaut) ; 1
 vanhat osakkeet ; X ; LEM1S ; Lemminkäinen ; 1 
 vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
 vanhat osakkeet ; X ; LIFA ; Lifa Air ; 1 ; EUR
+vanhat osakkeet ; X ; LL1SPAC ; Lifeline SPAC I ; 1 ; EUR
 vanhat osakkeet ; X ; LII1V ; Liinos ; 1
 vanhat osakkeet ; X ; LOUD ; Loudspring ; 1 ; EUR
 vanhat osakkeet ; X ; LTE1S ; Lännen Tehtaat ; 1 ; EUR
