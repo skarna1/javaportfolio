@@ -156,6 +156,7 @@ SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
 SCL1V Scanfil Plc
+SFOODS Solar Foods Oyj
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
