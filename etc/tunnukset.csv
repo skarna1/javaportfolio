@@ -142,7 +142,6 @@ Kulutustavarat ; S ; ORTHEX ; Orthex ; 1 ; EUR
 Kulutustavarat ; S ; RAIVV ; Raisio-yhtymä V ; 1 ; EUR
 Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
-Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
 Pre-lista ; S ; ILKKA1 ; Ilkka 1 ; 1 ; EUR
@@ -1077,6 +1076,7 @@ vanhat osakkeet ; X ; RUTAV ; Raute A ; 1
 vanhat osakkeet ; X ; RESN ; Resonant Inc ; 1 ; USD ; USA
 vanhat osakkeet ; X ; RESTA ; Restamax ; 1 ; EUR
 vanhat osakkeet ; X ; ROC1V ; Rocla ; 1
+vanhat osakkeet ; X ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 vanhat osakkeet ; X ; RDS.A ; Royal Dutch Shell A; 1 ; USD ; USA
 vanhat osakkeet ; X ; RDS.B ; Royal Dutch Shell B; 1 ; USD ; USA
 vanhat osakkeet ; X ; RUG1V ; Ruukki Group ; 1 ; EUR
