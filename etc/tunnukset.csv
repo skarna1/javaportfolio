@@ -1,4 +1,6 @@
 # toimiala ; tyyppi ; tunnus ; nimi ; jakaja ; CCY
+Autoteollisuus ja -tarvikkeet ; S ; RELAIS ; Relais Group ; 1 ; EUR
+Autoteollisuus ja -tarvikkeet ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
 terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
 terveydenhuolto ; S ; OKDBV ; Oriola B ; 1 ; EUR
@@ -65,6 +67,7 @@ teollisuustuotteet ja -palvelut ; S ; KEMPOWR ; Kempower ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KREATE ; Kreate Group ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; LAMOR ; Lamor ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LEHTO ; Lehto Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
@@ -134,11 +137,11 @@ Kulutustavarat ; S ; HKFOODS ; HKFoods ; 1 ; EUR
 Kulutustavarat ; S ; HONBS ; Honkarakenne B ; 1 ; EUR
 Kulutustavarat ; S ; MEKKO ; Marimekko ; 1 ; EUR
 Kulutustavarat ; S ; MARAS ; Martela A ; 1 ; EUR
-Kulutustavarat ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 Kulutustavarat ; S ; OLVAS ; Olvi A ; 1 ; EUR
 Kulutustavarat ; S ; ORTHEX ; Orthex ; 1 ; EUR
 Kulutustavarat ; S ; RAIVV ; Raisio-yhtymä V ; 1 ; EUR
 Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
+Kulutustavarat ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 Kulutustavarat ; S ; ROVIO ; Rovio Entertainment Oyj ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
@@ -167,7 +170,6 @@ First North ; S ; HEEROS ; Heeros ; 1 ; EUR
 First North ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
 First North ; S ; INDERES ; Inderes ; 1 ; EUR
-First North ; S ; LAMOR ; Lamor ; 1 ; EUR
 First North ; S ; LAPWALL ; LapWall ; 1 ; EUR
 First North ; S ; LEADD ; Leaddesk ; 1 ; EUR
 First North ; S ; LEMON ; Lemonsoft ; 1 ; EUR
@@ -183,8 +185,6 @@ First North ; S ; PALLAS ; Pallas Air ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; ARVOSK ; Pohjanmaan Arvo ; 1 ; EUR
-First North ; S ; RELAIS ; Relais Group ; 1 ; EUR
-First North ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
 First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; SFOODS ; Solar Foods ; 1 ; EUR
