@@ -39,7 +39,6 @@ EAB EAB Group Oyj
 EAGLE Eagle Filters Group Plc
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
-EFECTE Efecte Plc
 ELEAV Elecster Oyj A
 ELISA Elisa Corporation
 ENEDO Enedo Plc
@@ -110,9 +109,7 @@ NETUM Netum Group Oyj
 NXTMH Nexstim Oyj
 NOHO NoHo Partners Oyj
 NOKIA Nokia Corporation
-NORLIG Nordic Lights Group Oyj
 NORRH Norrhydro Group Oyj
-NYAB NYAB Oyj
 TYRES Nokian Tyres Plc
 NDA_FI Nordea Bank Abp
 NLG1V Nurminen Logistics Plc

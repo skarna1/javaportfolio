@@ -159,7 +159,6 @@ First North ; S ; DUELL ; Duell ; 1 ; EUR
 First North ; S ; DWF ; Digital Workforce Services ; 1 ; EUR
 First North ; S ; EAGLE ; Eagle Filters Group ; 1 ; EUR
 First North ; S ; ECOUP ; EcoUp ; 1 ; EUR
-First North ; S ; EFECTE ; Efecte ; 1 ; EUR
 First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
 First North ; S ; FIFAX ; Fifax ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
@@ -179,9 +178,7 @@ First North ; S ; MODU ; Modulight ; 1 ; EUR
 First North ; S ; NANOFH ; Nanoform Finland; 1 ; EUR
 First North ; S ; NETUM ; Netum Group; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
-First North ; S ; NORLIG ; Nordic Lights ; 1 ; EUR
 First North ; S ; NORRH ; Norrhydro ; 1 ; EUR
-First North ; S ; NYAB ; NYAB ; 1 ; EUR
 First North ; S ; PALLAS ; Pallas Air ; 1 ; EUR
 First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
@@ -924,6 +921,7 @@ vanhat osakkeet ; X ; EIMAV ; Eimo A ; 1
 vanhat osakkeet ; X ; ELQAV ; Elcoteq A ; 1 ; EUR
 vanhat osakkeet ; X ; EBC1V ; Elektrobit ; 1 ; EUR
 vanhat osakkeet ; X ; EBG1V ; Elektrobit ; 1 ; EUR
+vanhat osakkeet ; X ; EFECTE ; Efecte ; 1 ; EUR
 vanhat osakkeet ; X ; EFO1V ; Efore ; 1 ;
 vanhat osakkeet ; X ; ELI1V ; Elisa ; 1 ; EUR
 vanhat osakkeet ; X ; ELVH ; Elite Varainhoito ; 1 ; EUR
@@ -1031,11 +1029,13 @@ vanhat osakkeet ; X ; NDA1V ; Nordea ; 1 ; EUR ; Ruotsi
 vanhat osakkeet ; X ; NOA1V ; Nordic Aluminium ; 1 ; EUR
 vanhat osakkeet ; X ; NBH1V ; Nordic Baltic Holdin ; 1
 vanhat osakkeet ; X ; NORDID ; Nordic ID ; 1
+vanhat osakkeet ; X ; NORLIG ; Nordic Lights ; 1 ; EUR
 vanhat osakkeet ; X ; NORVE ; Norvestia ; 1 ; EUR
 vanhat osakkeet ; X ; NRE1V ; Nokian Renkaat ; 1 ; EUR
 vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; NXTGMS ; Next Games ; 1 ; EUR
+vanhat osakkeet ; X ; NYAB ; NYAB ; 1 ; EUR
 vanhat osakkeet ; X ; OKM1V ; Okmetic ; 1 ; EUR
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
 vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1
