@@ -61,6 +61,7 @@ teollisuustuotteet ja -palvelut ; S ; HUH1V ; Huhtamäki ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KELAS ; Kesla A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KALMAR ; Kalmar ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; KEMPOWR ; Kempower ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KREATE ; Kreate Group ; 1 ; EUR
@@ -149,7 +150,6 @@ First North ; S ; ADMIN ; Administer ; 1 ; EUR
 First North ; S ; AIFORIA ; Aiforia ; 1 ; EUR
 First North ; S ; ALEX ; Alexandria Pankkiiriliike ; 1 ; EUR
 First North ; S ; ASUNTO ; Asuntosalkku ; 1 ; EUR
-First North ; S ; AVIDLY ; Avidly ; 1 ; EUR
 First North ; S ; BETOLAR ; Betolar ; 1 ; EUR
 First North ; S ; BRETEC ; Bioretec ; 1 ; EUR
 First North ; S ; BONE ; BBS-Bioactive Bone Substitutes ; 1 ; EUR
@@ -168,7 +168,6 @@ First North ; S ; HEEROS ; Heeros ; 1 ; EUR
 First North ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
 First North ; S ; INDERES ; Inderes ; 1 ; EUR
-First North ; S ; KEMPOWR ; Kempower ; 1 ; EUR
 First North ; S ; LAMOR ; Lamor ; 1 ; EUR
 First North ; S ; LAPWALL ; LapWall ; 1 ; EUR
 First North ; S ; LEADD ; Leaddesk ; 1 ; EUR
@@ -893,6 +892,7 @@ vanhat osakkeet ; X ; ASKAS ; Asko ; 1
 vanhat osakkeet ; X ; ASU1V ; Aspo ; 1
 vanhat osakkeet ; X ; ATG1V ; Asiakastieto ; 1 ; EUR
 vanhat osakkeet ; X ; AVP1V ; AvestaPolarit ; 1
+vanhat osakkeet ; X ; AVIDLY ; Avidly ; 1 ; EUR
 vanhat osakkeet ; X ; BALAS ; A Company Finland ; 1
 vanhat osakkeet ; X ; BAS1V ; BasWare ; 1 ; EUR
 vanhat osakkeet ; X ; BEL1V ; Beltton-Yhtiöt ; 1

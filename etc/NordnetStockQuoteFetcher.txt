@@ -16,7 +16,6 @@ ASUNTO Asuntosalkku Oyj
 ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
-AVIDLY Avidly Oyj
 BETOLAR Betolar Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
