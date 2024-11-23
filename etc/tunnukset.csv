@@ -95,7 +95,6 @@ teknologia ; S ; DIGIGR ; Digitalist Group ; 1 ; EUR
 teknologia ; S ; FSECURE ; F-Secure ; 1 ; EUR
 teknologia ; S ; GOFORE ; Gofore ; 1 ; EUR
 teknologia ; S ; IFA1V ; Innofactor ; 1 ; EUR
-teknologia ; S ; NIXU ; Nixu ; 1 ; EUR
 teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
 teknologia ; S ; QPR1V ; QPR Software ; 1 ; EUR
 teknologia ; S ; QTCOM ; Qt Group ; 1 ; EUR
@@ -1023,6 +1022,7 @@ vanhat osakkeet ; X ; NEOBV ; Neomarkka B ; 1 ; EUR
 vanhat osakkeet ; X ; NEO1V ; Neo industrial ; 1 ; EUR
 vanhat osakkeet ; X ; NEP1V ; Neptun Maritime ; 1
 vanhat osakkeet ; X ; NES1V ; Neste Oil ; 1 ; EUR
+vanhat osakkeet ; X ; NIXU ; Nixu ; 1 ; EUR
 vanhat osakkeet ; X ; NOK1VEW195 ; Nokia Oyj 95 B-opt. ; 1
 vanhat osakkeet ; X ; NOK1V ; Nokia ; 1 ; EUR
 vanhat osakkeet ; X ; NOKES ; Nokia etu ; 1
@@ -1397,6 +1397,7 @@ XTRA ; S ; EUNN ; iShares Japan ETF ; 1 ; EUR ; Aasia
 XTRA ; S ; XDUK ; FTSE 100 ETF ; 1 ; EUR; Britannia
 XTRA ; S ; SPYI ; SPDR ACWI IMI ETF ; 1 ; EUR ; Maailma
 XTRA ; S ; SXR8 ; iShares core S&P 500 ETF ; 1 ; EUR; USA
+XTRA ; S ; XDPU ; Xtrackers S&P 500 ETF ; 1 ; EUR ; USA
 XTRA ; S ; DBXV ; Russia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; XMBR ; Brasilia ETF ; 1 ; EUR; Kehittyvät
 XTRA ; S ; XSX6 ; Euro Stoxx 600 ETF ; 1 ; EUR ; Eurooppa
