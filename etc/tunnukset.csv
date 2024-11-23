@@ -120,8 +120,8 @@ Kulutuspalvelut ; S ; KESKOB ; Kesko B ; 1 ; EUR
 Kulutuspalvelut ; S ; LINDEX ; Lindex ; 1 ; EUR
 Kulutuspalvelut ; S ; MUSTI ; Musti Group ; 1 ; EUR
 Kulutuspalvelut ; S ; NOHO ; NoHo Partners ; 1 ; EUR
-Kulutuspalvelut ; S ; PUMU ; PunaMusta Media ; 1 ; EUR
 Kulutuspalvelut ; S ; PUUILO ; Puuilo ; 1 ; EUR
+Kulutuspalvelut ; S ; REBL ; Rebl Group ; 1 ; EUR
 Kulutuspalvelut ; S ; SANOMA ; Sanoma ; 1 ; EUR
 Kulutuspalvelut ; S ; TALLINK ; Tallink Grupp ; 1 ; EUR
 Kulutuspalvelut ; S ; TOKMAN ; Tokmanni Group ; 1 ; EUR
@@ -185,7 +185,6 @@ First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; ARVOSK ; Pohjanmaan Arvo ; 1 ; EUR
 First North ; S ; RUSH ; Rush Factory ; 1 ; EUR
-First North ; S ; SAVOH ; Savo-Solar ; 1 ; EUR
 First North ; S ; SFOODS ; Solar Foods ; 1 ; EUR
 First North ; S ; SPINN ; Spinnova ; 1 ; EUR
 First North ; S ; SPRING ; Springvest ; 1 ; EUR
@@ -1065,6 +1064,7 @@ vanhat osakkeet ; X ; PSAAS ; Pohjolan Sanomat A ; 1
 vanhat osakkeet ; X ; PRIVA ; Privanet ; 1 ; EUR
 vanhat osakkeet ; X ; PHA1V ; Proha ; 1 ; EUR
 vanhat osakkeet ; X ; PKK1V ; Pohj-K.Kirjap A ; 1 ; EUR
+vanhat osakkeet ; X ; PUMU ; PunaMusta Media ; 1 ; EUR
 vanhat osakkeet ; X ; RAKBS ; Rak. Konevuokraamo B ; 1
 vanhat osakkeet ; X ; RMR1V ; Ramirent ; 1 ; EUR
 vanhat osakkeet ; X ; RAMI ; Ramirent ; 1 ; EUR

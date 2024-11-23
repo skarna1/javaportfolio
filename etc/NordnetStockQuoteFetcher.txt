@@ -131,7 +131,6 @@ PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 ARVOSK Pohjanmaan Arvo Sijoitusosuuskunta
 PON1V Ponsse Oyj 1
-PUMU PunaMusta Media Oyj
 PURMO Purmo Group Oyj C
 PUUILO Puuilo Plc
 QPR1V QPR Software Plc
@@ -141,6 +140,7 @@ RAIVV Raisio Plc Vaihto-osake
 REKA Reka Industrial Oyj
 RAP1V Rapala VMC Corporation
 RAUTE Raute Corporation
+REBL Rebl Group Oyj
 REG1V Revenio Group Corporation
 RELAIS Relais Group Oyj
 REMEDY Remedy Entertainment Oyj
