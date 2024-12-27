@@ -1,9 +1,6 @@
 package com.stt.portfolioupdater;
 
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpClient.Redirect;
@@ -17,11 +14,7 @@ import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -50,7 +43,7 @@ public abstract class HTTPDocumentFetcher {
 
 			Elements elements = doc.selectXpath(xpathExpression);
 			
-			elements.forEach(System.out::println);
+			//elements.forEach(System.out::println);
 
 			return elements;
 		} catch (IOException e) {

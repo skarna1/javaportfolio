@@ -34,7 +34,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		try {
 			Elements nodes = fetchNodes(getUri(), getXpath());
 			if (nodes != null) {
-				 System.out.println("Nodes: " + nodes.size());
+				//System.out.println("Nodes: " + nodes.size());
 				for (int i = 0; i < nodes.size(); i++) {
 					Element tr = nodes.get(i);
 
@@ -92,7 +92,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
 			}
 		
-			 System.out.println(column + " : " + value);
+			// System.out.println(column + " : " + value);
 			if (column == 0) { // date
 				readDate(item, value);
 
