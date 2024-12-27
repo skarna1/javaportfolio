@@ -12,6 +12,9 @@ import java.util.Map;
 
 import javax.xml.xpath.XPathExpressionException;
 
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
 public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 
 	protected Map<String, String> tickers;
@@ -32,38 +35,38 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	@Override
 	public List<Item> parseHtml() {
 
-		// System.out.println(getUri());
+		 System.out.println(getUri());
 		// System.out.println(getXpath());
 
 		List<Item> items = new ArrayList<>();
 
 		try {
-			org.w3c.dom.NodeList nodes = fetchNodes(getUri(), getXpath());
-			if (nodes != null) {
-				// System.out.println("Nodes : " + nodes.getLength());
+			Elements elements = fetchNodes(getUri(), getXpath());
+			if (elements != null) {
+				 System.out.println("Nodes : " + elements.size());
 
 
-				for (int i = 0; i < nodes.getLength(); i += 8) {
+				for (int i = 0; i < elements.size(); i += 11) {
 
 					Item item = new Item();
 
-					String name = this.getValue(nodes.item(i));
-					System.out.println("name: " + name);
+					String name = this.getValue(elements.get(i));
+					//System.out.println("name: " + name);
 					item.setName(name);
 					item.setTicker(getTicker(name));
 
 					try {
-						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 1)));
+						double v = Double.parseDouble(this.getNumberValue(elements.get(i + 2)));
 						item.setLast(v);
 					} catch (NumberFormatException e) {
 					}
 					try {
-						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 5)));
+						double v = Double.parseDouble(this.getNumberValue(elements.get(i + 7)));
 						item.setHigh(v);
 					} catch (NumberFormatException e) {
 					}
 					try {
-						double v = Double.parseDouble(this.getNumberValue(nodes.item(i + 6)));
+						double v = Double.parseDouble(this.getNumberValue(elements.get(i + 8)));
 						item.setLow(v);
 					} catch (NumberFormatException e) {
 					}
@@ -85,15 +88,15 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 		return items;
 	}
 
-	private String getValue(org.w3c.dom.Node node) {
-		if (node == null)
+	private String getValue(Element element) {
+		if (element == null)
 			return "";
-		String value = node.getNodeValue().trim();
+		String value = element.text().trim();
 		return value;
 	}
 
-	private String getNumberValue(org.w3c.dom.Node node) {
-		String value = getValue(node).replace(',', '.');
+	private String getNumberValue(Element element) {
+		String value = getValue(element).replace(',', '.');
 		value = value.replaceAll(" ", "");
 		value = value.replaceAll("[^\\d.]", "");
 		return value;
@@ -148,9 +151,12 @@ public class NordnetQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	public static void main(String[] args) {
-		String uri = "https://www.nordnet.fi/markkinakatsaus/osakekurssit?page=1&exchangeCountry=FI&limit=100";
-		String xpathstr = "(//div[@role=\"row\"]/div[@role=\"cell\"]/div/span/text()|//div[2]/span/span/a/text())";
+		String uri = "https://www.nordnet.fi/osakkeet/kurssit?page=1&exchangeCountry=FI&limit=100&selectedTab=prices";
+		String xpathstr = "(//div[@role=\"cell\"]/div/span/span | //div[2]/span/span/a)";
 
+	
+
+		
 		NordnetQuoteFetcher fetcher = new NordnetQuoteFetcher(uri, xpathstr);
 		List<Item> items = fetcher.parseHtml();
 		for (Item item : items) {

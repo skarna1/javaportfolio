@@ -6,6 +6,11 @@ import java.util.List;
 
 import javax.xml.xpath.XPathExpressionException;
 
+import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
+import org.jsoup.nodes.TextNode;
+import org.jsoup.select.Elements;
+
 public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
 	public MorningstarQuoteFetcher(String uri, String xpath) {
@@ -27,11 +32,11 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		List<Item> items = new ArrayList<>();
 
 		try {
-			org.w3c.dom.NodeList nodes = fetchNodes(getUri(), getXpath());
+			Elements nodes = fetchNodes(getUri(), getXpath());
 			if (nodes != null) {
-				// System.out.println("Nodes: " + nodes.getLength());
-				for (int i = 0; i < nodes.getLength(); i++) {
-					org.w3c.dom.Node tr = nodes.item(i);
+				 System.out.println("Nodes: " + nodes.size());
+				for (int i = 0; i < nodes.size(); i++) {
+					Element tr = nodes.get(i);
 
 					Item item = new Item();
 
@@ -63,29 +68,33 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 		return items;
 	}
 
-	private void parseRow(Item item, org.w3c.dom.Node tr) {
-		org.w3c.dom.NodeList nodes = tr.getChildNodes();
+	private void parseRow(Item item, Element tr) {
+		Elements nodes = tr.children();
 		// System.out.println(nodes.getLength());
-		for (int i = 0; i < nodes.getLength(); ++i) {
-			org.w3c.dom.Node td = nodes.item(i);
+		for (int i = 0; i < nodes.size(); ++i) {
+			Element td = nodes.get(i);
 
 			parseColumn(item, i, td);
 
 		}
 	}
 
-	private void parseColumn(Item item, int column, org.w3c.dom.Node td) {
-		org.w3c.dom.NodeList nodes = td.getChildNodes();
-		for (int i = 0; i < nodes.getLength(); ++i) {
-			org.w3c.dom.Node tdNode = nodes.item(i);
+	private void parseColumn(Item item, int column, Element td) {
+		List<Node> nodes = td.childNodes();
+		for (int i = 0; i < nodes.size(); ++i) {
+			Node tdNode = nodes.get(i);
+			String value="";
+			if (tdNode instanceof TextNode) {
+				TextNode n = (TextNode) tdNode;
+				value = n.text().trim();
+				value = value.replace(',', '.');
+				value = value.replaceAll(" ", "");
 
-			String value = tdNode.getNodeValue().trim();
-			value = value.replace(',', '.');
-			value = value.replaceAll(" ", "");
-
-			// System.out.println(column + " : " + value);
+			}
+		
+			 System.out.println(column + " : " + value);
 			if (column == 0) { // date
-				readDate(item, tdNode);
+				readDate(item, value);
 
 			} else if (column == 2) {
 				try {
@@ -119,25 +128,17 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 
 		}
 	}
-
-	private void readDate(Item item, org.w3c.dom.Node tdNode) {
-		org.w3c.dom.Node sibling = tdNode.getNextSibling();
-		if (sibling != null) {
-			org.w3c.dom.NodeList n = sibling.getChildNodes();
-			if (n.getLength() > 0) {
-				sibling = n.item(0).getNextSibling();
-
-				String datestring = sibling.getNodeValue().trim();
-				try {
-					Date date = parseDate(datestring);
-					item.setGivenDate(date);
-					// System.out.println(date);
-				} catch (Exception e) {
-				}
-			}
+	
+	void readDate(Item item, String datestring) {
+	
+		try {
+			Date date = parseDate(datestring);
+			item.setGivenDate(date);
+			// System.out.println(date);
+		} catch (Exception e) {
 		}
 	}
-
+		
 	protected void setItemValues(Item item, String value) {
 		value = value.replaceAll(",", ".");
 		double v = Double.parseDouble(value);
@@ -162,7 +163,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 	public static void main(String[] args) {
 		String uri = "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8U";
 
-		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tr[2]";
+		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tbody/tr[2]";
 		MorningstarQuoteFetcher fetcher = new MorningstarQuoteFetcher(uri, xpath);
 		fetcher.setName("Nordnet superrahasto norja");
 		List<Item> items = fetcher.parseHtml();

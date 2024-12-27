@@ -6,6 +6,9 @@ import java.util.Map;
 
 import javax.xml.xpath.XPathExpressionException;
 
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
 public class SPCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyFetcher {
 	public static String charsetName = "ISO-8859-1";
 	public static Locale usLocale = new Locale("en", "US");
@@ -44,12 +47,12 @@ public class SPCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyFe
 	public Map<String, Double> parseHtmlCcy() {
 
 		try {
-			org.w3c.dom.NodeList nodes = fetchNodes(this.uri, this.xpathstr);
+			Elements nodes = fetchNodes(this.uri, this.xpathstr);
 			// System.out.println(nodes.getLength());
 
 			this.date = parseDate(nodes);
 			// System.out.println(date);
-			for (int i = 1; i < nodes.getLength(); i += 2) {
+			for (int i = 1; i < nodes.size(); i += 2) {
 				parseCcy(nodes, i, rates);
 
 			}
@@ -60,20 +63,19 @@ public class SPCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyFe
 		return rates;
 	}
 
-	private String parseDate(org.w3c.dom.NodeList nodes) {
-		org.w3c.dom.Node div = nodes.item(0);
-		org.w3c.dom.Node n = div.getFirstChild();
-		return n.getNodeValue();
+	private String parseDate(Elements nodes) {
+		Element div = nodes.get(0);
+		Element n = div.firstElementChild();
+		return n.text();
 	}
 
-	private void parseCcy(org.w3c.dom.NodeList nodes, int i, Map<String, Double> rates) {
-		org.w3c.dom.Node div = nodes.item(i);
-		org.w3c.dom.Node n = div.getFirstChild();
-		String ccy = n.getNodeValue();
-
-		div = nodes.item(i + 1);
-		n = div.getFirstChild();
-		String rate = n.getNodeValue();
+	private void parseCcy(Elements nodes, int i, Map<String, Double> rates) {
+		Element div = nodes.get(i);
+		Element n = div.firstElementChild();
+		String ccy = n.text();
+		div = nodes.get(i + 1);
+		n = div.firstElementChild();
+		String rate = n.text();
 		rates.put(ccy, convertToDouble(rate));
 	}
 

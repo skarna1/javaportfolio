@@ -23,9 +23,10 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.w3c.tidy.Tidy;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
 
 
 public abstract class HTTPDocumentFetcher {
@@ -41,20 +42,22 @@ public abstract class HTTPDocumentFetcher {
 		this.uri = uri;
 	}
 
-	protected org.w3c.dom.NodeList fetchNodes(String uri, String xpathExpression)
+	protected Elements fetchNodes(String uri, String xpathExpression)
 			throws XPathExpressionException {
 
-		InputStream in = new ByteArrayInputStream(fetch(uri).getBytes());
+		try {
+			Document doc = Jsoup.connect(uri).get();
 
-		Document dom = tidyHtml(in);
-		XPathFactory factory = XPathFactory.newInstance();
-		XPath xPath = factory.newXPath();
+			Elements elements = doc.selectXpath(xpathExpression);
+			
+			elements.forEach(System.out::println);
 
-		XPathExpression expr = xPath.compile(xpathExpression);
-
-		org.w3c.dom.NodeList nodes = (NodeList) expr.evaluate(dom,
-				XPathConstants.NODESET);
-		return nodes;
+			return elements;
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	protected String fetch(String url) {
@@ -112,19 +115,6 @@ public abstract class HTTPDocumentFetcher {
 			e.printStackTrace();
 			return "";
 		}
-	}
-
-
-	protected Document tidyHtml(InputStream in) {
-		Tidy tidy = new Tidy();
-		tidy.setQuiet(true);
-		tidy.setShowWarnings(false);
-		tidy.setXmlTags(true);
-		InputStreamReader reader;
-
-		reader = new InputStreamReader(in, this.charset != null ? this.charset : Charset.forName("iso-8859-1"));
-		Document dom = tidy.parseDOM(reader, null);
-		return dom;
 	}
 
 	public String getXpath() {

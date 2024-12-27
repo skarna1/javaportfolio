@@ -18,6 +18,6 @@ module javaportfolio {
 	requires jcalendar;
 	requires jcommon;
 	requires org.jfree.jfreechart;
-	requires jtidy;
 	requires com.google.gson;
+	requires org.jsoup;
 }

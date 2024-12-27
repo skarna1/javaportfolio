@@ -124,10 +124,10 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 			System.out.println("Could not get crumb");
 			return items;
 		}
-
+		
 		int j = 0;
 		for (String symbolString : symbollist) {
-			// System.out.println(symbolString);
+			 System.out.println(symbolString);
 
 			try {
 				String uri = yahoourl + symbolString + "&crumb=" + crumb;

@@ -16,12 +16,12 @@ public class ECBCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyF
 	public static String charsetName = "ISO-8859-1";
 	public static Locale usLocale = new Locale("en", "US");
 	public static String defaulturi = "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html";
-	public static String defaultxpathstr = "(//table[@class=\"forextable\"]/*/tr[position()>0]/td[@class=\"currency\"]/@id | //table[@class=\"forextable\"]/*/tr[position()>0]/td/*/span[@class=\"rate\"]/text()) ";
+	public static String defaultxpathstr = "(//table[@class=\"forextable\"]/*/tr[position()>0]/td[@class=\"currency\"] | //table[@class=\"forextable\"]/*/tr[position()>0]/td/*/span[@class=\"rate\"]) ";
 	private Date date = null;
 	private String uri = defaulturi;
 	private String xpathstr = defaultxpathstr;
 
-	public static Map<String, Double> rates = new HashMap<String, Double>();
+	public Map<String, Double> rates = new HashMap<String, Double>();
 
 
 	public ECBCurrencyQuoteFetcher() {
@@ -55,15 +55,15 @@ public class ECBCurrencyQuoteFetcher extends HTTPDocumentFetcher implements CcyF
 	public void parseHtmlCcy() {
 
 		try {
-			org.w3c.dom.NodeList nodes = fetchNodes(this.uri, this.xpathstr);
-			// System.out.println("Length: " + nodes.getLength());
+			org.jsoup.select.Elements elements = fetchNodes(this.uri, this.xpathstr);
+			//System.out.println("Length: " + elements.size());
 
 			this.date = Calendar.getInstance().getTime();
 			// System.out.println(date);
 
-			this.rates = IntStream.range(0, nodes.getLength() / 2).boxed()
-				    .collect(Collectors.toMap(i -> nodes.item(i * 2).getNodeValue(),
-				    		i -> convertToDouble(nodes.item(i * 2 + 1).getNodeValue())));
+			this.rates = IntStream.range(0, elements.size() / 2).boxed()
+				    .collect(Collectors.toMap(i -> elements.get(i * 2).id(),
+				    		i -> convertToDouble(elements.get(i * 2 + 1).text())));
 
 
 		} catch (XPathExpressionException e) {

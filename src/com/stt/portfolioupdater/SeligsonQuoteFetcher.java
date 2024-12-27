@@ -6,6 +6,11 @@ import java.util.List;
 
 import javax.xml.xpath.XPathExpressionException;
 
+import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
+import org.jsoup.nodes.TextNode;
+import org.jsoup.select.Elements;
+
 public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 
 	@Override
@@ -17,13 +22,13 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		List<Item> items = new ArrayList<>();
 
 		try {
-			org.w3c.dom.NodeList nodes = fetchNodes(
+			Elements nodes = fetchNodes(
 					getUri(),
 					getXpath());
 			if (nodes != null) {
 				//System.out.println("Nodes: " + nodes.getLength());
-				for (int i = 0; i < nodes.getLength(); i++) {
-					org.w3c.dom.Node tr = nodes.item(i);
+				for (int i = 0; i < nodes.size(); i++) {
+					Element tr = nodes.get(i);
 					Item itemA = new Item();
 					parseRow(itemA, tr);
 					//itemA.print();
@@ -41,31 +46,39 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		return items;
 	}
 
-	private void parseRow(Item item, org.w3c.dom.Node tr) {
-		org.w3c.dom.NodeList nodes = tr.getChildNodes();
-		for (int i = 0; i < nodes.getLength(); ++i) {
-			org.w3c.dom.Node td = nodes.item(i);
+	private void parseRow(Item item, Element tr) {
+		Elements nodes = tr.children();
+		for (int i = 0; i < nodes.size(); ++i) {
+			Element td = nodes.get(i);
 
 			parseColumn(item, i, td);
 		}
 	}
 
-	private void parseColumn(Item item, int column, org.w3c.dom.Node td) {
-		org.w3c.dom.NodeList nodes = td.getChildNodes();
-		for (int i = 0; i < nodes.getLength(); ++i) {
-			org.w3c.dom.Node tdNode = nodes.item(i);
-
-			String value = tdNode.getNodeValue().trim();
-			value = value.replace(',', '.');
-			value = value.replaceAll(" ", "");
-			value = value.replaceAll("[^\\d.]", "");
-			//System.out.println("column " + column + " " + "value " + value);
+	private void parseColumn(Item item, int column, Element td) {
+		
+		List<Node> nodes = td.childNodes();
+		for (int i = 0; i < nodes.size(); ++i) {
+			Node tdNode = nodes.get(i);
+			String value="";
+			if (tdNode instanceof TextNode) {
+				value = ((TextNode) tdNode).text().trim();
+				value = value.replace(',', '.');
+				value = value.replaceAll(" ", "");
+				value = value.replaceAll("[^\\d.]", "");
+				//System.out.println("column " + column + " " + "value " + value);
+			}
 			if (column == 0) {
-				if (tdNode.getNodeName().equalsIgnoreCase("a")) {
-					org.w3c.dom.Node n = tdNode.getFirstChild();
-					String name = n.getNodeValue();
-					item.setName(name);
-					item.setTicker(getTicker(name));
+				if (tdNode.nodeName().equalsIgnoreCase("a")) {
+					
+					Node node = tdNode.firstChild();
+					if (node instanceof TextNode) {
+						TextNode textNode = (TextNode) node;
+						String name = textNode.text();
+					
+						item.setName(name);
+						item.setTicker(getTicker(name));
+					}
 				}
 			} else if (column == 1) { // date
 				try {
@@ -76,6 +89,7 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 				}
 			} else if (column == 2) { // Value of Kasvu osuus
 				try {
+					
 					setItemValues(item, value);
 
 				} catch (Exception e) {
@@ -130,4 +144,21 @@ public class SeligsonQuoteFetcher extends HTTPQuoteFetcher {
 		}
 		return null;
 	}
+
+	
+	public static void main(String[] args) {		
+		String uri = "http://www.seligson.fi/suomi/rahastot/FundValues_FI.html";
+		String xpath ="//table[@class='rahasto']/tbody/tr[td[@data-label]]";
+		SeligsonQuoteFetcher fetcher = new SeligsonQuoteFetcher();
+		fetcher.setUri(uri);
+		fetcher.setXpath(xpath);
+		List<Item> items = fetcher.parseHtml();
+		for (Item item : items) {
+			item.print();
+		}
+	}
+	
 }
+
+
+
