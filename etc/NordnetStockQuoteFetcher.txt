@@ -4,7 +4,7 @@ ADMIN Administer Oyj
 AFAGR Afarak Group SE 
 AIFORIA Aiforia Technologies Oyj
 ALEX Alexandria Group Oyj
-AKTIA Aktia Pankki Oyj
+AKTIA Aktia Bank Plc
 ALISA Alisa Pankki Oyj
 ALMA Alma Media Corporation
 ANORA Anora Group Plc

@@ -62,8 +62,7 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 				while (m.find()) {
 					content += "&" + m.group(1) + "=" + m.group(2);
 				}
-				content +="&tag=TCF2&step=Layer1-AcceptAll&brandDomain=finance.yahoo.com&brandBid=&userType=nonreg&sdk=false&tos=fi-FI&country=FI";
-				System.out.println(content);
+
 				HttpRequest postrequest = HttpRequest.newBuilder().uri(new URI(response.uri().toString()))
 						.headers("Content-Type", "application/x-www-form-urlencoded")
 						.POST(HttpRequest.BodyPublishers.ofString(content)).build();
@@ -76,10 +75,8 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 				}
 			}
 			CookieStore cookieStore = ((CookieManager) client.cookieHandler().get()).getCookieStore();
-			
 			for (HttpCookie cookie : cookieStore.getCookies()) {
-				
-					return cookie;
+				return cookie;
 			}
 		} catch (Exception e) {
 
