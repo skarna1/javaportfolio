@@ -24,7 +24,6 @@ BOREO Boreo Oyj
 BRETEC Bioretec Oy
 CANATU Canatu Oyj A
 CAPMAN CapMan Plc
-CGCBV Cargotec Oyj
 CAV1V Caverion Oyj
 CTY1S Citycon Oyj
 CTH1V Componenta Corporation
@@ -61,6 +60,7 @@ GOFORE Gofore Plc
 HARVIA Harvia Plc
 HEALTH Nightingale Health Oyj B
 HEEROS Heeros Oyj
+HIAB Hiab Oyj
 HRTIS Herantis Pharma Oyj
 HKFOODS HKFoods Oyj A
 HONBS Honkarakenne Oyj B

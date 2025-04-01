@@ -47,7 +47,6 @@ perusteollisuus ; S ; UPM ; UPM-Kymmene ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ASPO ; Aspo ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ACG1V ; Aspocomp Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; BOREO ; Boreo ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; CGCBV ; Cargotec ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CAV1V ; Caverion ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CTH1V ; Componenta ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; CONSTI ; Consti ; 1 ; EUR
@@ -59,6 +58,7 @@ teollisuustuotteet ja -palvelut ; S ; ESENSE ; Enersense International ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; HIAB ; Hiab B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; HUH1V ; Huhtamäki ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KELAS ; Kesla A ; 1 ; EUR
@@ -953,6 +953,7 @@ vanhat osakkeet ; X ; HACAS ; Hackman A ; 1
 vanhat osakkeet ; X ; HAC1V ; Hackman ; 1
 vanhat osakkeet ; X ; HARAS ; Hartwall A ; 1
 vanhat osakkeet ; X ; HAN1V ; Hansapank ; 1
+vanhat osakkeet ; X ; CGCBV ; Cargotec ; 1 ; EUR
 vanhat osakkeet ; X ; HKSAV ; HKScan ; 1 ; EUR
 vanhat osakkeet ; X ; HPHAV ; HPY Holding ; 1
 vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
