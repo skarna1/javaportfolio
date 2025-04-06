@@ -16,6 +16,7 @@ ASUNTO Asuntosalkku Oyj
 ATRAV Atria Plc A
 ALBAV Bank of Åland Plc A
 ALBBV Bank of Åland Plc B
+BEER Nokian Panimo Oyj
 BETOLAR Betolar Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
@@ -57,6 +58,7 @@ FSKRS Fiskars Corporation
 FORTUM Fortum Corporation
 GLA1V Glaston Corporation
 GOFORE Gofore Plc
+GRK GRK Infra Plc
 HARVIA Harvia Plc
 HEALTH Nightingale Health Oyj B
 HEEROS Heeros Oyj

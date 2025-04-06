@@ -58,6 +58,7 @@ teollisuustuotteet ja -palvelut ; S ; ESENSE ; Enersense International ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; GRK ; GRK Infra ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; HIAB ; Hiab B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; HUH1V ; Huhtamäki ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; INC1V ; Incap ; 1 ; EUR
@@ -131,6 +132,7 @@ Kulutuspalvelut ; S ; WETTERI ; Wetteri ; 1 ; EUR
 Kulutustavarat ; S ; ANORA ; Anora ; 1 ; EUR
 Kulutustavarat ; S ; APETI ; Apetit ; 1 ; EUR
 Kulutustavarat ; S ; ATRAV ; Atria A ; 1 ; EUR
+Kulutustavarat ; S ; BEER ; Nokian Panimo ; 1 ; EUR
 Kulutustavarat ; S ; FSKRS ; Fiskars ; 1 ; EUR
 Kulutustavarat ; S ; HARVIA ; Harvia ; 1 ; EUR
 Kulutustavarat ; S ; HKFOODS ; HKFoods ; 1 ; EUR
