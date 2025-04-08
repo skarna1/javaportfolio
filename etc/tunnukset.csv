@@ -4,6 +4,7 @@ Autoteollisuus ja -tarvikkeet ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
 terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
 terveydenhuolto ; S ; OKDBV ; Oriola B ; 1 ; EUR
+terveydenhuolto ; S ; ORIOLA ; Oriola ; 1 ; EUR
 terveydenhuolto ; S ; OPTOMED ; Optomed ; 1 ; EUR
 terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
 terveydenhuolto ; S ; ORNBV ; Orion B ; 1 ; EUR
@@ -1038,6 +1039,8 @@ vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; NXTGMS ; Next Games ; 1 ; EUR
 vanhat osakkeet ; X ; NYAB ; NYAB ; 1 ; EUR
+vanhat osakkeet ; X ; OKDAV ; Oriola A ; 1 ; EUR^M
+vanhat osakkeet ; X ; OKDBV ; Oriola B ; 1 ; EUR^M
 vanhat osakkeet ; X ; OKM1V ; Okmetic ; 1 ; EUR
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
 vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1

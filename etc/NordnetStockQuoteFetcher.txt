@@ -117,9 +117,8 @@ NDA_FI Nordea Bank Abp
 NLG1V Nurminen Logistics Plc
 OLVAS Olvi Plc A
 OMASP Oma Säästöpankki Oyj
-OKDAV Oriola Corporation A
-OKDBV Oriola Corporation B
 OPTOMED Optomed Plc
+ORIOLA Oriola Corporation
 ORNAV Orion Corporation A
 ORNBV Orion Corporation B
 ORTHEX Orthex Plc
