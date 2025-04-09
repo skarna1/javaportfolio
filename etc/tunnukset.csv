@@ -2,8 +2,6 @@
 Autoteollisuus ja -tarvikkeet ; S ; RELAIS ; Relais Group ; 1 ; EUR
 Autoteollisuus ja -tarvikkeet ; S ; TYRES ; Nokian Renkaat ; 1 ; EUR
 terveydenhuolto ; S ; BIOBV ; Biohit B ; 1 ;  EUR
-terveydenhuolto ; S ; OKDAV ; Oriola A ; 1 ; EUR
-terveydenhuolto ; S ; OKDBV ; Oriola B ; 1 ; EUR
 terveydenhuolto ; S ; ORIOLA ; Oriola ; 1 ; EUR
 terveydenhuolto ; S ; OPTOMED ; Optomed ; 1 ; EUR
 terveydenhuolto ; S ; ORNAV ; Orion A ; 1 ; EUR
@@ -1039,8 +1037,8 @@ vanhat osakkeet ; X ; NVABV ; Norvestia ; 1
 vanhat osakkeet ; X ; NOV1V ; Novo Group ; 1
 vanhat osakkeet ; X ; NXTGMS ; Next Games ; 1 ; EUR
 vanhat osakkeet ; X ; NYAB ; NYAB ; 1 ; EUR
-vanhat osakkeet ; X ; OKDAV ; Oriola A ; 1 ; EUR^M
-vanhat osakkeet ; X ; OKDBV ; Oriola B ; 1 ; EUR^M
+vanhat osakkeet ; X ; OKDAV ; Oriola A ; 1 ; EUR
+vanhat osakkeet ; X ; OKDBV ; Oriola B ; 1 ; EUR
 vanhat osakkeet ; X ; OKM1V ; Okmetic ; 1 ; EUR
 vanhat osakkeet ; X ; OKOAS ; OKO A ; 1
 vanhat osakkeet ; X ; OLVASEW196 ; Olvi A opt ; 1
@@ -1280,7 +1278,7 @@ vanhat rahastot ; Y ; ALBEUBO ; Ålandsbanken Euro Bond ; 1
 vanhat rahastot ; Y ; ALBEUACTPF ; Ålandsbanken Europe Active Portfolio ; 1
 vanhat rahastot ; Y ; ALBGLOBLUE ; Ålandsbanken Global Blue Chip ; 1
 vanhat rahastot ; Y ; ALBSHINDLO ; Ålandsbanken Share Index Loan ; 1
-vanhat indeksiosuudet ; S ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
+vanhat indeksiosuudet ; X ; SLGOMXH25 ; OMXH25-indeksiosuus ; 1
 NYSE ; S ; AAPL ; Apple ; 1 ; USD ; USA
 NYSE ; S ; ABBV ; AbbVie ; 1 ; USD ; USA
 NYSE ; S ; ADC ; Agree Realty REIT ; 1 ; USD ; USA
@@ -1329,7 +1327,7 @@ NYSE ; S ; O ;  Realty Income ; 1 ; USD ; USA
 NYSE ; S ; OHI ; Omega Healthcare ; 1 ; USD ; USA
 NYSE ; S ; ONL ; Orion Office REIT ; 1 ; USD ; USA
 NYSE ; S ; PEP ; PepsiCo ; 1 ; USD ; USA
-NYSE ; S ; PFE ; Pfizer ; 1 ; USD ; US
+NYSE ; S ; PFE ; Pfizer ; 1 ; USD ; USA
 NYSE ; S ; PGG ; Procter & Gamble ; 1; USD ; USA
 NYSE ; S ; PMM ; Philip Morris Intl ; 1; USD ; USA
 NYSE ; S ; POT ; Potash ; 1 ; USD ; USA
