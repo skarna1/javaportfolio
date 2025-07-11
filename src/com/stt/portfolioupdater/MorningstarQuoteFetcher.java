@@ -161,6 +161,7 @@ public class MorningstarQuoteFetcher extends HTTPQuoteFetcher {
 	}
 
 	public static void main(String[] args) {
+		//lastPrice:{value:42.43033,
 		String uri = "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8U";
 
 		String xpath = "//div[@id='overviewQuickstatsDiv']/table[@border='0']/tbody/tr[2]";

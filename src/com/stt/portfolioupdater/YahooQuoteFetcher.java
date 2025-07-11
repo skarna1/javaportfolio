@@ -7,6 +7,7 @@ import java.net.CookieStore;
 import java.net.HttpCookie;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLEncoder;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -29,72 +30,186 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 
 	private HttpClient client = null;
 
+	private String userAgent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
+	
 	public YahooQuoteFetcher() {
 
 	}
 
-	public HttpCookie getSession() {
+	public String getSession() {
 		try {
-
-			HttpRequest request = HttpRequest.newBuilder(new URI("https://finance.yahoo.com"))
+			
+			CookieManager manager = ((CookieManager) client.cookieHandler().get());
+			CookieStore cookieStore = manager.getCookieStore();
+			
+			HttpRequest request = HttpRequest.newBuilder()
 					.timeout(Duration.ofSeconds(10, 0)).GET()
-
-					.headers("accept",
-							"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-							"Accept-language", "en-US,en;q=0.5", "User-Agent",
-							"Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0", "Sec-Fetch-Dest",
-							"document", "Sec-Fetch-User", "?1", "Upgrade-Insecure-Requests", "1", "Sec-fetch-mode",
-							"navigate", "TE", "trailers")
+					.uri(URI.create("https://fc.yahoo.com"))
+					.header("User-Agent", this.userAgent)
+					.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7")
+	                .header("Accept-Encoding", "gzip, deflate, br, zstd")
+	                .header("Accept-Language", "en-US,en;q=0.9")
+	                .header("Priority", "u=0, i")
+	                .header("Sec-Ch-Ua", "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"")
+	                .header("Sec-Ch-Ua-Mobile", "?0")
+	                .header("Sec-Ch-Ua-Platform", "\"macOS\"")
+	                .header("Sec-Fetch-Dest", "document")
+	                .header("Sec-Fetch-Mode", "navigate")
+	                .header("Sec-Fetch-Site", "none")
+	                .header("Sec-Fetch-User", "?1")
+	                .header("Upgrade-Insecure-Requests", "1")
+					
 					.version(HttpClient.Version.HTTP_2).build();
 
 			HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
-			if (response.statusCode() != 200) {
-				System.out.println("Response code: " + response.statusCode());
-				System.out.println(response.body());
-				return null;
-			}
-
-
-			if (response.uri().toString() != "https://finance.yahoo.com") {
-				String content = "agree=agree";
-				Pattern p = Pattern.compile("<input type=\"hidden\" name=\"([a-zA-Z]+)\" value=\"([a-zA-Z-_0-9]+)\"");
+		
+			
+			if (response.uri().toString() != "https://fc.yahoo.com") {
+				String content = "";
+				Pattern p = Pattern.compile("<input type=\"hidden\" name=\"([a-zA-Z]+)\" value=\"(.*)\"");
 				Matcher m = p.matcher(response.body());
+				
 				while (m.find()) {
-					content += "&" + m.group(1) + "=" + m.group(2);
+					String value = m.group(2).replace("&#x3D;", "=");
+					content +=  m.group(1) + "=" + URLEncoder.encode(value, "UTF-8") + "&";
 				}
-
-				HttpRequest postrequest = HttpRequest.newBuilder().uri(new URI(response.uri().toString()))
-						.headers("Content-Type", "application/x-www-form-urlencoded")
+				content += "consentUUID=default&agree=agree&agree=agree";
+				
+				
+				p = Pattern.compile("<button type=\"submit\" data-beacon=\"(.*)\" class");
+				m = p.matcher(response.body());
+				while (m.find()) {
+					String value = m.group(1);
+					System.out.println("beacon:   " +value);
+					URI uri = new URI("https://consent.yahoo.com"+value);
+					System.out.println("uri:   " +uri.toString());
+				
+					System.out.println("POST: " + uri.toString());
+					HttpRequest postrequest = HttpRequest.newBuilder().uri(uri)
+							
+							.POST(HttpRequest.BodyPublishers.ofString("")).build();
+					
+					System.out.println(postrequest.toString());
+					HttpResponse<String> postresponse = client.send(postrequest, BodyHandlers.ofString());
+					System.out.println("Response code: " + postresponse.statusCode());
+					break;
+				}
+				
+		
+				URI uri = new URI(response.uri().toString());
+				String sessionId = uri.getQuery();
+				System.out.println("SessionId: " + sessionId);
+				System.out.println("POST: " + uri.toString());
+				HttpRequest postrequest = HttpRequest.newBuilder().uri(uri)
+						
+						.header("User-Agent", this.userAgent)
+						.header("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+						.header("Accept-Language", "en-US,en;q=0.8")
+					
+						.header("Content-Type", "application/x-www-form-urlencoded")
+						.header("Origin", "https://consent.yahoo.com")
+						.header("Referer", response.uri().toString())
+						.header("Accept-Encoding", "gzip, deflate, br, zstd")
+						
+						.header("Sec-Fetch-Dest", "document")
+					    .header("Sec-Fetch-Mode","navigate")
+					    .header("Sec-Fetch-Site", "none")
+						
+					    .header("Sec-Fetch-User","?1")
+				
+					    .header("Upgrade-Insecure-Requests","1")
+						
+						.header("TE", "trailers")
 						.POST(HttpRequest.BodyPublishers.ofString(content)).build();
+				
+				System.out.println(postrequest.headers().toString());
 				HttpResponse<String> postresponse = client.send(postrequest, BodyHandlers.ofString());
-
+				System.out.println("Response code: " + postresponse.statusCode());
 				if (response.statusCode() != 200) {
 					System.out.println("Response code: " + postresponse.statusCode());
-					System.out.println(postresponse.body());
+					//System.out.println(postresponse.body());
 					return null;
 				}
+				URI copyuri = new URI("https://guce.yahoo.com/copyConsent?"+ sessionId);
+				
+				request = HttpRequest.newBuilder().uri(copyuri)
+						
+						.header("User-Agent", this.userAgent)
+						.header("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+						.header("Accept-Language", "en-US,en;q=0.8")
+					
+						.header("Content-Type", "application/x-www-form-urlencoded")
+						.header("Origin", "https://consent.yahoo.com")
+						.header("Referer", response.uri().toString())
+						.header("Accept-Encoding", "gzip, deflate, br, zstd")
+						
+						.header("Sec-Fetch-Dest", "document")
+					    .header("Sec-Fetch-Mode","navigate")
+					    .header("Sec-Fetch-Site", "none")
+						
+					    .header("Sec-Fetch-User","?1")
+				
+					    .header("Upgrade-Insecure-Requests","1")
+						
+						.header("TE", "trailers")
+						.GET().build();
+				
+				System.out.println(request.headers().toString());
+				HttpResponse<String> copyresponse = client.send(request, BodyHandlers.ofString());
+				System.out.println("Response code: " + copyresponse.statusCode());
+				if (response.statusCode() != 200) {
+					System.out.println("Response code: " + copyresponse.statusCode());
+					System.out.println(copyresponse.body());
+					return null;
+				}
+				
+				System.out.println(copyresponse.uri().toString());
+				//System.out.println(postresponse.body());
 			}
-			CookieStore cookieStore = ((CookieManager) client.cookieHandler().get()).getCookieStore();
+		
+		
+			System.out.println("Got cookies");
 			for (HttpCookie cookie : cookieStore.getCookies()) {
-				return cookie;
+				System.out.println(cookie.getName()+"="+cookie.getValue()+ " "+ "'"+cookie.getDomain()+"'");
+				
+				
+			
 			}
+		
+			
+			return "";
 		} catch (Exception e) {
-
+			System.out.println(e);
 		}
 		return null;
 	}
 
-	public String getCrumb() throws URISyntaxException, IOException, InterruptedException {
+	public String getCrumb(String cookie) throws URISyntaxException, IOException, InterruptedException {
 		String uri = "https://query1.finance.yahoo.com/v1/test/getcrumb";
-
-		HttpRequest request = HttpRequest.newBuilder(new URI(uri)).timeout(Duration.ofSeconds(20, 0)).GET()
-				.header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0")
-				.version(HttpClient.Version.HTTP_2).build();
+		System.out.println(cookie);
+	
+			HttpRequest request = HttpRequest.newBuilder(new URI(uri))
+					.timeout(Duration.ofSeconds(30, 0)).GET()
+				.header("User-Agent", this.userAgent)
+				.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7")
+                .header("Accept-Encoding", "gzip, deflate, br, zstd")
+                .header("Accept-Language", "en-US,en;q=0.9")
+                .header("Priority", "u=0, i")
+                .header("Sec-Ch-Ua", "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"")
+                .header("Sec-Ch-Ua-Mobile", "?0")
+                .header("Sec-Ch-Ua-Platform", "\"macOS\"")
+                .header("Sec-Fetch-Dest", "document")
+                .header("Sec-Fetch-Mode", "navigate")
+                .header("Sec-Fetch-Site", "none")
+                .header("Sec-Fetch-User", "?1")
+                .header("Upgrade-Insecure-Requests", "1")
+				.version(HttpClient.Version.HTTP_2)
+				.build();
 
 		HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
-
-		return response.body();
-
+		System.out.println("Crumb: " + "'"+response.body().strip() + "'");
+		System.out.println("Response code: " + response.statusCode());
+		return response.body().strip();
 	}
 
 	@Override
@@ -112,33 +227,55 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 			System.out.println("httpclient created");
 		}
 
-		HttpCookie cookie = getSession();
+		String cookie = getSession();
 		if (cookie == null) {
 			System.out.println("Could not get session cookie");
 			return items;
 		}
 		String crumb;
 		try {
-			crumb = getCrumb();
+			crumb = getCrumb(cookie);
 		} catch (URISyntaxException | IOException | InterruptedException e1) {
 			System.out.println("Could not get crumb");
 			return items;
 		}
-		
+		if (crumb.equals("Too Many Requests")) {
+			System.out.println("Could not get crumb");
+			return items;
+		}
 		int j = 0;
 		for (String symbolString : symbollist) {
 			 System.out.println(symbolString);
 
 			try {
-				String uri = yahoourl + symbolString + "&crumb=" + crumb;
+				String uri = yahoourl + symbolString + "&crumb=" + URLEncoder.encode(crumb, "UTF-8");
+				
+				System.out.println(uri);
 
-				HttpRequest request = HttpRequest.newBuilder(new URI(uri)).timeout(Duration.ofSeconds(20, 0)).GET()
-						.version(HttpClient.Version.HTTP_2).build();
+				HttpRequest request = HttpRequest.newBuilder(new URI(uri))
+						.timeout(Duration.ofSeconds(20, 0))
+						.GET()
+						.header("User-Agent", this.userAgent)
+						.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7")
+		                //.header("Accept-Encoding", "gzip, deflate, br, zstd")
+		                .header("Accept-Language", "en-US,en;q=0.9")
+		                .header("Priority", "u=0, i")
+		                .header("Sec-Ch-Ua", "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"")
+		                .header("Sec-Ch-Ua-Mobile", "?0")
+		                .header("Sec-Ch-Ua-Platform", "\"macOS\"")
+		                .header("Sec-Fetch-Dest", "document")
+		                .header("Sec-Fetch-Mode", "navigate")
+		                .header("Sec-Fetch-Site", "none")
+		                .header("Sec-Fetch-User", "?1")
+		                .header("Upgrade-Insecure-Requests", "1")
+						.version(HttpClient.Version.HTTP_2)
+						.build();
 
 				HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
 				System.out.println("Response code: " + response.statusCode());
 
 				String jsonstr = response.body();
+				//System.out.println(jsonstr);
 				Gson gson = new Gson();
 				JsonObject jsonObject = gson.fromJson(jsonstr, JsonObject.class);
 				JsonArray result = jsonObject.get("quoteResponse").getAsJsonObject().get("result").getAsJsonArray();
@@ -159,10 +296,14 @@ public class YahooQuoteFetcher extends HTTPQuoteFetcher {
 	private void parseItem(List<Item> items, String stock, JsonObject element) throws IOException, Exception {
 
 		String[] symbols = stock.split(",");
-		// String symbol = symbols[0];
+		String symbol = symbols[0];
 		String ticker = symbols[1];
-
-		// System.out.println(ticker);
+		
+		String receivedTicker=element.get("symbol").getAsString();
+		if (!symbol.equals(receivedTicker)) {
+			System.out.println("ERROR: symbol mismatch: "+ symbol + " " + receivedTicker);
+			return;
+		}
 
 		double rate = 1.0;
 

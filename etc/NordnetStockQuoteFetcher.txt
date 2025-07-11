@@ -130,7 +130,7 @@ PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
 PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
-ARVOSK Pohjanmaan Arvo Sijoitusosuuskunta
+ARVOSK Arvo Sijoitusosuuskunta
 PON1V Ponsse Oyj 1
 PURMO Purmo Group Oyj C
 PUUILO Puuilo Plc
