@@ -234,6 +234,7 @@ public class PortfolioGuiApp {
 								fetcher.setUri(uri);
 								fetcher.setXpath(xpath);
 								fetcher.setIgnoreVolume(ignoreVolume);
+								fetcher.init();
 								if (name != null) {
 									fetcher.setName(name);
 								}

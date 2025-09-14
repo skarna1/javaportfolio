@@ -19,6 +19,10 @@ public abstract class HTTPQuoteFetcher extends HTTPDocumentFetcher {
 		super(uri);
 	}
 
+	public void init() {
+
+	}
+
 	public boolean isIgnoreVolume() {
 		return ignoreVolume;
 	}

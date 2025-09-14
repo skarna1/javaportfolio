@@ -20,12 +20,10 @@ BEER Nokian Panimo Oyj
 BETOLAR Betolar Oyj
 BIOBV Biohit Oyj B
 BITTI Bittium Corporation
-BONEH BBS-Bioactive Bone Substitutes
 BOREO Boreo Oyj
 BRETEC Bioretec Oy
 CANATU Canatu Oyj A
 CAPMAN CapMan Plc
-CAV1V Caverion Oyj
 CTY1S Citycon Oyj
 CTH1V Componenta Corporation
 CONSTI Consti Plc
@@ -35,13 +33,11 @@ DIGIGR Digitalist Group Plc
 DOV1V Dovre Group Plc
 DUELL Duell Oyj
 DWF Digital Workforce Services Oyj
-EAB EAB Group Oyj
 EAGLE Eagle Filters Group Plc
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
 ELEAV Elecster Oyj A
 ELISA Elisa Corporation
-ENEDO Enedo Plc
 ENENTO Enento Group Oyj
 ESENSE Enersense International Oyj
 EQV1V eQ Oyj
@@ -51,7 +47,6 @@ EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
 FSECURE F-Secure Oyj
 FIA1S Finnair Oyj
-FIFAX Fifax Abp
 FODELIA Fodelia Oyj
 FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
@@ -61,7 +56,6 @@ GOFORE Gofore Plc
 GRK GRK Infra Plc
 HARVIA Harvia Plc
 HEALTH Nightingale Health Oyj B
-HEEROS Heeros Oyj
 HIAB Hiab Oyj
 HRTIS Herantis Pharma Oyj
 HKFOODS HKFoods Oyj A
@@ -71,7 +65,6 @@ ILKKA1 Ilkka Oyj 1
 ILKKA2 Ilkka Oyj 2
 INC1V Incap Corporation
 INDERES Inderes Oyj
-IFA1V Innofactor Plc
 INVEST Investors House Oyj
 KALMAR Kalmar Oyj B
 KAMUX Kamux Corporation
@@ -98,7 +91,6 @@ LOIHDE Loihde Oyj
 MANTA Mandatum Oyj
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A
-MERIH Meriaura Group Plc
 MERUS Merus Power Oyj
 METSA Metsä Board Oyj A
 METSB Metsä Board Oyj B
@@ -132,7 +124,6 @@ PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 ARVOSK Arvo Sijoitusosuuskunta
 PON1V Ponsse Oyj 1
-PURMO Purmo Group Oyj C
 PUUILO Puuilo Plc
 QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
@@ -146,7 +137,6 @@ REG1V Revenio Group Corporation
 RELAIS Relais Group Oyj
 REMEDY Remedy Entertainment Oyj
 ROBIT Robit Oyj
-RUSH Rush Factory Plc
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
@@ -156,7 +146,6 @@ SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
 SOL1V Solteq Oyj
 SOLWERS Solwers Oyj
-SNO1V Soprano Oyj
 SOSI1 Sotkamo Silver AB
 SPINN Spinnova Oyj
 SPRING Springvest Oyj
@@ -166,6 +155,8 @@ SSABBH SSAB AB ser. B
 SSH1V SSH Communications Security Oyj
 STEAV Stora Enso Oyj A
 STERV Stora Enso Oyj R
+SUMMA Summa Defence Oyj
+SBI Sunborn International Plc
 SUY1V Suominen Oyj
 TAALA Taaleri Oyj
 TNOM Talenom Oyj
@@ -176,7 +167,6 @@ TEL1V Teleste Corporation
 TELIA1 Telia Company AB
 TTALO Terveystalo Plc
 TIETO TietoEVRY Corporation
-TIK1V Tikkurila Oyj
 TITAN Titanium Oyj
 TOIVO Toivo Group Oyj
 TOKMAN Tokmanni Group Oyj
@@ -186,7 +176,6 @@ UNIAV United Bankers Oyj
 UPM UPM-Kymmene Corporation
 VAIAS Vaisala Corporation A
 VALMT Valmet Corporation
-VALOE Valoe Oyj
 VERK Verkkokauppa.com Oyj
 VIAFIN Viafin Service Oyj
 VINCIT Vincit Oyj
