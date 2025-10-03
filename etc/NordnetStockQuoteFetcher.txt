@@ -24,6 +24,7 @@ BOREO Boreo Oyj
 BRETEC Bioretec Oy
 CANATU Canatu Oyj A
 CAPMAN CapMan Plc
+CITYVA Cityvarasto Oyj
 CTY1S Citycon Oyj
 CTH1V Componenta Corporation
 CONSTI Consti Plc
