@@ -48,6 +48,7 @@ EXL1V Exel Composites Plc
 FARON Faron Pharmaceuticals Oy
 FSECURE F-Secure Oyj
 FIA1S Finnair Oyj
+FOAMIT Foamit Oyj
 FODELIA Fodelia Oyj
 FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
@@ -121,7 +122,6 @@ PALLAS Pallas Air Oyj
 PAMPALO Endomines Finland Oyj
 PNA1V Panostaja Oyj
 PIHLIS Pihlajalinna Oyj
-PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 ARVOSK Arvo Sijoitusosuuskunta
 PON1V Ponsse Oyj 1

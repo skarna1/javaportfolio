@@ -156,6 +156,7 @@ First North ; S ; DWF ; Digital Workforce Services ; 1 ; EUR
 First North ; S ; EAGLE ; Eagle Filters Group ; 1 ; EUR
 First North ; S ; ECOUP ; EcoUp ; 1 ; EUR
 First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
+First North ; S ; FOAMIT ; Foamit ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
 First North ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
@@ -172,7 +173,6 @@ First North ; S ; NETUM ; Netum Group; 1 ; EUR
 First North ; S ; NXTMH ; Nexstim ; 1 ; EUR
 First North ; S ; NORRH ; Norrhydro ; 1 ; EUR
 First North ; S ; PALLAS ; Pallas Air ; 1 ; EUR
-First North ; S ; PARTNE1 ; Partnera ; 1 ; EUR
 First North ; S ; PIIPPO ; Piippo ; 1 ; EUR
 First North ; S ; ARVOSK ; Pohjanmaan Arvo ; 1 ; EUR
 First North ; S ; SFOODS ; Solar Foods ; 1 ; EUR
@@ -1052,6 +1052,7 @@ vanhat osakkeet ; X ; OTE1V ; Outotec ; 1 ; EUR
 vanhat osakkeet ; X ; PANAS ; Panostaja A ; 1
 vanhat osakkeet ; X ; PANBS ; Panostaja B ; 1
 vanhat osakkeet ; X ; PAR1S ; Partek ; 1
+vanhat osakkeet ; X ; PARTNE1 ; Partnera ; 1 ; EUR
 vanhat osakkeet ; X ; PKC1V ; PKC Group ; 1 ; EUR
 vanhat osakkeet ; X ; POS1V ; Perlos ; 1
 vanhat osakkeet ; X ; PICAS ; PI-Consulting A ; 1
