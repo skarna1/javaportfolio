@@ -125,6 +125,7 @@ PARTNE1 Partnera Oyj
 PIIPPO Piippo Oyj
 ARVOSK Arvo Sijoitusosuuskunta
 PON1V Ponsse Oyj 1
+POSTI Posti Group Oyj
 PUUILO Puuilo Plc
 QPR1V QPR Software Plc
 QTCOM Qt Group Oyj
