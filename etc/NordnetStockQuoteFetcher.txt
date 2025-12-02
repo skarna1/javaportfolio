@@ -53,6 +53,7 @@ FODELIA Fodelia Oyj
 FONDIA Fondia Oyj
 FSKRS Fiskars Corporation
 FORTUM Fortum Corporation
+FRAMERY Framery Group Oyj
 GLA1V Glaston Corporation
 GOFORE Gofore Plc
 GRK GRK Infra Plc
