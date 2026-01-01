@@ -69,8 +69,8 @@ public class FileQuoteManager implements QuoteManager {
 				 //System.out.println(date + " " + q.getDate());
 			} else {
 				i=-i;
-				if (i == quotes.size())
-					i = i - 1;
+				if (i >= quotes.size())
+					i = quotes.size()- 1;
 				while (i>=0 && i < quotes.size()) {
 					q = (Quote) quotes.get(i);
 					if (!q.getDate().after(date)) {
