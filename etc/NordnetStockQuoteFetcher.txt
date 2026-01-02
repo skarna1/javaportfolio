@@ -85,12 +85,13 @@ KNEBV KONE Corporation
 KCR Konecranes Plc
 LAMOR Lamor Corporation Oyj
 LAPWALL LapWall Oyj
-LAT1V Lassila & Tikanoja Plc
+LASTIK Lassila & Tikanoja Plc
 LEADD LeadDesk Oyj
 LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
 LINDEX Lindex Group Oyj
 LOIHDE Loihde Oyj
+LUOTEA Luotea Plc
 MANTA Mandatum Oyj
 MEKKO Marimekko Corporation
 MARAS Martela Oyj A

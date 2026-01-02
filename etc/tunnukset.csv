@@ -66,7 +66,6 @@ teollisuustuotteet ja -palvelut ; S ; KNEBV ; Kone B ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KCR ; Konecranes ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; KREATE ; Kreate Group ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; LAMOR ; Lamor ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; METSO ; Metso ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; REKA ; Reka industrial ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; NLG1V ; Nurminen logistics ; 1 ; EUR
@@ -84,7 +83,9 @@ teollisuustuotteet ja -palvelut ; S ; WRT1V ; Wärtsilä; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; YIT ; YIT-Yhtymä ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VAIAS ; Vaisala A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; VALMT ; Valmet ; 1 ; EUR
-yhdyskuntapalvelut ; S ; FORTUM ; Fortum ; 1 ; EUR
+Yleishyödylliset palvelut ; S ; FORTUM ; Fortum ; 1 ; EUR
+Yleishyödylliset palvelut ; S ; LASTIK ; Lassila & Tikanoja ; 1 ; EUR
+Yleishyödylliset palvelut ; S ; LUOTEA ; Luotea ; 1 ; EUR
 energia ; S ; NESTE ; Neste; 1 ; EUR
 tietoliikennepalvelut ; S ; ELISA ; Elisa ; 1 ; EUR
 tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
@@ -990,6 +991,7 @@ vanhat osakkeet ; X ; KYR1V ; Kyro (ennen jak.) ; 1
 vanhat osakkeet ; X ; KRO1V ; Kyro ; 1
 vanhat osakkeet ; X ; LARBS ; Larox B ; 1 ; EUR
 vanhat osakkeet ; X ; LAS1S ; Lassila & Tikanoja (ennen jakaut) ; 1
+vanhat osakkeet ; X ; LAT1V ; Lassila & Tikanoja ; 1 ; EUR
 vanhat osakkeet ; X ; LEHTO ; Lehto Group ; 1
 vanhat osakkeet ; X ; LEM1S ; Lemminkäinen ; 1 
 vanhat osakkeet ; X ; LEOAS ; Leo Longlife A ; 1
