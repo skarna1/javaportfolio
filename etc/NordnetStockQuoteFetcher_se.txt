@@ -1,4 +1,3 @@
-BACKA Backaheden Fastighets AB
 BETSB Betsson AB ser. B
 BHG BHG Group AB
 CASTT Castellum AB
@@ -12,7 +11,7 @@ EVO Evolution AB
 INDUA Industrivärden, AB ser. A
 INISSB Inission AB ser. B
 INTRUM Intrum AB
-INVEB Investor AB ser. B
+INVE-B Investor AB ser. B
 SAVE Nordnet AB
 SHBA Svenska Handelsbanken ser. A
 SYNSAM Synsam AB

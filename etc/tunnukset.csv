@@ -883,6 +883,7 @@ vanhat osakkeet ; X ; ASU1V ; Aspo ; 1
 vanhat osakkeet ; X ; ATG1V ; Asiakastieto ; 1 ; EUR
 vanhat osakkeet ; X ; AVP1V ; AvestaPolarit ; 1
 vanhat osakkeet ; X ; AVIDLY ; Avidly ; 1 ; EUR
+vanhat osakkeet ; X ; BACKA ; Backaheden ; 1 ; SEK ; Ruotsi
 vanhat osakkeet ; X ; BALAS ; A Company Finland ; 1
 vanhat osakkeet ; X ; BAS1V ; BasWare ; 1 ; EUR
 vanhat osakkeet ; X ; BEL1V ; Beltton-Yhtiöt ; 1
@@ -1366,7 +1367,6 @@ TSX ; S ; CNQ ; CDN Natural Resources ; 1 ; CAD ; Kanada
 TSX ; S ; MTA ; Metalla ; 1 ; CAD ; Kanada
 TSX ; S ; AMC ; Arizona Metals ; 1 ; CAD ; Kanada
 OMXS ; S ; ASPIRE ; Aspire ; 1 ; SEK ; Ruotsi
-OMXS ; S ; BACKA ; Backaheden ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BETSB ; Betsson B ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BHG ; BHG Group ; 1 ; SEK ; Ruotsi
 OMXS ; S ; BITCOINXBT ; Bitcoin XBT ; 1 ; SEK ; Ruotsi
