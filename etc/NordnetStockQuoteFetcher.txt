@@ -35,6 +35,7 @@ DOV1V Dovre Group Plc
 DUELL Duell Oyj
 DWF Digital Workforce Services Oyj
 EAGLE Eagle Filters Group Plc
+EASOR Easor Oyj
 ECOUP EcoUp Oyj
 EEZY Eezy Oyj
 ELEAV Elecster Oyj A
@@ -79,7 +80,6 @@ KESKOB Kesko Corporation B
 KELAS Kesla Oyj A
 KEMPOWR Kempower Oyj
 KHG KH Group Plc
-KOJAMO Kojamo Plc
 KOSKI Koskisen Oyj
 KNEBV KONE Corporation
 KCR Konecranes Plc
@@ -91,6 +91,7 @@ LEHTO Lehto Group Oyj
 LEMON Lemonsoft Oyj
 LINDEX Lindex Group Oyj
 LOIHDE Loihde Oyj
+LUMO Lumo Kodit Oyj
 LUOTEA Luotea Plc
 MANTA Mandatum Oyj
 MEKKO Marimekko Corporation

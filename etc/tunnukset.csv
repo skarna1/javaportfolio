@@ -19,7 +19,7 @@ rahoitus ; S ; EQV1V ; eQ ; 1 ; EUR
 rahoitus ; S ; EVLI ; Evli B ; 1 ; EUR
 rahoitus ; S ; INVEST ; Investors House ; 1 ; EUR
 rahoitus ; S ; KHG ; KH Group ; 1 ; EUR
-rahoitus ; S ; KOJAMO ; Kojamo ; 1 ; EUR
+rahoitus ; S ; LUMO ; Lumo Kodit ; 1 ; EUR
 rahoitus ; S ; MANTA ; Mandatum ; 1 ; EUR
 rahoitus ; S ; NDA FI ; Nordea ; 1 ; EUR
 rahoitus ; S ; OMASP ; Oma Säästöpankki ; 1 ; EUR
@@ -54,6 +54,7 @@ teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ESENSE ; Enersense International ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; FRAMERY ; Framery ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GRK ; GRK Infra ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; HIAB ; Hiab B ; 1 ; EUR
@@ -92,6 +93,7 @@ tietoliikennepalvelut ; S ; TELIA1 ; Telia ; 1 ; EUR ; Ruotsi
 teknologia ; S ; BITTI ; Bittium ; 1 ; EUR
 teknologia ; S ; DIGIA ; Digia ; 1 ; EUR
 teknologia ; S ; DIGIGR ; Digitalist Group ; 1 ; EUR
+teknologia ; S ; EASOR ; Easor ; 1 ; EUR
 teknologia ; S ; FSECURE ; F-Secure ; 1 ; EUR
 teknologia ; S ; GOFORE ; Gofore ; 1 ; EUR
 teknologia ; S ; NOKIA ; Nokia ; 1 ; EUR
@@ -160,7 +162,6 @@ First North ; S ; FARON ; Faron Pharmaceuticals; 1 ; EUR
 First North ; S ; FOAMIT ; Foamit ; 1 ; EUR
 First North ; S ; FODELIA ; Fodelia ; 1 ; EUR
 First North ; S ; FONDIA ; Fondia ; 1 ; EUR
-First North ; S ; FRAMERY ; Framery ; 1 ; EUR
 First North ; S ; HEALTH ; Nightingale Health Oyj B ; 1 ; EUR
 First North ; S ; HRTIS ; Herantis Pharma ; 1 ; EUR
 First North ; S ; INDERES ; Inderes ; 1 ; EUR
@@ -982,6 +983,7 @@ vanhat osakkeet ; X ; KEKAS ; Kekkilä ; 1
 vanhat osakkeet ; X ; KRA1V ; Kemira ; 1 ; EUR
 vanhat osakkeet ; X ; KGH1V ; Kemira GrowHow ; 1
 vanhat osakkeet ; X ; KES1S ; Kesko B ; 1
+vanhat osakkeet ; X ; KOJAMO ; Kojamo ; 1 ; EUR
 vanhat osakkeet ; X ; KNT1V ; Kontram-yhtiöt ; 1
 vanhat osakkeet ; X ; KONBS ; Kone B ; 1
 vanhat osakkeet ; X ; KCR1V ; Konecranes ; 1
