@@ -53,7 +53,7 @@ teollisuustuotteet ja -palvelut ; S ; EEZY ; Eezy ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ELEAV ; Elecster A ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ESENSE ; Enersense International ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; ETT1V ; Etteplan ; 1 ; EUR
-teollisuustuotteet ja -palvelut ; S ; EXL1V ; Exel Composites ; 1 ; EUR
+teollisuustuotteet ja -palvelut ; S ; EXEL ; Exel Composites ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; FRAMERY ; Framery ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GLA1V ; Glaston ; 1 ; EUR
 teollisuustuotteet ja -palvelut ; S ; GRK ; GRK Infra ; 1 ; EUR
@@ -930,12 +930,13 @@ vanhat osakkeet ; X ; EON1V ; E.ON Finland ; 1
 vanhat osakkeet ; X ; EQH1V ; EQ Holding ; 1
 vanhat osakkeet ; X ; EQO1V ; EQ Online ; 1
 vanhat osakkeet ; X ; ESS1V ; Espoon Sähkö ; 1
-vanhat osakkeet ; X ; FIFAS ; Efore A ; 1
-vanhat osakkeet ; X ; FIFAX ; Fifax ; 1
 vanhat osakkeet ; X ; ELIAV ; Elisa Communications ; 1
 vanhat osakkeet ; X ; EVI1V ; Evia ; 1 ; EUR
 vanhat osakkeet ; X ; ERG1V ; Evox Rifa Group ; 1
+vanhat osakkeet ; X ; EXL1V ; Exel Composites ; 1 ; EUR
 vanhat osakkeet ; X ; FELLOW ; Fellow Pankki ; 1 ; EUR
+vanhat osakkeet ; X ; FIFAS ; Efore A ; 1
+vanhat osakkeet ; X ; FIFAX ; Fifax ; 1
 vanhat osakkeet ; X ; FINAS ; Finvest A (ennen jak) ; 1
 vanhat osakkeet ; X ; FINBS ; Finvest B (ennen jak) ; 1
 vanhat osakkeet ; X ; FNV1V ; Finvest ; 1
