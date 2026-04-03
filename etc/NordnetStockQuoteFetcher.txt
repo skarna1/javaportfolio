@@ -172,7 +172,7 @@ TEM1V Tecnotree Corporation
 TEL1V Teleste Corporation
 TELIA1 Telia Company AB
 TTALO Terveystalo Plc
-TIETO TietoEVRY Corporation
+TIETO Tieto Corporation
 TITAN Titanium Oyj
 TOIVO Toivo Group Oyj
 TOKMAN Tokmanni Group Oyj
