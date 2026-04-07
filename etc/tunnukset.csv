@@ -107,7 +107,6 @@ teknologia ; S ; TEM1V ; Tecnotree; 1 ; EUR
 teknologia ; S ; TEL1V ; Teleste ; 1 ; EUR
 teknologia ; S ; TIETO ; Tieto ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
-teknologia ; S ; WITH ; WithSecure ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
 Kulutuspalvelut ; S ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
@@ -1194,6 +1193,7 @@ vanhat osakkeet ; X ; WAT1S ; Vaahto Group A ; 1
 vanhat osakkeet ; X ; WATKV ; Vaahto Group K ; 1
 vanhat osakkeet ; X ; WEN1V ; Wecan Electronics ; 1
 vanhat osakkeet ; X ; WIC1V ; Westend ICT ; 1 ; EUR
+vanhat osakkeet ; X ; WITH ; WithSecure ; 1 ; EUR
 vanhat osakkeet ; X ; ZEE1V ; Zeeland ; 1 ; EUR
 vanhat osakkeet ; X ; KFT ; Kraft ; 1 ; USD
 vanhat rahastot ; Y ; CONGLOBALA ; Conventum Global A ; 1
