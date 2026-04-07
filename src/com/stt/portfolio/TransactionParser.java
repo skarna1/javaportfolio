@@ -45,6 +45,7 @@ public class TransactionParser implements I_Parser {
 	 */
 	public void parse(Portfolio portfolio) {
 		try {
+			System.out.println("Reading transactions from file: " + filename);
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					new FileInputStream(filename), "ISO8859_1"));
 
@@ -93,6 +94,26 @@ public class TransactionParser implements I_Parser {
 			e.printStackTrace();
 		}
 
+	}
+
+	/**
+	 * Rewrite the entire transaction file with provided transactions (overwrite).
+	 */
+	public void rewrite(java.util.List<Transaction> list) {
+		try {
+			OutputStream os = new FileOutputStream(filename, false);
+			OutputStreamWriter ow = new OutputStreamWriter(os, "ISO8859_1");
+
+			for (Transaction t : list) {
+				
+				String line = t.getLine();
+				ow.write(line);
+			}
+			ow.close();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**

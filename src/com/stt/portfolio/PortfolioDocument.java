@@ -32,6 +32,7 @@ import com.stt.portfolio.gui.SubscriptionDialog;
 import com.stt.portfolio.gui.TaxDialog;
 import com.stt.portfolio.gui.TransferDialog;
 import com.stt.portfolio.gui.UpdateQuoteManuallyDialog;
+import com.stt.portfolio.gui.EditTransactionDialog;
 import com.stt.portfolio.transactions.Buy;
 import com.stt.portfolio.transactions.CapitalRepayment;
 import com.stt.portfolio.transactions.Dividend;
@@ -147,6 +148,7 @@ public class PortfolioDocument {
 	public void writeTransaction(Transaction t) {
 		portfolio.writeTransaction(t);
 		portfolio.addTransaction(t);
+		portfolio.clear();
 		portfolio.process();
 	}
 
@@ -514,6 +516,22 @@ public class PortfolioDocument {
 		}
 	}
 
+
+	/**
+	 * Edit a single transaction (called from TransactionPane context menu).
+	 */
+	public void handleEditTransaction(com.stt.portfolio.transactions.Transaction t) {
+		if (t == null) return;
+		EditTransactionDialog d = new EditTransactionDialog(frame, frame, "Muokkaa tapahtumaa", t, tickerManager);
+		if (d.isOk()) {
+			// transaction object has been mutated by dialog; rewrite whole file
+			portfolio.rewriteTransactions();
+			portfolio.clear();
+		    portfolio.process();
+			portfolioView.redraw();
+		}
+	}
+
 	public void updateQuoteManually() {
 		String selectedStock = portfolioView.getSelectedStock();
 
@@ -590,7 +608,8 @@ public class PortfolioDocument {
 			handleAccountTransfer();
 		} else if (item.getText().equals(MenuCreator.MENU_ITEM_UPDATE_MANUAL)) {
 			updateQuoteManually();
-		} else if (item.getText().equals(MenuCreator.MENU_ITEM_SHOW_PARTIAL)) {
+		}
+		  else if (item.getText().equals(MenuCreator.MENU_ITEM_SHOW_PARTIAL)) {
 
 			handleToggleShowPartial(item.isSelected());
 		}
@@ -622,8 +641,10 @@ public class PortfolioDocument {
 	}
 
 	public void setPortfolioDate(Date date) {
+		//System.out.println("Setting portfolio date to " + date);
 		portfolio = PortfolioFactory.createPortfolio(name, date, tickerManager);
 		portfolioView.setPortfolio(portfolio);
+		
 		redraw();
 	}
 

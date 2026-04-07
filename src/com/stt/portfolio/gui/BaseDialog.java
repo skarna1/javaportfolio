@@ -79,7 +79,6 @@ KeyListener {
 		if (BUTTON_OK.equals(e.getActionCommand())) {
 			setVisible(false);
 			isOk = true;
-
 		} else if (BUTTON_CANCEL.equals(e.getActionCommand())) {
 			setVisible(false);
 		}

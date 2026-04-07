@@ -19,6 +19,7 @@ import javax.swing.JTextField;
 
 import com.stt.portfolio.Portfolio;
 import com.stt.portfolio.PortfolioDocument;
+import com.stt.portfolio.Util;
 import com.toedter.calendar.JDateChooser;
 
 public class PortfolioView extends JPanel implements ActionListener, PropertyChangeListener {
@@ -102,7 +103,7 @@ public class PortfolioView extends JPanel implements ActionListener, PropertyCha
 		add(scrollPane);
 
 		taxReportPane = new TaxReportPane(portfolio);
-		transactionPane = new TransactionPane(portfolio);
+		transactionPane = new TransactionPane(portfolioDoc, portfolio);
 		profitsPane = new ProfitsPane(portfolio);
 		monthlyProfitsPane = new MonthlyProfitsPane(portfolio);
 
@@ -201,12 +202,18 @@ public class PortfolioView extends JPanel implements ActionListener, PropertyCha
 
 		if (evt.getPropertyName().equals("date")) {
 			// System.out.println((Date)evt.getNewValue());
-			portfolioDoc.setPortfolioDate((Date) evt.getNewValue());
+			Date portfolioDate = portfolio.getPortfolioDate();
+			Date eventDate = (Date) evt.getNewValue();
+
+			// Only set portfolio date if it differs from event date in day, month, or year
+			if (Util.compareDates(portfolioDate, eventDate) != 0) {
+				portfolioDoc.setPortfolioDate(eventDate);
+			}
 		}
 	}
 
 	public void setPortfolio(Portfolio portfolio) {
 		this.portfolio = portfolio;
-		
+		transactionPane.setPortfolio(portfolio);		
 	}
 }

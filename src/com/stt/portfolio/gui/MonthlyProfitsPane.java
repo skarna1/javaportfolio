@@ -119,10 +119,7 @@ public class MonthlyProfitsPane extends JPanel  implements ActionListener {
 				c.set(Calendar.DATE, 1);
 				Date startDate = c.getTime();
 				
-				portfolio.process(startDate);
-				portfolio.getCombinedBookEntryTable(false);
-				double value1 = portfolio.getPortfolioValue();
-
+				double value1 = portfolio.getPortfolioValue(startDate);
 				
 				c.set(Calendar.DAY_OF_MONTH,
 		                c.getActualMaximum(Calendar.DAY_OF_MONTH));
@@ -137,9 +134,7 @@ public class MonthlyProfitsPane extends JPanel  implements ActionListener {
 					endDate = (Calendar.getInstance().getTime());
 				}
 				
-				portfolio.process(endDate);
-				portfolio.getCombinedBookEntryTable(false);
-				double value2 = portfolio.getPortfolioValue();
+				double value2 = portfolio.getPortfolioValue(endDate);
 
 				int col = 0;
 				table[row][col++] = c.getDisplayName(Calendar.MONTH, Calendar.LONG, getLocale());
