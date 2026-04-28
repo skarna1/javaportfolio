@@ -13,6 +13,11 @@ import javax.swing.JTable;
 
 import com.stt.portfolio.Portfolio;
 
+import javax.swing.JPopupMenu;
+import javax.swing.JMenuItem;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
 public class TransactionPane extends JPanel implements ActionListener {
 
 	public final String[] columnNames = { "Päiväys", "Tapahtumatyyppi",
@@ -24,6 +29,7 @@ public class TransactionPane extends JPanel implements ActionListener {
 	private JScrollPane scrollPane = null;
 	private JTable table = new TransactionTable(null);
 	private Portfolio portfolio = null;
+	private java.util.List<com.stt.portfolio.transactions.Transaction> filteredTransactions = new java.util.ArrayList<>();
 	private String selectedYear;
 	private String selectedTransaction;
 	private BrokerList brokerList = null;
@@ -31,7 +37,7 @@ public class TransactionPane extends JPanel implements ActionListener {
 	private Object[] names;
 	private JComboBox transactionStocksList;
 	
-	public TransactionPane(Portfolio portfolio) {
+	public TransactionPane(com.stt.portfolio.PortfolioDocument portfolioDoc, Portfolio portfolio) {
 		super(new BorderLayout());
 
 		this.portfolio = portfolio;
@@ -98,6 +104,46 @@ public class TransactionPane extends JPanel implements ActionListener {
 		yearList.addActionListener(this);
 		transactionNameList.addActionListener(this);
 		transactionStocksList.addActionListener(this);
+
+		// Add popup menu for editing a transaction on right-click
+		JPopupMenu popup = new JPopupMenu();
+		JMenuItem editItem = new JMenuItem(com.stt.portfolio.gui.MenuCreator.MENU_ITEM_EDIT_TRANSACTION);
+		popup.add(editItem);
+
+		editItem.addActionListener(ae -> {
+			int viewRow = table.getSelectedRow();
+			if (viewRow >= 0) {
+				int modelRow = table.convertRowIndexToModel(viewRow);
+				if (modelRow >= 0 && modelRow < filteredTransactions.size()) {
+					com.stt.portfolio.transactions.Transaction t = filteredTransactions.get(modelRow);
+					if (portfolioDoc != null) {
+						portfolioDoc.handleEditTransaction(t);
+					}
+				}
+			}
+		});
+
+		table.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				maybeShowPopup(e);
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				maybeShowPopup(e);
+			}
+
+			private void maybeShowPopup(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					int viewRow = table.rowAtPoint(e.getPoint());
+					if (viewRow >= 0) {
+						table.setRowSelectionInterval(viewRow, viewRow);
+					}
+					popup.show(e.getComponent(), e.getX(), e.getY());
+				}
+			}
+		});
 	}
 
 	@Override
@@ -142,17 +188,21 @@ public class TransactionPane extends JPanel implements ActionListener {
 	}
 	
 	public void update() {
-		
-		
+		//System.out.println("transactionpane::update name: " + selectedName);
+		Object[][] transactions = portfolio.getTransactionTable(selectedYear,
+			selectedTransaction,
+			brokerList.getSelectedBroker(),
+			selectedName);
 
-		//System.out.println("name: " + selectedName);
-		Object[][] transactions = portfolio.getTransactionTable(selectedYear, 
-				selectedTransaction, 
-				brokerList.getSelectedBroker(),
-				selectedName);
-		
+		// also keep list of Transaction objects corresponding to table rows
+		filteredTransactions = portfolio.getFilteredTransactions(selectedYear, selectedTransaction, brokerList.getSelectedBroker(), selectedName);
+
 		table.setModel(new PortfolioTableModel(transactions, columnNames));
 
 	}
 
+	public void setPortfolio(Portfolio portfolio) {
+		this.portfolio = portfolio;
+		update();
+	}
 }

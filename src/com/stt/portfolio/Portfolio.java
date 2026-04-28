@@ -63,7 +63,8 @@ public class Portfolio {
 	private String name;
 
 	private TransactionParser transactionParser = null;
-	
+
+
 	/**
 	 * Instantiates a new portfolio.
 	 * 
@@ -85,6 +86,8 @@ public class Portfolio {
 		
 		transactionParser = new TransactionParser(
 				PortfolioFactory.PORTFOLIO_PATH + name + "/tapahtumat.csv");
+
+		//System.out.println("Created portfolio with name: " + name);
 
 	}
 
@@ -189,6 +192,17 @@ public class Portfolio {
 			account = createAccount(broker);
 		}
 
+		Stock stock = tickerManager.getStock(t.getTicker());
+		if (stock != null) {
+			t.setName(stock.getName());
+		}
+		else if (t.getTicker().equalsIgnoreCase("siposiirto")) {
+			t.setName("Sij. pääoman siirto");
+		}
+		else if (t.getTicker().equalsIgnoreCase("potvero")) {
+			t.setName("Pääomatulovero");
+		}
+
 		// account.addTransaction(t);
 		transactions.add(t);
 
@@ -215,18 +229,17 @@ public class Portfolio {
 	 */
 	public void parse(ChangesParser changesParser,
 			 Date date) {
-
+		//System.out.println("Parsing portfolio with date: " + date);
 		portfolioDate = date;
 		transactionParser.parse(this);
 		changesParser.parse(this);
-
-		process();
 	}
 
 	/**
 	 * Clear.
 	 */
-	private void clear() {
+	public void clear() {
+		//System.out.println("Clearing portfolio data...");
 		bookEntryManager.clear();
 		taxManager.clear();
 		cashManager.clear();
@@ -239,7 +252,8 @@ public class Portfolio {
 	 * Processes transactions to portfolioDate.
 	 */
 	public void process() {
-		clear();
+		//System.out.println("Processing portfolio...");
+
 		populateBookEntries();
 		for (Account a : accounts) {
 
@@ -758,6 +772,8 @@ public class Portfolio {
 	}
 
 	public double getPortfolioValue(Date endDate) {
+		//System.out.println("Calculating portfolio value with end date: " + endDate);
+		clear();
 		process(endDate);
 		getCombinedBookEntryTable(false);
 		return getPortfolioValue();
@@ -784,6 +800,7 @@ public class Portfolio {
 
 		for (Transaction t : transactions) {
 			if (t.getBroker().equalsIgnoreCase(broker)) {
+				
 				trs.add(t);
 			}
 		}
@@ -806,6 +823,48 @@ public class Portfolio {
 	public void writeTransaction(Transaction t) {
 		transactionParser.write(t);
 		
+	}
+
+	/**
+	 * Return all transactions list (modifiable reference).
+	 */
+	public java.util.List<Transaction> getAllTransactions() {
+		return transactions;
+	}
+
+	/**
+	 * Overwrite transaction file and replace in-memory list with new list.
+	 */
+	public void rewriteTransactions() {
+		transactionParser.rewrite(transactions);
+		//process();
+	}
+
+	/**
+	 * Return transactions filtered the same way as getTransactionTable, in the same row order.
+	 */
+	public java.util.List<Transaction> getFilteredTransactions(String year, String transaction,
+			String broker, String stockName) {
+
+		List<Transaction> transactions = getTransactions(year, broker);
+
+		List<Transaction> trs = new ArrayList<Transaction>();
+
+		for (Transaction e : transactions) {
+			if (transaction.equalsIgnoreCase(KAIKKI)
+					|| transaction.equalsIgnoreCase(e.getOp())) {
+				Stock stock = tickerManager.getStock(e.getTicker());
+
+				if (stockName.equalsIgnoreCase(KAIKKI)
+						|| (stock != null && stock.getName().equals(stockName))) {
+					trs.add(e);
+				}
+
+			}
+		}
+		// sum-row not included here
+
+		return trs;
 	}
 
 	public Set<Entry<String, Double>> getCountryAllocations() {
