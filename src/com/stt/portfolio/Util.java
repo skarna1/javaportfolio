@@ -24,33 +24,6 @@ public class Util {
 	}
 	
 	public static int compareDates(Date a, Date b) {
-		Calendar ca = Calendar.getInstance();
-		Calendar cb = Calendar.getInstance();
-		
-		ca.setTime(a);
-		cb.setTime(b);
-		
-		if (ca.get(Calendar.YEAR) < cb.get(Calendar.YEAR)) {
-			return -1;
-		}
-		else if (ca.get(Calendar.YEAR) > cb.get(Calendar.YEAR)) {
-			return 1;
-		}
-		
-		if (ca.get(Calendar.MONTH) < cb.get(Calendar.MONTH)) {
-			return -1;
-		}
-		else if (ca.get(Calendar.MONTH) > cb.get(Calendar.MONTH)) {
-			return 1;
-		}
-		
-		if (ca.get(Calendar.DATE) < cb.get(Calendar.DATE)) {
-			return -1;
-		}
-		else if (ca.get(Calendar.DATE) > cb.get(Calendar.DATE)) {
-			return 1;
-		}
-		
-		return 0;
+		return a.compareTo(b);
 	}
 }

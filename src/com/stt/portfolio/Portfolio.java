@@ -215,7 +215,7 @@ public class Portfolio {
 	 *            the t
 	 */
 	public void addChangeTransaction(ChangeTransaction t) {
-		
+
 
 		changeTransactions.add(t);
 
