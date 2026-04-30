@@ -299,6 +299,7 @@ public class Portfolio {
 		while (trIter.hasNext()) {
 
 			Transaction t = trIter.next();
+
 			if (Util.compareDates(t.getDate(),portfolioDate) <= 0) {
 				processChangeTransactions(chIter, t.getDate());
 

@@ -274,7 +274,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(d.getBrokerCost());
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(tickerManager.getTicker(t.getName()));
@@ -302,7 +302,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(d.getBrokerCost());
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(tickerManager.getTicker(t.getName()));
@@ -328,7 +328,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(0.0);
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(portfolio.getTicker(t.getName()));
@@ -349,7 +349,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(d.getBrokerCost());
 			t.setCost(d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(portfolio.getTicker(t.getName()));
@@ -372,7 +372,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(0.0);
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(portfolio.getTicker(t.getName()));
@@ -400,7 +400,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getBrokerName());
 			t.setBrokerCost(0.0);
 			t.setCost(d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getCost());
 			t.setName(d.getStockName());
 			t.setTicker(portfolio.getTicker(t.getName()));
@@ -413,7 +413,7 @@ public class PortfolioDocument {
 				t1.setBroker(d.getBrokerName());
 				t1.setBrokerCost(0.0);
 				t1.setCost(-d.getDividendTax());
-				t1.setDate(d.getTransactionDate());
+			t1.setDateWithoutTime(d.getTransactionDate());
 				t1.setPrice(d.getDividendTax());
 				t1.setName(d.getStockName());
 				t1.setTicker(t.getTicker());
@@ -442,7 +442,7 @@ public class PortfolioDocument {
 			t.setBroker("VER");
 			t.setBrokerCost(0.0);
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getTotalCost());
 			t.setName("Pääomatulovero");
 			t.setTicker("POTVERO");
@@ -462,7 +462,7 @@ public class PortfolioDocument {
 			t.setBroker("SRT");
 			t.setBrokerCost(0.0);
 			t.setCost(-d.getTotalCost());
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(d.getTotalCost());
 			t.setName("Sij. pääoman siirto");
 			t.setTicker("SIPOSIIRTO");
@@ -506,7 +506,7 @@ public class PortfolioDocument {
 			t.setBroker(d.getNewBroker());
 			t.setBrokerCost(0.0);
 			t.setCost(0.0);
-			t.setDate(d.getTransactionDate());
+			t.setDateWithoutTime(d.getTransactionDate());
 			t.setPrice(0.0);
 			t.setName("");
 			t.setTicker("");
