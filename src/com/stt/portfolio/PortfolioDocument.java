@@ -532,6 +532,21 @@ public class PortfolioDocument {
 		}
 	}
 
+	/**
+	 * Delete a single transaction (called from TransactionPane context menu).
+	 */
+	public void handleDeleteTransaction(com.stt.portfolio.transactions.Transaction t) {
+		if (t == null) return;
+		int result = JOptionPane.showConfirmDialog(frame, "Haluatko varmasti poistaa tapahtuman?", "Vahvista poisto", JOptionPane.YES_NO_OPTION);
+		if (result == JOptionPane.YES_OPTION) {
+			portfolio.removeTransaction(t);
+			portfolio.rewriteTransactions();
+			portfolio.clear();
+		    portfolio.process();
+			portfolioView.redraw();
+		}
+	}
+
 	public void updateQuoteManually() {
 		String selectedStock = portfolioView.getSelectedStock();
 
