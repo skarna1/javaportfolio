@@ -20,6 +20,7 @@ public class MenuCreator implements ActionListener {
 //	public final static String MENU_ITEM_SUBSCRIPTION = "MERKINTÄ...";
 	public final static String MENU_ITEM_SUBSCRIPTION_OLD_OWNERSHIP = "MERKINTÄ...";
 	public final static String MENU_ITEM_EDIT_TRANSACTION = "Muokkaa tapahtumaa...";
+	public final static String MENU_ITEM_DELETE_TRANSACTION = "Poista tapahtuma...";
 	public final static String MENU_ITEM_SUBSCRIPTION_OPTIONS = "MERKINTÄ MO/OPTIO...";
 	public final static String MENU_ITEM_TAX = "PÄÄOMATULOVERO...";
 	public final static String MENU_ITEM_TRANSFER = "SIJOITUSPÄÄOMAN SIIRTO...";

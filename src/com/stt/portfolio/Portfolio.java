@@ -209,6 +209,16 @@ public class Portfolio {
 	}
 
 	/**
+	 * Removes the transaction.
+	 * 
+	 * @param t
+	 *            the transaction to remove
+	 */
+	public void removeTransaction(Transaction t) {
+		transactions.remove(t);
+	}
+
+	/**
 	 * Adds the change transaction.
 	 * 
 	 * @param t

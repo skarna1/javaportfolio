@@ -123,6 +123,22 @@ public class TransactionPane extends JPanel implements ActionListener {
 			}
 		});
 
+		JMenuItem deleteItem = new JMenuItem(com.stt.portfolio.gui.MenuCreator.MENU_ITEM_DELETE_TRANSACTION);
+		popup.add(deleteItem);
+
+		deleteItem.addActionListener(ae -> {
+			int viewRow = table.getSelectedRow();
+			if (viewRow >= 0) {
+				int modelRow = table.convertRowIndexToModel(viewRow);
+				if (modelRow >= 0 && modelRow < filteredTransactions.size()) {
+					com.stt.portfolio.transactions.Transaction t = filteredTransactions.get(modelRow);
+					if (portfolioDoc != null) {
+						portfolioDoc.handleDeleteTransaction(t);
+					}
+				}
+			}
+		});
+
 		table.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
