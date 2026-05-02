@@ -66,8 +66,7 @@ HRTIS Herantis Pharma Oyj
 HKFOODS HKFoods Oyj A
 HONBS Honkarakenne Oyj B
 HUH1V Huhtamäki Oyj
-ILKKA1 Ilkka Oyj 1
-ILKKA2 Ilkka Oyj 2
+ILKKA Ilkka Oyj 2
 INC1V Incap Corporation
 INDERES Inderes Oyj
 INVEST Investors House Oyj

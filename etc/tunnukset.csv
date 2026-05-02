@@ -109,7 +109,7 @@ teknologia ; S ; TIETO ; Tieto ; 1 ; EUR
 teknologia ; S ; TRH1V ; Trainers House ; 1 ; EUR
 Kulutuspalvelut ; S ; ALMA ; Alma Media ; 1 ; EUR
 Kulutuspalvelut ; S ; FIA1S ; Finnair ; 1 ; EUR
-Kulutuspalvelut ; S ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
+Kulutuspalvelut ; S ; ILKKA ; Ilkka ; 1 ; EUR
 Kulutuspalvelut ; S ; KAMUX ; Kamux ; 1 ; EUR
 Kulutuspalvelut ; S ; KSL ; Keskisuomalainen ; 1 ; EUR
 Kulutuspalvelut ; S ; KESKOA ; Kesko A ; 1 ; EUR
@@ -141,7 +141,6 @@ Kulutustavarat ; S ; RAP1V ; Rapala VMC ; 1 ; EUR
 Kulutustavarat ; S ; REMEDY ; Remedy Entertainment ; 1 ; EUR
 Kulutustavarat ; S ; SAGCV ; Saga Furs ; 1 ; EUR
 Kulutustavarat ; S ; SUY1V ; Suominen Yhtymä ; 1 ; EUR
-Pre-lista ; S ; ILKKA1 ; Ilkka 1 ; 1 ; EUR
 Pre-lista ; S ; RAIKV ; Raisio-yhtymä K ; 1 ; EUR
 First North ; S ; AALLON ; Aallon Group ; 1 ; EUR
 First North ; S ; ADMCM ; Admicom ; 1 ; EUR
@@ -961,6 +960,8 @@ vanhat osakkeet ; X ; HEEROS ; Heeros ; 1
 vanhat osakkeet ; X ; HEPEV ; Helsingin Puhelin E ; 1
 vanhat osakkeet ; X ; HOIVA ; Suomen Hoivatilat ; 1 ; EUR
 vanhat osakkeet ; X ; HVL1V ; Huhtamäki van Leer ; 1
+vanhat osakkeet ; X ; ILKKA1 ; Ilkka 1 ; 1 ; EUR
+vanhat osakkeet ; X ; ILKKA2 ; Ilkka 2 ; 1 ; EUR
 vanhat osakkeet ; X ; ILK1S ; Ilkka-yhtymä 1 ; 1 ; EUR
 vanhat osakkeet ; X ; ILK2S ; Ilkka-yhtymä 2 ; 1 ; EUR
 vanhat osakkeet ; X ; IFA1V ; Innofactor ; 1 ; EUR
