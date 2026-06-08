@@ -67,6 +67,8 @@ public class AddStockDialog extends BaseDialog {
                 countryField
         };
 
+	okButton.setEnabled(true);
+
         init(labels, components);
     }
 
