@@ -1,6 +1,7 @@
 package com.stt.portfolio;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -20,6 +22,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
 import com.stt.portfolio.gui.AccountTransferDialog;
+import com.stt.portfolio.gui.AddStockDialog;
 import com.stt.portfolio.gui.BuyDialog;
 import com.stt.portfolio.gui.CapitalRepaymentDialog;
 import com.stt.portfolio.gui.DividendDialog;
@@ -623,6 +626,8 @@ public class PortfolioDocument {
 			handleAccountTransfer();
 		} else if (item.getText().equals(MenuCreator.MENU_ITEM_UPDATE_MANUAL)) {
 			updateQuoteManually();
+		} else if (item.getText().equals(MenuCreator.MENU_ITEM_ADD_STOCK)) {
+			handleAddStock();
 		}
 		  else if (item.getText().equals(MenuCreator.MENU_ITEM_SHOW_PARTIAL)) {
 
@@ -663,4 +668,61 @@ public class PortfolioDocument {
 		redraw();
 	}
 
+	public void handleAddStock() {
+		AddStockDialog d = new AddStockDialog(frame, frame, "Lisää osake", tickerManager, portfolio.getSectors());
+		if (d.isOk()) {
+			String ticker = d.getTicker();
+			String stockName = d.getStockName();
+			String sector = d.getSector();
+			String type = d.getStockType();
+			String ccy = d.getCurrency();
+			int priceDivider = d.getPriceDivider();
+			String country = d.getCountry();
+
+			// Add to tickerManager (in-memory)
+			tickerManager.addStock(ticker, stockName, sector, type, priceDivider, ccy, country);
+
+			// Write to tunnukset.csv
+			writeStockToCsv(ticker, stockName, sector, type, priceDivider, ccy, country);
+
+			// If Finnish stock, also add to NordnetStockQuoteFetcher.txt
+			if (country.equalsIgnoreCase("Suomi") || country.equalsIgnoreCase("Finland")) {
+				writeStockToNordnetFile(ticker, stockName);
+			}
+
+			JOptionPane.showMessageDialog(frame, "Osake '" + stockName + "' lisätty onnistuneesti.");
+		}
+	}
+
+	private void writeStockToCsv(String ticker, String name, String sector, String type,
+	                             int priceDivider, String ccy, String country) {
+		String filename = "etc/tunnukset.csv";
+		try {
+			PrintWriter writer = new PrintWriter(new OutputStreamWriter(
+					new FileOutputStream(filename, true), "UTF-8"));
+			String line = sector + " ; " + type + " ; " + ticker + " ; " + name + " ; " +
+					priceDivider + " ; " + ccy + " ; " + country;
+			writer.println(line);
+			writer.close();
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(frame, "Virhe kirjoitettaessa tunnukset.csv: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	private void writeStockToNordnetFile(String ticker, String name) {
+		String filename = "etc/NordnetStockQuoteFetcher.txt";
+		try {
+			PrintWriter writer = new PrintWriter(new OutputStreamWriter(
+					new FileOutputStream(filename, true), "UTF-8"));
+			String line = ticker + " " + name;
+			writer.println(line);
+			writer.close();
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(frame, "Virhe kirjoitettaessa NordnetStockQuoteFetcher.txt: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
 }
+

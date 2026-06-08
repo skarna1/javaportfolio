@@ -41,6 +41,7 @@ public class MenuCreator implements ActionListener {
 
 	public final static String MENU_ITEM_UPDATE_OMX_HEX = "Päivitä kurssit";
 	public final static String MENU_ITEM_UPDATE_MANUAL = "Syötä noteeraus...";
+	public final static String MENU_ITEM_ADD_STOCK = "Lisää osake...";
 
 	
 	// Help menu
@@ -137,6 +138,8 @@ public class MenuCreator implements ActionListener {
 
 		createMenuItem(quotesMenu, MENU_ITEM_UPDATE_OMX_HEX, "Lue kurssit");
 		createMenuItem(quotesMenu, MENU_ITEM_UPDATE_MANUAL, "Syötä noteeraus");
+		quotesMenu.add(new JSeparator()); // SEPARATOR
+		createMenuItem(quotesMenu, MENU_ITEM_ADD_STOCK, "Lisää uusi osake tai optio");
 		return quotesMenu;
 	}
 

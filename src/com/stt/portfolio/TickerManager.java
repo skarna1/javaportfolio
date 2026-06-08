@@ -203,4 +203,36 @@ public class TickerManager implements I_TickerManager {
 			return Stock.DEFAULT_COUNTRY;
 		}
 	}
+
+	/**
+	 * Add a new stock to the ticker manager.
+	 * This adds the stock to the in-memory maps.
+	 * The caller is responsible for persisting to file.
+	 */
+	public void addStock(String ticker, String name, String sector, String type, 
+	                      int priceDivider, String ccy, String country) {
+		Stock stock = new Stock();
+		stock.setTicker(ticker);
+		stock.setName(name);
+		stock.setSector(sector);
+		stock.setType(type);
+		stock.setPriceDivider(priceDivider);
+		stock.setCcy(ccy);
+		stock.setCountry(country);
+		
+		stocksByTicker.put(ticker, stock);
+		stocksByName.put(name, stock);
+		allStocksByTicker.put(ticker, stock);
+		
+		if (!sectors.contains(sector)) {
+			sectors.add(sector);
+			stocksBySector.put(sector, new ArrayList<String>());
+		}
+		stocksBySector.get(sector).add(name);
+		
+		if (!ccy.equalsIgnoreCase("EUR")) {
+			currencies.add(ccy);
+		}
+	}
 }
+

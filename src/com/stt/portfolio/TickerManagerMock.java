@@ -63,4 +63,10 @@ public class TickerManagerMock implements I_TickerManager {
 
 	}
 
+	@Override
+	public void addStock(String ticker, String name, String sector, String type,
+			int priceDivider, String ccy, String country) {
+		// Mock implementation - does nothing
+	}
+
 }

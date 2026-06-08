@@ -80,4 +80,12 @@ public interface I_TickerManager {
 	 */
 	public abstract String getCountry(String ticker);
 
+	/**
+	 * Add a new stock to the ticker manager.
+	 * This adds the stock to the in-memory maps.
+	 * The caller is responsible for persisting to file.
+	 */
+	public abstract void addStock(String ticker, String name, String sector, String type,
+			int priceDivider, String ccy, String country);
+
 }
