@@ -83,6 +83,7 @@ KHG KH Group Plc
 KOSKI Koskisen Oyj
 KNEBV KONE Corporation
 KCR Konecranes Plc
+KPYOSK KPY osk
 LAMOR Lamor Corporation Oyj
 LAPWALL LapWall Oyj
 LASTIK Lassila & Tikanoja Plc
