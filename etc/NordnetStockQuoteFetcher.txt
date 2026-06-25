@@ -147,6 +147,7 @@ ROBIT Robit Oyj
 SAGCV Saga Furs Oyj C
 SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
+SAVOX Savox Communications Oyj
 SCL1V Scanfil Plc
 SFOODS Solar Foods Oyj
 SIILI Siili Solutions Oyj
