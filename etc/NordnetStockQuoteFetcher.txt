@@ -70,6 +70,7 @@ ILKKA Ilkka Oyj 2
 INC1V Incap Corporation
 INDERES Inderes Oyj
 INVEST Investors House Oyj
+IQMX IQM Quantum Computers Oyj
 KALMAR Kalmar Oyj B
 KAMUX Kamux Corporation
 KEMIRA Kemira Oyj
