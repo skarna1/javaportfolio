@@ -162,6 +162,7 @@ SRV1V SRV Group Plc
 SSABAH SSAB AB ser. A
 SSABBH SSAB AB ser. B
 SSH1V SSH Communications Security Oyj
+STEADY Steady Energy Oyj
 STEAV Stora Enso Oyj A
 STERV Stora Enso Oyj R
 SUMMA Summa Defence Oyj
