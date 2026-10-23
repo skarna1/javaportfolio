@@ -1,5 +1,8 @@
 package com.stt.portfolio;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,10 +20,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
+import javax.swing.BorderFactory;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JProgressBar;
+import javax.swing.JScrollPane;
+import javax.swing.SwingWorker;
 import javax.swing.UIManager;
 
 import com.stt.portfolio.gui.MenuCreator;
@@ -48,6 +59,7 @@ public class PortfolioGuiApp {
 	MenuCreator menu;
 
 	List<HTTPQuoteFetcher> quoteUpdaters = new ArrayList<HTTPQuoteFetcher>();
+	private boolean quoteUpdateRunning;
 
 	/**
 	 * Instantiates a new portfolio gui app.
@@ -273,48 +285,101 @@ public class PortfolioGuiApp {
 	}
 
 	private void updateQuotes() {
-		String path = "etc/kurssidata/";
-		boolean ok = true;
-		Map<String, Boolean> fetched_urls = new HashMap<String, Boolean>();
+		if (quoteUpdateRunning) {
+			return;
+		}
+		quoteUpdateRunning = true;
 
-		Updater updater = new Updater();
+		JLabel status = new JLabel("Haetaan ja tallennetaan kurssitietoja...");
+		JProgressBar progressBar = new JProgressBar();
+		progressBar.setIndeterminate(true);
+		JDialog progressDialog = new JDialog(frame, "Päivitetään kursseja", false);
+		JPanel progressPanel = new JPanel(new BorderLayout(0, 8));
+		progressPanel.add(status, BorderLayout.NORTH);
+		progressPanel.add(new JLabel("Lähteiden tulokset näytetään päivityksen valmistuttua."),
+				BorderLayout.CENTER);
+		progressPanel.add(progressBar, BorderLayout.SOUTH);
+		progressPanel.setBorder(BorderFactory.createEmptyBorder(12, 12, 12, 12));
+		progressDialog.setContentPane(progressPanel);
+		progressDialog.setPreferredSize(new Dimension(500, 120));
+		progressDialog.pack();
+		progressDialog.setLocationRelativeTo(frame);
 
-		for (HTTPQuoteFetcher fetcher : quoteUpdaters) {
-			System.out.println("Fetching data from: " + fetcher.getUri());
-			List<Item> items = fetcher.parseHtml();
+		SwingWorker<Map<String, Boolean>, Void> worker =
+				new SwingWorker<Map<String, Boolean>, Void>() {
+			@Override
+			protected Map<String, Boolean> doInBackground() {
+				String path = "etc/kurssidata/";
+				Map<String, Boolean> fetchedUrls = new HashMap<String, Boolean>();
+				Updater updater = new Updater();
 
-			if (items.size() == 0) {
-				System.out.println("update failed: " + fetcher.getUri());
-				fetched_urls.put(fetcher.getUri(), false);
-				ok = false;
-				continue;
+				for (HTTPQuoteFetcher fetcher : quoteUpdaters) {
+					String uri = fetcher.getUri();
+					System.out.println("Fetching data from: " + uri);
+					try {
+						List<Item> items = fetcher.parseHtml();
+						if (items == null || items.isEmpty()) {
+							System.out.println("update failed: " + uri);
+							fetchedUrls.put(uri, false);
+							continue;
+						}
+						updater.writeToFiles(path, items, fetcher.isIgnoreVolume());
+						fetchedUrls.put(uri, true);
+					} catch (RuntimeException e) {
+						System.err.println("Quote update failed for " + uri);
+						e.printStackTrace();
+						fetchedUrls.put(uri, false);
+					}
+				}
+				return fetchedUrls;
 			}
-			updater.writeToFiles(path, items, fetcher.isIgnoreVolume());
-			fetched_urls.put(fetcher.getUri(), true);
-		}
-		final StringBuilder message = new StringBuilder();
-		message.append("Kurssitiedot haettu");
-		if (ok) {
-			message.append(" OK");
-		}
-		else {
-			message.append("\n\n");
-			fetched_urls.forEach((key, value) -> {
-				message.append(key + ": ");
-				if (value) {
-					message.append("OK!\n");
+
+			@Override
+			protected void done() {
+				progressDialog.dispose();
+				try {
+					Map<String, Boolean> fetchedUrls = get();
+					showQuoteUpdateResults(fetchedUrls);
+				} catch (InterruptedException e) {
+					Thread.currentThread().interrupt();
+					JOptionPane.showMessageDialog(frame,
+							"Kurssitietojen päivitys keskeytettiin: " + e.getMessage(),
+							"Päivitys epäonnistui", JOptionPane.ERROR_MESSAGE);
+				} catch (ExecutionException e) {
+					Throwable cause = e.getCause() != null ? e.getCause() : e;
+					JOptionPane.showMessageDialog(frame,
+							"Kurssitietojen päivitys epäonnistui: " + cause.getMessage(),
+							"Päivitys epäonnistui", JOptionPane.ERROR_MESSAGE);
+				} finally {
+					quoteUpdateRunning = false;
+					if (portfolioDocument != null) {
+						portfolioDocument.redraw();
+					}
 				}
-				else {
-					message.append(" Virhe!\n");
-				}
-			});
+			}
+		};
+		progressDialog.setVisible(true);
+		worker.execute();
+	}
+
+	private void showQuoteUpdateResults(Map<String, Boolean> fetchedUrls) {
+		JPanel results = new JPanel();
+		results.setLayout(new javax.swing.BoxLayout(results, javax.swing.BoxLayout.Y_AXIS));
+		for (HTTPQuoteFetcher fetcher : quoteUpdaters) {
+			String uri = fetcher.getUri();
+			boolean succeeded = Boolean.TRUE.equals(fetchedUrls.get(uri));
+			JLabel result = new JLabel((succeeded ? "✓ " : "✗ ") + uri);
+			result.setForeground(succeeded ? new Color(0, 128, 0) : Color.RED);
+			result.setToolTipText(uri);
+			result.setBorder(BorderFactory.createEmptyBorder(4, 4, 4, 4));
+			results.add(result);
 		}
 
-		JOptionPane.showMessageDialog(frame, message.toString());
-
-		if (portfolioDocument != null) {
-			portfolioDocument.redraw();
-		}
+		JScrollPane scrollPane = new JScrollPane(results);
+		scrollPane.setPreferredSize(new Dimension(850, Math.min(400,
+				Math.max(100, quoteUpdaters.size() * 32))));
+		JOptionPane.showMessageDialog(frame, scrollPane,
+				"Kurssitietojen päivityksen tulokset", JOptionPane.INFORMATION_MESSAGE);
 	}
 
 	/**
