@@ -149,6 +149,7 @@ SAMPO Sampo Plc A
 SANOMA Sanoma Corporation
 SAVOX Savox Communications Oyj
 SCL1V Scanfil Plc
+SENSO Sensofusion Oyj
 SFOODS Solar Foods Oyj
 SIILI Siili Solutions Oyj
 SITOWS Sitowise Group Plc
