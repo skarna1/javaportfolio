@@ -23,9 +23,15 @@ public class FileQuoteManager implements QuoteManager {
 	// all quotes
 	Map<String, ArrayList<Quote>> allQuotes = new HashMap<String, ArrayList<Quote>>();
 
-	Date currentDate; 
+	private final File quotesDirectory;
+	Date currentDate;
 	
 	public FileQuoteManager() {
+		this(new File("etc/kurssidata"));
+	}
+
+	FileQuoteManager(File quotesDirectory) {
+		this.quotesDirectory = quotesDirectory;
 		Calendar c = Calendar.getInstance();
 		currentDate = c.getTime();
 	}
@@ -51,10 +57,6 @@ public class FileQuoteManager implements QuoteManager {
 			return getQuote(ticker);
 		}
 
-		if (!allQuotes.containsKey(ticker)) {
-			System.out.println("Reading all quotes for " + ticker);
-			readAllQuotes(ticker, "etc/kurssidata/" + ticker + ".csv");
-		}
 		ArrayList<Quote> quotes = allQuotes.get(ticker);
 
 		Quote q = null;
@@ -86,58 +88,46 @@ public class FileQuoteManager implements QuoteManager {
 	}
 
 	private void readQuotes() {
-		String path = "etc/kurssidata/";
-		File folder = new File(path);
-		File[] listOfFiles = folder.listFiles();
-		QuoteParser parser = new QuoteParser();
-		for (int i = 0; i < listOfFiles.length; ++i) {
-
-			if (listOfFiles[i].isFile()) {
-				String filename = listOfFiles[i].getName();
-				if (filename.endsWith(".csv")) {
-
-					String line = Tail.tail(listOfFiles[i].getAbsolutePath());
-
-					Quote quote;
-					try {
-						quote = parser.parse(line);
-
-						String ticker = filename.substring(0,
-								filename.lastIndexOf('.'));
-						quote.setTicker(ticker);
-
-						quotes.put(ticker, quote);
-
-						// System.out.println(ticker + ": " + quote.getLast()
-						// + " " + quote.getDate());
-
-					} catch (ParseException e) {
-						System.out.println(filename+" has invalid line: "+ line);
-						//e.printStackTrace();
-					}
-				}
+		File[] files = quotesDirectory.listFiles();
+		if (files == null) {
+			System.err.println("Unable to read quote directory: " + quotesDirectory);
+			return;
+		}
+		for (File file : files) {
+			if (file.isFile() && file.getName().endsWith(".csv")) {
+				readQuotes(file);
 			}
 		}
 	}
 
-	private void readAllQuotes(String ticker, String filename) {
-		allQuotes.put(ticker, new ArrayList<Quote>());
-		Scanner scanner;
+	private void readQuotes(File file) {
+		String filename = file.getName();
+		String ticker = filename.substring(0, filename.lastIndexOf('.'));
+		ArrayList<Quote> tickerQuotes = new ArrayList<Quote>();
 		QuoteParser parser = new QuoteParser();
-		try {
-			scanner = new Scanner(new File(filename));
-			if (scanner.hasNextLine())
-				scanner.nextLine();
+		// Some source files begin with a non-quote metadata line.
+		boolean firstLine = true;
+		try (Scanner scanner = new Scanner(file)) {
 			while (scanner.hasNextLine()) {
 				String line = scanner.nextLine();
-				Quote quote = parser.parse(line);
-				allQuotes.get(ticker).add(quote);
+				try {
+					Quote quote = parser.parse(line);
+					quote.setTicker(ticker);
+					tickerQuotes.add(quote);
+				} catch (ParseException e) {
+					if (!firstLine) {
+						System.err.println(filename + " has invalid line: " + line);
+					}
+				}
+				firstLine = false;
 			}
-			scanner.close();
 		} catch (FileNotFoundException e) {
+			System.err.println("Unable to read quote file: " + file);
 			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
+		}
+		if (!tickerQuotes.isEmpty()) {
+			allQuotes.put(ticker, tickerQuotes);
+			quotes.put(ticker, tickerQuotes.get(tickerQuotes.size() - 1));
 		}
 	}
 

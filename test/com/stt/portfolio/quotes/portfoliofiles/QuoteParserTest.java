@@ -70,6 +70,16 @@ public class QuoteParserTest {
 		}
 		
 	}
+
+	@Test(expected = ParseException.class)
+	public void testRejectsInvalidQuoteLine() throws ParseException {
+		p.parse("SELIGPRORU 01102019,124.1065,124.1065,124.1065,0");
+	}
+
+	@Test(expected = ParseException.class)
+	public void testRejectsInvalidQuoteDate() throws ParseException {
+		p.parse("32012009,5.97,5.90,5.95,60");
+	}
 	
 	
 	

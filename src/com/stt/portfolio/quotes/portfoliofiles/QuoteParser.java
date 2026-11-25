@@ -1,5 +1,6 @@
 package com.stt.portfolio.quotes.portfoliofiles;
 
+import java.time.DateTimeException;
 import java.util.Date;
 
 import com.stt.portfolio.DateParser;
@@ -43,13 +44,8 @@ public class QuoteParser {
 			}
 			quote.setRate(rate);
 
-		} catch (NumberFormatException e) {
-			e.printStackTrace();
-			System.out.println("high: " + high);
-			System.out.println("Low: " + low);
-			System.out.println("Last: " + last);
-			System.out.println("Amount: " + amount);
-			System.out.println("Rate: " + rate);
+		} catch (NumberFormatException | DateTimeException e) {
+			throw new ParseException("Invalid quote line: " + line);
 		}
 		return quote;
 	}

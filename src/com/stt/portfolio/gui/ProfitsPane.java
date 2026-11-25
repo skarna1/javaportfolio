@@ -52,17 +52,13 @@ public class ProfitsPane extends JPanel {
 
 	private Object[][] getTable(String portfolioName) {
 
-		Portfolio portfolioCurrent = PortfolioFactory.createPortfolio(
+		Portfolio portfolio = PortfolioFactory.createPortfolio(
 				portfolioName, Calendar.getInstance().getTime(), TickerManager
 						.createTickerManager());
 
-		String[] years = portfolioCurrent.getTransactionYears(null);
+		String[] years = portfolio.getTransactionYears(null);
 		Object[][] table = new Object[years.length - 1][columnNames.length];
 		int row = 0;
-		Portfolio portfolio = PortfolioFactory.createPortfolio(portfolioName,
-				Calendar.getInstance().getTime(), TickerManager
-						.createTickerManager());
-		
 
 		boolean first = true;
 		for (String year : years) {
