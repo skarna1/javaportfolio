@@ -11,6 +11,7 @@ import com.stt.portfolio.transactions.Buy;
 import com.stt.portfolio.transactions.ChangeTransaction;
 import com.stt.portfolio.transactions.Demerge;
 import com.stt.portfolio.transactions.Demergee;
+import com.stt.portfolio.transactions.RightsSubscription;
 import com.stt.portfolio.transactions.Transaction;
 
 public class BookEntryManagerTest {
@@ -40,6 +41,49 @@ public class BookEntryManagerTest {
 		double amount = be.getAmount();
 		//System.out.println(amount);
 		assertEquals(113.0, amount, 0.01);
+	}
+
+	@Test
+	public void testRightsSubscriptionRestoresShareWhenFractionsSumToOne() {
+		BookEntry entry = new BookEntry("ASPO", "Aspo", "EUR", "NON",
+				new CashManager(), null, new TaxManager());
+		for (int i = 0; i < 3; i++) {
+			BookEntryItem item = new BookEntryItem();
+			item.setAmount(1.0);
+			entry.subEntries.add(item);
+		}
+		RightsSubscription subscription = new RightsSubscription();
+		subscription.setTicker("ASPO");
+		subscription.setDate(new java.util.GregorianCalendar(2020, 0, 1).getTime());
+		subscription.setAmount(1.0);
+		subscription.setAmountOfOldOwnership(3.0);
+		subscription.setRatio(1.0 / 3.0);
+		subscription.setRate(1.0);
+
+		entry.subscribe(subscription);
+
+		assertEquals(4.0, entry.getAmount(), 0.0);
+	}
+
+	@Test
+	public void testRightsSubscriptionUsesRecordedAmountWhenRatioIsRounded() {
+		BookEntry entry = new BookEntry("ASPO", "Aspo", "EUR", "NON",
+				new CashManager(), null, new TaxManager());
+		BookEntryItem oldShares = new BookEntryItem();
+		oldShares.setAmount(700.0);
+		entry.subEntries.add(oldShares);
+		RightsSubscription subscription = new RightsSubscription();
+		subscription.setTicker("ASPO");
+		subscription.setDate(new java.util.GregorianCalendar(2011, 4, 3).getTime());
+		subscription.setAmount(100.0);
+		subscription.setAmountOfOldOwnership(700.0);
+		subscription.setRatio(0.14285714);
+		subscription.setCost(-520.0);
+		subscription.setRate(1.0);
+
+		entry.subscribe(subscription);
+
+		assertEquals(800.0, entry.getAmount(), 0.0);
 	}
 	
 	@Test

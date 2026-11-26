@@ -552,9 +552,10 @@ public class BookEntry implements I_BookEntryModifier {
 					BookEntryItem item = new BookEntryItem();
 					double amount=Math.floor(i.getAmount() * t.getRatio());
 					remainder += i.getAmount() * t.getRatio() - amount;
-					if (remainder > 1.0) {
-						remainder = remainder - 1.0;
-						amount = amount + 1.0;
+					int additionalShares = (int) Math.floor(remainder + 0.0000001);
+					if (additionalShares > 0) {
+						remainder -= additionalShares;
+						amount += additionalShares;
 					}
 					item.setAmount(amount );
 					item.setCostInOriginalCurrency(t.getCost()
@@ -571,6 +572,23 @@ public class BookEntry implements I_BookEntryModifier {
 					newEntries.add(item);
 				}
 				amountToBeHandled -= i.getAmount();
+			}
+
+			if (!t.isCostShared() && !newEntries.isEmpty() && t.getAmount() != 0.0) {
+				double allocatedAmount = 0.0;
+				for (BookEntryItem item : newEntries) {
+					allocatedAmount += item.getAmount();
+				}
+				double amountDifference = t.getAmount() - allocatedAmount;
+				if (Math.abs(amountDifference) > DELTA) {
+					BookEntryItem item = newEntries.get(0);
+					item.setAmount(item.getAmount() + amountDifference);
+					double costAdjustment = t.getCost() * amountDifference / t.getAmount();
+					item.setCostInOriginalCurrency(item.getCostInOriginalCurrency()
+							+ costAdjustment);
+					item.setCost(item.getCost() + costAdjustment / t.getRate());
+					item.setTaxCost(item.getTaxCost() - costAdjustment / t.getRate());
+				}
 			}
 
 			subEntries.addAll(newEntries);
